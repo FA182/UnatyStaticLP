@@ -1,0 +1,13 @@
+.CreateStart {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.CreateStart > div:nth-child(1) {
+    padding: 12px;
+    border-bottom: 1px solid #efefef;
+}
+.CreateStart > div:nth-child(2) {
+    flex-grow: 1;
+    background-color: #F2F5F9;
+}

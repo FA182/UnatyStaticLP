@@ -1,0 +1,14 @@
+.FrameworkFullContainer {
+    background-color: #F2F5F9;
+    min-height: 100vh;
+}
+.FrameworkFullContainer > div.container.fluid > div.container.text {
+    padding-top: 12vh;
+    min-height: 60vh;
+}
+.FrameworkFullContainer > div.container.fluid > div.container.text > div {
+    background-color: #fff;
+    border: 1px solid #efefef;
+    border-radius: 6px;
+    padding: 10px 16px;
+}

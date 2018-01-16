@@ -1,0 +1,637 @@
+.tableDisplayParent {
+    display: table;
+    height: 100%;
+}
+.tableDisplayParent > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.noMargins {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.noPaddingSegment {
+    padding: 0 !important;
+}
+.smallRightMargin {
+    margin-right: 6px !important;
+}
+@media screen and (max-width: 767px) {
+    .showSidebarDesktop {
+        left: 0 !important;
+        width: 100vw !important;
+    }
+}
+.newModalDesign {
+    background-color: #F6F9FC !important;
+}
+@media screen and (min-width: 768px) {
+    .ui.dimmer.showSidebarDesktop {
+        left: 275px !important;
+        width: calc(100vw - 275px) !important;
+    }
+    .ui.dimmer.showSidebarDesktop > div {
+        padding-left: 2em;
+        padding-right: 2em;
+        width: calc(100vw - 275px) !important;
+        display: block;
+    }
+    .ui.dimmer.showSidebarDesktop > div > div {
+        width: calc(100vw - 275px - 2em) !important;
+        display: block;
+    }
+}
+.normalTextColor {
+    color: rgba(0,0,0,0.83) !important;
+}
+.landingCareerPage {
+    background-image: url(/about/CAREER-min-min.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+.landingCareerPage > div:nth-child(1) {
+    color: rgba(255,255,255,0.83) !important;
+}
+.landingCareerPage > div:nth-child(2) {
+    color: rgba(255,255,255,0.63) !important;
+}
+.landingCareerPage > div:nth-child(3) {
+    color: rgba(255,255,255,0.63) !important;
+}
+.classicLPGrayBkg {
+    background-color: #F6F9FC !important;
+}
+.fullOpacity {
+    opacity: 1 !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.whiteSpaceNoWrap {
+    white-space: nowrap !important;
+}
+.whiteSpaceNoWrap span {
+    white-space: nowrap !important;
+}
+@media (min-width: 500px) {
+    .onlyOnMobile {
+        display: none;
+    }
+}
+@media (max-width: 499px) {
+    .onlyOnTablet {
+        display: none;
+    }
+    .fullWidthMobile {
+        width: 100%;
+        margin-top: 8px !important;
+    }
+}
+.externalLink {
+    font-size: 13px;
+    font-weight: 900;
+    color: rgba(0,0,0,0.63);
+}
+.externalLink a {
+    color: rgba(0,0,0,0.63);
+    text-decoration: underline;
+}
+.externalLink.inverted {
+    color: #fff;
+}
+.justifyContentCenter {
+    justify-content: center;
+}
+.justifyContentRight {
+    justify-content: flex-end;
+}
+.rightAlignOffsetMenu .menu {
+    left: auto !important;
+    right: 0 !important;
+    margin-top: 12px !important;
+}
+.rightAlignOffsetMenu .menu.unatyDropdownCustomMenu {
+    left: auto !important;
+    right: 0 !important;
+    margin-top: 12px !important;
+}
+@media screen and (max-width: 767px) {
+    .hideUnderTablet {
+        display: none !important;
+    }
+}
+.createMobileColumn {
+    max-width: 375px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.createMobileColumn {
+    max-width: 375px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputSplit6px > .input:nth-child(1) {
+    margin-right: 6px;
+}
+.inputSplit6px > .input:nth-child(2) {
+    margin-left: 6px;
+}
+.textAlignCenter {
+    text-align: center;
+}
+.textAlignCenter input {
+    text-align: center !important;
+}
+.createAcctBtns {
+    margin-top: 10px;
+}
+.createAcctBtns .input {
+    margin-right: 12px;
+}
+.onlySmallerTablet {
+    display: none;
+}
+.newTasksStream {
+    padding: 0 1em !important;
+}
+.newTasksStream .header {
+    margin-top: 12px !important;
+    margin-bottom: 4px !important;
+}
+@media screen and (max-width: 767px) {
+    .createAcctBtns {
+        justify-content: center !important;
+    }
+    .centerAlignUnder767 {
+        text-align: center !important;
+    }
+    .onlySmallerTablet {
+        display: block !important;
+    }
+    .notificationsBoxHeader {
+        right: 8px !important;
+        left: 8px !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .createAcctBtns {
+        flex-direction: column !important;
+    }
+    .createAcctBtns .input {
+        margin-right: 0;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .createAcctBtns button {
+        width: 100%;
+        margin-top: 8px !important;
+    }
+}
+.header4pxBtmMargin {
+    margin-bottom: 4px !important;
+    margin-top: 12px !important;
+}
+.GeneralLoginArea .ui.large.icon.header {
+    margin-bottom: 1.5em !important;
+}
+.GeneralLoginArea button.green.huge.fluid {
+    margin-top: 12px !important;
+    padding-right: 30px !important;
+}
+.createOrganizationSkip {
+    text-align: center;
+    margin-top: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+.addAdminAdmin {
+    margin-bottom: 8px !important;
+}
+.addAdminAdmin .field .input {
+    margin-bottom: 0 !important;
+}
+.noBottomMarginList {
+    margin-bottom: 0 !important;
+}
+.getStartedOrg {
+    display: flex !important;
+}
+.getStartedOrg > img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 25% !important;
+}
+.getStartedOrg .content {
+    line-height: 40px !important;
+    font-size: 16px !important;
+    flex-grow: 1 !important;
+}
+.getStartedOrg .content a {
+    color: rgba(0,0,0,0.83) !important;
+}
+.getStartedOrg .content > div:nth-child(2) {
+    color: rgba(0,0,0,0.83);
+}
+.orgMenuOrgsHeight {
+    max-height: 250px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.unatyDropdownList-itemLogout {
+    padding: 8px;
+    margin-top: 6px;
+    text-align: center;
+    color: rgba(0,0,0,0.53);
+    cursor: pointer;
+}
+.unatyDropdownList-itemButton {
+    margin-top: 8px;
+}
+.marginsCentered {
+    margin-left: auto;
+    margin-right: auto;
+}
+.whiteText83 {
+    color: rgba(255,255,255,0.83);
+}
+.productDetailCard.activeItem {
+    background-color: #dae8fd;
+}
+.productDetailCard.activeItem .header .content {
+    color: rgba(0,0,0,0.83);
+}
+.productDetailCard.activeItem .header .content .sub.header {
+    color: rgba(0,0,0,0.53);
+}
+.productDetailCard:hover .header .content {
+    color: rgba(0,0,0,0.73);
+}
+.productDetailCard:hover .header .content .sub.header {
+    color: rgba(0,0,0,0.43);
+}
+.productDetailCard {
+    padding: 14px 12px;
+    border-radius: 6px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.productDetailCard .header .content {
+    color: rgba(0,0,0,0.63);
+}
+.productDetailCard .header .content .sub.header {
+    color: rgba(0,0,0,0.33);
+}
+.textAlignCenter {
+    text-align: center;
+}
+.productDetailScreenshots img {
+    border-radius: 5px;
+    border: 2px solid rgba(255,255,255,0.4);
+}
+.productDetailScreenshots .ui.container {
+    padding-top: 2em;
+}
+.LandingPageContactPage {
+    background-color: #F6F9FC !important;
+}
+.LandingPageContactPage .ui.text.container {
+    padding-top: 14vh;
+    padding-bottom: 10vh;
+}
+.LandingQuickstartPage {
+    background-color: #F6F9FC !important;
+    padding-bottom: 8em;
+}
+.frontEndIconHeader {
+    margin-bottom: 28px !important;
+}
+.frontEndIconHeader > img {
+    margin-bottom: 12px !important;
+    width: 96px !important;
+    margin-left: 124.5px !important;
+}
+.screenshotWhiteBorder {
+    border-radius: 4px;
+    border: 2px solid rgba(255,255,255,0.43);
+}
+.screenshotDarkBorder {
+    border-radius: 4px;
+    border: 2px solid rgba(0,0,0,0.43);
+}
+.adminHeaderLine .header {
+    margin-top: 3px !important;
+}
+.hideLabelChildren a.ui.label {
+    display: none !important;
+}
+.NewOrgSwitcherModal {
+    background-color: #F6F9FC !important;
+}
+.NewOrgSwitcherModal > div.content {
+    padding: 0 24px;
+}
+.NewOrgSwitcherModal > div.content > div.center {
+    vertical-align: top;
+    padding-top: 3em;
+}
+.NewOrgSwitcherModal > div.content > div.center > div > div > div i {
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}
+.NewOrgSwitcherModal > div.content > div.center > div > div .grid > div > div {
+    background-color: #fff;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.ui.secondary.stackable.menu {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.horizontalScrollableMenu {
+    margin-bottom: 0 !important;
+    overflow: auto !important;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    padding-bottom: 13px !important;
+}
+.NewGroupsPage,
+.NewsFeedPage {
+    height: 100vh;
+}
+.blueTutorialPopup {
+    margin-left: -8px !important;
+    margin-top: 16px !important;
+}
+.blueTutorialPopupContainer {
+    position: fixed;
+    top: 70px !important;
+    opacity: 1 !important;
+}
+.blueTutorialPopupContainer > div {
+    min-width: 290px;
+    max-width: 400px;
+}
+.notificationsBoxHeader {
+    position: fixed;
+    top: 44px;
+    min-width: 290px;
+    background-color: #fff;
+    opacity: 1 !important;
+    border: 1px solid #dddfe2 !important;
+    width: 35%;
+    z-index: 9 !important;
+    max-width: 488px;
+    border-radius: 4px !important;
+}
+.notificationsBoxHeader > div:nth-child(1) {
+    background-color: #f6f7f9;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+.notificationsBoxHeader > div:nth-child(1) i {
+    cursor: pointer;
+}
+.notificationsBoxHeader > div:nth-child(2) {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 0;
+    font-size: 14px;
+    max-height: 70vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.notificationsBoxHeader > div:nth-child(2) > div > div {
+    padding: 1em !important;
+    border-radius: 0 !important;
+}
+.notificationsBoxHeader > div:nth-child(3) {
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    line-height: 28px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    background-color: #fafafa;
+    cursor: pointer;
+}
+.tutorialMode.blueTutorialPopupContainer {
+    right: 8px !important;
+}
+.popupTextSmall {
+    margin-top: 2px;
+    font-size: 11px !important;
+}
+.ui.inverted.bottom.popup.blue.inverted.segment:before {
+    background-color: #2185d0 !important;
+}
+.messengerActionsList > div.item {
+    margin-right: 12px;
+    cursor: pointer;
+}
+.messengerActionsList > div.item > div.content {
+    padding-left: 0 !important;
+    color: rgba(0,0,0,0.73);
+}
+.ui.list.messengerActionsList > div.item > i.icon {
+    font-size: 16px !important;
+}
+@media screen and (max-width: 767px) {
+    .newTopbar {
+        width: 100% !important;
+        left: 0;
+    }
+}
+@media screen and (min-width: 768px) {
+    .newTopbar {
+        width: calc(100vw - 275px) !important;
+    }
+}
+.newTopbar {
+    position: fixed;
+    z-index: 12;
+}
+.newTopbar .newTopbarLeft > div:nth-child(2) {
+    margin-top: 2px;
+}
+.paddingTop63 {
+    padding-top: 63px;
+    height: 100vh;
+    padding-bottom: 124px;
+}
+.iconLeftMargin i {
+    margin-left: 5px;
+    font-size: 14px;
+}
+.selectedPeople {
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    overflow: auto;
+}
+.selectedPeople > div {
+    position: relative;
+    min-width: 64px;
+}
+.selectedPeople > div > div {
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+}
+.selectedPeople > div > div img {
+    border-radius: 12.5%;
+    width: 40px;
+}
+.selectedPeople > div > div span {
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 14px;
+    margin-top: 4px;
+}
+.selectedPeople > div > i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.hideOverMobile {
+    display: none;
+}
+.marginRight8 {
+    margin-right: 8px;
+}
+@media (max-width: 768px) {
+    .notificationsBoxHeader {
+        width: 100% !important;
+        max-width: 98% !important;
+    }
+}
+.overflowVisible {
+    overflow: visible !important;
+}
+.leftMenuRight .menu {
+    left: auto !important;
+    right: 0 !important;
+}
+.leftMenuRight .menu > div {
+    margin-right: 0 !important;
+}
+.backendPagination {
+    display: flex;
+}
+.backendPagination > div {
+    font-size: 11px;
+    margin-right: 4px;
+}
+@media only screen and (max-width: 767px) {
+    .hidden-block {
+        display: none !important;
+    }
+    .ui.table:not(.unstackable) tr.hidden-block {
+        display: none !important;
+    }
+}
+@media (max-width: 767px) {
+    .hideOverMobile {
+        display: block !important;
+    }
+    .hideUnderTablet {
+        display: none !important;
+    }
+}
+.textAlignLeft {
+    text-align: left !important;
+}
+.unatyTextMenu.massive .active.item {
+    font-weight: 900 !important;
+}
+.draftNormalEditor .DraftEditor-root {
+    padding: 12px !important;
+    border: 1px solid rgba(34,36,38,0.15) !important;
+    border-radius: 5px !important;
+}
+.wholeScreenLogin {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F6F9FC;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+}
+.wholeScreenLogin .container {
+    flex-grow: 1;
+    margin-top: 30vh;
+}
+@media (min-width: 1025px) {
+    html {
+        overflow: hidden !important;
+    }
+}
+.LandingPageNewProductPage {
+    background: #F6F9FC;
+}
+.LandingPageNewProductPage .LandingPageNewProductPageHero {
+    padding-top: 18vh;
+    padding-bottom: 0vh;
+}
+.LandingPageNewProductPage .LandingPageNewProductPageMainMessages {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+.LandingPageNewProductPage .LandingPageNewProductPageSections {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+.unatyProductPageFAQs {
+    line-height: 32px;
+    font-size: 20px;
+}
+.unatyProductPageFAQs a span {
+    color: #000;
+    opacity: 0.48;
+}
+.unatyProductPageFAQs a:hover span {
+    opacity: 1;
+    color: #00b5ad;
+}
+.LandingPageNewProductPageMainMessages #functions a.featureLink {
+    color: #000;
+    opacity: 0.32;
+}
+.LandingPageNewProductPageMainMessages #functions a.featureLink.selectedOne,
+.unatyIconFeature.selectedOne {
+    color: #00b5ad;
+    opacity: 1;
+}
+.LandingPageNewProductPageMainMessages #functions a.featureLink.selectedTwo,
+.unatyIconFeature.selectedTwo {
+    color: #f2711c;
+    opacity: 1;
+}
+.LandingPageNewProductPageMainMessages #functions a.featureLink.selectedThree,
+.unatyIconFeature.selectedThree {
+    color: #21ba45;
+    opacity: 1;
+}
+.backButtonFeaturePage {
+    padding-top: 10em;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}

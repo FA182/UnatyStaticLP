@@ -1,0 +1,29 @@
+.FrameworkCreateContainer > .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.FrameworkCreateContainer > .container > div:nth-child(1) {
+    padding: 0.5em 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.FrameworkCreateContainer > .container > div:nth-child(2) {
+    flex-grow: 1;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.FrameworkCreateContainer > .container > div:nth-child(2) > .grid {
+    flex-grow: 1;
+}
+.FrameworkCreateContainer > .container > div:nth-child(2) > .grid > .column:nth-child(1) {
+    background-color: #fafafa;
+}
+@media screen and (min-width: 767px) {
+    .CreateContainerContentOne,
+    .CreateContainerContentTwo,
+    .CreateContainerContentThree,
+    .CreateContainerContentFour {
+        margin-left: 5vw !important;
+    }
+}

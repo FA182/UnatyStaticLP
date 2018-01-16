@@ -1,0 +1,25 @@
+.LandingHomeHeroSection {
+    min-height: 410px;
+    height: 410px;
+}
+
+.LandingHomeHeroSection > div:nth-child(1) {
+    width: 100vw;
+    position: absolute;
+    overflow: hidden;
+    min-height: 410px;
+    height: 410px;
+}
+
+.LandingHomeHeroSection > div:nth-child(1) > div {
+    min-height: 410px;
+    height: 410px;
+    background-color: orange;
+    position: absolute;
+    right: 0;
+    border-radius: 40%;
+    width: 200vw;
+    left: -50vw;
+    background: linear-gradient(-45deg, orange, #EB431D) !important;
+    top: -15vh;
+}

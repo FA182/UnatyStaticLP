@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Unaty | Membership Management</title>
+    <meta name="description" content="DescriptionTest"/>
+
+    <link href="semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+    <link href="semantic/dist/semantic.css" rel="stylesheet" type="text/css">
+    <script src="semantic/dist/jquery-3.1.1.min.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="semantic/dist/semantic.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/landingStyles.import.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.import.css">
+    <link rel="stylesheet" type="text/css" href="css/CreateAccountSection.import.css">
+    <link rel="stylesheet" type="text/css" href="css/CreateStart.import.css">
+    <link rel="stylesheet" type="text/css" href="css/draftEditor.import.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.import.css">
+    <link rel="stylesheet" type="text/css" href="css/FrameworkCreateContainer.import.css">
+    <link rel="stylesheet" type="text/css" href="css/FrameworkFullContainer.import.css">
+    <link rel="stylesheet" type="text/css" href="css/global.import.css">
+    <link rel="stylesheet" type="text/css" href="css/header.import.css">
+    <link rel="stylesheet" type="text/css" href="css/LandingHomeHeroSection.import.css">
+    <link rel="stylesheet" type="text/css" href="css/LandingMenu.import.css">
+    <link rel="stylesheet" type="text/css" href="css/LandingPageAboutPage.import.css">
+    <link rel="stylesheet" type="text/css" href="css/LandingPageProductPage.import.css">
+    <link rel="stylesheet" type="text/css" href="css/LandingPageSecurityPage.import.css">
+    <link rel="stylesheet" type="text/css" href="css/NewMessengerBody.import.css">
+    <link rel="stylesheet" type="text/css" href="css/responsiveDesign.import.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebarConcept.import.css">
+    <link rel="stylesheet" type="text/css" href="css/SignUpSection.import.css">
+    <link rel="stylesheet" type="text/css" href="css/SingleEvent.import.css">
+
+
+</head>
+<body>
+
+
+<div class="ui containerNLP-mainContainer animated fadeIn animationSpeedUpHalf">
+
+    <div class="ui container fluid containerNLP-mainHeroContainer">
+
+        <div class="ui two column grid grid-no-margin">
+
+            <div class="row">
+
+                <div class="column">
+
+                    <img class="ui image" src="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512956668937">
+
+                </div>
+
+                <div class="column">
+
+
+                    <h1 class="ui header mobileMarginLeft unatyCheltenham">
+                        Unite your community on Unaty
+                        <div class="sub header">Testtest</div>
+                    </h1>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+</body>
+</html>

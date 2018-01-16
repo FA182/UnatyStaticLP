@@ -1,0 +1,26 @@
+.SignUpSection {
+    padding-top: 124px !important;
+}
+.SignUpSection .SignUpSectionHeader {
+    font-size: 48px !important;
+}
+.SignUpSection .SignUpSectionHeader .sub.header {
+    font-size: 18px !important;
+}
+.SignUpSection .SignUpSectionSegment {
+    padding-bottom: 0.8em !important;
+    padding-top: 0.8em !important;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.6em !important;
+    padding-right: 0.8em !important;
+}
+.SignUpSection .SignUpSectionSegment .input {
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: 900;
+}
+.SignUpSection .SignUpSectionSegment .input input {
+    color: rgba(0,0,0,0.63);
+}

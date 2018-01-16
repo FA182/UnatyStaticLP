@@ -1,0 +1,42 @@
+.LandingPageSecurityDetails {
+    background-color: #2c2c2d !important;
+    padding: 4em 0;
+}
+.LandingPageSecuritySystem {
+    background-color: #F6F9FC;
+    padding: 4em 0;
+}
+.LandingPageSecurityOverview {
+    background-color: #F6F9FC;
+    padding: 4em 0;
+}
+.LandingPageSecurityContact {
+    background-color: #F6F9FC;
+    padding: 3em 0;
+}
+@media screen and (max-width: 768px) {
+    .SecurityCard {
+        flex-direction: column !important;
+    }
+    .SecurityCard img {
+        margin-right: auto !important;
+    }
+}
+.SecurityCard {
+    text-align: left;
+    display: flex;
+}
+.SecurityCard img {
+    height: 150px !important;
+    margin-right: 24px;
+}
+.SecurityCard i {
+    font-size: 40px;
+    padding: 11px;
+}
+.SecurityCard .header {
+    margin-top: 10px;
+}
+.LandingPageSecurityPage {
+    background: #F6F9FC;
+}

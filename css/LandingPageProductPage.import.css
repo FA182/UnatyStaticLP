@@ -1,0 +1,92 @@
+.LandingPageProductPage {
+    background: #f2711c;
+    position: relative;
+}
+.LandingPageProductPage > div:nth-child(1) {
+    padding: 0 3em;
+    position: relative;
+}
+.LandingPageProductPage > div:nth-child(1) > div:nth-child(1) {
+    width: 65%;
+    padding-top: 24vh;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.93);
+    position: relative;
+    z-index: 1;
+}
+.LandingPageProductPage > div:nth-child(1) > div:nth-child(2) {
+    padding-bottom: 12vh;
+}
+@media screen and (max-width: 767px) {
+    .LandingPageProductPage > div:nth-child(1) > div:nth-child(1) {
+        padding-top: 16vh;
+        width: 100%;
+        padding-bottom: 24px;
+    }
+    .LandingPageProductPage > div:nth-child(1) > div:nth-child(1) > span:nth-child(1),
+    .LandingPageProductPage > div:nth-child(1) > div:nth-child(1) > span:nth-child(3) {
+        float: none;
+        margin-right: 10px;
+    }
+    .LandingPageProductPage > div:nth-child(1) > div:nth-child(1) > span {
+        display: block;
+    }
+    .LandingPageProductPage > div:nth-child(1) > div:nth-child(1) > span:nth-child(3),
+    .LandingPageProductPage > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) {
+        margin-top: 10px;
+    }
+    .LandingPageProductPage > div:nth-child(1) > div:nth-child(2) {
+        display: none !important;
+    }
+    .LandingPageProductPage > div:nth-child(1) > div:nth-child(3) {
+        padding-bottom: 0 !important;
+    }
+    .LandingPageProductIMG {
+        display: none !important;
+    }
+}
+.LandingPageProductIMG {
+    background-image: url('https://unaty-media.s3.amazonaws.com/static/screenshots/productPageMain.png');
+    height: 100%;
+    top: 0;
+    right: 0;
+    max-width: 40vw;
+    width: 600px;
+    position: absolute;
+    background-size: cover;
+}
+.ProductPageAdminArea {
+    background-color: #2c2c2d;
+    padding: 8em 0;
+}
+.ProductPageSimplifyAdministration {
+    padding: 5em 0;
+    background: #F6F9FC;
+    border-bottom: 2px solid rgba(207,215,223,0.25);
+}
+.ProductPageFeatureOverview {
+    border-top: 2px solid rgba(207,215,223,0.25);
+    background: #F6F9FC;
+    padding: 5em 0;
+}
+.ProductPageFeatureOverview .container > .header {
+    font-size: 40px;
+    margin-bottom: 56px;
+    color: rgba(0,0,0,0.63);
+}
+.ProductPageTimelineFeature {
+    background-color: #2185d0 !important;
+    padding: 8em 0;
+}
+.ProductPageUnifyCommunication {
+    border-top: 2px solid rgba(207,215,223,0.25);
+    background: #F6F9FC;
+    padding: 5em 0;
+}
+.ProductPageExpandNetworks {
+    border-top: 2px solid rgba(207,215,223,0.25);
+    background: #F6F9FC;
+    padding: 5em 0;
+}

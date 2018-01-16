@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-italic-200.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-italic-300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-italic-400.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-italic-500.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-italic-700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-italic-800.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-normal-200.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-normal-300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-normal-400.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-normal-500.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-normal-700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'unaty-cheltenham';
+    src: url('https://s3.amazonaws.com/unaty-media/static/fonts/Cheltenham/cheltenham-normal-800.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+.cheltenhamFontFace {
+    font-family: 'unaty-cheltenham' !important;
+}
+.cheltenhamFontFooter {
+    font-family: 'unaty-cheltenham' !important;
+    font-size: 18px !important;
+}
+.cheltenhamHeader {
+    font-family: 'unaty-cheltenham';
+    font-size: 48px;
+    line-height: 64px;
+}
+.cheltenhamHeader .sub.header {
+    font-size: 17px !important;
+    font-family: 'Lato' !important;
+}

@@ -1,0 +1,81 @@
+.event-headline {
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 5px;
+}
+.event-title {
+    padding-top: 10px;
+}
+#event-header-icon {
+    margin-right: 0em !important;
+}
+.event-hosts {
+    margin: -25px 5px 5px 10px;
+    color: #888888;
+    font-style: italic;
+    font-size: 0.95em;
+}
+.event-host {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+.event-host-name {
+    color: #888888 !important;
+}
+.event-host-name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.event-host-divider {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0px 2.5px 0px 0px;
+}
+.event-host:last-child .event-host-divider:last-child {
+    display: none;
+}
+.event-hosts-dash {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+}
+.event-companions,
+.event-participants {
+    margin-top: 65px;
+}
+.event-companions-input,
+.event-participants-list,
+.event-participants-list-empty {
+    margin-top: -15px;
+}
+#event-companions-status-icon {
+    display: inline-block;
+    padding: 8px 5px 5px;
+}
+.event-participant,
+.event-participant-divider {
+    display: inline-block;
+}
+.event-participant a,
+.event-participants-list-empty {
+    color: #888888 !important;
+    font-style: italic;
+}
+.event-participant a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.event-participant-divider {
+    padding: 0px 5px 0px 0px;
+}
+.event-participant:last-child .event-participant-divider {
+    display: none;
+}
+.dev-info {
+    display: inline-block;
+    font-size: 0.75em;
+    color: #66aa66;
+    font-style: italic;
+}
