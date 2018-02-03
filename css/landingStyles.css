@@ -301,6 +301,13 @@ img.unatySmartCityFrameworkImg {
     text-decoration: underline;
     cursor: pointer;
 }
+.textUnderlinedAboutUs {
+    font-size: 14px;
+    color: rgba(0,0,0,0.63);
+    font-weight: 900;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .thinLinkLP.textUnderlinedLP {
     font-weight: 400 !important;
 }
