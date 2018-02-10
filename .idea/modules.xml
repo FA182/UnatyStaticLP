@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/UnatyStaticLP.iml" filepath="$PROJECT_DIR$/.idea/UnatyStaticLP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../StaticLP/.idea/UnatyStaticLP.iml" filepath="$PROJECT_DIR$/../StaticLP/.idea/UnatyStaticLP.iml" />
     </modules>
   </component>
 </project>
