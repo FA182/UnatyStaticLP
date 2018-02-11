@@ -334,11 +334,10 @@
                         <div class="LandingPageMainButtons">
                             <div class="hidden-block"><span>Unaty Neighborhood for free</span></div>
                             <div>
-                                <div class="ui input"><input type="text" placeholder="Email" value=""></div>
-                                <button class="ui orange huge button" role="button"><span>Get Started</span></button>
+                                <div class="ui input"><input id="emailInput" autofocus type="text" placeholder="Email" value=""></div>
+                                <button id="getStartedBtn" class="ui orange huge button" role="button"><span>Get Started</span></button>
                             </div>
-                            <div><span>Already joined a United Community?</span> <a
-                                  target="_blank" href="https://app.unaty.de/login?_source=landingPageMenuLogin"><span>Log In</span></a></div>
+                            <div><span>Already a Member?</span> <a target="_blank" href="https://app.unaty.de/login?_source=landingPageMenuLogin"><span>Log In</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -769,6 +768,18 @@
 
         }
     )
+
+    $("#getStartedBtn").click(
+        function() {
+
+            var email = document.getElementById("emailInput").value
+
+            window.location.replace('https://app.unaty.de/sign-up/'+email+'?_source=landingPageMainInput')
+
+        }
+    )
+
+
 
 </script>
 </body>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="de">
 <head>
 
 
@@ -331,8 +331,8 @@
                         <div class="LandingPageMainButtons">
                             <div class="hidden-block"><span>Unaty Neighborhood ist kostenlos</span></div>
                             <div>
-                                <div class="ui input"><input type="text" placeholder="E-Mail" value=""></div>
-                                <button class="ui orange huge button" role="button"><span>Los geht's</span></button>
+                                <div class="ui input"><input id="emailInput" autofocus type="text" placeholder="E-Mail" value=""></div>
+                                <button id="getStartedBtn" class="ui orange huge button" role="button"><span>Los geht's</span></button>
                             </div>
                             <div><span>Schon Mitglied einer Unaty Organisation?</span> <a
                                     target="_blank" href="https://app.unaty.de/login?_source=landingPageMenuLogin"><span>Anmelden</span></a></div>
@@ -767,6 +767,16 @@
                 $("#switchLanguagesDropdown").addClass("active visible")
                 $("#showMenu").addClass("visible")
             }
+
+        }
+    )
+
+    $("#getStartedBtn").click(
+        function() {
+
+            var email = document.getElementById("emailInput").value
+
+            window.location.replace('https://app.unaty.de/sign-up/'+email+'?_source=landingPageMainInput')
 
         }
     )
