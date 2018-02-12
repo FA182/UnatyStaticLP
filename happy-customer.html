@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-
-
-    <title>Unite your Communaty | Unaty</title>
+    <title>Grow Membership | Unaty</title>
     <link rel="shortcut icon"
           href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,21 +60,32 @@
 
     <link rel="stylesheet" type="text/css" target="_blank" href="css/landingStyles.css">
 
-    <script type="text/javascript">
-        var language = window.navigator.userLanguage || window.navigator.language;
-
-        console.log(language)
-
-
-        if(language==='de-DE'||language==='de') {
-
-            window.location.replace('https://www.unaty.de/de-de/index.html')
-
-        } else {
-
-            window.location.replace('https://www.unaty.de/en-us/index.html')
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92484757-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
         }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-92484757-2');
+    </script>
+    <script type="text/javascript">
+
+        var parseQueryString = function (url) {
+            var urlParams = {};
+            url.replace(
+                new RegExp("([^?=&]+)(=([^&]*))?", "g"),
+                function ($0, $1, $2, $3) {
+                    urlParams[$1] = $3;
+                }
+            );
+
+            return urlParams;
+        }
+        var urlToParse = location.search;
+        var result = parseQueryString(urlToParse);
 
 
     </script>
@@ -95,8 +103,7 @@
                 <div id="menuProductsContainer"
                      class="ui bottom center wide basic popup transition noPaddingPopup animated fadeIn animationSpeedUp unatyNewMenuPopup">
                     <div>
-                        <a href="https://www.unaty.de/en-us/products/communaty.html"
-                           class="newMenuMainItem marginTop8px">
+                        <a href="https://www.unaty.de/en-us/products/communaty.html" class="newMenuMainItem marginTop8px">
                             <div><img src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1516482548337">
                             </div>
                             <div>
@@ -112,8 +119,7 @@
                                 <div><span>Grow your Membership with simple marketing tools</span></div>
                             </div>
                         </a>
-                        <a href="https://www.unaty.de/en-us/products/engage.html"
-                           class="newMenuMainItem paddingBottom16">
+                        <a href="https://www.unaty.de/en-us/products/engage.html" class="newMenuMainItem paddingBottom16">
                             <div><img src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1516704888078">
                             </div>
                             <div>
@@ -138,8 +144,7 @@
                                 <div><span>Digital Communaty Registry</span></div>
                             </div>
                         </a>
-                        <a href="https://www.unaty.de/en-us/products/academy.html"
-                           class="newMenuSubitem paddingBottom16">
+                        <a href="https://www.unaty.de/en-us/products/academy.html" class="newMenuSubitem paddingBottom16">
                             <div><img src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1516482302113">
                             </div>
                             <div>
@@ -156,8 +161,7 @@
                      class="ui bottom center wide basic popup transition noPaddingPopup animated fadeIn animationSpeedUp unatyNewMenuPopup animated fadeIn">
                     <div>
                         <div class="newMenuForumItem">
-                            <div><a target="_blank" href="https://app.unaty.de/forum"><i aria-hidden="true"
-                                                                                         class="blue h icon"></i></a>
+                            <div><a target="_blank" href="https://app.unaty.de/forum"><i aria-hidden="true" class="blue h icon"></i></a>
                             </div>
                             <div>
                                 <div>
@@ -180,10 +184,8 @@
                                     </div>
                                     <div>
                                         <div><a target="_blank" href="https://app.unaty.de/forum">Roadmaps</a></div>
-                                        <div><a target="_blank" href="https://app.unaty.de/forum"><span>Functions</span></a>
-                                        </div>
-                                        <div><a target="_blank" href="https://app.unaty.de/forum"><span>Usability</span>
-                                            &amp;
+                                        <div><a target="_blank" href="https://app.unaty.de/forum"><span>Functions</span></a></div>
+                                        <div><a target="_blank" href="https://app.unaty.de/forum"><span>Usability</span> &amp;
                                             <span>Bugs</span></a>
                                         </div>
                                     </div>
@@ -281,8 +283,7 @@
                                 <div><span>Security</span></div>
                             </div>
                         </a>
-                        <a href="https://www.unaty.de/en-us/company/contact.html"
-                           class="newMenuSubitem2 paddingBottom16">
+                        <a href="https://www.unaty.de/en-us/company/contact.html" class="newMenuSubitem2 paddingBottom16">
                             <div><i aria-hidden="true" class="mail outline icon"></i></div>
                             <div>
                                 <div><span>Contact Us</span></div>
@@ -293,15 +294,12 @@
             </div>
             <div class="menuMainLanguageSwitcher">
                 <div class="">
-                    <div role="listbox" id="switchLanguagesDropdown" aria-expanded="false"
-                         class="ui inline dropdown rightAlignOffsetMenu" tabindex="0">
+                    <div role="listbox" id="switchLanguagesDropdown" aria-expanded="false" class="ui inline dropdown rightAlignOffsetMenu" tabindex="0">
                         <span><i class="us flag"></i></span><i aria-hidden="true" class="dropdown icon"></i>
                         <div id="showMenu" class="menu transition">
-                            <a href="https://www.unaty.de/en-us/" role="option" aria-checked="true" aria-selected="true"
-                               class="active selected item"
+                            <a href="https://www.unaty.de/en-us/index.html" role="option" aria-checked="true" aria-selected="true" class="active selected item"
                                style="pointer-events: all;"><i class="us flag"></i><span class="text">English</span></a>
-                            <a href="https://www.unaty.de/de-de/" role="option" aria-checked="false"
-                               aria-selected="false" class="item"
+                            <a href="https://www.unaty.de/de-de/index.html" role="option" aria-checked="false" aria-selected="false" class="item"
                                style="pointer-events: all;"><i class="de flag"></i><span class="text">German</span></a>
                         </div>
                     </div>
@@ -328,13 +326,12 @@
             <a target="_blank" href="https://app.unaty.de/forum"><span>Forum</span></a>
             <a href="https://www.unaty.de/en-us/pricing/pricing.html"><span>Pricing</span></a>
             <a href="https://www.unaty.de/en-us/company/about-us.html"><span>Company</span></a>
-            <a target="_blank"
-               href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu"><span>Sign Up</span></a>
+            <a target="_blank" href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu"><span>Sign Up</span></a>
         </div>
     </div>
     <span></span></div>
 
-<div class="NLP-mainContainer animated fadeIn animationSpeedUpHalf" id="bodyContainer">
+<div class="NLP-mainContainer animated fadeIn animationSpeedUpHalf">
     <div class="ui fluid container NLP-mainHeroContainer">
         <div class="ui grid grid-no-margin">
             <div class="row">
@@ -344,19 +341,19 @@
                 </div>
                 <div class="eight wide computer sixteen wide mobile sixteen wide tablet column">
                     <div class="ui huge header mobileMarginLeft">
-                        <div class="content"><span>Unite your</span><br><span>Community</span>
-                            <div class="sub header"><span>Unaty is made for <strong class="spanHighlightGreen">young, growing Communities</strong>. It's a new kind of Community Platform that organizes your Members, Communication, Files, Groups, and Events together in a modern, fast, and secure browser based application.</span>
+                        <div class="content"><span class="spanBlockDisplay margin88aboveTablet" id="orgName"> Unaty to increase participation and grow membership.</span>
+                            <div class="sub header hidden-block "><span>Whatever your Goal, Interest, or Idea, Unaty makes administration simple and unites you with those you want to share it with. No matter your passion or your challenges, the journey to success starts here.</span>
                             </div>
                         </div>
-                        <div class="LandingPageMainButtons">
+                        <div class="LandingPageMainButtons marginTop40">
                             <div class="hidden-block"><span>Unaty Neighborhood is free and always will be.</span></div>
                             <div>
-                                <div class="ui input"><input autofocus type="text" placeholder="Email" value=""></div>
-                                <button class="ui orange huge button" role="button"><span>Get Started</span></button>
+                                <div class="ui input"><input id="signUpEmail" autofocus type="text" placeholder="Email"
+                                                             value=""></div>
+                                <button class="ui orange huge button" id="submitBtn" role="button">
+                                    <span>Get Started</span></button>
                             </div>
-                            <div><span>Already part of a Communaty?</span> <a
-                                    target="_blank"
-                                    href="https://app.unaty.de/login?_source=landingPageMenuLogin"><span>Log In</span></a>
+                            <div><a href="https://www.unaty.de/products/communaty.html"><span>Learn more about the Unaty Platform</span></a>
                             </div>
                         </div>
                     </div>
@@ -364,132 +361,75 @@
             </div>
         </div>
     </div>
+    <div class="ui divider hidden"></div>
     <div class="ui fluid container UnatyAdvantagesMatrix">
         <div class="ui text container">
             <div>
-                <div>Unaty is a <span class="spanHighlightGreen">new kind of Membership Platform</span></div>
-                <div>Unaty combines the <strong>raw power, features, and flexibility of a CMS system</strong><br> with a
-                    <strong>fast, intuitive, and fun social network for Members</strong>.
+                <div><span>Communaty reinvents </span><span class="spanHighlightGreen"><span>Intranets &amp; Member Management</span></span><span>.</span>
+                </div>
+                <div><span>Communaty combines the </span><strong><span>raw power, features, and flexibility of a CMS system</span></strong><br><span> with a </span><strong><span>fast, intuitive, and fun social network for Members.</span></strong>
                 </div>
             </div>
             <div class="ui stackable internally celled center aligned three column grid">
                 <div class="row">
                     <div class="column matrixBoxItem"><i aria-hidden="true" class="green check icon"></i>
-                        <div>Collaborative</div>
-                        <div>Unite your Members, Admins, and Guests and <strong>create your private digital
-                            network</strong>. It should be <strong>easy for anyone to join and participate</strong>.
+                        <div><span>Collaborative</span></div>
+                        <div><span>Unite your Members, Admins, and Guests and </span><strong><span>create your private digital network</span></strong><span>. It should be </span><strong><span>easy for anyone to join and participate</span></strong>.
                         </div>
                     </div>
                     <div class="column matrixBoxItem"><i aria-hidden="true" class="green check icon"></i>
-                        <div>Fun &amp; Engaging</div>
-                        <div>Communities are fun, so their online community ought to be as well. Learn how Unaty <a
-                                class="unatyLinkPage" target="_blank"
-                                href="https://www.unaty.de/make-communities-fun-again">makes Communities fun again</a>.
+                        <div><span>Fun &amp; Engaging</span></div>
+                        <div>
+                            <span>Communities are fun, so their online community ought to be as well. Learn how Unaty </span><a
+                                class="unatyLinkPage" href="https://www.unaty.de/en-us/pricing/credits-experience.html"><span>makes Communities fun again</span></a>.
                         </div>
                     </div>
                     <div class="column matrixBoxItem"><i aria-hidden="true" class="green check icon"></i>
-                        <div>Fixed, flat pricing</div>
-                        <div><strong>Unlike most group software</strong>, <span class="spanHighlightGreen">your costs won't go up just for growing your Community</span>.
-                            Learn more about <a class="unatyLinkPage" target="_blank"
-                                                href="https://www.unaty.de/en-us/pricing/pricing.html">Pricing</a> and
-                            earning <a
-                                    class="unatyLinkPage" target="_blank" href="https://www.unaty.de/about-experience">Credits</a>.
+                        <div><span>Fixed, flat pricing</span></div>
+                        <div><strong><span>Unlike most group software</span></strong>, <span class="spanHighlightGreen"><span>your costs won't go up just for growing your Community</span></span><span>. Learn more about </span><a
+                                class="unatyLinkPage" href="https://www.unaty.de/en-us/pricing/pricing.html"><span>Pricing</span></a>.
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="column matrixBoxItem"><i aria-hidden="true" class="green check icon"></i>
-                        <div>Fast &amp; Fresh</div>
-                        <div>Unaty was built with <strong>constant input from Admins and Members</strong>, we take great
-                            care to <span
-                                    class="spanHighlightGreen">craft an experience people want to be part of</span>.
+                        <div><span>Fast &amp; Fresh</span></div>
+                        <div>
+                            <span>Communaty was built with </span><strong><span>constant input from Admins and Members</span></strong><span>, we take great care to </span><span
+                                class="spanHighlightGreen"><span>craft an experience people want to be part of</span></span>.
                         </div>
                     </div>
                     <div class="column matrixBoxItem"><i aria-hidden="true" class="green check icon"></i>
-                        <div>Simply Secure</div>
-                        <div>We write <a class="unatyLinkPage" target="_blank"
-                                         href="https://www.unaty.de/en-us/company/security.html">Security</a>
-                            and <a
-                                    class="unatyLinkPage" target="_blank"
-                                    href="https://www.unaty.de/privacy.html">Privacy</a> big at Unaty. All Data flows
-                            through
-                            an encrypted tunnel, which means <strong><span class="spanHighlightGreen">your Community is safe here</span></strong>.
+                        <div><span>Simply Secure</span></div>
+                        <div><span>We write </span><a class="unatyLinkPage"
+                                                      href="https://www.unaty.de/en-us/company/security.html"><span>Security and Privacy</span></a></a><span> big at Unaty. All Data flows through an encrypted tunnel, which means </span><strong><span
+                                class="spanHighlightGreen"><span>your Community is safe here</span></span></strong>.
                         </div>
                     </div>
                     <div class="column matrixBoxItem"><i aria-hidden="true" class="green check icon"></i>
-                        <div>Open &amp; Transparent</div>
-                        <div>With all your Members, Knowledge, and Files in one place, <strong>quickly find the answers
-                            you need</strong>.
+                        <div><span>Open &amp; Transparent</span></div>
+                        <div><span>With all your Members, Knowledge, and Files in one place, </span><strong><span>quickly find the answers you need</span></strong>.
                         </div>
                     </div>
                 </div>
             </div>
             <div>
-                <div>Unaty is made for <strong><span
-                        class="spanHighlightGreen">growing Communities</span></strong>. <br>Are you ready to grow
-                    membership and increase engagement? <a class="textUnderlinedLP" target="_blank"
-                                                           href="https://app.unaty.de/login?_source=landingPageMenuLogin">Get
-                        Started</a>.
+                <div><span> Unaty is made for </span><strong><span
+                        class="spanHighlightGreen"><span> growing Communities</span></span></strong>. <br><span>Are you ready to become a vibrant Communaty? </span><a
+                        class="textUnderlinedLP" target="_blank" href="https://app.unaty.de/login?_source=landingPageMenuLogin"><span>Get Started</span></a>.
                 </div>
             </div>
         </div>
     </div>
-    <div class="ui divider hidden section"></div>
-
-    <div class="ui fluid container UnatyTwoMainPoints">
-        <div class="ui container">
-            <div>
-                <div>Communities need to <span class="spanHighlightGreen">evolve to fit changing Member needs</span>
-                </div>
-                <div>Unaty set out to build a social operating system for communities: <strong>a platform people
-                    actually want to use</strong>.
-                </div>
-            </div>
-            <div class="ui stackable internally celled two column grid">
-                <div class="row">
-                    <div class="column unatyEmojiGridItem"><span>🙌</span>
-                        <div>Fun &amp; Engaging for All</div>
-                        <div>Unaty was built from the ground up to be <strong>fun to use</strong>. Members, Guests, and
-                            Admins can gain experience and level up <strong>for simply engaging with your
-                                Community</strong>. Their engagement will also <a class="textUnderlinedLP"
-                                                                                  href="/en-us/pricing/credits-experience.html">earn
-                                Credits
-                                for your Communaty</a>, which will let you can use to <a class="textUnderlinedLP"
-                                                                                         href="/en-us/pricing/pricing.html">pay
-                                for Unaty
-                                Features/Services</a>.
-                        </div>
-                    </div>
-                    <div class="column unatyEmojiGridItem"><span>💡</span>
-                        <div>Community Driven Development</div>
-                        <div>Each Feature we add to Unaty is <strong>built to solve a problem - your problem</strong>.
-                            That's we work with Members, Guests, Administrators to drive development of features your
-                            whole Communaty will love. Visit our <a class="textUnderlinedLP" href="/roadmap-features">Main
-                                Product Roadmap</a> or check out our <a class="textUnderlinedLP" href="/roadmaps">Communaty
-                                Feature Roadmaps</a> to learn more.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div>Visit our <a class="textUnderlinedLP" href="/feedback">Communaty Forum</a> to join the discussion
-                    on <a class="textUnderlinedLP" href="/feedback/board/increase-participation">Increasing
-                        Participation</a> and <a class="textUnderlinedLP" href="/feedback/board/growing-membership">Growing
-                        Membership</a> in Communities.
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="ui divider hidden section"></div>
-    <div class="ui divider hidden section"></div>
-    <div class="ui divider hidden section"></div>
+    <div class="ui hidden section divider"></div>
+    <div class="ui hidden section divider"></div>
     <div class="ui fluid container PricingComparisonDocument">
         <div class="ui text container">
             <div>
-                <div>Save <span>Time</span> and <span>Money</span> as your <span class="spanHighlightGreen">Communaty grows</span>
-                </div>
-                <div>Unaty many tools and channels that <i>charge per person</i>.<br>Take a look how
-                    <strong>Unaty</strong> compares to <span>Slack, Dropbox, and other tools</span>.
+                <div>Save <span class="underlineTheText">Time and Money</span> as your <span
+                        class="spanHighlightGreen">Communnity grows</span></div>
+                <div><span>Many communities use a bunch of tools and channels that </span><span class="spanHighlightYellow">charge per user</span>. Take a look how <strong>Unaty</strong><span> compares to </span><span><strong
+                        class="spanHighlightYellow"><span>Slack, Dropbox, and other tools</span></strong></span>.
                 </div>
             </div>
             <div class="flexColumnAll">
@@ -499,37 +439,37 @@
                             <div><img src="https://unaty-media.s3.amazonaws.com/static/img/logoGradOne.png"></div>
                             <div>
                                 <div>Unaty</div>
-                                <div><strong>$20/month</strong> for your Communaty</div>
+                                <div><strong><span>$20/month</span></strong><span> for your Communaty</span></div>
                             </div>
                         </div>
                         <div>
                             <div>
                                 <div><i aria-hidden="true" class="green check icon"></i></div>
-                                <div>Member Directory</div>
+                                <div><span>Member Administration</span></div>
                             </div>
                             <div>
                                 <div><i aria-hidden="true" class="green check icon"></i></div>
-                                <div>File Storage</div>
+                                <div><span>File Storage</span></div>
                             </div>
                             <div>
                                 <div><i aria-hidden="true" class="green check icon"></i></div>
-                                <div>Groups</div>
+                                <div><span>Groups</span></div>
                             </div>
                             <div>
                                 <div><i aria-hidden="true" class="green check icon"></i></div>
-                                <div>Officers</div>
+                                <div><span>Officers</span></div>
                             </div>
                             <div>
                                 <div><i aria-hidden="true" class="green check icon"></i></div>
-                                <div>Recruitment</div>
+                                <div><span>Recruitment</span></div>
                             </div>
                             <div>
                                 <div><i aria-hidden="true" class="green check icon"></i></div>
-                                <div>Events</div>
+                                <div><span>Events</span></div>
                             </div>
                             <div>
                                 <div><i aria-hidden="true" class="green check icon"></i></div>
-                                <div>Realtime Chat</div>
+                                <div><span>Realtime Chat</span></div>
                             </div>
                         </div>
                         <div>
@@ -537,8 +477,9 @@
                         </div>
                     </div>
                     <div>
-                        <div><span class="spanHighlightGreen">$20/month flat</span>, countless hours saved</div>
-                        <div>Grow your Communaty with unlimited Members</div>
+                        <div><span class="spanHighlightGreen"><span>$20/month flat</span></span><span>, countless hours saved</span>
+                        </div>
+                        <div><span>Grow your Communaty with unlimited Members</span></div>
                     </div>
                 </div>
                 <div class="midItemNew">
@@ -550,8 +491,9 @@
                             <div><img src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1516132048319">
                             </div>
                             <div>
-                                <div>Slack for Messaging</div>
-                                <div><strong class="spanHighlightYellow">$7.50/user</strong> each month</div>
+                                <div>Slack<span> for Messaging</span></div>
+                                <div><strong><span class="spanHighlightYellow">$7.50/user</span> each month</strong>
+                                </div>
                             </div>
                         </div>
                         <div>
@@ -561,8 +503,10 @@
                             <div><img src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1516132033159">
                             </div>
                             <div>
-                                <div>Dropbox for File Storage</div>
-                                <div><strong class="spanHighlightYellow">$10/user</strong> each month</div>
+                                <div>Dropbox<span> for File Storage</span></div>
+                                <div><strong
+                                        class="spanHighlightYellow"><span>$10/user</span></strong><span> each month</span>
+                                </div>
                             </div>
                         </div>
                         <div>
@@ -572,10 +516,9 @@
                             <div><img src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1516186617394">
                             </div>
                             <div>
-                                <div>Social/Communication Tools</div>
-                                <div>Administrators spend an average of <br><strong class="spanHighlightYellow">25 hours
-                                    per month</strong> with
-                                    Social Media or Emails related to their club.
+                                <div><span>Social/Communication Tools</span></div>
+                                <div><span>Administrators spend an average of </span><br><strong
+                                        class="spanHighlightYellow"><span>25 hours per month</span></strong><span> with Social Media or Emails related to their club.</span>
                                 </div>
                             </div>
                         </div>
@@ -584,89 +527,39 @@
                         </div>
                     </div>
                     <div>
-                        <div><span class="spanHighlightYellow">$70/month</span> and 100+ hours for 4 Users</div>
-                        <div>$17.50 and 25 hours per User</div>
+                        <div><span class="spanHighlightYellow"><span>$70/month</span></span><span> and 100+ hours for 4 Users</span>
+                        </div>
+                        <div><span>$17.50 and 25 hours per User</span></div>
                     </div>
                 </div>
             </div>
-            <div><a class="ui huge button" role="button" target="_blank"
-                    href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu">Try Unaty now for
-                Free</a>
+            <div><a class="ui huge button" role="button" target="_blank" href="https://app.unaty.de/login?_source=landingPageMenuLogin">Try Unaty now for Free</a>
                 <div>More on our <a
                         href="https://www.unaty.de/en-us/pricing/pricing.html">Pricing</a>.
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="ui divider hidden"></div>
-<div class="ui fluid container mainPageNewAssociations">
-    <div class="ui container">
-        <div>
-            <div><span>Join a global network of over</span> 5000 <span>Communities</span>.</div>
-            <div><span>A few of the Associations with Communities on Unaty:</span></div>
-        </div>
-        <div>
-            <div class="ui doubling six column grid">
-                <div class="row">
-                    <div class="column"><a target="_blank"
-                                           title="Bundesverband der Börsenvereine an deutschen Hochschulen - BVH e.V."
-                                           target="_blank" href="https://www.bvh.org/"><img class="ui image"
-                                                                                            src="https://unaty-media.s3.amazonaws.com/organizations/rY7WvMNtT8GQjiynk/public/main/1512583561869"></a>
-                    </div>
-                    <div class="column"><a title="Kösener Senioren-Convents-Verband (KSCV)"
-                                           target="_blank" href="http://www.die-corps.de/" target="_blank"><img
-                            class="ui image"
-                            src="https://unaty-media.s3.amazonaws.com/organizations/rY7WvMNtT8GQjiynk/public/main/1512584305153"></a>
-                    </div>
-                    <div class="column" style="margin-top: 2px;"><a title="Toastmasters International"
-                                                                    target="_blank"
-                                                                    href="https://www.toastmasters.org/"
-                                                                    target="_blank"><img class="ui image"
-                                                                                         src="https://unaty-media.s3.amazonaws.com/organizations/rY7WvMNtT8GQjiynk/public/main/1512584305159"></a>
-                    </div>
-                    <div class="column" style="margin-top: 14px;"><a title="United Church of Christ"
-                                                                     target="_blank" href="http://www.ucc.org/"
-                                                                     target="_blank"><img
-                            class="ui image"
-                            src="https://unaty-media.s3.amazonaws.com/organizations/rY7WvMNtT8GQjiynk/public/main/1512584305157"></a>
-                    </div>
-                    <div class="column" style="margin-top: 24px;"><a title="Junge Liberale"
-                                                                     target="_blank" href="https://www.julis.de/"
-                                                                     target="_blank"><img class="ui image"
-                                                                                          src="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512981205827"></a>
-                    </div>
-                    <div class="column"><a
-                            title="FIRST (For Inspiration and Recognition of Science and Technology)"
-                            target="_blank" href="https://www.firstinspires.org/" target="_blank"><img
-                            class="ui image"
-                            src="https://unaty-media.s3.amazonaws.com/organizations/rY7WvMNtT8GQjiynk/public/main/1512584305150"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div><a target="_blank" href="https://www.unaty.de/compass/explore"><span>Explore</span> Compass</a></div>
-    </div>
-</div>
-
-<div class="CreateAccountSection">
-    <div class="ui fluid container">
-        <div class="ui basic very padded segment">
-            <div class="ui container">
-                <div class="ui stackable two column grid">
-                    <div class="column">
-                        <div class="centerAlignUnder767">
-                            <div class="ui large header headerNoMargin NLP-acctHeaderSect">
-                                <div class="content"><span>Ready to get started?</span>
-                                    <div class="sub header"><span>Get in touch, or create a club.</span></div>
+    <div class="ui hidden divider"></div>
+    <div class="CreateAccountSection">
+        <div class="ui fluid container">
+            <div class="ui basic very padded segment">
+                <div class="ui container">
+                    <div class="ui stackable two column grid">
+                        <div class="column">
+                            <div class="centerAlignUnder767">
+                                <div class="ui large header headerNoMargin NLP-acctHeaderSect">
+                                    <div class="content"><span>Ready to get started?</span>
+                                        <div class="sub header"><span>Unaty Neighborhood for free</span></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="column">
-                        <div class="flex-display justifyContentRight createAcctBtns">
-                            <div class="ui large input"><input type="text" placeholder="Email"></div>
-                            <button class="ui green large button" role="button"><span>Get Started</span></button>
+                        <div class="column">
+                            <div class="flex-display justifyContentRight createAcctBtns">
+                                <div class="ui large input"><input type="text" placeholder="Email"></div>
+                                <button class="ui green large button" role="button"><span>Get Started</span></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -674,118 +567,15 @@
         </div>
     </div>
 </div>
-</div>
 
-<div class="LandingHomeFooter">
-    <div class="ui fluid container">
-        <div class="ui container">
-            <div style="padding: 2em; margin-bottom: 2em;">
-                <div class="ui doubling stackable four column grid">
-                    <div class="column">
-                        <div class="ui small header topMargin18 cheltenhamFontFooter uiGreyHeader"><span>Produkte</span>
-                        </div>
-                        <div role="list" class="ui link list"><a role="listitem" class="item"
-                                                                 href="/get-started.html"><span>Los geht's</span></a><a
-                                role="listitem" class="item"
-                                href="/de-de/products/communaty.html"><span>Communaty</span></a><a
-                                role="listitem" class="item"
-                                href="/de-de/products/growth.html"><span>Growth</span></a><a
-                                role="listitem" class="item"
-                                href="/de-de/products/engage.html"><span>Engage</span></a><a
-                                role="listitem" class="item" href="app.unaty.de/compass">Compass</a>
-                            <div role="listitem" class="item"></div>
-                            <a role="listitem" class="item" href="/de-de/products/smart-city-framework.html"><span>Smart City Framework</span></a><a
-                                    role="listitem" class="item" href="/de-de/products/academy.html"><span>Communaty Academy</span></a><a
-                                    target="_blank" href="http://status.unaty.de/" role="listitem"
-                                    class="item statusFooterArea"><i aria-hidden="true"
-                                                                     class="green circle icon"></i><span>Alle Systeme online</span></a>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="ui small header topMargin18 cheltenhamFontFooter uiGreyHeader">Forum</div>
-                        <div role="list" class="ui link list"><a role="listitem" class="item"
-                                                                 href="/forum"><span>Forum</span></a><a role="listitem"
-                                                                                                        class="item"
-                                                                                                        href="/forum/search"><span>Forum durchsuchen</span></a><a
-                                role="listitem" class="item"
-                                href="app.unaty.de/compass/explore"><span>Entdecke Communaties</span></a>
-                            <div role="listitem" class="item">Roadmaps</div>
-                            <a role="listitem" class="item" href="/forum">Konsolidierte Roadmap</a><a
-                                    role="listitem" class="item" href="/forum">Funktionen Roadmap</a><a
-                                    role="listitem" class="item" href="/forum">Baustellen &amp; Bugs
-                                Roadmap</a></div>
-                    </div>
-                    <div class="column">
-                        <div class="ui small header topMargin18 cheltenhamFontFooter uiGreyHeader"><span>Kontakt</span>
-                        </div>
-                        <div role="list" class="ui link list"><a role="listitem" class="item"
-                                                                 target="_blank"
-                                                                 href="https://app.unaty.de/login?_source=landingPageMenuLogin"><span>Log in</span></a><a
-                                role="listitem"
-                                class="item"
-                                href="/de-de/company/contact.html"><span>Sales kontaktieren</span></a><a
-                                target="_blank" href="https://unaty.zendesk.com/hc/de-de" role="listitem"
-                                class="item"><span>Support Center</span></a><a href="mailto:team@unaty.de"
-                                                                               role="listitem" class="item">team@unaty.de</a><a
-                                role="listitem" class="item"
-                                href="/de-de/pricing/pricing.html"><span>Preise</span></a><a
-                                role="listitem" class="item"
-                                href="/de-de/pricing/fair-billing.html"><span>Faire Rechnungsstellung</span></a><a
-                                role="listitem"
-                                class="item"
-                                href="en-us/pricing/credits-experience.html"><span>Credits</span>
-                            &amp; <span>Erfahrung</span></a></div>
-                    </div>
-                    <div class="column">
-                        <div class="ui small header topMargin18 cheltenhamFontFooter uiGreyHeader">
-                            <span>Unternehmen</span>
-                        </div>
-                        <div role="list" class="ui link list"><a role="listitem" class="item"
-                                                                 href="/de-de/company/about-us.html"><span>Über uns</span>
-                            Unaty</a><a
-                                href="https://blog.unaty.de/" target="_blank" role="listitem"
-                                class="item"><span>Blog</span></a><a role="listitem" class="item"
-                                                                     href="/de-de/company/security.html"><span>Datensicherheit</span></a><a
-                                role="listitem" class="item"
-                                href="/de-de/company/press.html"><span>Presseunterlagen</span></a><a
-                                role="listitem" class="item"
-                                href="/de-de/company/careers.html"><span>Karriere</span></a><a
-                                role="listitem" class="item"
-                                href="/de-de/company/imprint.html"><span>Impressum</span></a><a
-                                role="listitem" class="item"
-                                href="/de-de/company/privacy.html"><span>Datenschutz &amp; Nutzung</span></a></div>
-                    </div>
-                </div>
-            </div>
-            <div style="padding: 32px;">
-                <div class="ui stackable grid">
-                    <div class="row">
-                        <div class="three wide computer five wide mobile four wide tablet column footerMenuLang flex-display">
-                            <a class="bottom-footer-logo-a" href="/"><img class="ui small image bottom-footer-logo"
-                                                                          src="https://unaty-media.s3.amazonaws.com/static/img/dark_footer_logo.png"></a>
-                        </div>
-                        <div class="thirteen wide computer eleven wide mobile twelve wide tablet column">
-                            <div role="list" class="ui horizontal list float-right"><a target="_blank" role="listitem"
-                                                                                       class="item"
-                                                                                       href="https://www.facebook.com/unatyde"><i
-                                    aria-hidden="true" class="facebook square large icon"></i></a><a target="_blank"
-                                                                                                     role="listitem"
-                                                                                                     class="item"
-                                                                                                     href="https://www.linkedin.com/company-beta/12904664"><i
-                                    aria-hidden="true" class="linkedin square large icon"></i></a><a target="_blank"
-                                                                                                     role="listitem"
-                                                                                                     class="item"
-                                                                                                     href="https://twitter.com/unatyde"><i
-                                    aria-hidden="true" class="twitter square large icon"></i></a><a target="_blank"
-                                                                                                    role="listitem"
-                                                                                                    class="item"
-                                                                                                    href="https://blog.unaty.de"><i
-                                    aria-hidden="true" class="medium large icon"></i></a></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="sixteen wide computer sixteen wide mobile sixteen wide tablet column"><span
-                                class="copyrightText">© 2018 Unaty Technologies GmbH</span></div>
+<div class="CLPPoweredUnaty">
+    <div class="ui container">
+        <div class="ui grid">
+            <div class="row CLPPoweredUnaty">
+                <div class="four wide computer sixteen wide mobile six wide tablet column"><a href="/"><img
+                        src="https://unaty-media.s3.amazonaws.com/static/logos/logoNormal.png"></a></div>
+                <div class="twelve wide computer sixteen wide mobile ten wide tablet column">
+                    <div class="ui large text right floated menu"><a class="item underlineLink" href="https://www.unaty.de/en-us/company/imprint.html">Imprint</a>
                     </div>
                 </div>
             </div>
@@ -793,6 +583,37 @@
     </div>
 </div>
 
+
+<script>
+
+    if (result.name) {
+
+        var finalName = result.name.replace(/%20/g, ' ')
+
+        finalName = finalName + " uses " + document.getElementById('orgName').innerText
+
+        document.getElementById('orgName').innerText = finalName;
+    } else {
+
+
+        var finalName = "Thousands of Communatys use" + " " + document.getElementById('orgName').innerText
+
+        document.getElementById('orgName').innerText = finalName;
+    }
+
+    document.getElementById("submitBtn").addEventListener("click", function (event) {
+        event.preventDefault()
+        var email = document.getElementById('signUpEmail').value
+        window.location.href = 'file:///Users/seanmccall/Dev/UnatyStaticLP/signUp.html?email=' + email;
+    });
+
+    document.getElementById("submitBtnOne").addEventListener("click", function (event) {
+        event.preventDefault()
+        var email = document.getElementById('signUpEmailOne').value
+        window.location.href = 'file:///Users/seanmccall/Dev/UnatyStaticLP/signUp.html?email=' + email;
+    });
+
+</script>
 <script type="text/javascript">
 
     $("#menuProducts").hover(
@@ -912,9 +733,9 @@
     )
 
     $("#switchLanguagesDropdown").click(
-        function () {
+        function() {
 
-            if ($("#showMenu").hasClass('visible') === true) {
+            if($("#showMenu").hasClass('visible')===true) {
                 $("#switchLanguagesDropdown").removeClass("active visible")
                 $("#showMenu").removeClass("visible")
             } else {
@@ -932,6 +753,5 @@
     )
 
 </script>
-
 </body>
 </html>
