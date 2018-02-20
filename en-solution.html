@@ -345,8 +345,8 @@
                         <div class="LandingPageMainButtons">
                             <div class="hidden-block"><span>Unaty Neighborhood is free and always will be.</span></div>
                             <div>
-                                <div class="ui input"><input id="signUpEmail" autofocus type="text" placeholder="Email" value=""></div>
-                                <button class="ui orange huge button" id="submitBtn" role="button"><span>Get Started</span></button>
+                                <div class="ui input"><input id="emailInput" autofocus type="text" placeholder="Email" value=""></div>
+                                <button class="ui orange huge button" id="getStartedBtn" role="button"><span>Get Started</span></button>
                             </div>
                             <div><a href="https://www.unaty.de/features"><span>Learn more about the Unaty Platform</span></a></div>
                         </div>
@@ -552,8 +552,8 @@
                         </div>
                         <div class="column">
                             <div class="flex-display justifyContentRight createAcctBtns">
-                                <div class="ui large input"><input type="text" placeholder="Email"></div>
-                                <button class="ui green large button" role="button"><span>Get Started</span></button>
+                                <div class="ui large input" id="emailInput2"><input type="text" placeholder="Email"></div>
+                                <button class="ui green large button" role="button" id="getStartedBtn2"><span>Get Started</span></button>
                             </div>
                         </div>
                     </div>
@@ -749,6 +749,26 @@
                 $("#switchLanguagesDropdown").addClass("active visible")
                 $("#showMenu").addClass("visible")
             }
+
+        }
+    )
+
+    $("#getStartedBtn").click(
+        function() {
+
+            var email = document.getElementById("emailInput").value
+
+            window.location.replace('https://app.unaty.de/sign-up/'+email+'?_source=landingPageMainInput')
+
+        }
+    )
+
+    $("#getStartedBtn2").click(
+        function() {
+
+            var email = document.getElementById("emailInput2").value
+
+            window.location.replace('https://app.unaty.de/sign-up/'+email+'?_source=landingPageMainInput2')
 
         }
     )
