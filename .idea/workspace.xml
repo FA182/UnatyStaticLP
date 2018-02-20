@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="031b99fa-0019-49ef-81ca-b6e2368356c4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
-      <change beforePath="$PROJECT_DIR$/compare.html" afterPath="$PROJECT_DIR$/compare.html" />
-      <change beforePath="$PROJECT_DIR$/css/landingStyles.css" afterPath="$PROJECT_DIR$/css/landingStyles.css" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/about-us.html" afterPath="$PROJECT_DIR$/de-de/company/about-us.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/imprint.html" afterPath="$PROJECT_DIR$/de-de/company/imprint.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/press.html" afterPath="$PROJECT_DIR$/de-de/company/press.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/privacy.html" afterPath="$PROJECT_DIR$/de-de/company/privacy.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/security.html" afterPath="$PROJECT_DIR$/de-de/company/security.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/pricing/pricing-policy.html" afterPath="$PROJECT_DIR$/de-de/pricing/pricing-policy.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/pricing/pricing.html" afterPath="$PROJECT_DIR$/de-de/pricing/pricing.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/products/academy.html" afterPath="$PROJECT_DIR$/de-de/products/academy.html" />
       <change beforePath="$PROJECT_DIR$/de-de/products/communaty.html" afterPath="$PROJECT_DIR$/de-de/products/communaty.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/products/engage.html" afterPath="$PROJECT_DIR$/de-de/products/engage.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/products/grow.html" afterPath="$PROJECT_DIR$/de-de/products/grow.html" />
-      <change beforePath="$PROJECT_DIR$/de-reference.html" afterPath="$PROJECT_DIR$/de-reference.html" />
-      <change beforePath="$PROJECT_DIR$/de-solution.html" afterPath="$PROJECT_DIR$/de-solution.html" />
-      <change beforePath="$PROJECT_DIR$/en-reference.html" afterPath="$PROJECT_DIR$/en-reference.html" />
-      <change beforePath="$PROJECT_DIR$/en-solution.html" afterPath="$PROJECT_DIR$/en-solution.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/company/imprint.html" afterPath="$PROJECT_DIR$/en-us/company/imprint.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/company/press.html" afterPath="$PROJECT_DIR$/en-us/company/press.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/company/privacy.html" afterPath="$PROJECT_DIR$/en-us/company/privacy.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/company/security.html" afterPath="$PROJECT_DIR$/en-us/company/security.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/index.html" afterPath="$PROJECT_DIR$/en-us/index.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/pricing/pricing-policy.html" afterPath="$PROJECT_DIR$/en-us/pricing/pricing-policy.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/pricing/pricing.html" afterPath="$PROJECT_DIR$/en-us/pricing/pricing.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/products/academy.html" afterPath="$PROJECT_DIR$/en-us/products/academy.html" />
       <change beforePath="$PROJECT_DIR$/en-us/products/communaty.html" afterPath="$PROJECT_DIR$/en-us/products/communaty.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/products/engage.html" afterPath="$PROJECT_DIR$/en-us/products/engage.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/products/grow.html" afterPath="$PROJECT_DIR$/en-us/products/grow.html" />
-      <change beforePath="$PROJECT_DIR$/happy-customer.html" afterPath="$PROJECT_DIR$/happy-customer.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/test/home-v1.html" afterPath="$PROJECT_DIR$/test/home-v1.html" />
-      <change beforePath="$PROJECT_DIR$/test/home-v2.html" afterPath="$PROJECT_DIR$/test/home-v2.html" />
-      <change beforePath="$PROJECT_DIR$/test/home-v3.html" afterPath="$PROJECT_DIR$/test/home-v3.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="communaty.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="communaty.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de-de/products/communaty.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="346" column="54" lean-forward="false" selection-start-line="346" selection-start-column="54" selection-end-line="346" selection-end-column="54" />
+            <state relative-caret-position="238">
+              <caret line="707" column="0" lean-forward="true" selection-start-line="707" selection-start-column="0" selection-end-line="718" selection-end-column="6" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -89,14 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="communaty.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="communaty.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en-us/products/communaty.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="340" column="34" lean-forward="true" selection-start-line="340" selection-start-column="34" selection-end-line="341" selection-end-column="169" />
+            <state relative-caret-position="237">
+              <caret line="325" column="115" lean-forward="true" selection-start-line="325" selection-start-column="115" selection-end-line="325" selection-end-column="115" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -113,7 +85,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>orgName</find>
       <find>competitorName</find>
       <find>unatyReferenceAnalysis</find>
       <find>Login</find>
@@ -142,6 +113,7 @@
       <find>CreateAccountSection</find>
       <find>emailInput</find>
       <find>getStartedBtn</find>
+      <find>onclick</find>
       <find>mobileMenu</find>
     </findStrings>
     <replaceStrings>
@@ -189,6 +161,7 @@
         <option value="$PROJECT_DIR$/en-reference.html" />
         <option value="$PROJECT_DIR$/de-solution.html" />
         <option value="$PROJECT_DIR$/de-de/products/communaty.html" />
+        <option value="$PROJECT_DIR$/en-us/products/communaty.html" />
       </list>
     </option>
   </component>
@@ -399,12 +372,12 @@
       <workItem from="1518372640384" duration="16000" />
       <workItem from="1518436480848" duration="1229000" />
       <workItem from="1518466805722" duration="9057000" />
-      <workItem from="1519146849882" duration="6322000" />
+      <workItem from="1519146849882" duration="7265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41492000" />
+    <option name="totallyTimeSpent" value="42435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-164" y="-1088" width="1936" height="1066" extended-state="6" />
@@ -751,21 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/communaty.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="340" column="34" lean-forward="true" selection-start-line="340" selection-start-column="34" selection-end-line="341" selection-end-column="169" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de-de/products/communaty.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="346" column="54" lean-forward="false" selection-start-line="346" selection-start-column="54" selection-end-line="346" selection-end-column="54" />
+        <state relative-caret-position="238">
+          <caret line="707" column="0" lean-forward="true" selection-start-line="707" selection-start-column="0" selection-end-line="718" selection-end-column="6" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -779,6 +741,22 @@
             <element signature="e#19558#19564#0" expanded="true" />
             <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/communaty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="325" column="115" lean-forward="true" selection-start-line="325" selection-start-column="115" selection-end-line="325" selection-end-column="115" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />

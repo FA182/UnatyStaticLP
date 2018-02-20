@@ -326,21 +326,21 @@
                     <span>Unaty is a </span><strong><span>new kind of Community Platform</span></strong><span> that
                     organizes your Members, Communication, Files, Groups, and Events together in a modern, fast, and
                     secure browser based application.</span>
-                    <div class="unatyPlayWhatIsVideo">
+                    <div class="unatyPlayWhatIsVideo" id="showVideo">
                         <div><i aria-hidden="true" class="orange video play icon"></i></div>
                         <div><span>Learn what Unaty is&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
                     </div>
-                    <div class="unatyPlayWhatIsVideo">
+                    <div class="unatyPlayWhatIsVideo" id="showVideo2">
                         <div><i aria-hidden="true" class="orange video play icon"></i></div>
                         <div><span>Learn how Unaty works</span></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hidden-block">
-            <div class="ui embed"><i aria-hidden="true" class="video play icon"></i><img class="placeholder"
-                                                                                         src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513335349000">
-            </div>
+        <div class="ui embed hidden-block" id="unatyVideo"><img class="placeholder" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513335349000">
+            <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/noabdyzBGkU?autoplay=1">
+            </iframe>
         </div>
     </div>
     <div class="ui fluid container UnatyAdvantagesMatrix">
@@ -670,6 +670,18 @@
 </div>
 
 <script type="text/javascript">
+
+    $("#showVideo").click(
+        function () {
+            $("#unatyVideo").removeClass("hidden-block")
+        }
+    );
+
+    $("#showVideo2").click(
+        function () {
+            $("#unatyVideo").removeClass("hidden-block")
+        }
+    );
 
     $("#menuProducts").hover(
         function () {

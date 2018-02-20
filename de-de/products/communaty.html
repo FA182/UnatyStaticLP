@@ -337,14 +337,14 @@
                         <div><span>Erfahre, was Unaty ist&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                         </div>
                     </div>
-                    <div class="unatyPlayWhatIsVideo">
+                    <div class="unatyPlayWhatIsVideo" id="showVideo2">
                         <div><i aria-hidden="true" class="orange video play icon"></i></div>
                         <div><span>Erfahre, wie Unaty funktioniert</span></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="ui embed hidden-block" id="unatyVideo"><i class="video play icon"></i><img class="placeholder" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513335349000">
+        <div class="ui embed hidden-block" id="unatyVideo"><img class="placeholder" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513335349000">
             <iframe width="420" height="315"
                     src="https://www.youtube.com/embed/XkX_vO8Iz5g?autoplay=1">
             </iframe>
@@ -706,7 +706,13 @@
 </div>
 <script type="text/javascript">
 
-    $("#showVideo").onclick(
+    $("#showVideo").click(
+        function () {
+            $("#unatyVideo").removeClass("hidden-block")
+        }
+    );
+
+    $("#showVideo2").click(
         function () {
             $("#unatyVideo").removeClass("hidden-block")
         }
