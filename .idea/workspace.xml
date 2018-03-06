@@ -9,7 +9,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/company/press.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/company/privacy.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/company/security.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/pricing/credits-experience.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/pricing/pricing-policy.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/pricing/pricing.html" afterPath="" />
@@ -47,22 +46,50 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="press.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de-de-old/company/press.html">
+      <file leaf-file-name="simply-reach-and-engage-members.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="902">
+              <caret line="887" column="6" lean-forward="false" selection-start-line="887" selection-start-column="6" selection-end-line="887" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unaty-platform.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/unaty-platform.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="302" column="45" lean-forward="false" selection-start-line="301" selection-start-column="33" selection-end-line="302" selection-end-column="45" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unaty-platform.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/de-de/unaty-platform.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="302" column="45" lean-forward="false" selection-start-line="302" selection-start-column="45" selection-end-line="302" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/de-de/company/about.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="630">
+              <caret line="435" column="57" lean-forward="true" selection-start-line="434" selection-start-column="32" selection-end-line="435" selection-end-column="57" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,13 +191,11 @@
         <option value="$PROJECT_DIR$/en-us/company/about-us.html" />
         <option value="$PROJECT_DIR$/css/landingStyles.css" />
         <option value="$PROJECT_DIR$/en-us/index.html" />
-        <option value="$PROJECT_DIR$/en-us/unaty-platform.html" />
         <option value="$PROJECT_DIR$/en-us/products/build.html" />
         <option value="$PROJECT_DIR$/en-us/products/engage.html" />
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
         <option value="$PROJECT_DIR$/en-us/products/smart-city-framework.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html" />
-        <option value="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html" />
         <option value="$PROJECT_DIR$/en-us/company/about.html" />
@@ -181,6 +206,9 @@
         <option value="$PROJECT_DIR$/en-us/company/privacy.html" />
         <option value="$PROJECT_DIR$/en-us/company/security.html" />
         <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" />
+        <option value="$PROJECT_DIR$/en-us/unaty-platform.html" />
+        <option value="$PROJECT_DIR$/de-de/unaty-platform.html" />
       </list>
     </option>
   </component>
@@ -296,6 +324,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de-de" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,12 +473,12 @@
       <workItem from="1518436480848" duration="1229000" />
       <workItem from="1518466805722" duration="9057000" />
       <workItem from="1519146849882" duration="7265000" />
-      <workItem from="1520272229776" duration="34811000" />
+      <workItem from="1520272229776" duration="35365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77246000" />
+    <option name="totallyTimeSpent" value="77800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-492" width="1920" height="1080" extended-state="0" />
@@ -474,7 +516,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login.html" />
     <entry file="file://$PROJECT_DIR$/signUp.html" />
     <entry file="file://$PROJECT_DIR$/legal.html" />
     <entry file="file://$PROJECT_DIR$/solution.html" />
@@ -682,16 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/unaty-platform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -743,17 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="887" column="6" lean-forward="false" selection-start-line="887" selection-start-column="6" selection-end-line="887" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
@@ -782,17 +802,6 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="112" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="112" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,6 +893,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/company/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/de-de-old/company/press.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -892,10 +909,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/company/about.html">
+    <entry file="file://$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="902">
+          <caret line="887" column="6" lean-forward="false" selection-start-line="887" selection-start-column="6" selection-end-line="887" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="435" column="57" lean-forward="true" selection-start-line="434" selection-start-column="32" selection-end-line="435" selection-end-column="57" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/unaty-platform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="302" column="45" lean-forward="false" selection-start-line="301" selection-start-column="33" selection-end-line="302" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/unaty-platform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="302" column="45" lean-forward="false" selection-start-line="302" selection-start-column="45" selection-end-line="302" selection-end-column="45" />
           <folding />
         </state>
       </provider>
