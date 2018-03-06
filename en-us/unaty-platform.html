@@ -448,9 +448,9 @@
 
                 <div>
                     <div>
-                        <div class="ui action input large input250">
-                            <input type="text" placeholder="Enter your Email.."/>
-                            <button class="ui button orange" role="button">Get Started</button>
+                        <div class="ui action input large input250 final-sign-up-button">
+                            <input id="emailInput1" type="text" placeholder="Enter your Email.."/>
+                            <button id="getStartedBtn1" class="ui button orange" role="button">Get Started</button>
                         </div>
                     </div>
                     <div class="extra-infos-subset">
@@ -780,6 +780,15 @@
         }
     )
 
+    $("#getStartedBtn1").click(
+        function () {
+
+            var email = document.getElementById("emailInput1").value
+
+            window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
+
+        }
+    )
 
 </script>
 </body>

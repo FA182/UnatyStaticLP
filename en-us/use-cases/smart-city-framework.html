@@ -287,8 +287,8 @@
                     <div class="flp-sign-up-box">
                         <div>
                             <div class="ui action input large input250">
-                                <input autofocus type="text" placeholder="Enter your Email.."/>
-                                <button class="ui button orange" role="button">Get Started</button>
+                                <input id="emailInput1" autofocus type="text" placeholder="Enter your Email.."/>
+                                <button id="getStartedBtn" class="ui button orange" role="button">Get Started</button>
                             </div>
                         </div>
                         <div>
@@ -740,8 +740,8 @@
                 <div>
                     <div>
                         <div class="ui action input large input250">
-                            <input type="text" placeholder="Enter your Email.."/>
-                            <button class="ui button orange" role="button">Get Started</button>
+                            <input id="emailInput1" type="text" placeholder="Enter your Email.."/>
+                            <button id="getStartedBtn1" class="ui button orange" role="button">Get Started</button>
                         </div>
                     </div>
                     <div class="extra-infos-subset">
@@ -1064,6 +1064,16 @@
         function () {
 
             var email = document.getElementById("emailInput").value
+
+            window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
+
+        }
+    )
+
+    $("#getStartedBtn1").click(
+        function () {
+
+            var email = document.getElementById("emailInput1").value
 
             window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
 

@@ -278,9 +278,9 @@
                 </div>
 
                 <div class="final-product-button">
-                    <div class="ui button inverted green large">
+                    <a href="#features" class="ui button inverted green large">
                         View Features
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -293,7 +293,7 @@
     </div>
 
 </div>
-<div class="final-general-section2">
+<div class="final-general-section2" id="features">
     <div class="ui fluid container">
 
         <div class="ui container">
@@ -493,9 +493,9 @@
 
                 <div>
                     <div>
-                        <div class="ui action input large input250">
-                            <input type="text" placeholder="Enter your Email.."/>
-                            <button class="ui button orange" role="button">Get Started</button>
+                        <div class="ui action input large input250 final-sign-up-button">
+                            <input id="emailInput1" type="text" placeholder="Enter your Email.."/>
+                            <button id="getStartedBtn1" class="ui button orange" role="button">Get Started</button>
                         </div>
                     </div>
                     <div class="extra-infos-subset">
@@ -819,6 +819,16 @@
         function () {
 
             var email = document.getElementById("emailInput").value
+
+            window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
+
+        }
+    )
+
+    $("#getStartedBtn1").click(
+        function () {
+
+            var email = document.getElementById("emailInput1").value
 
             window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
 

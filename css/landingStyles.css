@@ -4854,6 +4854,7 @@ span.mainNumber {
     font-weight: 500;
     line-height: 1.5;
     margin-bottom: 4px;
+    max-width: 70%;
     color: rgba(0,0,0,0.73);
 }
 .hoverItemMenu {
@@ -4942,9 +4943,10 @@ span.mainNumber {
     color: rgba(0,0,0,0.83);
 }
 .final-use-case-step > div:nth-child(2) > div:nth-child(2) {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1.4;
+    max-width: 90%;
     margin-bottom: 4px;
     color: rgba(0,0,0,0.63);
     margin-top: 4px;
@@ -4994,4 +4996,138 @@ span.mainNumber {
 .img-shadow {
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+}
+@media all and (max-width: 992px) {
+    .flex-control-grid, .final-unaty-features {
+        flex-flow: column-reverse !important;
+    }
+    .flex-control-grid > div:nth-child(1), .final-unaty-features > div:nth-child(2) {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .final-unaty-features > div:nth-child(2) img {
+        margin-right: auto;
+    }
+    .final-main-image-home {
+        text-align: center !important;
+    }
+    .final-main-image-home > img {
+        max-height: 300px !important;
+        margin-top: 40px !important;
+    }
+    .flp-title-text {
+        padding-top: 40px;
+    }
+    .final-unaty-features > div:nth-child(1) {
+        max-width: 100%;
+        min-width: 0;
+    }
+    .flp-sign-up-box {
+        padding-bottom: 16px;
+    }
+}
+@media all and (max-width: 768px) {
+
+    .flex-control-grid > div:nth-child(1) {
+        min-width: 90%;
+        max-width: 90%;
+    }
+    .flp-title-text {
+        font-size: 40px;
+        line-height: normal;
+    }
+    .flp-subtitle-text {
+        font-size: 16px;
+        line-height: 1.5 !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .unaty-sign-up-box > div:nth-child(2) {
+        max-width: 100%;
+    }
+    .topMargin18.uiGreyHeader {
+        margin-top: 48px !important;
+    }
+    #item10, #item20, #item30 {
+        margin-top: 0 !important;
+    }
+    .platform-video-box .ui.embed {
+        max-width: 100%;
+    }
+    .platform-title-text {
+        font-size: 36px;
+    }
+    .final-real-feature > div:nth-child(1) {
+        padding-left: 0;
+    }
+    .final-real-feature > div:nth-child(3), .final-use-case-header-body > div:nth-child(1) > div:nth-child(2) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .final-header-text-large {
+        font-size: 34px !important;
+    }
+    .final-product-header-grid, .final-use-case-header-body {
+        flex-flow: column;
+    }
+    .final-list-use-case {
+        display: none;
+    }
+    .final-product-header-grid > div:nth-child(1), .final-use-case-header-body > div:nth-child(1) {
+        text-align: center;
+        max-width: 100%;
+        min-width: 0;
+    }
+    .final-product-header-grid > div:nth-child(2) img {
+        max-width: 100%;
+    }
+    .list-item-clean {
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    .final-use-case-header-body > div:nth-child(2) img {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+@media all and (max-width: 500px) {
+    .flp-title-text {
+        font-size: 32px;
+    }
+    .flp-subtitle-text {
+        font-size: 15px;
+        line-height: 1.5 !important;
+    }
+    .final-sign-up-button {
+        flex-flow: column !important;
+        width: 100% !important;
+    }
+    .ui.action.input.final-sign-up-button:not([class*="left action"])>input {
+        width: 100% !important;
+        border-top-right-radius: .28571429rem !important;
+        border-bottom-right-radius: .28571429rem !important;
+        border-right-color: rgba(34,36,38,.15)!important;
+        margin-bottom: 8px !important;
+    }
+    .final-sign-up-button > button {
+        text-align: center !important;
+        border-radius: .28571429rem !important;
+    }
+    .final-header-text-large {
+
+    }
+    .final-unaty-features > div:nth-child(1) {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+.menu-outer-padding {
+    padding-left: 2em;
+    padding-right: 2em;
+    max-height: 100vh;
+    overflow: auto;
+    padding-bottom: 6em;
+    padding-top: 6em;
 }
