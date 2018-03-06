@@ -4862,6 +4862,8 @@ span.mainNumber {
     margin-bottom: 4px;
     max-width: 70%;
     color: rgba(0,0,0,0.73);
+    margin-left: auto;
+    margin-right: auto;
 }
 .hoverItemMenu {
     opacity: 0.85;
