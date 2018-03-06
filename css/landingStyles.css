@@ -300,9 +300,15 @@ ui.grid.AcademyMenu {
 .unatyCityBlock img {
     height: 80px;
 }
+.coming-soon-text {
+    text-align: center;
+    padding-bottom: 64px;
+    font-size: 24px;
+    color: rgba(0,0,0,0.43);
+}
 .unatyCityBlock > div:nth-child(2) {
     margin-top: 16px;
-    color: #fff;
+    color: rgba(0,0,0,0.83);
     line-height: normal;
     font-family: 'unaty-cheltenham';
     font-weight: 500;
@@ -311,7 +317,7 @@ ui.grid.AcademyMenu {
 }
 .unatyCityBlock > div:nth-child(3) {
     margin-top: 8px;
-    color: #efefef;
+    color: rgba(0,0,0,0.53);
     line-height: normal;
     font-weight: 500;
     font-size: 15px;
