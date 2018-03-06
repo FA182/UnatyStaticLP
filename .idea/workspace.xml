@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="447" column="12" lean-forward="true" selection-start-line="447" selection-start-column="12" selection-end-line="449" selection-end-column="18" />
+              <caret line="447" column="12" lean-forward="false" selection-start-line="447" selection-start-column="12" selection-end-line="449" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -34,11 +34,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grow.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grow.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="332" column="30" lean-forward="true" selection-start-line="332" selection-start-column="30" selection-end-line="332" selection-end-column="30" />
+            <state relative-caret-position="283">
+              <caret line="338" column="0" lean-forward="true" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recruit-potential-members.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4110">
+              <caret line="274" column="0" lean-forward="true" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simply-reach-and-engage-members.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-466">
+              <caret line="644" column="30" lean-forward="true" selection-start-line="644" selection-start-column="30" selection-end-line="644" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smart-city-framework.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="support-and-activate-members.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="255" column="115" lean-forward="true" selection-start-line="255" selection-start-column="115" selection-end-line="255" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -144,7 +184,6 @@
         <option value="$PROJECT_DIR$/de-solution.html" />
         <option value="$PROJECT_DIR$/de-de/products/communaty.html" />
         <option value="$PROJECT_DIR$/en-us/products/communaty.html" />
-        <option value="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html" />
         <option value="$PROJECT_DIR$/en-us/index.html" />
@@ -152,6 +191,7 @@
         <option value="$PROJECT_DIR$/en-us/products/build.html" />
         <option value="$PROJECT_DIR$/en-us/products/engage.html" />
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
+        <option value="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" />
       </list>
     </option>
   </component>
@@ -164,7 +204,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1109" />
     <option name="height" value="1057" />
@@ -206,6 +246,12 @@
               <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
               <item name="en-us" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
+              <item name="en-us" type="462c0819:PsiDirectoryNode" />
+              <item name="use-cases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,18 +373,17 @@
       <workItem from="1518466805722" duration="9057000" />
       <workItem from="1519146849882" duration="7265000" />
       <workItem from="1520272229776" duration="19960000" />
-      <workItem from="1520348445448" duration="1651000" />
+      <workItem from="1520348445448" duration="3884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80399000" />
+    <option name="totallyTimeSpent" value="82632000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1109" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="856" height="900" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1965735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25467288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -370,13 +415,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/legal.html" />
     <entry file="file://$PROJECT_DIR$/solution.html" />
     <entry file="file://$PROJECT_DIR$/reference.html" />
@@ -557,27 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="274" column="0" lean-forward="true" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="255" column="115" lean-forward="true" selection-start-line="255" selection-start-column="115" selection-end-line="255" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="376" column="0" lean-forward="true" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="961">
@@ -611,15 +628,47 @@
     <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="447" column="12" lean-forward="true" selection-start-line="447" selection-start-column="12" selection-end-line="449" selection-end-column="18" />
+          <caret line="447" column="12" lean-forward="false" selection-start-line="447" selection-start-column="12" selection-end-line="449" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="332" column="30" lean-forward="true" selection-start-line="332" selection-start-column="30" selection-end-line="332" selection-end-column="30" />
+        <state relative-caret-position="283">
+          <caret line="338" column="0" lean-forward="true" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="255" column="115" lean-forward="true" selection-start-line="255" selection-start-column="115" selection-end-line="255" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4110">
+          <caret line="274" column="0" lean-forward="true" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-466">
+          <caret line="644" column="30" lean-forward="true" selection-start-line="644" selection-start-column="30" selection-end-line="644" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
