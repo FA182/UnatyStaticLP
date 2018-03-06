@@ -4462,12 +4462,12 @@ span.mainNumber {
     border-radius: 4px;
     cursor: pointer;
     border: 1px solid rgba(0,0,0,0.05);
-    border-left: 5px solid #96b6f7 !important;
+    border-left: 5px solid #a4abe8!important;
 }
 
 .final-use-cases-list-item:hover {
     box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
-    border-left: 5px solid #397bff !important;
+    border-left: 5px solid #1c299d !important;
 }
 
 .final-use-cases-list-item > div:nth-child(1) {
@@ -4976,4 +4976,8 @@ span.mainNumber {
 }
 .margin-top-24 {
     margin-top: 24px !important;
+}
+.final-normal-text {
+    font-size: 16px;
+    line-height: 1.5;
 }
