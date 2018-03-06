@@ -4510,6 +4510,15 @@ span.mainNumber {
     padding-top: 64px;
     padding-bottom: 64px;
 }
+.final-general-section2 {
+    padding-top: 32px;
+    padding-bottom: 0px;
+}
+.final-general-section3 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 
 .final-header-text-large {
     text-align: center;
@@ -4832,7 +4841,6 @@ span.mainNumber {
     padding-bottom: 12px;
 }
 .final-real-feature > div:nth-child(1) > i {
-
 }
 .final-real-feature > div:nth-child(2) {
     font-size: 18px;
