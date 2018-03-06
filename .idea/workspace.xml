@@ -7,22 +7,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/products/communaty.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landingStyles.css" afterPath="$PROJECT_DIR$/css/landingStyles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/about-us.html" afterPath="$PROJECT_DIR$/en-us/company/about-us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/about.html" afterPath="$PROJECT_DIR$/en-us/company/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/academy.html" afterPath="$PROJECT_DIR$/en-us/company/academy.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/privacy.html" afterPath="$PROJECT_DIR$/en-us/company/privacy.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/index.html" afterPath="$PROJECT_DIR$/en-us/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/pricing/credits-experience.html" afterPath="$PROJECT_DIR$/en-us/pricing/credits-experience.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/pricing/pricing-policy.html" afterPath="$PROJECT_DIR$/en-us/pricing/pricing-policy.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/pricing/pricing.html" afterPath="$PROJECT_DIR$/en-us/pricing/pricing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/build.html" afterPath="$PROJECT_DIR$/en-us/products/build.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/engage.html" afterPath="$PROJECT_DIR$/en-us/products/engage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/grow.html" afterPath="$PROJECT_DIR$/en-us/products/grow.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/smart-city-framework.html" afterPath="$PROJECT_DIR$/en-us/products/smart-city-framework.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/unaty-platform.html" afterPath="$PROJECT_DIR$/en-us/unaty-platform.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html" afterPath="$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,13 +28,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="simply-reach-and-engage-members.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="902">
+              <caret line="887" column="6" lean-forward="false" selection-start-line="887" selection-start-column="6" selection-end-line="887" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="smart-city-framework.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+            <state relative-caret-position="902">
+              <caret line="887" column="6" lean-forward="false" selection-start-line="887" selection-start-column="6" selection-end-line="887" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -52,22 +57,11 @@
       <file leaf-file-name="support-and-activate-members.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="49" column="64" lean-forward="true" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unaty-platform.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en-us/unaty-platform.html">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="902">
-              <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+              <caret line="544" column="6" lean-forward="false" selection-start-line="544" selection-start-column="6" selection-end-line="544" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -77,9 +71,10 @@
         <entry file="file://$PROJECT_DIR$/en-us/company/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="902">
-              <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+              <caret line="508" column="6" lean-forward="false" selection-start-line="508" selection-start-column="6" selection-end-line="508" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -88,10 +83,11 @@
       <file leaf-file-name="academy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/company/academy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+            <state relative-caret-position="902">
+              <caret line="508" column="6" lean-forward="false" selection-start-line="508" selection-start-column="6" selection-end-line="508" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -100,9 +96,11 @@
       <file leaf-file-name="contact-us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/company/contact-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="197" lean-forward="true" selection-start-line="40" selection-start-column="197" selection-end-line="40" selection-end-column="197" />
-              <folding />
+            <state relative-caret-position="902">
+              <caret line="508" column="6" lean-forward="false" selection-start-line="508" selection-start-column="6" selection-end-line="508" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,10 +108,11 @@
       <file leaf-file-name="imprint.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/company/imprint.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="507" column="6" lean-forward="false" selection-start-line="507" selection-start-column="6" selection-end-line="507" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -122,10 +121,11 @@
       <file leaf-file-name="press.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/company/press.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="507" column="6" lean-forward="false" selection-start-line="507" selection-start-column="6" selection-end-line="507" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -134,10 +134,11 @@
       <file leaf-file-name="privacy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/company/privacy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="259" column="23" lean-forward="false" selection-start-line="259" selection-start-column="23" selection-end-line="259" selection-end-column="23" />
+            <state relative-caret-position="435">
+              <caret line="864" column="6" lean-forward="false" selection-start-line="864" selection-start-column="6" selection-end-line="864" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -146,10 +147,11 @@
       <file leaf-file-name="security.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en-us/company/security.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="257" column="23" lean-forward="false" selection-start-line="257" selection-start-column="23" selection-end-line="257" selection-end-column="23" />
+            <state relative-caret-position="482">
+              <caret line="350" column="18" lean-forward="true" selection-start-line="350" selection-start-column="18" selection-end-line="350" selection-end-column="18" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -250,19 +252,20 @@
         <option value="$PROJECT_DIR$/de-de/products/communaty.html" />
         <option value="$PROJECT_DIR$/en-us/products/communaty.html" />
         <option value="$PROJECT_DIR$/en-us/company/about-us.html" />
-        <option value="$PROJECT_DIR$/en-us/company/contact-us.html" />
         <option value="$PROJECT_DIR$/css/landingStyles.css" />
         <option value="$PROJECT_DIR$/en-us/index.html" />
+        <option value="$PROJECT_DIR$/en-us/unaty-platform.html" />
         <option value="$PROJECT_DIR$/en-us/products/build.html" />
         <option value="$PROJECT_DIR$/en-us/products/engage.html" />
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
+        <option value="$PROJECT_DIR$/en-us/products/smart-city-framework.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html" />
-        <option value="$PROJECT_DIR$/en-us/unaty-platform.html" />
         <option value="$PROJECT_DIR$/en-us/company/about.html" />
         <option value="$PROJECT_DIR$/en-us/company/academy.html" />
+        <option value="$PROJECT_DIR$/en-us/company/contact-us.html" />
         <option value="$PROJECT_DIR$/en-us/company/imprint.html" />
         <option value="$PROJECT_DIR$/en-us/company/press.html" />
         <option value="$PROJECT_DIR$/en-us/company/privacy.html" />
@@ -382,20 +385,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de-de" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -531,12 +520,12 @@
       <workItem from="1518436480848" duration="1229000" />
       <workItem from="1518466805722" duration="9057000" />
       <workItem from="1519146849882" duration="7265000" />
-      <workItem from="1520272229776" duration="34121000" />
+      <workItem from="1520272229776" duration="34636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76556000" />
+    <option name="totallyTimeSpent" value="77071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-492" width="1920" height="1080" extended-state="0" />
@@ -574,8 +563,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index" />
-    <entry file="file://$PROJECT_DIR$/semantic.json" />
     <entry file="file://$PROJECT_DIR$/css/landingStyles.import.css" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/aria.rnc">
       <provider selected="true" editor-type-id="text-editor">
@@ -819,13 +806,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/index.html">
+    <entry file="file://$PROJECT_DIR$/en-us/unaty-platform.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="257" column="23" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="257" selection-end-column="23" />
+        <state relative-caret-position="902">
+          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -840,32 +846,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
+    <entry file="file://$PROJECT_DIR$/en-us/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+        <state relative-caret-position="505">
+          <caret line="497" column="0" lean-forward="false" selection-start-line="497" selection-start-column="0" selection-end-line="626" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
+    <entry file="file://$PROJECT_DIR$/en-us/products/smart-city-framework.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+          <caret line="505" column="6" lean-forward="false" selection-start-line="505" selection-start-column="6" selection-end-line="505" selection-end-column="6" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+        <state relative-caret-position="539">
+          <caret line="547" column="6" lean-forward="false" selection-start-line="547" selection-start-column="6" selection-end-line="547" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -873,39 +881,32 @@
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+          <caret line="887" column="6" lean-forward="false" selection-start-line="887" selection-start-column="6" selection-end-line="887" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+        <state relative-caret-position="902">
+          <caret line="887" column="6" lean-forward="false" selection-start-line="887" selection-start-column="6" selection-end-line="887" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="49" column="64" lean-forward="true" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/unaty-platform.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+          <caret line="544" column="6" lean-forward="false" selection-start-line="544" selection-start-column="6" selection-end-line="544" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,67 +914,83 @@
     <entry file="file://$PROJECT_DIR$/en-us/company/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+          <caret line="508" column="6" lean-forward="false" selection-start-line="508" selection-start-column="6" selection-end-line="508" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/company/career.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/company/academy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+        <state relative-caret-position="902">
+          <caret line="508" column="6" lean-forward="false" selection-start-line="508" selection-start-column="6" selection-end-line="508" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/company/contact-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="197" lean-forward="true" selection-start-line="40" selection-start-column="197" selection-end-line="40" selection-end-column="197" />
-          <folding />
+        <state relative-caret-position="902">
+          <caret line="508" column="6" lean-forward="false" selection-start-line="508" selection-start-column="6" selection-end-line="508" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/company/imprint.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+        <state relative-caret-position="360">
+          <caret line="507" column="6" lean-forward="false" selection-start-line="507" selection-start-column="6" selection-end-line="507" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/company/press.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="258" column="23" lean-forward="false" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="507" column="6" lean-forward="false" selection-start-line="507" selection-start-column="6" selection-end-line="507" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/company/privacy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="259" column="23" lean-forward="false" selection-start-line="259" selection-start-column="23" selection-end-line="259" selection-end-column="23" />
+        <state relative-caret-position="435">
+          <caret line="864" column="6" lean-forward="false" selection-start-line="864" selection-start-column="6" selection-end-line="864" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/company/security.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="257" column="23" lean-forward="false" selection-start-line="257" selection-start-column="23" selection-end-line="257" selection-end-column="23" />
+        <state relative-caret-position="482">
+          <caret line="350" column="18" lean-forward="true" selection-start-line="350" selection-start-column="18" selection-end-line="350" selection-end-column="18" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
