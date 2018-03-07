@@ -4865,6 +4865,34 @@ span.mainNumber {
     margin-left: auto;
     margin-right: auto;
 }
+.final-real-feature2 {
+    padding: 12px 8px;
+}
+.final-real-feature2 > div:nth-child(1) {
+    padding-left: 8px;
+    font-size: 24px;
+    line-height: normal;
+    padding-bottom: 12px;
+}
+.final-real-feature2 > div:nth-child(1) > i {
+}
+.final-real-feature2 > div:nth-child(2) {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 4px;
+    color: rgba(0,0,0,0.83);
+}
+.final-real-feature2 > div:nth-child(3) {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    max-width: 70%;
+    color: rgba(0,0,0,0.73);
+    margin-right: auto;
+}
+
 .hoverItemMenu {
     opacity: 0.85;
 }
