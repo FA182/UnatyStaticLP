@@ -4427,8 +4427,8 @@ span.mainNumber {
     font-family: lato;
     margin-bottom: 18px;
     margin-top: 24px;
-    line-height: 28px !important;
-    font-size: 18px;
+    line-height: 1.5 !important;
+    font-size: 20px;
     max-width: 550px;
     color: rgba(0,0,0,0.53);
 }
@@ -5136,6 +5136,9 @@ span.mainNumber {
         max-width: 100%;
         margin-top: 40px;
     }
+}
+.final-sign-up-button input {
+    background-color: #fafafa !important;
 }
 @media all and (max-width: 500px) {
     .flp-title-text {
