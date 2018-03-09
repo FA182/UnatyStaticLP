@@ -4476,7 +4476,7 @@ span.mainNumber {
     border-left: 5px solid #1c299d !important;
 }
 
-.final-use-cases-list-item > div:nth-child(1) {
+.final-use-cases-list-item > span:nth-child(1) {
     font-size: 18px;
     line-height: normal;
     margin-bottom: 12px;
@@ -4484,17 +4484,17 @@ span.mainNumber {
     color: rgba(0,0,0,0.83);
 }
 
-.final-use-cases-list-item > div:nth-child(2) {
+.final-use-cases-list-item > span:nth-child(2) {
     margin-bottom: 24px;
     color: rgba(0,0,0,0.33);
-    font-size: 15px;
+    font-size: 20px;
 }
 
-.final-use-cases-list-item > div:nth-child(3) {
+.final-use-cases-list-item > span:nth-child(3) {
 
 }
 
-.final-use-cases-list-item > div:nth-child(3) a {
+.final-use-cases-list-item > span:nth-child(3) a {
     text-decoration: underline;
     font-size: 16px;
 }
@@ -4510,6 +4510,15 @@ span.mainNumber {
 .final-powered-by-icon i {
     font-size: 16px;
     margin: 0 !important;
+}
+
+.final-powered-by {
+    font-size: 16px;
+    color: rgba(0,0,0,0.53);
+    display: inline-block;
+    padding-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 16px;
 }
 
 .final-general-section {
@@ -5165,5 +5174,29 @@ span.mainNumber {
     max-height: 100vh;
     overflow: auto;
     padding-bottom: 6em;
-    padding-top: 6em;
+    padding-top: 4em;
+}
+
+.ui.list>.item.mobile-menu-button-signUp {
+    line-height: 80px; !important
+    background-color: #fafafa;
+    font-size: 24px;
+    font-weight: 900; !important
+    color: rgba(0,0,0,0.63);
+    border-top: 1px solid #efefef; !important
+}
+.ui.list>.item.mobile-menu-button-login {
+    line-height:  80px; !important;
+    background-color:  #fafafa;
+    font-size:  24px;
+    font-weight:  900;
+    color:  rgba(0,0,0,0.63); !important
+    border-top:  1px solid #efefef;
+    padding-bottom:  6px; !important
+}
+.mobile-menu-button-list {
+    position:  fixed;
+    bottom: 0;
+    left:  0;
+    right: 0;
 }
