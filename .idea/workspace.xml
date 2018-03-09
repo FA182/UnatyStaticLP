@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de-de/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2691">
-              <caret line="104" column="7" lean-forward="true" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+            <state relative-caret-position="144">
+              <caret line="292" column="0" lean-forward="true" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#link#5;n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -43,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="de-reference.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="de-reference.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de-reference.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/en-us/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="289" column="50" lean-forward="true" selection-start-line="289" selection-start-column="50" selection-end-line="289" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -167,7 +177,6 @@
         <option value="$PROJECT_DIR$/de-de/products/engage.html" />
         <option value="$PROJECT_DIR$/en-us/products/build.html" />
         <option value="$PROJECT_DIR$/css/landingStyles.css" />
-        <option value="$PROJECT_DIR$/de-de/index.html" />
         <option value="$PROJECT_DIR$/de-de/products/build.html" />
         <option value="$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html" />
         <option value="$PROJECT_DIR$/de-de/products/grow.html" />
@@ -179,6 +188,7 @@
         <option value="$PROJECT_DIR$/en-us/reach-more.html" />
         <option value="$PROJECT_DIR$/en-us/recruit-potential.html" />
         <option value="$PROJECT_DIR$/en-us/unaty-platform.html" />
+        <option value="$PROJECT_DIR$/de-de/index.html" />
       </list>
     </option>
   </component>
@@ -250,7 +260,7 @@
             <path>
               <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-              <item name="semantic" type="462c0819:PsiDirectoryNode" />
+              <item name="en-us" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,7 +390,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134662000" />
+    <option name="totallyTimeSpent" value="135134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -715,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="496" column="39" lean-forward="false" selection-start-line="496" selection-start-column="39" selection-end-line="496" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/reach-more.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -779,10 +781,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/de-solution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-reference.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/de-de/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2691">
-          <caret line="104" column="7" lean-forward="true" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+        <state relative-caret-position="144">
+          <caret line="292" column="0" lean-forward="true" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#link#5;n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -796,18 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de-solution.html">
+    <entry file="file://$PROJECT_DIR$/en-us/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-reference.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="266">
+          <caret line="289" column="50" lean-forward="true" selection-start-line="289" selection-start-column="50" selection-end-line="289" selection-end-column="50" />
           <folding />
         </state>
       </provider>
