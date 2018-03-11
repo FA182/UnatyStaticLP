@@ -822,6 +822,9 @@ img.unatySmartCityFrameworkImg {
     position: relative;
     margin-right: 12px !important;
 }
+.richItemMenu a {
+    color: rgba(0,0,0,.6) !important;
+}
 .marginRight16 {
     margin-right: 16px !important;
 }
@@ -5202,4 +5205,46 @@ span.mainNumber {
     bottom: 0;
     left:  0;
     right: 0;
+}
+.products-box {
+    border: 1px solid #efefef;
+    margin-top: 121px;
+    padding: 8px 12px;
+    text-align: left;
+
+    max-width: 350px;
+    margin-left: auto;
+}
+.products-box > div:nth-child(1) {
+    display: flex;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+.products-box > div:nth-child(1) > div {
+    height: 48px;
+    width: 48px;
+    margin-right: 8px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: #efefef;
+}
+.products-box > div:nth-child(1) > div > i {
+    margin: 0 !important;
+}
+.products-box > div:nth-child(2) {
+
+}
+.products-box > div:nth-child(2) > div:nth-child(1) {
+    line-height: normal;
+    font-weight: 900;
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+.products-box > div:nth-child(2) > div:nth-child(2) {
+    margin-bottom: 4px;
+    font-size: 13px;
+    line-height: normal;
+    color: rgba(0,0,0,0.73);
 }
