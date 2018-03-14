@@ -255,7 +255,7 @@
             </div>
         </div>
 
-        <div id="mobileMenu" class="landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp hidden-block" style=""><span id="closeMobileMenu">Close</span>
+        <div id="mobileMenu" class="landingMobileMenuFull menu-outer-padding hidden-block animated fadeIn animationSpeedUp hidden-block" style=""><span id="closeMobileMenu">Close</span>
             <div>
                 <div class="ui header">Anwendungsfälle</div>
                 <div class="ui vertical list relaxed">
@@ -690,13 +690,13 @@
     $("#landingHamburger").click(
         function () {
             $("#mobileMenu").removeClass("hidden-block")
-            $("#mobileMenu").addClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
+            $("#mobileMenu").addClass("landingMobileMenuFull animated fadeIn animationSpeedUp menu-outer-padding")
         }
     )
 
     $("#closeMobileMenu").click(
         function () {
-            $("#mobileMenu").removeClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
+            $("#mobileMenu").removeClass("landingMobileMenuFull animated fadeIn animationSpeedUp menu-outer-padding")
             $("#mobileMenu").addClass("hidden-block")
 
         }

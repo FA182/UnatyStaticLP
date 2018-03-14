@@ -822,6 +822,9 @@ img.unatySmartCityFrameworkImg {
     position: relative;
     margin-right: 12px !important;
 }
+.richItemMenu a {
+    color: rgba(0,0,0,.6) !important;
+}
 .marginRight16 {
     margin-right: 16px !important;
 }
@@ -4427,8 +4430,8 @@ span.mainNumber {
     font-family: lato;
     margin-bottom: 18px;
     margin-top: 24px;
-    line-height: 28px !important;
-    font-size: 18px;
+    line-height: 1.5 !important;
+    font-size: 20px;
     max-width: 550px;
     color: rgba(0,0,0,0.53);
 }
@@ -4513,9 +4516,9 @@ span.mainNumber {
 }
 
 .final-powered-by {
-    font-size: 16px;
+    font-size: 12px !important;
     color: rgba(0,0,0,0.53);
-    display: inline-block;
+    display: block;
     padding-right: 4px;
     margin-top: 4px;
     margin-bottom: 16px;
@@ -4537,7 +4540,7 @@ span.mainNumber {
 
 .final-header-text-large {
     text-align: center;
-    margin-bottom: 32px !important;
+    margin-bottom: 8px !important;
     font-size: 40px !important;
     color: rgba(0,0,0,0.73) !important;
     font-family: 'unaty-cheltenham' !important;
@@ -5137,6 +5140,9 @@ span.mainNumber {
         margin-top: 40px;
     }
 }
+.final-sign-up-button input {
+    background-color: #fafafa !important;
+}
 @media all and (max-width: 500px) {
     .flp-title-text {
         font-size: 32px;
@@ -5199,4 +5205,10 @@ span.mainNumber {
     bottom: 0;
     left:  0;
     right: 0;
+}
+.products-box {
+    border: 1px solid #efefef;
+    margin-top: 121px;
+    padding: 8px 12px;
+    text-align: left;
 }
