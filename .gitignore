@@ -1,4 +1,4 @@
-.idea
+
 .idea/*
 .idea/modules.xml
 .idea/modules.xml
@@ -7,5 +7,6 @@
 .idea/workspace.xml
 .idea/workspace.xml
 .idea/workspace.xml
-*.xml
 .idea/workspace.xml
+*.xml
+.DS_Store

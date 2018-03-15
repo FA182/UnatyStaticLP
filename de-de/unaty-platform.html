@@ -257,7 +257,7 @@
             </div>
         </div>
 
-        <div id="mobileMenu" class="landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp" style="">
+        <div id="mobileMenu" class="hidden-block" style="">
             <span id="closeMobileMenu">Close</span>
             <div>
                 <div class="ui small header">Produkte</div>
@@ -282,29 +282,27 @@
             <div class="ui divider"></div>
             <div>
                 <div class="ui small header">Unternehmen</div>
-                <div class="ui vertical small list relaxed">
-                    <a href="https://www.unaty.de/de-de/company/about.html" class="item"><span>Über uns</span></a>
-                    <a href="https://www.unaty.de/de-de/company/contact-us.html" class="item"><span>Kontakt</span></a>
+                <div class="ui horizontal large list relaxed"><a href="https://www.unaty.de/de-de/company/about.html"
+                                                                 class="item"><span>Über uns</span></a> <a
+                        href="https://www.unaty.de/de-de/company/contact-us.html" class="item"><span>Kontakt</span></a>
                     <a href="https://www.unaty.de/de-de/company/press.html" class="item"><span>Pressemappe</span></a>
-                    <a href="https://www.unaty.de/de-de/company/careers.html" class="item"><span>Karriere</span></a>
-                    <a href="https://www.unaty.de/de-de/company/security.html" class="item"><span>Sicherheit</span></a>
+                </div>
+                <div class="ui horizontal large list relaxed"><a href="https://www.unaty.de/de-de/company/careers.html"
+                                                                 class="item"><span>Karriere</span></a> <a
+                        href="https://www.unaty.de/de-de/company/security.html" class="item"><span>Sicherheit</span></a>
                     <a href="https://www.unaty.de/de-de/company/imprint.html" class="item"><span>Impressum</span></a>
                 </div>
             </div>
             <div class="ui divider"></div>
-            <div>
-                <div class="ui divider section hidden"></div>
-                <div class="ui vertical huge list relaxed">
-                    <a target="_blank" href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu"
-                       class="item"><span>Sign Up</span></a>
-                    <a target="_blank" href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu"
-                       class="item"><span>Log In</span></a>
-                </div>
+            <div class="vertical list centerAlignUnder767 ui huge mobile-menu-button-list"><a target="_blank"
+                                                                                              class="mobile-menu-button-signUp item"
+                                                                                              href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu">
+                <span>Sign Up</span></a> <a target="_blank" class="mobile-menu-button-login item"
+                                            href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu"><span>Login</span></a>
             </div>
         </div>
     </div>
 </div>
-
 
 
 <div class="final-platform-page-header">
@@ -314,12 +312,14 @@
         <div class="ui container">
 
             <div class="platform-title-text">
-               Die Unaty Plattform
+                Die Unaty Plattform
             </div>
 
             <div class="platform-video-box">
-                <div class="ui embed" id="unatyVideo"><img class="placeholder" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105">
-                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/XkX_vO8Iz5g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                <div class="ui embed" id="unatyVideo"><img class="placeholder"
+                                                           src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105">
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/XkX_vO8Iz5g" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen>
                     </iframe>
                 </div>
             </div>
@@ -347,7 +347,9 @@
 
                             <div><i class="ui icon orange address book"></i></div>
                             <div>Mitglieder Management</div>
-                            <div>Organisiere Deine Mitgliederdaten und den Kalender zentral, Administratoren und Mitlgiedern können zusammend daran arbeiten.</div>
+                            <div>Organisiere Deine Mitgliederdaten und den Kalender zentral, Administratoren und
+                                Mitlgiedern können zusammend daran arbeiten.
+                            </div>
 
                         </div>
 
@@ -359,7 +361,9 @@
 
                             <div><i class="ui icon orange share alternate"></i></div>
                             <div>Privates Soziales Netzwerk</div>
-                            <div>Mitglieder können ihre Community erkunden, ihr Profil bearbeiten, Nachrichten senden und im Community-Feed posten, liken und kommentieren.</div>
+                            <div>Mitglieder können ihre Community erkunden, ihr Profil bearbeiten, Nachrichten senden
+                                und im Community-Feed posten, liken und kommentieren.
+                            </div>
 
                         </div>
 
@@ -383,7 +387,8 @@
 
             <div class="final-platform-full">
 
-                <img src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105" alt="Mitgliederseite einer Organisation auf Unaty"/>
+                <img src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105"
+                     alt="Mitgliederseite einer Organisation auf Unaty"/>
 
                 <div>
                     Mitgliederseite einer Gemeinschaft auf Unaty
@@ -403,7 +408,7 @@
         <div class="ui container">
 
             <div class="ui header large final-header-text-large">
-               Entdecke neue Möglichkeiten mit Unaty
+                Entdecke neue Möglichkeiten mit Unaty
             </div>
 
             <div class="ui stackable grid">
@@ -774,13 +779,13 @@
     $("#landingHamburger").click(
         function () {
             $("#mobileMenu").removeClass("hidden-block")
-            $("#mobileMenu").addClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
+            $("#mobileMenu").addClass("landingMobileMenuFull animated fadeIn animationSpeedUp menu-outer-padding")
         }
     )
 
     $("#closeMobileMenu").click(
         function () {
-            $("#mobileMenu").removeClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
+            $("#mobileMenu").removeClass("landingMobileMenuFull animated fadeIn animationSpeedUp menu-outer-padding")
             $("#mobileMenu").addClass("hidden-block")
 
         }

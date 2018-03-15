@@ -257,7 +257,7 @@
             </div>
         </div>
 
-        <div id="mobileMenu" class="landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp" style="">
+        <div id="mobileMenu" class="hidden-block" style="">
             <span id="closeMobileMenu">Close</span>
             <div>
                 <div class="ui small header">Produkte</div>
@@ -280,27 +280,9 @@
                 </div>
             </div>
             <div class="ui divider"></div>
-            <div>
-                <div class="ui small header">Unternehmen</div>
-                <div class="ui vertical small list relaxed">
-                    <a href="https://www.unaty.de/de-de/company/about.html" class="item"><span>Über uns</span></a>
-                    <a href="https://www.unaty.de/de-de/company/contact-us.html" class="item"><span>Kontakt</span></a>
-                    <a href="https://www.unaty.de/de-de/company/press.html" class="item"><span>Pressemappe</span></a>
-                    <a href="https://www.unaty.de/de-de/company/careers.html" class="item"><span>Karriere</span></a>
-                    <a href="https://www.unaty.de/de-de/company/security.html" class="item"><span>Sicherheit</span></a>
-                    <a href="https://www.unaty.de/de-de/company/imprint.html" class="item"><span>Impressum</span></a>
-                </div>
-            </div>
+            <div>                <div class="ui small header">Unternehmen</div>                <div class="ui horizontal large list relaxed">                    <a href="https://www.unaty.de/de-de/company/about.html" class="item"><span>Über uns</span></a>                    <a href="https://www.unaty.de/de-de/company/contact-us.html" class="item"><span>Kontakt</span></a>                    <a href="https://www.unaty.de/de-de/company/press.html" class="item"><span>Pressemappe</span></a>                </div>                <div class="ui horizontal large list relaxed">                    <a href="https://www.unaty.de/de-de/company/careers.html" class="item"><span>Karriere</span></a>                    <a href="https://www.unaty.de/de-de/company/security.html" class="item"><span>Sicherheit</span></a>                    <a href="https://www.unaty.de/de-de/company/imprint.html" class="item"><span>Impressum</span></a>                </div>            </div>
             <div class="ui divider"></div>
-            <div>
-                <div class="ui divider section hidden"></div>
-                <div class="ui vertical huge list relaxed">
-                    <a target="_blank" href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu"
-                       class="item"><span>Sign Up</span></a>
-                    <a target="_blank" href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu"
-                       class="item"><span>Log In</span></a>
-                </div>
-            </div>
+            <div class="vertical list centerAlignUnder767 ui huge mobile-menu-button-list">                <a target="_blank" class="mobile-menu-button-signUp item" href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu"> <span>Sign Up</span></a>                <a target="_blank" class="mobile-menu-button-login item" href="https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu" ><span>Login</span></a>            </div>
         </div>
     </div>
 </div>
@@ -409,7 +391,7 @@
                     </div>
                     <div class="column">
                         <div class="flex-display justifyContentRight createAcctBtns"><a
-                                href="mailto:talent@unaty.de" class="ui blue large button" role="button"><span>Bewerben</span></a>
+                                href="mailto:talent@unaty.de" class="ui orange fullWidthMobile button" role="button"><span>Jetzt bewerben</span></a>
                         </div>
                     </div>
                 </div>
@@ -703,13 +685,13 @@
     $("#landingHamburger").click(
         function () {
             $("#mobileMenu").removeClass("hidden-block")
-            $("#mobileMenu").addClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
+            $("#mobileMenu").addClass("landingMobileMenuFull animated fadeIn animationSpeedUp menu-outer-padding")
         }
     )
 
     $("#closeMobileMenu").click(
         function () {
-            $("#mobileMenu").removeClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
+            $("#mobileMenu").removeClass("landingMobileMenuFull animated fadeIn animationSpeedUp menu-outer-padding")
             $("#mobileMenu").addClass("hidden-block")
 
         }
