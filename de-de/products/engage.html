@@ -274,14 +274,15 @@
                     Erreiche deine Mitglieder <br/>einfach auf mehreren Kanälen mit relevanten Inhalten
                 </div>
                 <div role="list" class="ui ordered list large relaxed final-list-use-case">
-                    <a role="listitem" href="#list" class="item">Themen</a>
-                    <a role="listitem" href="#news" class="item">Erreichabrkeit</a>
-                    <a role="listitem" href="#channels" class="item">Zielgruppen</a>
-                    <a role="listitem" href="#messagesandupdates" class="item">Engage Messenger</a>
+                    <a role="listitem" href="#list" class="item">Messenger</a>
+                    <a role="listitem" href="#audience" class="item">Zielgruppen</a>
+                    <a role="listitem" href="#segments" class="item">Segmente</a>
+                    <a role="listitem" href="#events" class="item">Veranstaltungen</a>
+                    <a role="listitem" href="#locations" class="item">Orte</a>
                 </div>
                 <div class="final-product-button">
                     <a href="#features" class="ui button inverted red large">
-                        Funktionen anschauen
+                        View Features
                     </a>
                 </div>
             </div>
@@ -296,20 +297,25 @@
 
 </div>
 <div class="final-general-section2" id="features">
-<div class="ui fluid container">
+    <div class="ui fluid container">
 
-    <div class="ui container">
+        <div class="ui container">
+            <div class="ui divider hidden"></div>
+            <div role="list" class="ui huge link list horizontal relaxed" id="list">
 
-        <div role="list" class="ui huge link list horizontal relaxed" id="list">
+                <a role="listitem" class="item" href="#list"><span>Messenger</span></a>
 
-            <a role="listitem" class="item" href="#list"><span>Themen</span></a>
-            <a role="listitem" class="item" href="#news"><span>Erreichbarkeit</span></a>
-            <a role="listitem" class="item" href="#channels"><span>Zielgruppen</span></a>
-            <a role="listitem" class="item" href="#messagesandupdates"><span>Engage Messenger</span></a>
+                <a role="listitem" class="item" href="#audience"><span>Zielgruppen</span></a>
+
+                <a role="listitem" class="item" href="#segments"><span>Segmente</span></a>
+
+                <a role="listitem" class="item" href="#events"><span>Veranstaltungen</span></a>
+
+                <a role="listitem" class="item" href="#locations"><span>Orte</span></a>
+            </div>
         </div>
-    </div>
 
-</div>
+    </div>
 </div>
 <div class="final-general-section">
 
@@ -317,7 +323,7 @@
 
         <div class="ui container">
 
-            <div class="ui header large" id="features">Themen</div>
+            <div class="ui header large" id="features">Messenger</div>
 
             <div class="ui stackable grid">
 
@@ -327,9 +333,20 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red add"></i></div>
-                            <div>Erstellen</div>
-                            <div>Füge verschiedene Themen für deine Neuigkeiten und Updates hinzu</div>
+                            <div><i class="ui icon red edit"></i></div>
+                            <div>Rich-Text-Editor</div>
+                            <div>Schreibe deine Nachricht in individuellen Fonts und Schriftgrößen</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red attach"></i></div>
+                            <div>Anhänge</div>
+                            <div>Bilder und Dokumnete werden automatisch an das Sms Format angepasst</div>
 
                         </div>
 
@@ -339,21 +356,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red thumbs up"></i></div>
-                            <div>Abonnieren</div>
-                            <div>Abonniere deine Interessen und gewünschten Themen</div>
-
-                        </div>
-
-
-                    </div>
-                    <div class="column">
-
-                        <div class="final-real-feature2">
-
-                            <div><i class="ui icon red newspaper" id="news"></i></div>
-                            <div>Neugkeiten</div>
-                            <div>Dich erreichen immer die neuesten Informationen zu deinen Abonnements</div>
+                            <div><i class="ui icon red mail"></i></div>
+                            <div>Email</div>
+                            <div>Sende deine Nachrichten per Emails</div>
 
                         </div>
 
@@ -361,45 +366,43 @@
                     </div>
 
                 </div>
-
-
-            </div>
-            <div class="final-general-section3">
-                <div class="ui section divider"></div>
-            </div>
-            <div class="ui header large" id="features">Erreichbarkeit</div>
-
-            <div class="ui stackable grid">
-
                 <div class="three column row">
 
                     <div class="column">
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red comment"></i></div>
-                            <div>Wie willst du erreicht werden?</div>
-                            <div>Entscheide ob du per Email, SMS, Facebook oder WhatsApp erreicht werden willst</div>
-
+                            <div><i class="ui icon red chat"></i></div>
+                            <div>SMS</div>
+                            <div>Sende deine Nachrichten per SMS
+                            </div>
                         </div>
-
-
                     </div>
                     <div class="column">
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red fork" id="channels"></i></div>
-                            <div>Kanäle</div>
-                            <div>Entscheide wann du für was kontaktiert wirst.</div>
+                            <div><i class="ui icon red tag"></i></div>
+                            <div>Themen</div>
+                            <div>Ordne deine Nachrichten Themen und somit auch Zielgruppen zu</div>
 
                         </div>
+                    </div>
+                    <div class="column">
 
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red settings"></i></div>
+                            <div>Regeln</div>
+                            <div>Sende automatisierte Nachrichten</div>
+
+                        </div>
                     </div>
 
                 </div>
+
             </div>
-            <div class="final-general-section3">
+            <div class="final-general-section3" id="audience">
                 <div class="ui section divider"></div>
             </div>
             <div class="ui header large" id="features">Zielgruppen</div>
@@ -412,12 +415,22 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red group"></i></div>
-                            <div>Erstelle eine Zeilgruppe</div>
-                            <div>Erstelle eine Zielgruppe basierend auf den Wünschen der Mitglieder und Administratoren</div>
+                            <div><i class="ui icon red comment"></i></div>
+                            <div>Zielgruppe erstellen</div>
+                            <div>Erstellen Sie komplexe Zielgruppen mit einem einfachen Toolkit</div>
 
                         </div>
 
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red options"></i></div>
+                            <div>Erreichbarkeit</div>
+                            <div>Errechne wer seine Nachrichten über welchen Kanal erhält</div>
+
+                        </div>
 
                     </div>
                     <div class="column">
@@ -425,28 +438,20 @@
                         <div class="final-real-feature2">
 
                             <div><i class="ui icon red save"></i></div>
-                            <div>Speicherung</div>
-                            <div>Speichere deine Zielgruppen für regelmäßige Updates</div>
+                            <div>Speichern</div>
+                            <div>Speichere deine Zielgruppen für die regelmäßige Nutzung</div>
 
                         </div>
 
-
                     </div>
-                    <div class="column">
 
-                        <div class="final-real-feature2">
-
-                            <div><i class="ui icon red newspaper" id="messagesandupdates"></i></div>
-                            <div>Nachrichten und Updates</div>
-                            <div>Schreibe deine Nachrichten mit Anhängen und sende sie an verschiedene Zielgruppen</div>
-                        </div>
-                    </div>
                 </div>
+
             </div>
-            <div class="final-general-section3">
+            <div class="final-general-section3" id="segments">
                 <div class="ui section divider"></div>
             </div>
-            <div class="ui header large" id="features">Engage Messenger</div>
+            <div class="ui header large" id="features">Segmente</div>
 
             <div class="ui stackable grid">
 
@@ -456,21 +461,111 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red tags"></i></div>
-                            <div>Kanäle</div>
-                            <div>Wähle, ob Du eine Ankündigung, Nachricht oder eine Umfrage schickst (viele mehr)</div>
+                            <div><i class="ui icon red filter"></i></div>
+                            <div>Filter</div>
+                            <div>Erstelle Segmente basierend auf Text-, Datum- und Profilfeldfiltern</div>
 
                         </div>
-
 
                     </div>
                     <div class="column">
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red newspaper"></i></div>
-                            <div>Topics</div>
-                            <div>Suche die adressierten Topics raus um die Abonnenten zu erreichen</div>
+                            <div><i class="ui icon red users" ></i></div>
+                            <div>Segment Groups</div>
+                            <div>Erstelle Gruppen aus den Segmente</div>
+                        </div>
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red refresh"></i></div>
+                            <div>Autoupdating</div>
+                            <div>Segmente und ihre Gruppen aktualisieren sich bei jeder Änderung von selbst</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="final-general-section3" id="events">
+                <div class="ui section divider"></div>
+            </div>
+            <div class="ui header large" id="features">Veranstaltungen</div>
+
+            <div class="ui stackable grid">
+
+                <div class="three column row">
+
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red calendar"></i></div>
+                            <div>Abonnieren</div>
+                            <div>Abonniere Veranstaltungen oder den ganzen Kalender</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red calendar check"></i></div>
+                            <div>Zusagen</div>
+                            <div>Sage einer Veranstaltung zu, um auf der Gästeliste zu sein</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red calendar outline"></i></div>
+                            <div>Interesse an einer Veranstaltunf</div>
+                            <div>Nicht sicher ob du erscheinen kannst? Sei interessiert an der Veranstaltung</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="three column row">
+
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red mail forward"></i></div>
+                            <div>Einladungen</div>
+                            <div>Lade Mitlgieder ein und sende Einladungen per Email/SMS</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red user"></i></div>
+                            <div>Veranstalter</div>
+                            <div>Lege fest, wer die Veranstaltung organisiert</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red list"></i></div>
+                            <div>Gästeliste</div>
+                            <div>Lade die Gästeliste einfach runter, um einen Überblick zu behalten</div>
 
                         </div>
 
@@ -479,6 +574,53 @@
                 </div>
 
             </div>
+            <div class="final-general-section3" id="locations">
+                <div class="ui section divider"></div>
+            </div>
+            <div class="ui header large" id="features">Orte</div>
+
+            <div class="ui stackable grid">
+
+                <div class="three column row">
+
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red marker"></i></div>
+                            <div>Standard Orte</div>
+                            <div>Lege einen Standort fest und nutze ihn für Veranstaltungen</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red calendar"></i></div>
+                            <div>Veranstaltungen</div>
+                            <div>Binde Veranstaltungen an verschiedene Orte</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red location arrow"></i></div>
+                            <div>Googel Maps</div>
+                            <div>Navigiere schnell zu einem Ort mit der Google Maps Integration</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     </div>
 
