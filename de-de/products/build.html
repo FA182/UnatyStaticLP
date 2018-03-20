@@ -301,11 +301,10 @@
 
                 </div>
                 <div role="list" class="ui ordered list large relaxed final-list-use-case">
-                    <a role="listitem" href="#list" class="item">Mitglieder</a>
-                    <a role="listitem" href="#segments" class="item">Rollen</a>
-                    <a role="listitem" href="#qanda" class="item">Dokumente</a>
-                    <a role="listitem" href="#permissions" class="item">Veranstaltungen</a>
-                    <a role="listitem" href="#assign" class="item">Gruppen</a>
+                    <a role="listitem" href="#list" class="item">Rollen</a>
+                    <a role="listitem" href="#teams" class="item">Teams</a>
+                    <a role="listitem" href="#topics" class="item">Themen</a>
+                    <a role="listitem" href="#documents" class="item">Documente</a>
                 </div>
                 <div class="final-product-button">
                     <a href="#features" class="ui button inverted orange large">
@@ -334,15 +333,14 @@
 
             <div role="list" class="ui huge link list horizontal relaxed" id="list">
 
-                <a role="listitem" class="item list-item-clean" href="#list"><span>Mitglied</span></a>
+                <a role="listitem" class="item list-item-clean" href="#list"><span>Rollem</span></a>
 
-                <a role="listitem" class="item list-item-clean" href="#segments"><span>Rollen</span></a>
+                <a role="listitem" class="item list-item-clean" href="#teams"><span>Teams</span></a>
 
-                <a role="listitem" class="item list-item-clean" href="#qanda"><span>Dokumente</span></a>
+                <a role="listitem" class="item list-item-clean" href="#topics"><span>Themen</span></a>
 
-                <a role="listitem" class="item list-item-clean" href="#permissions"><span>Veranstaltungen</span></a>
+                <a role="listitem" class="item list-item-clean" href="#documents"><span>Dokumente</span></a>
 
-                <a role="listitem" class="item list-item-clean" href="#assign"><span>Gruppen</span></a>
             </div>
         </div>
 
@@ -354,67 +352,6 @@
 
             <div class="ui container">
 
-                <div class="ui header large" id="members">Mitglieder</div>
-
-                <div class="ui stackable grid">
-
-                    <div class="three column row">
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon orange archive icon"></i></div>
-                                <div>Importiere deine Mitglieder</div>
-                                <div>Füge einfach eine Excel-Liste ein und konvertiere sie auf die Plattform</div>
-
-                            </div>
-                        </div>
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon orange download"></i></div>
-                                <div>Exportiere deine Mitglieder</div>
-                                <div>Lade dein Mitgliederliste als Excel- oder CSV-Datei herunter</div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon orange tags"></i></div>
-                                <div>Mitgliedertypen</div>
-                                <div>Sortieren deine Mitglieder nach ihrem Typ</div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="three column row">
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon orange sort alphabet ascending" id="segments"></i></div>
-                                <div>Segmente</div>
-                                <div>Sortiere Deine Mitglieder in Segmente mit unterschiedlichen Regeln</div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="final-general-section3">
-                    <div class="ui section divider"></div>
-                </div>
                 <div class="ui header large" id="roles">Rollen</div>
 
                 <div class="ui stackable grid">
@@ -425,9 +362,9 @@
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon orange group"></i></div>
-                                <div>Teams</div>
-                                <div>Erstelle Teams, um mit anderen Rollen zu interagieren</div>
+                                <div><i class="ui icon orange remove user"></i></div>
+                                <div>Ehemalige Besetzung</div>
+                                <div>Wer hat diese Rolle vorher bestzt? Hat er vielleicht wichtige Informationen für euch?</div>
 
                             </div>
                         </div>
@@ -436,9 +373,9 @@
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon orange user times"></i></div>
-                                <div>frühere Inhaber</div>
-                                <div>Zeige die letzten Mitglieder an, die diese Rolle besetzten</div>
+                                <div><i class="ui icon orange question"></i></div>
+                                <div>Fragen und Antwort</div>
+                                <div>Schaue häufig gestellte Fragen an und stelle selber welche</div>
 
                             </div>
 
@@ -448,9 +385,9 @@
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon orange question" id="qanda"></i></div>
-                                <div>Fragen und Antworten</div>
-                                <div>Jede Rolle hat eine Q&A Funktion, um Frage zu stellen</div>
+                                <div><i class="ui icon orange sitemap" ></i></div>
+                                <div>Administrator Rollen</div>
+                                <div>Rollen als Administrator festlegen, Mitglieder sind so nicht festgelegt</div>
 
                             </div>
 
@@ -459,7 +396,112 @@
                     </div>
 
                 </div>
-                <div class="final-general-section3">
+                <div class="final-general-section3" id="teams">
+                    <div class="ui section divider" ></div>
+                </div>
+                <div class="ui header large" >Teams</div>
+
+                <div class="ui stackable grid">
+
+                    <div class="three column row">
+
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon orange group"></i></div>
+                                <div>Rollen und Teams</div>
+                                <div>Stelle Teams mit verschiedenen Rollen zusammen um die optimale Zusammenarbeit zu garantieren</div>
+
+                            </div>
+                        </div>
+
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon orange tags"></i></div>
+                                <div>Teams und Positionen</div>
+                                <div>Wer ist im Team und was sind seine Aufgaben? Stelle die Struktur deiner Communaty dar</div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="final-general-section3" id="topics">
+                    <div class="ui section divider"></div>
+                </div>
+                <div class="ui header large" id="topics">Themen</div>
+
+                <div class="ui stackable grid">
+
+                    <div class="three column row">
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon orange tasks"></i></div>
+                                <div>Themen empfehlen</div>
+                                <div>Empfehle Themen die deinen Interessen entsprechen</div>
+
+                            </div>
+
+                        </div>
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon orange newspaper"></i></div>
+                                <div>Abonnements</div>
+                                <div>Abonniere deine Interessen und erhalte immer die neusten Informationen über das Thema</div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon orange hashtag"></i></div>
+                                <div>Themen für alle Kanäle</div>
+                                <div>Kategorisiere Gruppe, Veranstaltungen, Posts und Dokumente in verschieden Themens</div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="three column row">
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon orange browser"></i></div>
+                                <div>Themen Feed</div>
+                                <div>Poste Updates und Diskussionen in die verschiedenen Themen</div>
+
+                            </div>
+
+                        </div>
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon orange smile" id="memtop"></i></div>
+                                <div>Mitglieder Themen</div>
+                                <div>Welche Themen haben eure Mitglieder abonniert? Passe dich den Wünschen deiner Mitglieder an</div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="final-general-section3" id="documents">
                     <div class="ui section divider"></div>
                 </div>
                 <div class="ui header large" id="documents">Dokumente</div>
@@ -467,60 +509,14 @@
                 <div class="ui stackable grid">
 
                     <div class="three column row">
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon orange cloud"></i></div>
-                                <div>Cloud Speicher</div>
-                                <div>Dokumente werden auf einem Online-Server gespeichert, um maximale Erreichbarkeit zu erzielen</div>
-
-                            </div>
-
-                        </div>
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon orange folder"></i></div>
-                                <div>Ordner</div>
-                                <div>Speichert eure Dateien und Fotos gut sortiert in Ordnern</div>
-
-                            </div>
-                        </div>
-
 
                         <div class="column">
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon orange lock" ID="permissions"></i></div>
-                                <div>Berechtigungen</div>
-                                <div>Entscheide, wer an Deinen Dateien arbeiten darf und wer sie sehen kann</div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="final-general-section3">
-                    <div class="ui section divider"></div>
-                </div>
-                <div class="ui header large" id="events">Veranstaltungen</div>
-
-                <div class="ui stackable grid">
-
-                    <div class="three column row">
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon orange calendar plus"></i></div>
-                                <div>Erstellen</div>
-                                <div>Erstellem Veranstaltungen mit Orten, Kategorien und einer Gästeliste</div>
+                                <div><i class="ui icon orange upload"></i></div>
+                                <div>Hochladen</div>
+                                <div>Lade Bilder, PDF und andere Dateien auf die Cloud deiner Communaty hoch</div>
 
                             </div>
                         </div>
@@ -529,9 +525,9 @@
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon orange calendar"></i></div>
-                                <div>Abonnieren</div>
-                                <div>Abonniere den gesamten Kalendar oder speichere einzelne Veranstaltungen in deinen Kalendar</div>
+                                <div><i class="ui icon orange download"></i></div>
+                                <div>Herunterladen</div>
+                                <div>Greife online immer auf deine Dokumente zu und lade sie runter</div>
 
                             </div>
 
@@ -541,57 +537,35 @@
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon orange checkmark" id="assign"></i></div>
-                                <div>Zusagen und Absagen</div>
-                                <div>Sagen einfach mit einem Klick zu oder ab</div>
+                                <div><i class="ui icon orange find" id="assign"></i></div>
+                                <div>Dokumente schauen</div>
+                                <div>Öffne Dokumente in der App ohne sie herunterzuladen</div>
 
                             </div>
 
                         </div>
 
                     </div>
-
-                </div>
-                <div class="final-general-section3">
-                    <div class="ui section divider"></div>
-                </div>
-                <div class="ui header large" id="groups">Gruppen</div>
-
-                <div class="ui stackable grid">
-
                     <div class="three column row">
-
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon orange calendar group"></i></div>
-                                <div>Zusammen</div>
-                                <div>Arbeitet als Gruppe an Aufgaben und Themen, vereint eure Motivation</div>
-
-                            </div>
-                        </div>
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon orange newspaper"></i></div>
-                                <div>Feed</div>
-                                <div>Veröffentliche Nachrichten, Dateien und Fotos in einer Gruppe</div>
-
-                            </div>
-
-                        </div>
 
                         <div class="column">
 
                             <div class="final-real-feature2">
 
                                 <div><i class="ui icon orange lock"></i></div>
-                                <div>Privatsphäre</div>
-                                <div>Stelle ein, wer die Gruppe sehen kann und wer ihr beitreten darf</div>
+                                <div>Berechtigungen</div>
+                                <div>Entscheide wer Zugriff auf deine Dokumente hat</div>
+
+                            </div>
+                        </div>
+
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon orange folder" id="assign"></i></div>
+                                <div>Ordner</div>
+                                <div>Gut sortiert und strukturiert sind deine Dokumente in Ordnern gespiechert</div>
 
                             </div>
 
@@ -612,7 +586,7 @@
 
         <div class="ui container">
 
-            <div class="ui header large final-header-text">von Build unterstütze Anwendungsfälle            </div>
+            <div class="ui header large final-header-text">von Build unterstütze Anwendungsfälle</div>
 
             <div class="ui stackable grid">
                 <div class="three column row">
