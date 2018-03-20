@@ -310,10 +310,11 @@
                     Reach Members easily <br/>on more Channels with more relevant content
                 </div>
                 <div role="list" class="ui ordered list large relaxed final-list-use-case">
-                    <a role="listitem" href="#list" class="item">Topics</a>
-                    <a role="listitem" href="#news" class="item">Reachability</a>
-                    <a role="listitem" href="#channels" class="item">Audience</a>
-                    <a role="listitem" href="#messagesandupdates" class="item">Engage Messenger</a>
+                    <a role="listitem" href="#list" class="item">Messenger</a>
+                    <a role="listitem" href="#audience" class="item">Audience</a>
+                    <a role="listitem" href="#segments" class="item">Segments</a>
+                    <a role="listitem" href="#events" class="item">Events</a>
+                    <a role="listitem" href="#locations" class="item">Locations</a>
                 </div>
                 <div class="final-product-button">
                     <a href="#features" class="ui button inverted red large">
@@ -338,12 +339,15 @@
         <div class="ui divider hidden"></div>
         <div role="list" class="ui huge link list horizontal relaxed" id="list">
 
-            <a role="listitem" class="item" href="#list"><span>Topics</span></a>
+            <a role="listitem" class="item" href="#list"><span>Messenger</span></a>
 
-            <a role="listitem" class="item" href="#news"><span>Reachability</span></a>
+            <a role="listitem" class="item" href="#audience"><span>Audience</span></a>
 
-            <a role="listitem" class="item" href="#channels"><span>Audience</span></a>
-            <a role="listitem" class="item" href="#messagesandupdates"><span>Engage Messenger</span></a>
+            <a role="listitem" class="item" href="#segments"><span>Segments</span></a>
+
+            <a role="listitem" class="item" href="#events"><span>Events</span></a>
+
+            <a role="listitem" class="item" href="#locations"><span>Locations</span></a>
         </div>
     </div>
 
@@ -355,7 +359,7 @@
 
         <div class="ui container">
 
-            <div class="ui header large" id="features">Topics</div>
+            <div class="ui header large" id="features">Messenger</div>
 
             <div class="ui stackable grid">
 
@@ -365,9 +369,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red add"></i></div>
-                            <div>Create</div>
-                            <div>Add different Topics for your News and Updates</div>
+                            <div><i class="ui icon red edit"></i></div>
+                            <div>Rich text Editor</div>
+                            <div>Write your Message with your style of fonts and sizes</div>
 
                         </div>
 
@@ -377,9 +381,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red thumbs up"></i></div>
-                            <div>Subscribe</div>
-                            <div>Subscribe to your desired topics and Interests</div>
+                            <div><i class="ui icon red attach"></i></div>
+                            <div>Attachments</div>
+                            <div>Images and Documents will be converted for SMS visibility.</div>
 
                         </div>
 
@@ -389,9 +393,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red newspaper" id="news"></i></div>
-                            <div>News</div>
-                            <div>Always get the newest Informations and News on your Topics</div>
+                            <div><i class="ui icon red mail"></i></div>
+                            <div>Email</div>
+                            <div>Send your Messages via Emails</div>
 
                         </div>
 
@@ -399,13 +403,49 @@
                     </div>
 
                 </div>
+                <div class="three column row">
 
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red chat"></i></div>
+                            <div>SMS</div>
+                            <div>Send your Messages via SMS</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red tag"></i></div>
+                            <div>Topics</div>
+                            <div>Choose Topics to reach the right Audiences</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red settings"></i></div>
+                            <div>Rules</div>
+                            <div>Send automated messages based on your rules</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
-            <div class="final-general-section3">
+            <div class="final-general-section3" id="audience">
                 <div class="ui section divider"></div>
             </div>
-            <div class="ui header large" id="features">Reachability</div>
+            <div class="ui header large" id="features">Audience</div>
 
             <div class="ui stackable grid">
 
@@ -416,8 +456,8 @@
                         <div class="final-real-feature2">
 
                             <div><i class="ui icon red comment"></i></div>
-                            <div>How do you want to be reached?</div>
-                            <div>Choose wether you want to be reached via SMS or Mail</div>
+                            <div>Build Audience</div>
+                            <div>Build complex Audiences with a simple toolkit</div>
 
                         </div>
 
@@ -427,35 +467,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red fork" id="channels"></i></div>
-                            <div>Channels</div>
-                            <div>Choose the Message categories for your channels</div>
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-
-            </div>
-            <div class="final-general-section3">
-                <div class="ui section divider"></div>
-            </div>
-            <div class="ui header large" id="features">Audience as an Admin</div>
-
-            <div class="ui stackable grid">
-
-                <div class="three column row">
-
-                    <div class="column">
-
-                        <div class="final-real-feature2">
-
-                            <div><i class="ui icon red group"></i></div>
-                            <div>Build your Audience</div>
-                            <div>Create an Audience based on the Members and Administrators wishes</div>
+                            <div><i class="ui icon red options"></i></div>
+                            <div>Reachability</div>
+                            <div>See how your members are getting their Messages</div>
 
                         </div>
 
@@ -466,28 +480,22 @@
                         <div class="final-real-feature2">
 
                             <div><i class="ui icon red save"></i></div>
-                            <div>Save it</div>
-                            <div>Save the Audience for regularly Updates</div>
+                            <div>Save</div>
+                            <div>Save Audiences for regular use</div>
 
                         </div>
 
 
                     </div>
-                    <div class="column">
 
-                        <div class="final-real-feature2">
-
-                            <div><i class="ui icon red newspaper" id="messagesandupdates"></i></div>
-                            <div>Messages and Updates</div>
-                            <div>Write your Messages with Attachments and send them to different Audiences</div>
-                        </div>
-                    </div>
                 </div>
+
+
             </div>
-            <div class="final-general-section3">
+            <div class="final-general-section3" id="segments">
                 <div class="ui section divider"></div>
             </div>
-            <div class="ui header large" id="features">Engage Messenger</div>
+            <div class="ui header large" id="features">Segments</div>
 
             <div class="ui stackable grid">
 
@@ -497,9 +505,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red tags"></i></div>
-                            <div>Kind of Content</div>
-                            <div>Choose whether you send an Alert, Announcement, News or a Surve (many more)</div>
+                            <div><i class="ui icon red filter"></i></div>
+                            <div>Filter</div>
+                            <div>Create Segments based on Text/Date/Profile Field Filters</div>
 
                         </div>
 
@@ -509,9 +517,102 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon red newspaper"></i></div>
-                            <div>Adress the Topics</div>
-                            <div>Search out the addressed topics to reach the subscribers</div>
+                            <div><i class="ui icon red refresh"></i></div>
+                            <div>Autoupdating</div>
+                            <div>Segments update themselves based on every change</div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red users" ></i></div>
+                            <div>Segment Groups</div>
+                            <div>Create Groups based on Segments</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="final-general-section3" id="events">
+                <div class="ui section divider"></div>
+            </div>
+            <div class="ui header large" id="features">Events</div>
+
+            <div class="ui stackable grid">
+
+                <div class="three column row">
+
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red calendar"></i></div>
+                            <div>Subscribe</div>
+                            <div>Subscribe to Events or even the whole calendar</div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red calendar check"></i></div>
+                            <div>Attend to Events</div>
+                            <div>Be on the Guestlist and get the Updates to this Events</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red calendar outline"></i></div>
+                            <div>Interest to Event</div>
+                            <div>Not sure if can attend? Then show your interest</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="three column row">
+
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red mail forward"></i></div>
+                            <div>Invitations</div>
+                            <div>Send Email/Sms Invitations to Members</div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red user"></i></div>
+                            <div>Event Hosts</div>
+                            <div>Set the Hosts for your Events</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red list"></i></div>
+                            <div>Guestlist</div>
+                            <div>Export the guest list to better organize yourself</div>
 
                         </div>
 
@@ -520,6 +621,54 @@
                 </div>
 
             </div>
+            <div class="final-general-section3" id="locations">
+                <div class="ui section divider"></div>
+            </div>
+            <div class="ui header large" id="features">Locations</div>
+
+            <div class="ui stackable grid">
+
+                <div class="three column row">
+
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red marker"></i></div>
+                            <div>Standard Locations</div>
+                            <div>Set standard Locations and use them regularly</div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red calendar"></i></div>
+                            <div>Events</div>
+                            <div>Link Events to Locations</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red location arrow"></i></div>
+                            <div>Googel Maps</div>
+                            <div>Quickly Navigate with the Google Maps Integration</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     </div>
 
