@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="031b99fa-0019-49ef-81ca-b6e2368356c4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/de-de/company/about.html" afterPath="$PROJECT_DIR$/de-de/company/about.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/academy.html" afterPath="$PROJECT_DIR$/de-de/company/academy.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/career.html" afterPath="$PROJECT_DIR$/de-de/company/career.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/contact-us.html" afterPath="$PROJECT_DIR$/de-de/company/contact-us.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/imprint.html" afterPath="$PROJECT_DIR$/de-de/company/imprint.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/press.html" afterPath="$PROJECT_DIR$/de-de/company/press.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/privacy.html" afterPath="$PROJECT_DIR$/de-de/company/privacy.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/security.html" afterPath="$PROJECT_DIR$/de-de/company/security.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/index.html" afterPath="$PROJECT_DIR$/de-de/index.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/pricing/pricing.html" afterPath="$PROJECT_DIR$/de-de/pricing/pricing.html" />
       <change beforePath="$PROJECT_DIR$/de-de/products/build.html" afterPath="$PROJECT_DIR$/de-de/products/build.html" />
       <change beforePath="$PROJECT_DIR$/de-de/products/engage.html" afterPath="$PROJECT_DIR$/de-de/products/engage.html" />
       <change beforePath="$PROJECT_DIR$/de-de/products/grow.html" afterPath="$PROJECT_DIR$/de-de/products/grow.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/products/smart-city-framework.html" afterPath="$PROJECT_DIR$/de-de/products/smart-city-framework.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/unaty-platform.html" afterPath="$PROJECT_DIR$/de-de/unaty-platform.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/use-cases/recruit-potential-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/recruit-potential-members.html" />
       <change beforePath="$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/use-cases/support-and-activate-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/support-and-activate-members.html" />
+      <change beforePath="$PROJECT_DIR$/en-us/products/build.html" afterPath="$PROJECT_DIR$/en-us/products/build.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +20,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de-de/products/build.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="316" column="118" lean-forward="false" selection-start-line="316" selection-start-column="118" selection-end-line="316" selection-end-column="118" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="engage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de-de/products/engage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="290" column="118" lean-forward="false" selection-start-line="290" selection-start-column="118" selection-end-line="290" selection-end-column="118" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="320" column="24" lean-forward="true" selection-start-line="320" selection-start-column="24" selection-end-line="320" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grow.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de-de/products/grow.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="290" column="45" lean-forward="false" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="simply-reach-and-engage-members.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="689" column="34" lean-forward="true" selection-start-line="689" selection-start-column="34" selection-end-line="689" selection-end-column="34" />
+            <state relative-caret-position="235">
+              <caret line="653" column="34" lean-forward="true" selection-start-line="653" selection-start-column="34" selection-end-line="653" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -79,11 +106,11 @@
       <find>interesee</find>
       <find>interessen ent</find>
       <find>einfach mitglieder erreichen und engagieren</find>
-      <find>einfach mitgleider er</find>
       <find>einfach mitgleider erreichen und engagieren</find>
       <find>gemeinsame date</find>
       <find>unterstütze und aktiviere deine Mitglieder</find>
       <find>potenzielle mitglieder online rekrutieren</find>
+      <find>einfach mitgleider er</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;https://www.unaty.de</replace>
@@ -166,20 +193,20 @@
         <option value="$PROJECT_DIR$/en-us/recruit-potential.html" />
         <option value="$PROJECT_DIR$/de-de/index.html" />
         <option value="$PROJECT_DIR$/css/landingStyles.css" />
-        <option value="$PROJECT_DIR$/en-us/products/build.html" />
-        <option value="$PROJECT_DIR$/de-de/products/engage.html" />
         <option value="$PROJECT_DIR$/en-us/products/engage.html" />
-        <option value="$PROJECT_DIR$/de-de/products/grow.html" />
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
         <option value="$PROJECT_DIR$/de-de/unaty-platform.html" />
         <option value="$PROJECT_DIR$/en-us/unaty-platform.html" />
-        <option value="$PROJECT_DIR$/de-de/products/build.html" />
         <option value="$PROJECT_DIR$/de-de/use-cases/support-and-activate-members.html" />
         <option value="$PROJECT_DIR$/de-de/use-cases/recruit-potential-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html" />
         <option value="$PROJECT_DIR$/de-de/pricing/pricing.html" />
+        <option value="$PROJECT_DIR$/en-us/products/build.html" />
+        <option value="$PROJECT_DIR$/de-de/products/build.html" />
+        <option value="$PROJECT_DIR$/de-de/products/engage.html" />
+        <option value="$PROJECT_DIR$/de-de/products/grow.html" />
         <option value="$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html" />
       </list>
     </option>
@@ -194,6 +221,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="255" />
+    <option name="y" value="1200" />
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -267,6 +296,17 @@
               <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
               <item name="de-de" type="462c0819:PsiDirectoryNode" />
               <item name="use-cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
+              <item name="en-us" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
+              <item name="en-us" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,15 +448,15 @@
       <workItem from="1521543002395" duration="119000" />
       <workItem from="1521548401486" duration="5527000" />
       <workItem from="1521706228645" duration="310000" />
-      <workItem from="1522053539340" duration="4646000" />
+      <workItem from="1522053539340" duration="7298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168483000" />
+    <option name="totallyTimeSpent" value="171135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="255" y="1200" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1564482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -716,14 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/products/build.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="316" column="45" lean-forward="false" selection-start-line="316" selection-start-column="45" selection-end-line="316" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de-de/use-cases/support-and-activate-members.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -732,26 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/products/grow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="290" column="118" lean-forward="false" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de-de/use-cases/recruit-potential-members.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="313" column="103" lean-forward="false" selection-start-line="313" selection-start-column="103" selection-end-line="313" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="325" column="118" lean-forward="false" selection-start-line="325" selection-start-column="45" selection-end-line="325" selection-end-column="118" />
           <folding />
         </state>
       </provider>
@@ -780,22 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="324" column="118" lean-forward="false" selection-start-line="324" selection-start-column="45" selection-end-line="324" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/products/engage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="290" column="118" lean-forward="false" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -812,10 +812,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="324" column="118" lean-forward="false" selection-start-line="324" selection-start-column="45" selection-end-line="324" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="320" column="24" lean-forward="true" selection-start-line="320" selection-start-column="24" selection-end-line="320" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/products/build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="316" column="118" lean-forward="false" selection-start-line="316" selection-start-column="118" selection-end-line="316" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/products/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="290" column="118" lean-forward="false" selection-start-line="290" selection-start-column="118" selection-end-line="290" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/products/grow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="290" column="45" lean-forward="false" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="689" column="34" lean-forward="true" selection-start-line="689" selection-start-column="34" selection-end-line="689" selection-end-column="34" />
+        <state relative-caret-position="235">
+          <caret line="653" column="34" lean-forward="true" selection-start-line="653" selection-start-column="34" selection-end-line="653" selection-end-column="34" />
           <folding />
         </state>
       </provider>
