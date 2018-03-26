@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="031b99fa-0019-49ef-81ca-b6e2368356c4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/de-de/company/about.html" afterPath="$PROJECT_DIR$/de-de/company/about.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/company/academy.html" afterPath="$PROJECT_DIR$/de-de/company/academy.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/company/career.html" afterPath="$PROJECT_DIR$/de-de/company/career.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/company/contact-us.html" afterPath="$PROJECT_DIR$/de-de/company/contact-us.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/company/imprint.html" afterPath="$PROJECT_DIR$/de-de/company/imprint.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/company/press.html" afterPath="$PROJECT_DIR$/de-de/company/press.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/company/privacy.html" afterPath="$PROJECT_DIR$/de-de/company/privacy.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/company/security.html" afterPath="$PROJECT_DIR$/de-de/company/security.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/index.html" afterPath="$PROJECT_DIR$/de-de/index.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/pricing/pricing.html" afterPath="$PROJECT_DIR$/de-de/pricing/pricing.html" />
       <change beforePath="$PROJECT_DIR$/de-de/products/build.html" afterPath="$PROJECT_DIR$/de-de/products/build.html" />
       <change beforePath="$PROJECT_DIR$/de-de/products/engage.html" afterPath="$PROJECT_DIR$/de-de/products/engage.html" />
       <change beforePath="$PROJECT_DIR$/de-de/products/grow.html" afterPath="$PROJECT_DIR$/de-de/products/grow.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/products/smart-city-framework.html" afterPath="$PROJECT_DIR$/de-de/products/smart-city-framework.html" />
       <change beforePath="$PROJECT_DIR$/de-de/unaty-platform.html" afterPath="$PROJECT_DIR$/de-de/unaty-platform.html" />
       <change beforePath="$PROJECT_DIR$/de-de/use-cases/recruit-potential-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/recruit-potential-members.html" />
       <change beforePath="$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html" />
       <change beforePath="$PROJECT_DIR$/de-de/use-cases/support-and-activate-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/support-and-activate-members.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/products/build.html" afterPath="$PROJECT_DIR$/en-us/products/build.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/products/engage.html" afterPath="$PROJECT_DIR$/en-us/products/engage.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/products/grow.html" afterPath="$PROJECT_DIR$/en-us/products/grow.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/unaty-platform.html" afterPath="$PROJECT_DIR$/en-us/unaty-platform.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,21 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="grow.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
+      <file leaf-file-name="simply-reach-and-engage-members.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="324" column="118" lean-forward="false" selection-start-line="324" selection-start-column="45" selection-end-line="324" selection-end-column="118" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recruit-potential-members.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="321" column="103" lean-forward="false" selection-start-line="321" selection-start-column="103" selection-end-line="321" selection-end-column="103" />
+            <state relative-caret-position="458">
+              <caret line="689" column="34" lean-forward="true" selection-start-line="689" selection-start-column="34" selection-end-line="689" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -61,14 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>landingMobileMenuFull menu-outer-padding</find>
-      <find>getStartedBtn</find>
-      <find>mobileMenu</find>
-      <find>class=&quot;landingMobileMenuFull menu-outer-padding hidden-block animated fadeIn animationSpeedUp&quot;</find>
-      <find>addClass(&quot;landingMobileMenuFull menu-outer-padding hidden-block animated fadeIn animationSpeedUp&quot;)</find>
-      <find>removeClass(&quot;landingMobileMenuFull menu-outer-padding hidden-block animated fadeIn animationSpeedUp&quot;)</find>
-      <find>landingHamburger</find>
-      <find>addClass(&quot;landingMobileMenuFull animated fadeIn animationSpeedUp&quot;)</find>
       <find>removeClass(&quot;landingMobileMenuFull animated fadeIn animationSpeedUp&quot;)</find>
       <find>\&lt;div id\=\&quot;mobileMenu\&quot; class\=\&quot;hidden\-block\&quot; style\=\&quot;\&quot;\&gt;\n            \&lt;span id\=\&quot;closeMobileMenu\&quot;\&gt;Close\&lt;\/span\&gt;\n            \&lt;div\&gt;\n                \&lt;div class\=\&quot;ui small header\&quot;\&gt;Produkte\&lt;\/div\&gt;\n                \&lt;div class\=\&quot;ui verticel huge list relaxed horizontal\&quot; style\=\&quot;margin\-top\:  0\;\&quot;\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/products\/build\.html\&quot; class\=\&quot;item\&quot;\n                       style\=\&quot;\&quot;\&gt;\&lt;span\&gt;Build\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/products\/engage\.html\&quot; class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Engage\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/products\/grow\.html\&quot; class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Grow\&lt;\/span\&gt;\&lt;\/a\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n            \&lt;div class\=\&quot;ui divider\&quot;\&gt;\&lt;\/div\&gt;\n            \&lt;div\&gt;\n                \&lt;div class\=\&quot;ui small header\&quot;\&gt;Anwendungsfälle\&lt;\/div\&gt;\n                \&lt;div class\=\&quot;ui vertical list relaxed\&quot;\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/use\-cases\/simply\-reach\-and\-engage\-members\.html\&quot;\n                       class\=\&quot; item\&quot;\&gt;\&lt;span\&gt;Einfach Mitgleider erreichen und engagieren\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/use\-cases\/support\-and\-activate\-members\.html\&quot;\n                       class\=\&quot; item\&quot;\&gt;\&lt;span\&gt;Unterstütze und aktiviere deine Mitglieder\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/use\-cases\/recruit\-potential\-members\.html\&quot; class\=\&quot; item\&quot;\&gt;\&lt;span\&gt;Potenzielle Mitglieder online rekrutieren\&lt;\/span\&gt;\&lt;\/a\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n            \&lt;div class\=\&quot;ui divider\&quot;\&gt;\&lt;\/div\&gt;\n            \&lt;div\&gt;\n                \&lt;div class\=\&quot;ui small header\&quot;\&gt;Unternehmen\&lt;\/div\&gt;\n                \&lt;div class\=\&quot;ui vertical small list relaxed\&quot;\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/company\/about\.html\&quot; class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Über uns\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/company\/contact\-us\.html\&quot; class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Kontakt\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/company\/press\.html\&quot; class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Pressemappe\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/company\/careers\.html\&quot; class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Karriere\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/company\/security\.html\&quot; class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Sicherheit\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/company\/imprint\.html\&quot; class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Impressum\&lt;\/span\&gt;\&lt;\/a\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n            \&lt;div class\=\&quot;ui divider\&quot;\&gt;\&lt;\/div\&gt;\n            \&lt;div\&gt;\n                \&lt;div class\=\&quot;ui divider section hidden\&quot;\&gt;\&lt;\/div\&gt;\n                \&lt;div class\=\&quot;ui vertical huge list relaxed\&quot;\&gt;\n                    \&lt;a target\=\&quot;_blank\&quot; href\=\&quot;https\:\/\/app\.unaty\.de\/sign\-up\?_source\=landingPageSignUpMobileFullMenu\&quot;\n                       class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Sign Up\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a target\=\&quot;_blank\&quot; href\=\&quot;https\:\/\/app\.unaty\.de\/sign\-up\?_source\=landingPageSignUpMobileFullMenu\&quot;\n                       class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Log In\&lt;\/span\&gt;\&lt;\/a\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n        \&lt;\/div\&gt;</find>
       <find>\&lt;div\&gt;\n                \&lt;div class\=\&quot;ui divider section hidden\&quot;\&gt;\&lt;\/div\&gt;\n                \&lt;div class\=\&quot;ui vertical huge list relaxed\&quot;\&gt;\n                    \&lt;a target\=\&quot;_blank\&quot; href\=\&quot;https\:\/\/app\.unaty\.de\/sign\-up\?_source\=landingPageSignUpMobileFullMenu\&quot;\n                       class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Sign Up\&lt;\/span\&gt;\&lt;\/a\&gt;\n                    \&lt;a target\=\&quot;_blank\&quot; href\=\&quot;https\:\/\/app\.unaty\.de\/sign\-up\?_source\=landingPageSignUpMobileFullMenu\&quot;\n                       class\=\&quot;item\&quot;\&gt;\&lt;span\&gt;Log In\&lt;\/span\&gt;\&lt;\/a\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;</find>
@@ -91,9 +76,16 @@
       <find>final-header-text</find>
       <find>googel</find>
       <find>daten</find>
+      <find>interesee</find>
+      <find>interessen ent</find>
+      <find>einfach mitglieder erreichen und engagieren</find>
+      <find>einfach mitgleider er</find>
+      <find>einfach mitgleider erreichen und engagieren</find>
+      <find>gemeinsame date</find>
+      <find>unterstütze und aktiviere deine Mitglieder</find>
+      <find>potenzielle mitglieder online rekrutieren</find>
     </findStrings>
     <replaceStrings>
-      <replace>target=&quot;_blank&quot; href</replace>
       <replace>href=&quot;https://www.unaty.de</replace>
       <replace>https://unaty-media.s3.amazonaws.com/users/undefined/public/1516186617394</replace>
       <replace>target=&quot;_blank&quot; href=&quot;https://www.unaty.de</replace>
@@ -122,6 +114,8 @@
       <replace>&lt;div class=&quot;vertical list centerAlignUnder767 ui huge mobile-menu-button-list&quot;&gt;                &lt;a target=&quot;_blank&quot; class=&quot;mobile-menu-button-signUp item&quot; href=&quot;https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu&quot;&gt; &lt;span&gt;Sign Up&lt;/span&gt;&lt;/a&gt;                &lt;a target=&quot;_blank&quot; class=&quot;mobile-menu-button-login item&quot; href=&quot;https://app.unaty.de/sign-up?_source=landingPageSignUpMobileFullMenu&quot; &gt;&lt;span&gt;Login&lt;/span&gt;&lt;/a&gt;            &lt;/div&gt;</replace>
       <replace>&lt;div&gt;                &lt;div class=&quot;ui small header&quot;&gt;Unternehmen&lt;/div&gt;                &lt;div class=&quot;ui horizontal large list relaxed&quot;&gt;                    &lt;a href=&quot;https://www.unaty.de/de-de/company/about.html&quot; class=&quot;item&quot;&gt;&lt;span&gt;Über uns&lt;/span&gt;&lt;/a&gt;                    &lt;a href=&quot;https://www.unaty.de/de-de/company/contact-us.html&quot; class=&quot;item&quot;&gt;&lt;span&gt;Kontakt&lt;/span&gt;&lt;/a&gt;                    &lt;a href=&quot;https://www.unaty.de/de-de/company/press.html&quot; class=&quot;item&quot;&gt;&lt;span&gt;Pressemappe&lt;/span&gt;&lt;/a&gt;                &lt;/div&gt;                &lt;div class=&quot;ui horizontal large list relaxed&quot;&gt;                    &lt;a href=&quot;https://www.unaty.de/de-de/company/careers.html&quot; class=&quot;item&quot;&gt;&lt;span&gt;Karriere&lt;/span&gt;&lt;/a&gt;                    &lt;a href=&quot;https://www.unaty.de/de-de/company/security.html&quot; class=&quot;item&quot;&gt;&lt;span&gt;Sicherheit&lt;/span&gt;&lt;/a&gt;                    &lt;a href=&quot;https://www.unaty.de/de-de/company/imprint.html&quot; class=&quot;item&quot;&gt;&lt;span&gt;Impressum&lt;/span&gt;&lt;/a&gt;                &lt;/div&gt;            &lt;/div&gt;</replace>
       <replace>Communaty</replace>
+      <replace>Interessen entdecken und Mitglieder aktivieren</replace>
+      <replace>Gemeinsame Daten und Kalender von Mitgliedern und Admins</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Fabian Ahrens\Documents\GitHub\UnatyStaticLP</dir>
@@ -136,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/en-reference.html" />
         <option value="$PROJECT_DIR$/de-solution.html" />
         <option value="$PROJECT_DIR$/de-de/products/communaty.html" />
         <option value="$PROJECT_DIR$/en-us/products/communaty.html" />
@@ -180,13 +173,14 @@
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
         <option value="$PROJECT_DIR$/de-de/unaty-platform.html" />
         <option value="$PROJECT_DIR$/en-us/unaty-platform.html" />
-        <option value="$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html" />
         <option value="$PROJECT_DIR$/de-de/products/build.html" />
         <option value="$PROJECT_DIR$/de-de/use-cases/support-and-activate-members.html" />
         <option value="$PROJECT_DIR$/de-de/use-cases/recruit-potential-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html" />
+        <option value="$PROJECT_DIR$/de-de/pricing/pricing.html" />
+        <option value="$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html" />
       </list>
     </option>
   </component>
@@ -260,18 +254,18 @@
             <path>
               <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-              <item name="en-us" type="462c0819:PsiDirectoryNode" />
+              <item name="de-de" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-              <item name="en-us" type="462c0819:PsiDirectoryNode" />
+              <item name="de-de" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
               <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-              <item name="en-us" type="462c0819:PsiDirectoryNode" />
+              <item name="de-de" type="462c0819:PsiDirectoryNode" />
               <item name="use-cases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -414,12 +408,12 @@
       <workItem from="1521543002395" duration="119000" />
       <workItem from="1521548401486" duration="5527000" />
       <workItem from="1521706228645" duration="310000" />
-      <workItem from="1522053539340" duration="2140000" />
+      <workItem from="1522053539340" duration="4646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165977000" />
+    <option name="totallyTimeSpent" value="168483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -429,6 +423,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -440,7 +435,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -678,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/pricing/pricing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/communaty.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -725,22 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="373" column="18" lean-forward="true" selection-start-line="373" selection-start-column="18" selection-end-line="373" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/products/engage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="290" column="118" lean-forward="false" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="325" column="30" lean-forward="true" selection-start-line="325" selection-start-column="30" selection-end-line="325" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -817,10 +788,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/products/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="290" column="118" lean-forward="false" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="321" column="103" lean-forward="false" selection-start-line="321" selection-start-column="103" selection-end-line="321" selection-end-column="103" />
+        <state relative-caret-position="251">
+          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/pricing/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="689" column="34" lean-forward="true" selection-start-line="689" selection-start-column="34" selection-end-line="689" selection-end-column="34" />
           <folding />
         </state>
       </provider>
