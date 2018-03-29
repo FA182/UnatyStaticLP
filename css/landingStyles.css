@@ -4479,7 +4479,7 @@ span.mainNumber {
     border-left: 5px solid #1c299d !important;
 }
 
-.final-use-cases-list-item > span:nth-child(1) {
+.final-use-cases-list-item > span:nth-child(1), .final-use-cases-list-item > div:nth-child(1) {
     font-size: 18px;
     line-height: normal;
     margin-bottom: 12px;
@@ -4487,17 +4487,20 @@ span.mainNumber {
     color: rgba(0,0,0,0.83);
 }
 
-.final-use-cases-list-item > span:nth-child(2) {
+.final-use-cases-list-item > span:nth-child(2), .final-use-cases-list-item > div:nth-child(2) {
     margin-bottom: 24px;
     color: rgba(0,0,0,0.33);
-    font-size: 20px;
+    font-size: 13px;
+}
+.padding-bottom-really-0 {
+    padding-bottom: 0 !important;
 }
 
-.final-use-cases-list-item > span:nth-child(3) {
+.final-use-cases-list-item > span:nth-child(3), .final-use-cases-list-item > div:nth-child(3)  {
 
 }
 
-.final-use-cases-list-item > span:nth-child(3) a {
+.final-use-cases-list-item > span:nth-child(3) a, .final-use-cases-list-item > div:nth-child(3) a {
     text-decoration: underline;
     font-size: 16px;
 }
@@ -4831,6 +4834,61 @@ span.mainNumber {
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
 }
+.final-use-case-header-body-2 {
+    background: #F6F9FC;
+    padding: 32px 32px;
+    display: flex;
+}
+.final-use-case-header-body-2 > div:nth-child(1) {
+    width: 100%;
+    text-align: left;
+}
+.final-use-case-header-body-2 > div:nth-child(1) > div:nth-child(1) {
+
+}
+.final-use-case-header-body-2 > div:nth-child(1) > div:nth-child(2) {
+
+}
+.final-use-case-header-body-2 > div:nth-child(2) {
+    text-align: right;
+}
+.final-use-case-header-body-2 > div:nth-child(2) img {
+
+}
+.no-padding-bottom-0 {
+    padding-bottom: 0 !important;
+}
+.flex-grow-one {
+    flex-grow: 1;
+}
+.advantagesListTop {
+    padding: 24px !important;
+    margin-top: 24px !important;
+    margin-bottom: 0 !important;
+    margin-right: 24px !important;
+}
+.textHolderDiv {
+    text-align: left;
+    padding-left: 32px;
+    font-style: italic;
+    color: rgba(0,0,0,0.53);
+}
+.textHolderDiv a:hover {
+    color: rgba(0,0,0,0.93);
+}
+.textHolderDiv a {
+    color: rgba(0,0,0,0.73);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.advantagesList {
+    margin-right: 24px !important;
+    padding: 24px !important;
+    margin-top: 24px !important;
+}
+.text-align-left {
+    text-align: left;
+}
 .final-use-case-name {
     font-family: 'unaty-cheltenham' !important;
     font-size: 40px;
@@ -4847,6 +4905,14 @@ span.mainNumber {
     line-height: 24px !important;
     font-size: 16px;
     max-width: 550px;
+    color: rgba(0,0,0,0.53);
+}
+.final-use-case-title-2 {
+    font-family: 'lato';
+    margin-bottom: 18px;
+    margin-top: 24px;
+    line-height: 24px !important;
+    font-size: 16px;
     color: rgba(0,0,0,0.53);
 }
 .final-real-feature {
@@ -4901,6 +4967,36 @@ span.mainNumber {
     line-height: 1.5;
     margin-bottom: 4px;
     max-width: 70%;
+    color: rgba(0,0,0,0.73);
+    margin-right: auto;
+}
+
+
+.final-real-feature3 {
+    padding: 12px 8px;
+    text-align: left;
+}
+.final-real-feature3 > div:nth-child(1) {
+    padding-left: 8px;
+    font-size: 24px;
+    line-height: normal;
+    padding-bottom: 12px;
+}
+.final-real-feature3 > div:nth-child(1) > i {
+}
+.final-real-feature3 > div:nth-child(2) {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 4px;
+    color: rgba(0,0,0,0.83);
+}
+.final-real-feature3 > div:nth-child(3) {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 4px;
+
     color: rgba(0,0,0,0.73);
     margin-right: auto;
 }
@@ -5046,14 +5142,14 @@ span.mainNumber {
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
 }
 #unatyVideo {
-    height: 508px !important;
+    height: 507px !important;
     background-color: #fff;
 }
 #unatyVideo img {
-    height: 508px !important;
+    height: 507px !important;
 }
 #unatyVideo iframe {
-    height: 508px !important;
+    height: 507px !important;
 }
 @media all and (max-width: 1200px) {
     #unatyVideo {
