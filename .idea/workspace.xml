@@ -2,124 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263bb2fe-6ac8-4ce0-a04a-788f0738841d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Icons/icon-unaty" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Icons/icon-unaty.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Icons/icon-unaty.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/company/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/company/academy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/company/contact-us.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/company/imprint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/company/press.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/company/privacy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/company/security.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/pricing/credits-experience.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/pricing/pricing-policy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/pricing/pricing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/products/build.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/products/engage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/products/grow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/products/smart-city-framework.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de-old-new/unaty-platform.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/activate-more.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/cloud-community.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/company/about-us.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/company/careers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/company/privacy-old.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/engage-your-community.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/own-social-network.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/platform.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/pricing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/private-social-network.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/products/communaty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/reach-more.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/recruit-potential.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/use-cases/activate-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/de-de/use-cases/smart-city-framework.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Icons/icon-unaty.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/de-de/company/career.html" afterPath="$PROJECT_DIR$/de-de-old-new/company/career.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/de-de/use-cases/recruit-potential-members.html" afterPath="$PROJECT_DIR$/de-de-old-new/use-cases/recruit-potential-members.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/de-de/use-cases/simply-reach-and-engage-members.html" afterPath="$PROJECT_DIR$/de-de-old-new/use-cases/simply-reach-and-engage-members.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/de-de/use-cases/support-and-activate-members.html" afterPath="$PROJECT_DIR$/de-de-old-new/use-cases/support-and-activate-members.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/en-us/use-cases/recruit-potential-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/en-us/use-cases/simply-reach-and-engage-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/easy-administration.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/en-us/use-cases/support-and-activate-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/activate-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compare.html" afterPath="$PROJECT_DIR$/compare.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landingStyles.css" afterPath="$PROJECT_DIR$/css/landingStyles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/company/about-us.html" afterPath="$PROJECT_DIR$/de-de-old/company/about-us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/company/career.html" afterPath="$PROJECT_DIR$/de-de-old/company/career.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/company/contact.html" afterPath="$PROJECT_DIR$/de-de-old/company/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/company/imprint.html" afterPath="$PROJECT_DIR$/de-de-old/company/imprint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/company/press.html" afterPath="$PROJECT_DIR$/de-de-old/company/press.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/company/privacy.html" afterPath="$PROJECT_DIR$/de-de-old/company/privacy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/company/security.html" afterPath="$PROJECT_DIR$/de-de-old/company/security.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/index.html" afterPath="$PROJECT_DIR$/de-de-old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/pricing/credits-experience.html" afterPath="$PROJECT_DIR$/de-de-old/pricing/credits-experience.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/pricing/pricing-policy.html" afterPath="$PROJECT_DIR$/de-de-old/pricing/pricing-policy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/pricing/pricing.html" afterPath="$PROJECT_DIR$/de-de-old/pricing/pricing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/products/academy.html" afterPath="$PROJECT_DIR$/de-de-old/products/academy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/products/communaty.html" afterPath="$PROJECT_DIR$/de-de-old/products/communaty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/products/engage.html" afterPath="$PROJECT_DIR$/de-de-old/products/engage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/products/grow.html" afterPath="$PROJECT_DIR$/de-de-old/products/grow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de-old/products/smart-city-framework.html" afterPath="$PROJECT_DIR$/de-de-old/products/smart-city-framework.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/activate-more.html" afterPath="$PROJECT_DIR$/de-de/activate-more.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/cloud-community.html" afterPath="$PROJECT_DIR$/de-de/cloud-community.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/about.html" afterPath="$PROJECT_DIR$/de-de/company/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/academy.html" afterPath="$PROJECT_DIR$/de-de/company/academy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/careers.html" afterPath="$PROJECT_DIR$/de-de/company/careers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/contact-us.html" afterPath="$PROJECT_DIR$/de-de/company/contact-us.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/imprint.html" afterPath="$PROJECT_DIR$/de-de/company/imprint.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/press.html" afterPath="$PROJECT_DIR$/de-de/company/press.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/privacy-old.html" afterPath="$PROJECT_DIR$/de-de/company/privacy-old.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/privacy.html" afterPath="$PROJECT_DIR$/de-de/company/privacy.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/security.html" afterPath="$PROJECT_DIR$/de-de/company/security.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/engage-your-community.html" afterPath="$PROJECT_DIR$/de-de/engage-your-community.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/index.html" afterPath="$PROJECT_DIR$/de-de/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/pricing/credits-experience.html" afterPath="$PROJECT_DIR$/de-de/pricing/credits-experience.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/pricing/pricing-policy.html" afterPath="$PROJECT_DIR$/de-de/pricing/pricing-policy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/own-social-network.html" afterPath="$PROJECT_DIR$/de-de/own-social-network.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/platform.html" afterPath="$PROJECT_DIR$/de-de/platform.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/pricing.html" afterPath="$PROJECT_DIR$/de-de/pricing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/pricing/pricing.html" afterPath="$PROJECT_DIR$/de-de/pricing/pricing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/private-social-network.html" afterPath="$PROJECT_DIR$/de-de/private-social-network.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/build.html" afterPath="$PROJECT_DIR$/de-de/products/build.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/engage.html" afterPath="$PROJECT_DIR$/de-de/products/engage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/grow.html" afterPath="$PROJECT_DIR$/de-de/products/grow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/smart-city-framework.html" afterPath="$PROJECT_DIR$/de-de/products/smart-city-framework.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/reach-more.html" afterPath="$PROJECT_DIR$/de-de/reach-more.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/recruit-potential.html" afterPath="$PROJECT_DIR$/de-de/recruit-potential.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/unaty-platform.html" afterPath="$PROJECT_DIR$/de-de/unaty-platform.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-reference.html" afterPath="$PROJECT_DIR$/de-reference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-solution.html" afterPath="$PROJECT_DIR$/de-solution.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-reference.html" afterPath="$PROJECT_DIR$/en-reference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-solution.html" afterPath="$PROJECT_DIR$/en-solution.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/activate-more.html" afterPath="$PROJECT_DIR$/en-us/activate-more.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/cloud-community.html" afterPath="$PROJECT_DIR$/en-us/cloud-community.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/about-us.html" afterPath="$PROJECT_DIR$/en-us/company/about-us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/about.html" afterPath="$PROJECT_DIR$/en-us/company/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/academy.html" afterPath="$PROJECT_DIR$/en-us/company/academy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/careers.html" afterPath="$PROJECT_DIR$/en-us/company/careers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/contact-us.html" afterPath="$PROJECT_DIR$/en-us/company/contact-us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/imprint.html" afterPath="$PROJECT_DIR$/en-us/company/imprint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/press.html" afterPath="$PROJECT_DIR$/en-us/company/press.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/privacy-old.html" afterPath="$PROJECT_DIR$/en-us/company/privacy-old.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/privacy.html" afterPath="$PROJECT_DIR$/en-us/company/privacy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/security.html" afterPath="$PROJECT_DIR$/en-us/company/security.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/engage-your-community.html" afterPath="$PROJECT_DIR$/en-us/engage-your-community.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/index.html" afterPath="$PROJECT_DIR$/en-us/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/own-social-network.html" afterPath="$PROJECT_DIR$/en-us/own-social-network.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/platform.html" afterPath="$PROJECT_DIR$/en-us/platform.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/pricing.html" afterPath="$PROJECT_DIR$/en-us/pricing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/pricing/credits-experience.html" afterPath="$PROJECT_DIR$/en-us/pricing/credits-experience.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/pricing/pricing-policy.html" afterPath="$PROJECT_DIR$/en-us/pricing/pricing-policy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/pricing/pricing.html" afterPath="$PROJECT_DIR$/en-us/pricing/pricing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/private-social-network.html" afterPath="$PROJECT_DIR$/en-us/private-social-network.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/build.html" afterPath="$PROJECT_DIR$/en-us/products/build.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/communaty.html" afterPath="$PROJECT_DIR$/en-us/products/communaty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/engage.html" afterPath="$PROJECT_DIR$/en-us/products/engage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/grow.html" afterPath="$PROJECT_DIR$/en-us/products/grow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/smart-city-framework.html" afterPath="$PROJECT_DIR$/en-us/products/smart-city-framework.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/reach-more.html" afterPath="$PROJECT_DIR$/en-us/reach-more.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/recruit-potential.html" afterPath="$PROJECT_DIR$/en-us/recruit-potential.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/unaty-platform.html" afterPath="$PROJECT_DIR$/en-us/unaty-platform.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html" afterPath="$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/happy-customer.html" afterPath="$PROJECT_DIR$/happy-customer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/home-v1.html" afterPath="$PROJECT_DIR$/test/home-v1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/home-v2.html" afterPath="$PROJECT_DIR$/test/home-v2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/home-v3.html" afterPath="$PROJECT_DIR$/test/home-v3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/use-cases/activate-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/activate-members.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" afterPath="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/use-cases/smart-city-framework.html" afterPath="$PROJECT_DIR$/de-de/use-cases/smart-city-framework.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -139,12 +50,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/de-de/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="636" column="22" lean-forward="false" selection-start-line="636" selection-start-column="22" selection-end-line="636" selection-end-column="22" />
+            <state relative-caret-position="274">
+              <caret line="309" column="296" lean-forward="false" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="296" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -153,21 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de-de/products/build.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activate-more.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/de-de/activate-more.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="245">
+              <caret line="276" column="30" lean-forward="true" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -176,21 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de-de/company/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="455" column="151" lean-forward="false" selection-start-line="455" selection-start-column="107" selection-end-line="455" selection-end-column="151" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>grow-icon-1</find>
       <find>\&lt;a role\=\&quot;listitem\&quot; class\=\&quot;item\&quot;\n                                   href\=\&quot;https\:\/\/www\.unaty\.de\/en\-us\/company\/academy\.html\&quot;\&gt;\&lt;span\&gt;Academy\&lt;\/span\&gt;\&lt;\/a\&gt;</find>
       <find>.final-use-case-name</find>
       <find>shadow</find>
@@ -220,9 +110,9 @@
       <find>Start your Free Trial</find>
       <find>Kostenlose Testen</find>
       <find>&lt;html lang=&quot;en&quot;&gt;</find>
+      <find>\&lt;a href\=\&quot;https\:\/\/www\.unaty\.de\/de\-de\/index\.html\&quot; role\=\&quot;option\&quot; aria\-checked\=\&quot;true\&quot;\n                               aria\-selected\=\&quot;true\&quot; class\=\&quot;item\&quot;\n                               style\=\&quot;pointer\-events\: all\;\&quot;\&gt;\&lt;i class\=\&quot;us flag\&quot;\&gt;\&lt;\/i\&gt;\&lt;span class\=\&quot;text\&quot;\&gt;Englisch\&lt;\/span\&gt;\&lt;\/a\&gt;</find>
     </findStrings>
     <replaceStrings>
-      <replace>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; target=&quot;_blank&quot; href=&quot;../css/landingStyles.css&quot;&gt;&lt;meta name=&quot;author&quot; content=&quot;Unaty Technologies GmbH&quot;&gt;</replace>
       <replace>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; target=&quot;_blank&quot; href=&quot;../css/landingStyles.css&quot;&gt;&lt;meta name=&quot;author&quot; content=&quot;Unaty Technologies GmbH&quot;&gt;&lt;script&gt;         window.intercomSettings = {             app_id: &quot;auma9g4d&quot;         };      &lt;/script&gt;     &lt;script&gt;(function(){var w=window;var ic=w.Intercom;if(typeof ic===&quot;function&quot;){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/auma9g4d';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()&lt;/script&gt;</replace>
       <replace>icon-unaty</replace>
       <replace>fonts/Icons/icon-unaty</replace>
@@ -252,6 +142,7 @@
       <replace>Kostenlose Testen</replace>
       <replace>Kostenlos Testen</replace>
       <replace>&lt;html lang=&quot;de&quot;&gt;</replace>
+      <replace>&lt;a href=&quot;https://www.unaty.de/en-us/index.html&quot; role=&quot;option&quot; aria-checked=&quot;true&quot;                                aria-selected=&quot;true&quot; class=&quot;item&quot;                                style=&quot;pointer-events: all;&quot;&gt;&lt;i class=&quot;us flag&quot;&gt;&lt;/i&gt;&lt;span class=&quot;text&quot;&gt;Englisch&lt;/span&gt;&lt;/a&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/de-de</dir>
@@ -327,7 +218,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -340,8 +230,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de-de" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,12 +341,13 @@
       <workItem from="1522338517413" duration="13000" />
       <workItem from="1523362411432" duration="1002000" />
       <workItem from="1523532892188" duration="400000" />
-      <workItem from="1524129090190" duration="26632000" />
+      <workItem from="1524129090190" duration="26674000" />
+      <workItem from="1524176022815" duration="215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33381000" />
+    <option name="totallyTimeSpent" value="33638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -452,17 +358,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8670">
           <caret line="578" column="0" lean-forward="true" selection-start-line="578" selection-start-column="0" selection-end-line="578" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -488,7 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4755">
           <caret line="317" column="86" lean-forward="false" selection-start-line="317" selection-start-column="86" selection-end-line="317" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -496,7 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,7 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,7 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -585,7 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,7 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="317" column="86" lean-forward="false" selection-start-line="317" selection-start-column="86" selection-end-line="317" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="813" column="6" lean-forward="true" selection-start-line="813" selection-start-column="6" selection-end-line="813" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="596" column="55" lean-forward="true" selection-start-line="596" selection-start-column="55" selection-end-line="596" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
           <caret line="734" column="43" lean-forward="true" selection-start-line="734" selection-start-column="43" selection-end-line="734" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="653" column="49" lean-forward="false" selection-start-line="653" selection-start-column="49" selection-end-line="653" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="450" column="108" lean-forward="true" selection-start-line="449" selection-start-column="24" selection-end-line="450" selection-end-column="108" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="929" column="6" lean-forward="false" selection-start-line="929" selection-start-column="6" selection-end-line="1065" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="5762" column="22" lean-forward="false" selection-start-line="5762" selection-start-column="22" selection-end-line="5762" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="870" column="0" lean-forward="false" selection-start-line="870" selection-start-column="0" selection-end-line="1043" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="447" column="6" lean-forward="false" selection-start-line="447" selection-start-column="6" selection-end-line="447" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="424" column="26" lean-forward="true" selection-start-line="413" selection-start-column="20" selection-end-line="424" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="415" column="26" lean-forward="false" selection-start-line="415" selection-start-column="26" selection-end-line="415" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="419" column="26" lean-forward="false" selection-start-line="419" selection-start-column="26" selection-end-line="419" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="530" column="34" lean-forward="true" selection-start-line="530" selection-start-column="34" selection-end-line="530" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="1125" column="6" lean-forward="false" selection-start-line="1125" selection-start-column="6" selection-end-line="1125" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="449" column="6" lean-forward="false" selection-start-line="449" selection-start-column="6" selection-end-line="449" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="492" column="6" lean-forward="false" selection-start-line="492" selection-start-column="6" selection-end-line="492" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="448" column="6" lean-forward="false" selection-start-line="448" selection-start-column="6" selection-end-line="448" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
           <caret line="524" column="40" lean-forward="true" selection-start-line="524" selection-start-column="40" selection-end-line="524" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="321" column="15" lean-forward="false" selection-start-line="321" selection-start-column="15" selection-end-line="321" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,6 +662,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="506" column="74" lean-forward="true" selection-start-line="506" selection-start-column="33" selection-end-line="506" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/pricing/pricing-policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/products/build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -797,18 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/pricing/pricing-policy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de-de/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="636" column="22" lean-forward="false" selection-start-line="636" selection-start-column="22" selection-end-line="636" selection-end-column="22" />
+        <state relative-caret-position="274">
+          <caret line="309" column="296" lean-forward="false" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="296" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -816,18 +699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/products/build.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de-de/activate-more.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="245">
+          <caret line="276" column="30" lean-forward="true" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
