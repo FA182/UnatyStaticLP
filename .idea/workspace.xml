@@ -37,6 +37,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="landingStyles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="4952" column="46" lean-forward="true" selection-start-line="4952" selection-start-column="46" selection-end-line="4952" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grow.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grow.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -170,9 +180,9 @@
         <option value="$PROJECT_DIR$/de-de/activate-more.html" />
         <option value="$PROJECT_DIR$/en-us/index.html" />
         <option value="$PROJECT_DIR$/en-us/products/build.html" />
-        <option value="$PROJECT_DIR$/css/landingStyles.css" />
         <option value="$PROJECT_DIR$/en-us/products/engage.html" />
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
+        <option value="$PROJECT_DIR$/css/landingStyles.css" />
       </list>
     </option>
   </component>
@@ -381,12 +391,12 @@
       <workItem from="1523532892188" duration="400000" />
       <workItem from="1524129090190" duration="26674000" />
       <workItem from="1524176022815" duration="215000" />
-      <workItem from="1524210161889" duration="2216000" />
+      <workItem from="1524210161889" duration="2320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35854000" />
+    <option name="totallyTimeSpent" value="35958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-344" width="1920" height="1080" extended-state="0" />
@@ -731,22 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="590" column="0" lean-forward="true" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="4952" column="40" lean-forward="true" selection-start-line="4952" selection-start-column="40" selection-end-line="4952" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -767,6 +761,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="398" column="176" lean-forward="false" selection-start-line="398" selection-start-column="176" selection-end-line="398" selection-end-column="176" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="590" column="0" lean-forward="true" selection-start-line="590" selection-start-column="0" selection-end-line="590" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="4952" column="46" lean-forward="true" selection-start-line="4952" selection-start-column="46" selection-end-line="4952" selection-end-column="46" />
           <folding />
         </state>
       </provider>
