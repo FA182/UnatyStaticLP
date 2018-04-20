@@ -4652,8 +4652,10 @@ a.nmmPI i {
     font-weight: 500;
     margin-bottom: 24px;
     color: rgba(0,0,0,0.73);
-    line-height: normal;
     margin-top: 8px;
+
+    max-width: 95% !important;
+    line-height: 1.3 !important;
 }
 .final-use-cases-list-item-two:hover > span:nth-child(4), .final-use-cases-list-item-two:hover > div:nth-child(4) {
     text-decoration: underline;
@@ -4953,7 +4955,8 @@ letter-spacing: normal !important;
     margin-top: 32px;
 }
 .final-product-description {
-    font-size: 18px;
+    line-height: 1.3;
+    font-size: 17px;
     margin-bottom: 40px;
     color: rgba(0,0,0,0.63);
 }
