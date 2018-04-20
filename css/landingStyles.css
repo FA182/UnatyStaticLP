@@ -5736,7 +5736,7 @@ letter-spacing: normal !important;
 }
 .new-products-box > div:nth-child(2) {
     margin-bottom: 8px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 900;
     color: rgba(0,0,0,0.73);
 }
@@ -5856,4 +5856,17 @@ body {
     font-size: 18px;
     line-height: normal;
     color: rgba(0,0,0,0.63);
+}
+.requestDemoSpan {
+    margin-left: 8px;
+    font-size: 18px;
+    color: rgba(0,0,0,0.53);
+    display: inline-block;
+    vertical-align: text-bottom;
+    letter-spacing: normal !important;
+}
+.requestDemoSpan a {
+    margin-left: 4px;
+    letter-spacing: 0.7px !important;
+    color: rgba(54, 133, 208, 0.83);
 }
