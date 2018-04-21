@@ -5929,3 +5929,22 @@ body {
     }
 
 }
+@media screen and (max-width: 1025px) {
+    .LandingMenu {
+        position: relative;
+    }
+    .final-product-page-header, .final-use-case-page-header {
+        margin-top: 0 !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .final-product-title {
+        font-size: 24px;
+    }
+    .final-product-description {
+        font-size: 15px;
+    }
+    .final-sign-up-button input {
+        display: none;
+    }
+}
