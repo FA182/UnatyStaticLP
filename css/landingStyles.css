@@ -1165,6 +1165,59 @@ img.unatySmartCityFrameworkImg {
         margin-right: 0 !important;
         min-width: 280px;
     }
+    .final-main-image-home > div {
+        display: none;
+    }
+    .flp-title-text {
+        padding-top: 8px !important;
+    }
+    .ui.container.flex-control-grid.mobileFlexFlow {
+        flex-flow: column-reverse !important;
+    }
+    .mobileFlexFlow .final-main-image-home > img {
+        margin-top: 8px !important;
+    }
+    .mobileFlexFlow > div:nth-child(1) > div:nth-child(1) {
+        margin-bottom: 8px;
+    }
+    .mobileFlexFlow > div:nth-child(1) > div:nth-child(2), .mobileFlexFlow > div:nth-child(1) input {
+        display: none;
+    }
+    .secondary-new-title {
+        margin: 0;
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: left;
+    }
+    .new-header-section, .new-subheader-section {
+        text-align: left !important;
+    }
+    .unaty-sign-up-box {
+        text-align: left;
+        padding: 24px 16px;
+    }
+    .unaty-sign-up-box input {
+        display: none !important;
+    }
+    .final-general-section {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .unaty-platform-section > div:nth-child(1) > div:nth-child(1) {
+        padding-bottom: 16px;
+        font-size: 31px !important;
+    }
+    .unaty-platform-section > div:nth-child(1) > div:nth-child(2) {
+        display: none;
+    }
+    .unaty-platform-section .final-main-image-home > img {
+        position: relative !important;
+        margin-top: 8px !important;
+        margin-bottom: 24px !important;
+    }
+    .unaty-platform-section.flex-control-grid.reverse-home-page {
+        flex-flow: column-reverse !important;
+    }
 }
 .NLP-mainPageCounts {
     border-top: 2px solid rgba(207, 215, 223, 0.25);
@@ -5869,4 +5922,10 @@ body {
     margin-left: 4px;
     letter-spacing: 0.7px !important;
     color: rgba(54, 133, 208, 0.83);
+}
+@media screen and (max-width: 400px) {
+    .marginRight16.hideOnDesktop.menu .menuButtonBlue {
+        display: none !important;
+    }
+
 }
