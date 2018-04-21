@@ -64,9 +64,13 @@
     <link rel="stylesheet" type="text/css" target="_blank" href="css/landingStyles.css">
 
     <script type="text/javascript">
-        var language = window.navigator.userLanguage || window.navigator.language;
+        var language = ''
 
-        console.log(language)
+        if(localStorage.getItem('language')) {
+            language = localStorage.getItem('language');
+        } else {
+            language = window.navigator.userLanguage || window.navigator.language;
+        }
 
 
         if(language==='de-DE'||language==='de') {
