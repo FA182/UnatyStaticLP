@@ -18,7 +18,68 @@
     <link href="https://www.unaty.de/" rel="canonical">
     <meta content="index, follow" name="robots">
     <meta name="copyright" content="Unaty Technologies GmbH Copyright (c) 2018">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "type": "opt-in",
+                "content": {
+                    "message": "\nCookies sind für die korrekte Funktionsweise von Unaty wichtig. Wir nutzen Cookies zum bequemen Bereitstellen Ihrer Anmeldedaten, eine sichere Anmeldung zu garantieren, und anonyme statistische Daten zur Optimierung der Website zu erheben. Klicken Sie auf 'Stimme zu und weiter', um Cookies zu akzeptieren oder klicken Sie auf 'Nicht Jetzt', um Cookies vorerst abzustellen.",
+                    "dismiss": "Nicht Jetzt",
+                    "allow": "Stimme zu und weiter",
+                    "href": "https://www.unaty.de/de-de/company/privacy.html"
+                },
+                onInitialise: function (status) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
 
+                onStatusChange: function(status, chosenBefore) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onRevokeChoice: function() {
+                    var type = this.options.type;
+                    if (type == 'opt-in') {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                    if (type == 'opt-out') {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                }
+            })});
+    </script>
     <meta name="description"
           content="Unaty is a platform for Communities with the tools administrators need and the features members want. Get started on Unaty and set up your new digital Community in less than 5 minutes.">
     <meta property="og:image" content="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513334343279">
