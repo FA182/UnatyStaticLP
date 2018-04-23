@@ -69,6 +69,69 @@
     <meta content="https://www.unaty.de/" property="og:url">
     <meta content="Unaty" property="og:site_name">
 
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "type": "opt-in",
+                "content": {
+                    "message": "\nCookies are important to the proper functioning of a site. To improve your experience, we use cookies to remember log-in details and provide secure log-in, and collect statistics to optimize site functionality.",
+                    "dismiss": "Not Now",
+                    "allow": "Agree and Proceed",
+                    "href": "https://www.unaty.de/en-us/company/privacy.html"
+                },
+                onInitialise: function (status) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onStatusChange: function(status, chosenBefore) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onRevokeChoice: function() {
+                    var type = this.options.type;
+                    if (type == 'opt-in') {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                    if (type == 'opt-out') {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                }
+            })});
+    </script>
+
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@unatyde">
@@ -123,7 +186,7 @@
         var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
         var text = 'Student Groups'
 
-        var num = getRandomInt(0, 3)
+        var num = getRandomInt(0, 13)
 
         if (num === 0) {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
@@ -134,6 +197,39 @@
         } else if (num === 2) {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148660420" alt="Business Associations Community Administrators" />'
             var text = 'Business Associations'
+        } else if (num === 3) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478128143" alt="Soccer Teams Community Administrators" />'
+            var text = 'Soccer Teams'
+        } else if (num === 4) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478120430" alt="Swim Teams Community Administrators" />'
+            var text = 'Swim Teams'
+        } else if (num === 5) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478110434" alt="Alumni Associations Community Administrators" />'
+            var text = 'Alumni Associations'
+        } else if (num === 6) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478103216" alt="Celebrations Community Administrators" />'
+            var text = 'Celebratory Groups'
+        } else if (num === 7) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478096015" alt="Windsurfing Groups Community Administrators" />'
+            var text = 'Windsurfing Groups'
+        } else if (num === 8) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478087899" alt="Surfing Groups Community Administrators" />'
+            var text = 'Surfing Groups'
+        } else if (num === 9) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478081490" alt="Surfing Teams Community Administrators" />'
+            var text = 'Surfing Teams'
+        } else if (num === 10) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478074364" alt="Jetski Collectives Community Administrators" />'
+            var text = 'Jetski Collectives'
+        } else if (num === 11) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478068716" alt="Waterski Enthusiasts Community Administrators" />'
+            var text = 'Waterski Enthusiasts'
+        } else if (num === 12) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478062857" alt="Rowboat Clubs Community Administrators" />'
+            var text = 'Rowboat Clubs'
+        } else if (num === 13) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478056309" alt="Banana Boat Groups Community Administrators" />'
+            var text = 'Banana Boat Groups'
         } else {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148690788" alt="Professional Associations Community Administrators" />'
             var text = 'Professional Associations'

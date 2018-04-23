@@ -26,7 +26,68 @@
     <meta property="og:image:type" content="image/jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "type": "opt-in",
+                "content": {
+                    "message": "\nCookies are important to the proper functioning of a site. To improve your experience, we use cookies to remember log-in details and provide secure log-in, and collect statistics to optimize site functionality.",
+                    "dismiss": "Not Now",
+                    "allow": "Agree and Proceed",
+                    "href": "https://www.unaty.de/en-us/company/privacy.html"
+                },
+                onInitialise: function (status) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
 
+                onStatusChange: function(status, chosenBefore) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onRevokeChoice: function() {
+                    var type = this.options.type;
+                    if (type == 'opt-in') {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                    if (type == 'opt-out') {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                }
+            })});
+    </script>
     <meta content="en_US" property="og:locale">
     <meta content="website" property="og:type">
 

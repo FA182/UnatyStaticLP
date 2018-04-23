@@ -4,7 +4,7 @@
 <head>
 
 
-    <title>Folge deine Passion, inspiriere deine Gemeinschaft | Unaty</title>
+    <title>Folge deiner Passion, inspiriere deine Gemeinschaft | Unaty</title>
     <link rel="shortcut icon"           href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">     <script type="text/javascript">         localStorage.setItem('language', 'de-DE');     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
@@ -95,6 +95,69 @@
     <script src="../semantic/dist/jquery-3.1.1.min.js"></script>
     <script src="../semantic/dist/semantic.min.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "type": "opt-in",
+                "content": {
+                    "message": "\nCookies sind für die korrekte Funktionsweise von Unaty wichtig. Wir nutzen Cookies zum bequemen Bereitstellen Ihrer Anmeldedaten, eine sichere Anmeldung zu garantieren, und anonyme statistische Daten zur Optimierung der Website zu erheben. Klicken Sie auf 'Stimme zu und weiter', um Cookies zu akzeptieren oder klicken Sie auf 'Nicht Jetzt', um Cookies vorerst abzustellen.",
+                    "dismiss": "Nicht Jetzt",
+                    "allow": "Stimme zu und weiter",
+                    "href": "https://www.unaty.de/de-de/company/privacy.html"
+                },
+                onInitialise: function (status) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onStatusChange: function(status, chosenBefore) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onRevokeChoice: function() {
+                    var type = this.options.type;
+                    if (type == 'opt-in') {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                    if (type == 'opt-out') {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                }
+            })});
+    </script>
+
     <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -120,7 +183,7 @@
         var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
         var text = 'Studenten Gruppen'
 
-        var num = getRandomInt(0, 3)
+        var num = getRandomInt(0, 13)
 
         if (num === 0) {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
@@ -129,8 +192,41 @@
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148703286" alt="Sports Teams Community Administrators" />'
             var text = 'Sport Teams'
         } else if (num === 2) {
-            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148660420" alt="Business Associations Community Administrators" />'
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148660420" alt="Business Vereine Community Administrators" />'
             var text = 'Business Vereine'
+        } else if (num === 3) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478128143" alt="Fußball Vereine Community Administrators" />'
+            var text = 'Fußball Vereine'
+        } else if (num === 4) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478120430" alt="Schwimmvereine Community Administrators" />'
+            var text = 'Schwimmvereine'
+        } else if (num === 5) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478110434" alt="Alumni Vereine Community Administrators" />'
+            var text = 'Alumni Vereine'
+        } else if (num === 6) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478103216" alt="Feierliche Gruppen Community Administrators" />'
+            var text = 'Feierliche Gruppen'
+        } else if (num === 7) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478096015" alt="Windsurfen Groups Community Administrators" />'
+            var text = 'Windsurfen Groups'
+        } else if (num === 8) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478087899" alt="Surfen Gruppen Community Administrators" />'
+            var text = 'Surfen Gruppen'
+        } else if (num === 9) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478081490" alt="Surfen Teams Community Administrators" />'
+            var text = 'Surfen Teams'
+        } else if (num === 10) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478074364" alt="Jetski Gruppen Community Administrators" />'
+            var text = 'Jetski Gruppen'
+        } else if (num === 11) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478068716" alt="Waterski Gruppen Community Administrators" />'
+            var text = 'Waterski Gruppen'
+        } else if (num === 12) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478062857" alt="Booten Clubs Community Administrators" />'
+            var text = 'Booten Clubs'
+        } else if (num === 13) {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478056309" alt="Banana Boot Groups Community Administrators" />'
+            var text = 'Banana Boot Groups'
         } else {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148690788" alt="Professional Associations Community Administrators" />'
             var text = 'Professionelle Vereine'
@@ -453,7 +549,7 @@
             <div>
 
                 <div class="flp-title-text">
-                    Folge deine Passion, inspiriere deine Gemeinschaft
+                    Folge deiner Passion, inspiriere deine Gemeinschaft
                 </div>
 
                 <div class="flp-subtitle-text">

@@ -14,7 +14,68 @@
     <meta name="apple-mobile-web-app-title" content="Unaty">
     <meta name="application-name" content="Unaty">
     <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css"><meta name="author" content="Unaty Technologies GmbH">  <script>window.intercomSettings = {         app_id: "auma9g4d",         custom_launcher_selector: '#intercom_chat_link'     };      </script>     <script>(function () {         var w = window;         var ic = w.Intercom;         if (typeof ic === "function") {             ic('reattach_activator');             ic('update', intercomSettings);         } else {             var d = document;             var i = function () {                 i.c(arguments)             };             i.q = [];             i.c = function (args) {                 i.q.push(args)             };             w.Intercom = i;             function l() {                 var s = d.createElement('script');                 s.type = 'text/javascript';                 s.async = true;                 s.src = 'https://widget.intercom.io/widget/auma9g4d';                 var x = d.getElementsByTagName('script')[0];                 x.parentNode.insertBefore(s, x);             }              if (w.attachEvent) {                 w.attachEvent('onload', l);             } else {                 w.addEventListener('load', l, false);             }         }     })()</script>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "type": "opt-in",
+                "content": {
+                    "message": "\nCookies sind für die korrekte Funktionsweise von Unaty wichtig. Wir nutzen Cookies zum bequemen Bereitstellen Ihrer Anmeldedaten, eine sichere Anmeldung zu garantieren, und anonyme statistische Daten zur Optimierung der Website zu erheben. Klicken Sie auf 'Stimme zu und weiter', um Cookies zu akzeptieren oder klicken Sie auf 'Nicht Jetzt', um Cookies vorerst abzustellen.",
+                    "dismiss": "Nicht Jetzt",
+                    "allow": "Stimme zu und weiter",
+                    "href": "https://www.unaty.de/de-de/company/privacy.html"
+                },
+                onInitialise: function (status) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
 
+                onStatusChange: function(status, chosenBefore) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onRevokeChoice: function() {
+                    var type = this.options.type;
+                    if (type == 'opt-in') {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                    if (type == 'opt-out') {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                }
+            })});
+    </script>
     <link href="https://www.unaty.de/" rel="canonical">
     <meta content="index, follow" name="robots">
     <meta name="copyright" content="Unaty Technologies GmbH Copyright (c) 2018">
