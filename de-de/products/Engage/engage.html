@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="de">
 <head>
 
 
-    <title>Unaty Platform | Unaty</title>
+    <title>Engagiere Deine Mitglieder, indem Du sie interessenbasiert ansprichst | Engage | Unaty</title>
     <link rel="shortcut icon"
           href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,68 @@
     <meta name="apple-mobile-web-app-title" content="Unaty">
     <meta name="application-name" content="Unaty">
     <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css"><meta name="author" content="Unaty Technologies GmbH">  <script>window.intercomSettings = {         app_id: "auma9g4d",         custom_launcher_selector: '#intercom_chat_link'     };      </script>     <script>(function () {         var w = window;         var ic = w.Intercom;         if (typeof ic === "function") {             ic('reattach_activator');             ic('update', intercomSettings);         } else {             var d = document;             var i = function () {                 i.c(arguments)             };             i.q = [];             i.c = function (args) {                 i.q.push(args)             };             w.Intercom = i;             function l() {                 var s = d.createElement('script');                 s.type = 'text/javascript';                 s.async = true;                 s.src = 'https://widget.intercom.io/widget/auma9g4d';                 var x = d.getElementsByTagName('script')[0];                 x.parentNode.insertBefore(s, x);             }              if (w.attachEvent) {                 w.attachEvent('onload', l);             } else {                 w.addEventListener('load', l, false);             }         }     })()</script>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "type": "opt-in",
+                "content": {
+                    "message": "\nCookies sind für die korrekte Funktionsweise von Unaty wichtig. Wir nutzen Cookies zum bequemen Bereitstellen Ihrer Anmeldedaten, um eine sichere Anmeldung zu garantieren, und um anonyme statistische Daten zur Optimierung der Website zu erheben. Klicken Sie auf „Stimme zu und weiter“, um Cookies zu akzeptieren oder klicken Sie auf "Nicht Jetzt“, um Cookies vorerst abzustellen.",
+                    "dismiss": "Nicht Jetzt",
+                    "allow": "Stimme zu und weiter",
+                    "href": "https://www.unaty.de/de-de/company/privacy.html"
+                },
+                onInitialise: function (status) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
 
+                onStatusChange: function(status, chosenBefore) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onRevokeChoice: function() {
+                    var type = this.options.type;
+                    if (type == 'opt-in') {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                    if (type == 'opt-out') {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                }
+            })});
+    </script>
     <link href="https://www.unaty.de/" rel="canonical">
     <meta content="index, follow" name="robots">
     <meta name="copyright" content="Unaty Technologies GmbH Copyright (c) 2018">
@@ -44,21 +105,21 @@
     <meta name="twitter:url" content="https://www.unaty.de/">     <!-- Global site tag (gtag.js) - Google AdWords: 850680838 -->     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-850680838"></script>     <script>         window.dataLayer = window.dataLayer || [];         function gtag(){dataLayer.push(arguments);}         gtag('js', new Date());          gtag('config', 'AW-850680838');     </script>
     <meta name="twitter:domain" content="https://www.unaty.de">
 
-    <link rel="apple-touch-icon" sizes="180x180"           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333373730">     <script type="text/javascript">         localStorage.setItem('language', 'en-US');     </script>
+    <link rel="apple-touch-icon" sizes="180x180"
+          href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333373730">
     <link rel="icon" type="image/png" sizes="32x32"
           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333361779">
     <link rel="icon" type="image/png" sizes="16x16"
           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333346991">
 
-    <link rel="shortcut icon"
-          href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">
+    <link rel="shortcut icon"           href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">     <script type="text/javascript">         localStorage.setItem('language', 'de-DE');     </script>
 
 
-    <link target="_blank" href="../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
-    <script src="../semantic/dist/jquery-3.1.1.min.js"></script>
-    <script src="../semantic/dist/semantic.min.js"></script>
+    <link target="_blank" href="../../../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+    <script src="../../../semantic/dist/jquery-3.1.1.min.js"></script>
+    <script src="../../../semantic/dist/semantic.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css">
+    <link rel="stylesheet" type="text/css" target="_blank" href="../../../css/landingStyles.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92484757-1"></script>
@@ -73,23 +134,25 @@
 
         gtag('config', 'UA-92484757-1');
     </script>
+
 </head>
 <body>
+
 
 <div class=" LandingMenu">
     <div class="ui container">
         <div class="LandingMenuImg cursor-pointer">
-            <a href="https://www.unaty.de/en-us/index.html">
+            <a href="https://www.unaty.de/de-de/index.html">
                 <img src="https://unaty-media.s3.amazonaws.com/static/logos/logoNormal.png" alt="Logo">
             </a>
         </div>
         <div class="ui orange large text hideOnTablet menu">
             <div class="item richItemMenu">
-                <span id="menuProducts">Products</span>
+                <span id="menuProducts">Produkte</span>
                 <div id="menuProductsContainer"
                      class="ui bottom center wide basic popup transition noPaddingPopup animated fadeIn animationSpeedUp unatyNewMenuPopup">
                     <div>
-                        <a href="https://www.unaty.de/en-us/products/build.html"
+                        <a href="https://www.unaty.de/de-de/products/build.html"
                            class="newMenuMainItem marginTop8px marginTop12 hoverItemMenu">
                             <div>
                                 <i class="ui icon teal magic"></i>
@@ -98,12 +161,12 @@
                                 <div><span>Build</span></div>
                                 <div>
                                     <span>
-                                        Administration made easy with standardization and automation
+                                        Verwaltung einfach gemacht durch Standardisierung und Automatisierung
                                     </span>
                                 </div>
                             </div>
                         </a>
-                        <a href="https://www.unaty.de/en-us/products/engage.html" class="newMenuMainItem hoverItemMenu">
+                        <a href="https://www.unaty.de/de-de/products/engage.html" class="newMenuMainItem hoverItemMenu">
                             <div>
                                 <i class="ui icon red lightning"></i>
                             </div>
@@ -111,12 +174,12 @@
                                 <div><span>Engage</span></div>
                                 <div>
                                     <span>
-                                       Increase participation by reaching Members based on their interests
+                                       Engagiere Deine Mitglieder, indem Du sie interessenbasiert ansprichst
                                     </span>
                                 </div>
                             </div>
                         </a>
-                        <a href="https://www.unaty.de/en-us/products/grow.html"
+                        <a href="https://www.unaty.de/de-de/products/grow.html"
                            class="newMenuMainItem paddingBottom16 hoverItemMenu">
                             <div>
                                 <i class="ui icon  green icon-growicon grow-icon-2"></i>
@@ -125,42 +188,42 @@
                                 <div><span>Grow</span></div>
                                 <div>
                                     <span>
-                                        Raise online awareness and reach more potential members
+                                        Expandiere online und gewinne neue Mitglieder
                                     </span>
                                 </div>
                             </div>
                         </a>
                         <div class="unaty-platform-menu-text marginBottom12">
-                            All Products are built on the free<br/>
-                            <a href="https://www.unaty.de/en-us/unaty-platform.html">Unaty Platform →</a>
+                            Alle Produkte laufen auf der kostenlosen<br/>
+                            <a href="https://www.unaty.de/de-de/unaty-platform.html">Unaty Plattform →</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="item richItemMenu">
-                <span id="menuForum">Use Cases</span>
+                <span id="menuForum">Anwendungsfälle</span>
                 <div id="menuForumContainer"
                      class="ui bottom center wide basic popup transition noPaddingPopup animated fadeIn animationSpeedUp unatyNewMenuPopup animated fadeIn">
-                    <a href="https://www.unaty.de/en-us/use-cases/easy-administration.html"
+                    <a href="https://www.unaty.de/de-de/use-cases/easy-administration.html"
                        class="menu-use-case marginTop12">
                         <div>
-                            Professionalize and automate administration
+                            Verwaltung standardisieren und automatisieren
                         </div>
                         <div>Powered by: <span class="final-powered-by-icon"><i
                                 class="ui icon teal magic"></i> Build</span>
                             + <span class="final-powered-by-icon"><i
                                     class="ui icon red lightning"></i> Engage</span></div>
                     </a>
-                    <a href="https://www.unaty.de/en-us/use-cases/activate-members.html"
+                    <a href="https://www.unaty.de/de-de/use-cases/activate-members.html"
                        class="menu-use-case">
                         <div>
-                            Activate members, sponsors, friends and family
+                            Mitglieder, Sponsoren, Freunde und Familien aktivieren
                         </div>
                         <div>Powered by: <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span>
                         </div>
                     </a>
 
-                    <a href="https://www.unaty.de/en-us/use-cases/recruit-members.html"
+                    <a href="https://www.unaty.de/de-de/use-cases/recruit-members.html"
                        class="menu-use-case marginBottom12">
                         <div>
                             Catch, recruit and bind new Members
@@ -174,10 +237,10 @@
                 </div>
             </div>
             <div class="item richItemMenu">
-                <span id="menuForum"><a href="https://www.unaty.de/en-us/pricing.html">Pricing</a></span>
+                <span id="menuForum"><a href="https://www.unaty.de/de-de/pricing.html">Preise</a></span>
             </div>
             <div class="item richItemMenu">
-                <span id="menuCompany">Resources</span>
+                <span id="menuCompany">Ressourcen</span>
                 <div id="menuCompanyContainer"
                      class="ui bottom center wide basic popup transition noPaddingPopup animated fadeIn animationSpeedUp unatyNewMenuPopup">
                     <div>
@@ -199,31 +262,31 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="https://www.unaty.de/en-us/company/about.html" class="newMenuSubitem2 paddingTop16">
+                        <a href="https://www.unaty.de/de-de/company/about.html" class="newMenuSubitem2 paddingTop16">
                             <div><i aria-hidden="true" class="heart outline icon"></i></div>
                             <div>
-                                <div><span>About</span></div>
+                                <div><span>Über uns</span></div>
                             </div>
                         </a>
-                        <a href="https://www.unaty.de/en-us/company/careers.html" class="newMenuSubitem2">
+                        <a href="https://www.unaty.de/de-de/company/careers.html" class="newMenuSubitem2">
                             <div><i aria-hidden="true" class="travel icon"></i></div>
                             <div>
-                                <div><span>Careers</span></div>
+                                <div><span>Karriere</span></div>
                             </div>
                         </a>
-                        <a href="https://www.unaty.de/en-us/company/press.html" class="newMenuSubitem2">
+                        <a href="https://www.unaty.de/de-de/company/press.html" class="newMenuSubitem2">
                             <div><i aria-hidden="true" class="bookmark icon"></i></div>
                             <div>
                                 <div><span>Press</span></div>
                             </div>
                         </a>
-                        <a href="https://www.unaty.de/en-us/company/security.html" class="newMenuSubitem2">
+                        <a href="https://www.unaty.de/de-de/company/security.html" class="newMenuSubitem2">
                             <div><i aria-hidden="true" class="lock icon"></i></div>
                             <div>
-                                <div><span>Security</span></div>
+                                <div><span>Sicherheit</span></div>
                             </div>
                         </a>
-                        <a href="https://www.unaty.de/en-us/company/contact-us.html"
+                        <a href="https://www.unaty.de/de-de/company/contact-us.html"
                            class="newMenuSubitem2 marginBottom12">
                             <div><i aria-hidden="true" class="mail outline icon"></i></div>
                             <div>
@@ -234,32 +297,30 @@
                 </div>
             </div>
             <div class="item richItemMenu">
-                <span id="menuForum"><a href="https://app.unaty.de/login?source=landing_page_menu">Log in</a></span>
+                <span id="menuForum"><a href="https://app.unaty.de/login?source=landing_page_menu">Einloggen</a></span>
             </div>
             <div class="menuMainLanguageSwitcher">
                 <div class="">
                     <div role="listbox" id="switchLanguagesDropdown" aria-expanded="false"
                          class="ui inline dropdown rightAlignOffsetMenu" tabindex="0">
-                        <span><i class="us flag"></i></span><i aria-hidden="true" class="dropdown icon"></i>
+                        <span><i class="de flag"></i></span><i aria-hidden="true" class="dropdown icon"></i>
                         <div id="showMenu" class="menu transition">
-                            <a href="https://www.unaty.de/en-us/index.html" role="option" aria-checked="true"
-                               aria-selected="true" class="active selected item"
-                               style="pointer-events: all;"><i class="us flag"></i><span class="text">English</span></a>
+                            <a href="https://www.unaty.de/en-us/index.html" role="option" aria-checked="true"                                aria-selected="true" class="item"                                style="pointer-events: all;"><i class="us flag"></i><span class="text">Englisch</span></a>
                             <a href="https://www.unaty.de/de-de/index.html" role="option" aria-checked="false"
-                               aria-selected="false" class="item"
-                               style="pointer-events: all;"><i class="de flag"></i><span class="text">German</span></a>
+                               aria-selected="false" class="active selected item"
+                               style="pointer-events: all;"><i class="de flag"></i><span class="text">Deutsch</span></a>
                         </div>
                     </div>
                 </div>
             </div>
             <a class="ui button blue compact menuButtonBlue" aria-current="false"
                target="_blank"
-               href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Get Started</span></a>
+               href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Jetzt loslegen</span></a>
         </div>
 
         <div class="ui orange large text marginRight16 hideOnDesktop menu">
             <a class="ui button blue compact menuButtonBlue" aria-current="false" target="_blank"
-               href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Get Started</span></a>
+               href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Jetzt loslegen</span></a>
         </div>
         <div class="ui orange large text hideOnDesktop menu">
             <div class="item landingHamburger" id="landingHamburger"><i aria-hidden="true" class="sidebar icon"></i>
@@ -282,8 +343,8 @@
                 <div class="nmm-tc">
                     <a class="ui button blue compact menuButtonBlue" aria-current="false"
                        target="_blank"
-                       href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Get Started</span></a>
-                    or <a href="https://app.unaty.de/login?source=landing_page_menu">Log in</a>
+                       href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Jetzt loslegen</span></a>
+                    or <a href="https://app.unaty.de/login?source=landing_page_menu">Einloggen</a>
                 </div>
 
 
@@ -297,16 +358,16 @@
 
                         <div class="column">
 
-                            <div class="ui header dividing">Products</div>
+                            <div class="ui header dividing">Produkte</div>
 
                             <div class="ui vertical list relaxed">
-                                <a href="https://www.unaty.de/en-us/products/build.html?source=mobile_menu"
+                                <a href="https://www.unaty.de/de-de/products/build.html?source=mobile_menu"
                                    class="nmmPI item"><i class="ui icon orange magic"></i><span>Build</span></a>
 
-                                <a href="https://www.unaty.de/en-us/products/build.html?source=mobile_menu"
+                                <a href="https://www.unaty.de/de-de/products/build.html?source=mobile_menu"
                                    class="nmmPI item"><i class="ui icon red lightning"></i><span>Engage</span></a>
 
-                                <a href="https://www.unaty.de/en-us/products/build.html?source=mobile_menu"
+                                <a href="https://www.unaty.de/de-de/products/build.html?source=mobile_menu"
                                    class="nmmPI item"><i
                                         class="ui icon green icon-growicon grow-icon-3 position-relative"></i><span>Grow</span></a>
 
@@ -316,13 +377,13 @@
 
                         <div class="column">
 
-                            <div class="ui header dividing">Use Cases</div>
+                            <div class="ui header dividing">Anwendungsfälle</div>
 
 
                             <div class="ui vertical list relaxed">
                                 <a role="listitem" class="item nmm-item"
-                                   href="https://www.unaty.de/en-us/use-cases/easy-administration.html">
-                                    <span class="nmm-uc-1">Professionalize and automate administration</span>
+                                   href="https://www.unaty.de/de-de/use-cases/easy-administration.html">
+                                    <span class="nmm-uc-1">Verwaltung standardisieren und automatisieren</span>
                                     <span class="nmm-uc-2">Powered by: <span class="final-powered-by-icon"><i
                                             class="ui icon teal magic"></i> Build</span>
                             + <span class="final-powered-by-icon"><i
@@ -330,15 +391,15 @@
                                 </a>
 
                                 <a role="listitem" class="item nmm-item"
-                                   href="https://www.unaty.de/en-us/use-cases/activate-members.html">
-                                    <span class="nmm-uc-1">Activate members, sponsors, friends and family</span>
+                                   href="https://www.unaty.de/de-de/use-cases/activate-members.html">
+                                    <span class="nmm-uc-1">Mitglieder, Sponsoren, Freunde und Familien aktivieren</span>
                                     <span class="nmm-uc-2">Powered by: <span class="final-powered-by-icon"><i
                                             class="ui icon red lightning"></i> Engage</span></span>
                                 </a>
 
                                 <a role="listitem" class="item nmm-item"
-                                   href="https://www.unaty.de/en-us/use-cases/recruit-members.html">
-                                    <span class="nmm-uc-1">Catch, recruit and bind new members</span>
+                                   href="https://www.unaty.de/de-de/use-cases/recruit-members.html">
+                                    <span class="nmm-uc-1">Finde, rekrutiere und binde neue Mitglieder</span>
                                     <span class="nmm-uc-2">Powered by: <span class="final-powered-by-icon"><i
                                             class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span>
                             + <span class="final-powered-by-icon"><i
@@ -353,8 +414,8 @@
                     <div class="one column row">
                         <div class="column">
                             <div class="nmm-ptext">
-                                All Products are built on the free <a
-                                    href="https://www.unaty.de/en-us/unaty-platform.html">Unaty Platform →</a>
+                                Alle Produkte laufen auf der kostenlosen <a
+                                    href="https://www.unaty.de/de-de/unaty-platform.html">Unaty Plattform →</a>
                             </div>
                         </div>
                     </div>
@@ -366,14 +427,14 @@
             <div class="ui divider hidden"></div>
 
             <div>
-                <div class="ui header dividing">Resources</div>
+                <div class="ui header dividing">Ressourcen</div>
                 <div class="ui horizontal list relaxed">
-                    <a href="https://www.unaty.de/en-us/company/about.html" class="item"><span>About</span></a>
-                    <a href="https://www.unaty.de/en-us/company/contact-us.html" class="item"><span>Contact</span></a>
-                    <a href="https://www.unaty.de/en-us/company/press.html" class="item"><span>Press</span></a>
-                    <a href="https://www.unaty.de/en-us/company/careers.html" class="item"><span>Careers</span></a>
-                    <a href="https://www.unaty.de/en-us/company/security.html" class="item"><span>Security</span></a>
-                    <a href="https://www.unaty.de/en-us/company/imprint.html" class="item"><span>Imprint</span></a>
+                    <a href="https://www.unaty.de/de-de/company/about.html" class="item"><span>Über uns</span></a>
+                    <a href="https://www.unaty.de/de-de/company/contact-us.html" class="item"><span>Kontakt</span></a>
+                    <a href="https://www.unaty.de/de-de/company/press.html" class="item"><span>Press</span></a>
+                    <a href="https://www.unaty.de/de-de/company/careers.html" class="item"><span>Karriere</span></a>
+                    <a href="https://www.unaty.de/de-de/company/security.html" class="item"><span>Sicherheit</span></a>
+                    <a href="https://www.unaty.de/de-de/company/imprint.html" class="item"><span>Impressum</span></a>
                 </div>
 
             </div>
@@ -382,103 +443,71 @@
     </div>
     <span></span></div>
 
-<div class="ui fluid container">
-<div class="final-landing-page-main minHeight480">
+<div class="final-product-page-header">
 
+    <div class="ui fluid container">
 
-        <div class="ui container flex-control-grid reverse-home-page unaty-platform-section">
+        <div class="ui container final-product-header-grid">
 
             <div>
-
-                <div class="flp-title-text">
-                    Unaty is a Platform built for your Organization
+                <div class="final-product-name"><i class="ui icon large lightning red"></i> Engage</div>
+                <div class="final-product-title">
+                    Engagiere Deine Mitglieder, indem Du sie interessenbasiert ansprichst
                 </div>
-
-                <div class="flp-subtitle-text">
-                    Modern community engagement tools for leaders, thinkers, shakers and makers - all on the first platform made with members in mind.
+                <div class="final-product-description">
+                    Desc what it all includes
                 </div>
-
-                <a id="newGetStartedBtn" href="https://app.unaty.de/get-started?source=pricing_page"
-                   target="_blank" class="ui huge compact button blue" role="button">Get Started</a>
-
+                <div role="list" class="ui ordered list large relaxed final-list-use-case">
+                    <a role="listitem" href="#list" class="item">Messenger</a>
+                    <a role="listitem" href="#audience" class="item">Audience</a>
+                    <a role="listitem" href="#segments" class="item">Segments</a>
+                    <a role="listitem" href="#events" class="item">Events</a>
+                    <a role="listitem" href="#locations" class="item">Locations</a>
+                </div>
+                <div class="final-product-button">
+                    <a href="#features" class="ui button large red compact">
+                        View Features
+                    </a>
+                </div>
             </div>
 
-            <div class="final-main-image-home">
-                <img class="img-shadow" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1522056514284" />
+            <div>
+                <img class="img-shadow" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1522054127669" />
             </div>
 
         </div>
 
-</div>
+    </div>
 
 </div>
+<div class="final-general-section2" id="features">
+<div class="ui fluid container">
 
+    <div class="ui container">
+        <div class="ui divider hidden"></div>
+        <div role="list" class="ui huge link list horizontal relaxed" id="list">
+
+            <a role="listitem" class="item" href="#list"><span>Messenger</span></a>
+
+            <a role="listitem" class="item" href="#audience"><span>Audience</span></a>
+
+            <a role="listitem" class="item" href="#segments"><span>Segments</span></a>
+
+            <a role="listitem" class="item" href="#events"><span>Events</span></a>
+
+            <a role="listitem" class="item" href="#locations"><span>Locations</span></a>
+        </div>
+    </div>
+
+</div>
+</div>
 <div class="final-general-section">
 
     <div class="ui fluid container">
 
         <div class="ui container">
 
-            <div class="ui stackable grid">
-
-                <div class="three column row">
-
-                    <div class="column">
-
-                        <div class="final-real-feature final-align-center">
-
-                            <div><i class="ui icon orange address book"></i></div>
-                            <div>Member Relationship Management</div>
-                            <div>Organize Member Data centrally where Admins can work together and Members can edit their
-                                own Profiles.</div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="column">
-
-                        <div class="final-real-feature final-align-center">
-
-                            <div><i class="ui icon orange share alternate"></i></div>
-                            <div>Private Social Network</div>
-                            <div>Members can explore their Community, edit their profile, send messages and post to the
-                                Community feed.</div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="column">
-
-                        <div class="final-real-feature final-align-center">
-
-                            <div><i class="ui icon orange plug"></i></div>
-                            <div>Connect to the tools you already use</div>
-                            <div>Unaty can integrate with your existing workflows and connect to apps like Mailchimp,
-                                Google Adwords, and more.</div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div role="list" class="ui huge link list horizontal relaxed" >
-
-                <a role="listitem" class="item" href="#list"><span>Members</span></a>
-
-                <a role="listitem" class="item" href="#newsfeed"><span>News Feed</span></a>
-
-                <a role="listitem" class="item" href="#groups"><span>Groups</span></a>
-
-                <a role="listitem" class="item" href="#communaty"><span>Communaty</span></a>
-
-            </div>
-
-            <div class="ui header large" >Members</div>
+            <div class="ui header large" id="features">Messenger</div>
 
             <div class="ui stackable grid">
 
@@ -488,9 +517,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue upload"></i></div>
-                            <div>Import your Members</div>
-                            <div>Import your static Excel List and Unaty automatically converts it to the platform</div>
+                            <div><i class="ui icon red edit"></i></div>
+                            <div>Rich text Editor</div>
+                            <div>Write a Message with your style of fonts and sizes</div>
 
                         </div>
 
@@ -500,9 +529,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue download"></i></div>
-                            <div>Export your Members</div>
-                            <div>Download a simple but detailed Excel List of your Members or Segments</div>
+                            <div><i class="ui icon red attach"></i></div>
+                            <div>Attachments</div>
+                            <div>Images and Documents will be converted for SMS visibility</div>
 
                         </div>
 
@@ -512,9 +541,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue tags"></i></div>
-                            <div>Member Types</div>
-                            <div>Categorize your Members in different Types</div>
+                            <div><i class="ui icon red mail"></i></div>
+                            <div>Email</div>
+                            <div>Send your Messages via Emails</div>
 
                         </div>
 
@@ -528,9 +557,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue id badge"></i></div>
-                            <div>Profile Fields</div>
-                            <div>Customize the general profiles by adding your individual communaty fields</div>
+                            <div><i class="ui icon red chat"></i></div>
+                            <div>SMS</div>
+                            <div>Send your Messages via SMS</div>
 
                         </div>
 
@@ -539,9 +568,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue chat"></i></div>
-                            <div>Contact methods</div>
-                            <div>You decide who you get reached: Email, SMS, Facebook, Whatsapp,...</div>
+                            <div><i class="ui icon red tag"></i></div>
+                            <div>Topics</div>
+                            <div>Choose Topics to reach the right Audiences</div>
 
                         </div>
 
@@ -550,20 +579,21 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue address book"></i></div>
-                            <div>Download Contact</div>
-                            <div>Download any Member and save him to your adress book</div>
+                            <div><i class="ui icon red settings"></i></div>
+                            <div>Rules</div>
+                            <div>Send automated messages based on your rules</div>
 
                         </div>
 
                     </div>
 
                 </div>
+
             </div>
-            <div class="final-general-section3" id="newsfeed">
-                <div class="ui section divider" ></div>
+            <div class="final-general-section3" id="audience">
+                <div class="ui section divider"></div>
             </div>
-            <div class="ui header large" >News Feed</div>
+            <div class="ui header large" id="features">Audience</div>
 
             <div class="ui stackable grid">
 
@@ -573,82 +603,47 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue like"></i></div>
-                            <div>Like a Post</div>
-                            <div>Give your opinion by liking good posts</div>
+                            <div><i class="ui icon red comment"></i></div>
+                            <div>Build Audience</div>
+                            <div>Build complex Audiences with a simple toolkit</div>
 
                         </div>
-                    </div>
 
-                    <div class="column">
-
-                        <div class="final-real-feature2">
-
-                            <div><i class="ui icon blue comment"></i></div>
-                            <div>Comment a Post</div>
-                            <div>Start discussions and conversations</div>
-
-                        </div>
 
                     </div>
                     <div class="column">
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue at"></i></div>
-                            <div>Mentions</div>
-                            <div>refer somone who might be interested in this post</div>
-
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="three column row">
-
-
-                <div class="column">
-
-                        <div class="final-real-feature2">
-
-                            <div><i class="ui icon blue attach"></i></div>
-                            <div>Attach Files</div>
-                            <div>Directly upload documents to the Feed and view them</div>
+                            <div><i class="ui icon red options"></i></div>
+                            <div>Reachability</div>
+                            <div>See how your members are getting their Messages</div>
 
                         </div>
-                    </div>
 
-                    <div class="column">
-
-                        <div class="final-real-feature2">
-
-                            <div><i class="ui icon blue picture"></i></div>
-                            <div>Attach Images</div>
-                            <div>A quick upload of a photo that is directly shown in the News Feed</div>
-
-                        </div>
 
                     </div>
                     <div class="column">
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue linkify"></i></div>
-                            <div>Attach rich links</div>
-                            <div>Get more Information without even clicking the link</div>
-
+                            <div><i class="ui icon red save"></i></div>
+                            <div>Save</div>
+                            <div>Save Audiences for regular use and Messages</div>
 
                         </div>
+
 
                     </div>
 
                 </div>
 
+
             </div>
-            <div class="final-general-section3" id="groups">
-                <div class="ui section divider" ></div>
+            <div class="final-general-section3" id="segments">
+                <div class="ui section divider"></div>
             </div>
-            <div class="ui header large" id="features">Groups</div>
+            <div class="ui header large" id="features">Segments</div>
 
             <div class="ui stackable grid">
 
@@ -658,9 +653,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue lock"></i></div>
-                            <div>Private Groups</div>
-                            <div>Create private Groups you can apply to enter</div>
+                            <div><i class="ui icon red filter"></i></div>
+                            <div>Filter Members</div>
+                            <div>Create Member Segments based on Text/Date/Profile Field Filters</div>
 
                         </div>
 
@@ -670,9 +665,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue hide"></i></div>
-                            <div>Hidden Groups</div>
-                            <div>Create hidden Groups you can only enter by invitation</div>
+                            <div><i class="ui icon red refresh"></i></div>
+                            <div>Autoupdating</div>
+                            <div>Segments update themselves based on every change of your Members</div>
 
                         </div>
 
@@ -682,20 +677,17 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue folder"></i></div>
-                            <div>Group Folders</div>
-                            <div>Store your Group intern Files in Folders</div>
-
+                            <div><i class="ui icon red users" ></i></div>
+                            <div>Segment Groups</div>
+                            <div>Create Groups and Exports based on Segments</div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
-            <div class="final-general-section3" id="communaty">
-                <div class="ui section divider" ></div>
+            <div class="final-general-section3" id="events">
+                <div class="ui section divider"></div>
             </div>
-            <div class="ui header large" id="features">Communaty</div>
+            <div class="ui header large" id="features">Events</div>
 
             <div class="ui stackable grid">
 
@@ -705,9 +697,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue id badge"></i></div>
-                            <div>Profile Editing</div>
-                            <div>Edit your own Profile and fill in all the Profile Fields</div>
+                            <div><i class="ui icon red calendar"></i></div>
+                            <div>Subscribe</div>
+                            <div>Subscribe to Events or even the whole calendar</div>
 
                         </div>
 
@@ -717,21 +709,20 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue home"></i></div>
-                            <div>Custom Themes</div>
-                            <div>Design how your Communaty should look with our Custom Theme tool</div>
+                            <div><i class="ui icon red calendar check"></i></div>
+                            <div>Attend to Events</div>
+                            <div>Be on the Guestlist and get the Updates to this Events</div>
 
                         </div>
-
 
                     </div>
                     <div class="column">
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue sign in"></i></div>
-                            <div>Custom Login Page</div>
-                            <div>Your Communaty has its individual Login Page designed by yourself</div>
+                            <div><i class="ui icon red calendar outline"></i></div>
+                            <div>Interest to Event</div>
+                            <div>Not sure if you can attend? Then show your interest</div>
 
                         </div>
 
@@ -744,9 +735,9 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue id huge comments outline"></i></div>
-                            <div>Language Settings</div>
-                            <div>Decide yourself in which language your communaty is</div>
+                            <div><i class="ui icon red mail forward"></i></div>
+                            <div>Invitations</div>
+                            <div>Send Email/SMS Invitations to Members</div>
 
                         </div>
 
@@ -756,32 +747,80 @@
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue clock"></i></div>
-                            <div>Time zone</div>
-                            <div>Communaty works all around the world and for every Time zone</div>
+                            <div><i class="ui icon red user"></i></div>
+                            <div>Event Hosts</div>
+                            <div>Set the Hosts for your Events</div>
 
                         </div>
-
 
                     </div>
                     <div class="column">
 
                         <div class="final-real-feature2">
 
-                            <div><i class="ui icon blue street view"></i></div>
-                            <div>Administrators</div>
-                            <div>Who has the main control? Set Roles and Members as Admins</div>
+                            <div><i class="ui icon red list"></i></div>
+                            <div>Guestlist</div>
+                            <div>Export the guest list to better organize yourself</div>
 
                         </div>
 
                     </div>
 
                 </div>
+
             </div>
+            <div class="final-general-section3" id="locations">
+                <div class="ui section divider"></div>
+            </div>
+            <div class="ui header large" id="features">Locations</div>
+
+            <div class="ui stackable grid">
+
+                <div class="three column row">
+
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red marker"></i></div>
+                            <div>Standard Locations</div>
+                            <div>Set standard Locations and use them regularly</div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red calendar"></i></div>
+                            <div>Events</div>
+                            <div>Link Events to Locations</div>
+
+                        </div>
+
+                    </div>
+                    <div class="column">
+
+                        <div class="final-real-feature2">
+
+                            <div><i class="ui icon red location arrow"></i></div>
+                            <div>Google Maps</div>
+                            <div>Quickly Navigate with the Google Maps Integration</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     </div>
-</div>
 
+</div>
 
 <div class="final-general-section">
 
@@ -790,29 +829,26 @@
         <div class="ui container">
 
             <div class="ui header large new-header-section">
-                Perfect for Community Leaders, Managers and Members
+               Use Cases supported by Engage
             </div>
 
-            <div class="new-subheader-section">
-                Achieve more using all products together to make administration easier, members happier and raise
-                awareness.
-            </div>
+            <div class="ui divider hidden"></div>
 
             <div class="ui stackable grid">
                 <div class="three column row">
                     <div class="column">
 
                         <div class="use-case-type-tag">
-                            <span>Organization Management</span>
+                            <span>Gemeinschaftsverwaltung</span>
                         </div>
 
                         <a class="final-use-cases-list-item-two"
-                           href="https://www.unaty.de/en-us/use-cases/easy-administration.html">
+                           href="https://www.unaty.de/de-de/use-cases/easy-administration.html">
 
-                            <div>Professionalize and automate administration</div>
+                            <div>Verwaltung standardisieren und automatisieren</div>
 
                             <div>
-                                Make adminstration easy
+                                Unaty macht Verwaltung einfach
                             </div>
 
                             <div>Powered by: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span>
@@ -820,8 +856,7 @@
                                         class="ui icon red lightning"></i> Engage</span></div>
 
 
-                            <div><span>Learn
-                                more →</span></div>
+                            <div><span>Mehr erfahren →</span></div>
 
                         </a>
 
@@ -830,23 +865,22 @@
                     <div class="column">
 
                         <div class="use-case-type-tag">
-                            <span>Member Engagement</span>
+                            <span>Mitglieder Engagement</span>
                         </div>
 
                         <a class="final-use-cases-list-item-two"
-                           href="https://www.unaty.de/en-us/use-cases/activate-members.html">
+                           href="https://www.unaty.de/de-de/use-cases/activate-members.html">
 
-                            <div>Activate members, sponsors, friends and family</div>
+                            <div>Mitglieder, Sponsoren, Freunde und Familien aktivieren</div>
                             <div>
-                                Make members happy
+                                Engagiere Mitglieder
                             </div>
 
                             <div>Powered by:<span class="final-powered-by-icon"><i
                                     class="ui icon red lightning"></i> Engage</span></div>
 
 
-                            <div><span>Learn
-                                more →</span></div>
+                            <div><span>Mehr erfahren →</span></div>
 
                         </a>
 
@@ -855,15 +889,15 @@
                     <div class="column">
 
                         <div class="use-case-type-tag">
-                            <span>Membership Growth</span>
+                            <span>Mitgliederwachstum</span>
                         </div>
 
                         <a class="final-use-cases-list-item-two"
-                           href="https://www.unaty.de/en-us/use-cases/recruit-members.html">
+                           href="https://www.unaty.de/de-de/use-cases/recruit-members.html">
 
-                            <div>Catch, recruit and bind new members</div>
+                            <div>Finde, rekrutiere und binde neue Mitglieder</div>
                             <div>
-                                Reach new members
+                                Erreiche neue Mitglieder
                             </div>
 
                             <div>Powered by: <span class="final-powered-by-icon"><i
@@ -872,8 +906,7 @@
                                         class="ui icon red lightning"></i> Engage</span></div>
 
 
-                            <div><span>Learn
-                                more →</span></div>
+                            <div><span>Mehr erfahren →</span></div>
 
                         </a>
 
@@ -900,23 +933,23 @@
             <div class="unaty-sign-up-box">
 
                 <div>
-                    <div>Start your Free Trial</div>
+                    <div>Kostenlos testen</div>
 
                     <div>
-                        Get started today for free on Unaty and try all products free for 14 days
+                        Starte heute Deinen Weg zur Gemeinschaft von morgen mit Unaty und teste alle Produkte kostenlos für 14 Tage
                     </div>
                 </div>
 
                 <div>
                     <div>
                         <div class="ui action input  input250 final-sign-up-button">
-                            <input id="emailInput1" type="text" placeholder="Enter your Email.."/>
-                            <button id="getStartedBtn1" class="ui button blue large compact" role="button">Get Started
+                            <input id="emailInput1" type="text" placeholder="E-mail Adresse eingeben.."/>
+                            <button id="getStartedBtn1" class="ui button blue large compact" role="button">Jetzt loslegen
                             </button>
                         </div>
                     </div>
                     <div class="extra-infos-subset">
-                        14 Day Free Trial ● Simple Setup ● Cancel Anytime
+                        Plattform kostenlos ● Produkte 14 Tage umsonst ● Jederzeit kündbar
                     </div>
                 </div>
 
@@ -935,18 +968,18 @@
                 <div class="ui grid">
                     <div class="row">
                         <div class="three wide computer sixteen wide mobile three wide tablet column">
-                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Products</span>
+                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Produkte</span>
                             </div>
                             <div role="list" class="ui large link list relaxed">
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/products/build.html"><span>Build</span></a>
+                                   href="https://www.unaty.de/de-de/products/build.html"><span>Build</span></a>
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/products/grow.html"><span>Grow</span></a>
+                                   href="https://www.unaty.de/de-de/products/grow.html"><span>Grow</span></a>
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/products/engage.html"><span>Engage</span></a>
+                                   href="https://www.unaty.de/de-de/products/engage.html"><span>Engage</span></a>
 
                             </div>
                             <div class="ui divider">
@@ -954,38 +987,38 @@
                             <div role="list" class="ui large link list relaxed">
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/pricing.html"><span>View Pricing</span></a>
+                                   href="https://www.unaty.de/de-de/pricing.html"><span>Preise anschauen</span></a>
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/unaty-platform.html"><span>Unaty Platform</span><span
-                                        class="platform-free-span">FREE</span></a>
+                                   href="https://www.unaty.de/de-de/unaty-platform.html"><span>Unaty Plattform</span><span
+                                        class="platform-free-span">UMSONST</span></a>
 
                             </div>
                         </div>
                         <div class="six wide computer sixteen wide mobile seven wide tablet column">
-                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Use Cases</span>
+                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Anwendungsfälle</span>
                             </div>
                             <div role="list" class="ui large link list relaxed">
 
                                 <a role="listitem" class="item "
-                                   href="https://www.unaty.de/en-us/use-cases/easy-administration.html"><span>Professionalize and automate administration</span></a>
+                                   href="https://www.unaty.de/de-de/use-cases/easy-administration.html"><span>Verwaltung standardisieren und automatisieren</span></a>
 
                                 <a role="listitem" class="item "
-                                   href="https://www.unaty.de/en-us/use-cases/activate-members.html"><span>Activate members, sponsors, friends and family</span></a>
+                                   href="https://www.unaty.de/de-de/use-cases/activate-members.html"><span>Mitglieder, Sponsoren, Freunde und Familien aktivieren</span></a>
 
                                 <a role="listitem" class="item "
-                                   href="https://www.unaty.de/en-us/use-cases/recruit-members.html"><span>Catch, recruit and bind new members</span></a>
+                                   href="https://www.unaty.de/de-de/use-cases/recruit-members.html"><span>Finde, rekrutiere und binde neue Mitglieder</span></a>
 
                             </div>
 
                         </div>
                         <div class="four wide computer sixteen wide mobile three wide tablet column">
-                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Resources</span>
+                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Ressourcen</span>
                             </div>
                             <div role="list" class="ui large link list relaxed">
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/security.html"><span>Security</span></a>
+                                   href="https://www.unaty.de/de-de/company/security.html"><span>Sicherheit</span></a>
 
                                 <a role="listitem" class="item"                                    href="http://help.unaty.de/" target="_blank"><span>Help Center</span></a>
 
@@ -993,33 +1026,33 @@
                                    href="https://app.unaty.de/compass/explore"><span>Compass</span></a>
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/privacy.html"><span>Privacy & Usage</span></a>
+                                   href="https://www.unaty.de/de-de/company/privacy.html"><span>Privatsphäre & Nutzung</span></a>
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/press.html"><span>Press Kit</span></a>
+                                   href="https://www.unaty.de/de-de/company/press.html"><span>Presse</span></a>
 
                                 <a target="_blank" href="http://status.unaty.de/" role="listitem"
                                    class="item statusFooterArea"><i aria-hidden="true"
-                                                                    class="green circle icon"></i><span>All Systems online</span></a>
+                                                                    class="green circle icon"></i><span>Alle Systeme online</span></a>
 
                             </div>
                         </div>
                         <div class="three wide computer sixteen wide mobile three wide tablet column">
-                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Company</span>
+                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Unternehmen</span>
                             </div>
                             <div role="list" class="ui large link list relaxed">
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/about.html"><span>About</span></a>
+                                   href="https://www.unaty.de/de-de/company/about.html"><span>Über uns</span></a>
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/contact-us.html"><span>Contact</span></a>
+                                   href="https://www.unaty.de/de-de/company/contact-us.html"><span>Kontakt</span></a>
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/careers.html"><span>Careers</span></a>
+                                   href="https://www.unaty.de/de-de/company/careers.html"><span>Karriere</span></a>
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/imprint.html"><span>Imprint</span></a>
+                                   href="https://www.unaty.de/de-de/company/imprint.html"><span>Impressum</span></a>
 
                             </div>
                         </div>
@@ -1064,7 +1097,8 @@
     </div>
 </div>
 
-<script type="text/javascript">
+
+<script tipe="text/javascript">
 
     $("#menuProducts").hover(
         function () {
@@ -1206,13 +1240,13 @@
     $("#landingHamburger").click(
         function () {
             $("#mobileMenu").removeClass("hidden-block")
-            $("#mobileMenu").addClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
+            $("#mobileMenu").addClass("landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp")
         }
     )
 
     $("#closeMobileMenu").click(
         function () {
-            $("#mobileMenu").removeClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
+            $("#mobileMenu").removeClass("landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp")
             $("#mobileMenu").addClass("hidden-block")
 
         }
@@ -1257,7 +1291,6 @@
 
         }
     )
-
 </script>
 </body>
 </html>

@@ -5046,6 +5046,14 @@ letter-spacing: normal !important;
     padding-bottom: 24px;
     line-height: 1.2;
 }
+.final-product-title2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(0,0,0,0.93);
+    padding-top: 32px;
+    padding-bottom: 24px;
+    line-height: 1.2;
+}
 .final-product-button {
     margin-top: 32px;
 }
@@ -5531,6 +5539,7 @@ letter-spacing: normal !important;
     }
     .flp-title-text {
         padding-top: 40px;
+
     }
     .final-unaty-features > div:nth-child(1) {
         max-width: 100%;
