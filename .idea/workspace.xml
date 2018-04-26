@@ -2,40 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263bb2fe-6ac8-4ce0-a04a-788f0738841d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/de-de/activate-more.html" afterPath="$PROJECT_DIR$/de-de/activate-more.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/cloud-community.html" afterPath="$PROJECT_DIR$/de-de/cloud-community.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/about-us.html" afterPath="$PROJECT_DIR$/de-de/company/about-us.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/about.html" afterPath="$PROJECT_DIR$/de-de/company/about.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/academy.html" afterPath="$PROJECT_DIR$/de-de/company/academy.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/careers.html" afterPath="$PROJECT_DIR$/de-de/company/careers.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/contact-us.html" afterPath="$PROJECT_DIR$/de-de/company/contact-us.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/imprint.html" afterPath="$PROJECT_DIR$/de-de/company/imprint.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/press.html" afterPath="$PROJECT_DIR$/de-de/company/press.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/privacy-old.html" afterPath="$PROJECT_DIR$/de-de/company/privacy-old.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/privacy.html" afterPath="$PROJECT_DIR$/de-de/company/privacy.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/company/security.html" afterPath="$PROJECT_DIR$/de-de/company/security.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/engage-your-community.html" afterPath="$PROJECT_DIR$/de-de/engage-your-community.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/index.html" afterPath="$PROJECT_DIR$/de-de/index.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/own-social-network.html" afterPath="$PROJECT_DIR$/de-de/own-social-network.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/platform.html" afterPath="$PROJECT_DIR$/de-de/platform.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/pricing.html" afterPath="$PROJECT_DIR$/de-de/pricing.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/pricing/credits-experience.html" afterPath="$PROJECT_DIR$/de-de/pricing/credits-experience.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/pricing/pricing-policy.html" afterPath="$PROJECT_DIR$/de-de/pricing/pricing-policy.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/pricing/pricing.html" afterPath="$PROJECT_DIR$/de-de/pricing/pricing.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/private-social-network.html" afterPath="$PROJECT_DIR$/de-de/private-social-network.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/products/build.html" afterPath="$PROJECT_DIR$/de-de/products/build.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/products/communaty.html" afterPath="$PROJECT_DIR$/de-de/products/communaty.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/products/engage.html" afterPath="$PROJECT_DIR$/de-de/products/engage.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/products/grow.html" afterPath="$PROJECT_DIR$/de-de/products/grow.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/products/smart-city-framework.html" afterPath="$PROJECT_DIR$/de-de/products/smart-city-framework.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/reach-more.html" afterPath="$PROJECT_DIR$/de-de/reach-more.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/recruit-potential.html" afterPath="$PROJECT_DIR$/de-de/recruit-potential.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/unaty-platform.html" afterPath="$PROJECT_DIR$/de-de/unaty-platform.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/use-cases/activate-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/activate-members.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" afterPath="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" />
-      <change beforePath="$PROJECT_DIR$/de-de/use-cases/smart-city-framework.html" afterPath="$PROJECT_DIR$/de-de/use-cases/smart-city-framework.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/en-us/products/build/build.html" afterPath="$PROJECT_DIR$/en-us/products/build.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/en-us/products/build/features" afterPath="$PROJECT_DIR$/en-us/products/build/features.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/en-us/products/engage/engage.html" afterPath="$PROJECT_DIR$/en-us/products/engage.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/en-us/products/engage/features" afterPath="$PROJECT_DIR$/en-us/products/engage/features.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/en-us/products/grow/features" afterPath="$PROJECT_DIR$/en-us/products/grow/features.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/en-us/products/grow/grow.html" afterPath="$PROJECT_DIR$/en-us/products/grow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landingStyles.css" afterPath="$PROJECT_DIR$/css/landingStyles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/index.html" afterPath="$PROJECT_DIR$/en-us/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/seed-round.html" afterPath="$PROJECT_DIR$/en-us/seed-round.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,13 +29,14 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en-us/index.html">
+      <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12563">
-              <caret line="739" column="0" lean-forward="false" selection-start-line="739" selection-start-column="0" selection-end-line="739" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="825" column="61" lean-forward="true" selection-start-line="825" selection-start-column="61" selection-end-line="825" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -68,48 +45,18 @@
       <file leaf-file-name="landingStyles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89267">
-              <caret line="5251" column="1" lean-forward="false" selection-start-line="5251" selection-start-column="1" selection-end-line="5251" selection-end-column="1" />
+            <state relative-caret-position="301">
+              <caret line="5824" column="57" lean-forward="false" selection-start-line="5824" selection-start-column="57" selection-end-line="5824" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de-de/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3332">
-              <caret line="196" column="28" lean-forward="true" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/de-de/products/build.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9809">
-              <caret line="577" column="22" lean-forward="false" selection-start-line="577" selection-start-column="22" selection-end-line="577" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="engage.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="engage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8789">
-              <caret line="517" column="0" lean-forward="false" selection-start-line="517" selection-start-column="0" selection-end-line="517" selection-end-column="0" />
+            <state relative-caret-position="62">
+              <caret line="702" column="45" lean-forward="true" selection-start-line="702" selection-start-column="45" selection-end-line="702" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -118,8 +65,8 @@
       <file leaf-file-name="grow.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9112">
-              <caret line="536" column="46" lean-forward="false" selection-start-line="536" selection-start-column="46" selection-end-line="536" selection-end-column="46" />
+            <state relative-caret-position="137">
+              <caret line="747" column="66" lean-forward="true" selection-start-line="747" selection-start-column="66" selection-end-line="747" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -129,10 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>happy</find>
-      <find>Member Engagement</find>
-      <find>Mitglie</find>
-      <find>Activate members, sponsors, friends and family</find>
       <find>Membership Growth</find>
       <find>Catch, recruit and bind new members</find>
       <find>Reach new members</find>
@@ -159,9 +102,12 @@
       <find>Administration, dem Steigern b</find>
       <find>14 Tage kostenlos testen ● Einfache Einrichtung ● Jederzeit kündbar</find>
       <find>Plattfpr,</find>
+      <find>final-landing-page-main</find>
+      <find>fpr</find>
+      <find>realProblemCard</find>
+      <find>getStartedBtn1</find>
     </findStrings>
     <replaceStrings>
-      <replace>Gemeinschaftsverwaltung</replace>
       <replace>Unaty macht Verwaltung einfach</replace>
       <replace>Mehr erfahren</replace>
       <replace>Mitglieder Engagement</replace>
@@ -191,6 +137,7 @@
       <replace>&gt;Einloggen&lt;</replace>
       <replace>Administration, dem Steigern der Partizipation von Mitgliedern und dem Wachstum ihrer Organisation.</replace>
       <replace>Plattform kostenlos ● Produkte 14 Tage umsonst ● Jederzeit kündbar</replace>
+      <replace>final-landing-page-main2</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/de-de</dir>
@@ -226,12 +173,15 @@
         <option value="$PROJECT_DIR$/de-de/company/about-us.html" />
         <option value="$PROJECT_DIR$/de-de/company/about.html" />
         <option value="$PROJECT_DIR$/de-de/activate-more.html" />
+        <option value="$PROJECT_DIR$/de-de/index.html" />
+        <option value="$PROJECT_DIR$/de-de/products/build.html" />
         <option value="$PROJECT_DIR$/en-us/index.html" />
-        <option value="$PROJECT_DIR$/en-us/products/build.html" />
-        <option value="$PROJECT_DIR$/en-us/products/engage.html" />
+        <option value="$PROJECT_DIR$/en-us/products/build/features.html" />
+        <option value="$PROJECT_DIR$/en-us/seed-round.html" />
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
         <option value="$PROJECT_DIR$/css/landingStyles.css" />
-        <option value="$PROJECT_DIR$/de-de/index.html" />
+        <option value="$PROJECT_DIR$/en-us/products/build.html" />
+        <option value="$PROJECT_DIR$/en-us/products/engage.html" />
       </list>
     </option>
   </component>
@@ -245,10 +195,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="793" />
-    <option name="y" value="30" />
-    <option name="width" value="814" />
-    <option name="height" value="877" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-344" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -268,29 +218,133 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-              <item name="de-de" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-              <item name="de-de" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -300,14 +354,17 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/seanmccall/Dev/UnatyStaticLP/css/landingStyles.css" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/en-us/products" />
+      <recent name="$PROJECT_DIR$/fonts/Icons" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/en-us" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/fonts/Icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,6 +410,15 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -372,14 +438,6 @@
       <test-directory />
       <recursive>false</recursive>
       <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -405,37 +463,40 @@
       <workItem from="1524223427127" duration="2225000" />
       <workItem from="1524247452138" duration="5103000" />
       <workItem from="1524560527517" duration="1000" />
+      <workItem from="1524668308156" duration="9308000" />
+      <workItem from="1524728499712" duration="824000" />
+      <workItem from="1524732338689" duration="3610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43287000" />
+    <option name="totallyTimeSpent" value="57029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="793" y="30" width="814" height="877" extended-state="0" />
+    <frame x="-1920" y="-344" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2757732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1637704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -445,46 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7191">
-          <caret line="423" column="22" lean-forward="true" selection-start-line="423" selection-start-column="22" selection-end-line="423" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6783">
-          <caret line="399" column="0" lean-forward="true" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6766">
-          <caret line="398" column="46" lean-forward="true" selection-start-line="398" selection-start-column="46" selection-end-line="398" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84184">
-          <caret line="4952" column="21" lean-forward="true" selection-start-line="4952" selection-start-column="21" selection-end-line="4952" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4635">
-          <caret line="309" column="296" lean-forward="false" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="296" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/de-de/activate-more.html" />
     <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -553,18 +574,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/pricing.html" />
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="347" column="10" lean-forward="true" selection-start-line="347" selection-start-column="10" selection-end-line="347" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/unaty-platform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="929" column="6" lean-forward="false" selection-start-line="929" selection-start-column="6" selection-end-line="1065" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -644,9 +657,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/de-de/activate-more.html" />
+    <entry file="file://$PROJECT_DIR$/de-de/products/build.html" />
+    <entry file="file://$PROJECT_DIR$/de-de/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="197" column="28" lean-forward="false" selection-start-line="197" selection-start-column="28" selection-end-line="197" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9809">
+        <state relative-caret-position="15">
           <caret line="577" column="22" lean-forward="false" selection-start-line="577" selection-start-column="22" selection-end-line="577" selection-end-column="22" />
           <folding />
         </state>
@@ -654,48 +675,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8789">
+        <state relative-caret-position="15">
           <caret line="517" column="0" lean-forward="false" selection-start-line="517" selection-start-column="0" selection-end-line="517" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="536" column="46" lean-forward="false" selection-start-line="536" selection-start-column="46" selection-end-line="536" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="462" column="0" lean-forward="true" selection-start-line="462" selection-start-column="0" selection-end-line="462" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/unaty-platform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="911" column="51" lean-forward="false" selection-start-line="911" selection-start-column="51" selection-end-line="911" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="454" column="22" lean-forward="true" selection-start-line="445" selection-start-column="16" selection-end-line="454" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/seed-round.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="646" column="0" lean-forward="true" selection-start-line="646" selection-start-column="0" selection-end-line="646" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9112">
-          <caret line="536" column="46" lean-forward="false" selection-start-line="536" selection-start-column="46" selection-end-line="536" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12563">
-          <caret line="739" column="0" lean-forward="false" selection-start-line="739" selection-start-column="0" selection-end-line="739" selection-end-column="0" />
+        <state relative-caret-position="137">
+          <caret line="747" column="66" lean-forward="true" selection-start-line="747" selection-start-column="66" selection-end-line="747" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89267">
-          <caret line="5251" column="1" lean-forward="false" selection-start-line="5251" selection-start-column="1" selection-end-line="5251" selection-end-column="1" />
+        <state relative-caret-position="301">
+          <caret line="5824" column="57" lean-forward="false" selection-start-line="5824" selection-start-column="57" selection-end-line="5824" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/index.html">
+    <entry file="file://$PROJECT_DIR$/en-us/products/build/features.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3332">
-          <caret line="196" column="28" lean-forward="true" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
+        <state relative-caret-position="75">
+          <caret line="553" column="0" lean-forward="true" selection-start-line="553" selection-start-column="0" selection-end-line="553" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/products/build.html">
+    <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="377">
+          <caret line="825" column="61" lean-forward="true" selection-start-line="825" selection-start-column="61" selection-end-line="825" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="702" column="45" lean-forward="true" selection-start-line="702" selection-start-column="45" selection-end-line="702" selection-end-column="45" />
           <folding />
         </state>
       </provider>
