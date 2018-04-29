@@ -4,7 +4,7 @@
 <head>
 
 
-    <title>Follow your Passion, inspire your Community | Unaty</title>
+    <title>Reach, activate and connect your community | Unaty</title>
     <link rel="shortcut icon"
           href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +58,8 @@
 
     <meta name="description"
           content="Unaty is a platform for Communities with simple tools to reach, support, engage, and activate more Members.">
-    <meta property="og:image" content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
+    <meta property="og:image"
+          content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
     <meta property="og:image:type" content="image/jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -69,10 +70,11 @@
     <meta content="https://www.unaty.de/" property="og:url">
     <meta content="Unaty" property="og:site_name">
 
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
-        window.addEventListener("load", function(){
+        window.addEventListener("load", function () {
             window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
@@ -105,7 +107,7 @@
                     }
                 },
 
-                onStatusChange: function(status, chosenBefore) {
+                onStatusChange: function (status, chosenBefore) {
                     var type = this.options.type;
                     var didConsent = this.hasConsented();
                     if (type == 'opt-in' && didConsent) {
@@ -118,7 +120,7 @@
                     }
                 },
 
-                onRevokeChoice: function() {
+                onRevokeChoice: function () {
                     var type = this.options.type;
                     if (type == 'opt-in') {
                         // disable cookies
@@ -129,7 +131,8 @@
                         navigator.cookieEnabled = true
                     }
                 }
-            })});
+            })
+        });
     </script>
 
     <!-- Twitter Card data -->
@@ -139,12 +142,22 @@
     <meta name="twitter:description"
           content="Unaty is a platform for Communities with simple tools to reach, support, engage, and activate more Members.">
     <meta name="twitter:creator" content="@unatyde">
-    <meta name="twitter:image" content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
-    <meta name="twitter:url" content="https://www.unaty.de/">     <!-- Global site tag (gtag.js) - Google AdWords: 850680838 -->     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-850680838"></script>     <script>         window.dataLayer = window.dataLayer || [];         function gtag(){dataLayer.push(arguments);}         gtag('js', new Date());          gtag('config', 'AW-850680838');     </script>
+    <meta name="twitter:image"
+          content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
+    <meta name="twitter:url" content="https://www.unaty.de/">
+    <!-- Global site tag (gtag.js) - Google AdWords: 850680838 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-850680838"></script>
+    <script>         window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-850680838');     </script>
 
     <meta name="twitter:domain" content="https://www.unaty.de">
 
-    <link rel="apple-touch-icon" sizes="180x180"           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333373730">
+    <link rel="apple-touch-icon" sizes="180x180"
+          href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333373730">
     <script type="text/javascript">
         localStorage.setItem('language', 'en-US');
     </script>
@@ -185,33 +198,42 @@
 
         var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
         var text = 'Student Groups'
+        var type = 'student association'
 
         var num = getRandomInt(0, 13)
 
         if (num === 0) {
-            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
-            var text = 'Student Groups'
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
+            text = 'Student Groups'
+            type = 'student association'
         } else if (num === 1) {
-            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148703286" alt="Sports Teams Community Administrators" />'
-            var text = 'Sports Teams'
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148703286" alt="Sports Teams Community Administrators" />'
+            text = 'Sports Teams'
+            type = 'sports team'
         } else if (num === 2) {
-            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148660420" alt="Business Associations Community Administrators" />'
-            var text = 'Business Associations'
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148660420" alt="Business Associations Community Administrators" />'
+            text = 'Business Associations'
+            type = 'business association'
         } else if (num === 3) {
-            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478128143" alt="Soccer Teams Community Administrators" />'
-            var text = 'Soccer Teams'
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478128143" alt="Soccer Teams Community Administrators" />'
+            text = 'Soccer Teams'
+            type = 'soccer team'
         } else if (num === 4) {
-            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478120430" alt="Swim Teams Community Administrators" />'
-            var text = 'Swim Teams'
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478120430" alt="Swim Teams Community Administrators" />'
+            text = 'Swim Teams'
+            type = 'swim team'
         } else if (num === 5) {
-            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478110434" alt="Alumni Associations Community Administrators" />'
-            var text = 'Alumni Associations'
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478110434" alt="Alumni Associations Community Administrators" />'
+            text = 'Alumni Associations'
+            type = 'alumni association'
         } else if (num === 6) {
-            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478103216" alt="Celebrations Community Administrators" />'
-            var text = 'Celebratory Groups'
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478103216" alt="Celebrations Community Administrators" />'
+            text = 'Leisure Groups'
+            type = 'leisure group'
         } else {
-            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148690788" alt="Professional Associations Community Administrators" />'
-            var text = 'Professional Associations'
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148690788" alt="Professional Associations Community Administrators" />'
+            text = 'Professional Associations'
+            type = 'professional association'
         }
 
     </script>
@@ -533,19 +555,19 @@
             <div>
 
                 <div class="flp-title-text">
-                    Follow your Passion, inspire your Community
+                    Reach, activate and connect your community
                 </div>
 
                 <div class="flp-subtitle-text">
-                    Unaty is the best platform for any Organization to make administration easier, members happier and
-                    raise awareness.
+                    Bring people together and make community life more pleasant and productive - all on the first
+                    social administration platform made with members in mind.
                 </div>
 
                 <div class="flp-sign-up-box">
                     <div>
                         <div class="ui action input input250 final-sign-up-button">
                             <input id="emailInput" autofocus type="text" placeholder="Enter your Email.."/>
-                            <button id="getStartedBtn" class="ui button blue large compact" role="button">Try Unaty
+                            <button id="getStartedBtn" class="ui button blue large compact" role="button">Get Started
                             </button>
                         </div>
                     </div>
@@ -558,38 +580,13 @@
 
             <div class="final-main-image-home">
                 <script type="text/javascript">document.write(img)</script>
-                <div>Unaty is perfect for
-                    <script type="text/javascript">document.write(text)</script>
-                    - <a id="intercom_chat_link" class="plainTextLink" href="mailto:auma9g4d@intercom-mail.com">Is Unaty
-                        right for your Community?</a></div>
+
             </div>
 
         </div>
 
     </div>
 
-</div>
-
-<div class="front-page-mainsection">
-
-    <div class="ui fluid container">
-
-        <div class="ui container">
-
-            <div class="secondary-new-title">The world’s most innovative organizations trust Unaty to make Administration easy, increase Member participation and grow their Membership.</div>
-
-            <div class="ui divider hidden"></div>
-
-            <div class="platform-video-box">
-                <div class="ui embed" id="unatyVideo"><img class="placeholder" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105" alt="Screenshot of the Platform">
-                    <iframe src="https://www.youtube.com/embed/noabdyzBGkU" alt="Explanation video for the Platform">
-                    </iframe>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
 </div>
 
 <div class="final-general-section">
@@ -598,13 +595,16 @@
 
         <div class="ui container">
 
-            <div class="ui header large new-header-section">
-                Perfect for Community Leaders, Managers and Members
+            <div class="ui header large new-header-section makeTextNormal">
+                Used by the worlds most <strong>innovative
+                <script type="text/javascript">document.write(text)</script></strong>
+                <br/> to make administration easy, members happy and raise awareness
             </div>
 
-            <div class="new-subheader-section">
-                Achieve more using all products together to make administration easier, members happier and raise
-                awareness.
+            <div class="ui divider hidden"></div>
+
+            <div class="new-subheader-section hidden-block">
+                Unaty was built for any kind of organization
             </div>
 
             <div class="ui stackable grid">
@@ -621,7 +621,8 @@
                             <div>Professionalize and automate administration</div>
 
                             <div>
-                                Add Roles, Teams, Folders, Documents and organize your Community around Topics. Use Semantic Automation Emails to update your Data without lifting a finger.
+                                Add Roles, Teams, Folders, Documents and organize your Community around Topics. Use
+                                Semantic Automation Emails to update your Data without lifting a finger.
                             </div>
 
                             <div>Powered by: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span>
@@ -647,7 +648,8 @@
 
                             <div>Activate members, sponsors, friends and family</div>
                             <div>
-                                Easily engage all Community Stakeholders based on their interests. Create Events on the Community Calendar subscribed to by all your Members.
+                                Easily engage all Community Stakeholders based on their interests. Create Events on the
+                                Community Calendar subscribed to by all your Members.
                             </div>
 
                             <div>Powered by:<span class="final-powered-by-icon"><i
@@ -672,7 +674,8 @@
 
                             <div>Catch, recruit and bind new members</div>
                             <div>
-                                Connect to Google Adwords, create your own Community Landing Page and place targeted ads to raise awareness and reach potential members.
+                                Connect to Google Adwords, create your own Community Landing Page and place targeted ads
+                                to raise awareness and reach potential members.
                             </div>
 
                             <div>Powered by: <span class="final-powered-by-icon"><i
@@ -693,12 +696,40 @@
 
             </div>
 
-
         </div>
 
     </div>
 
 </div>
+
+<div class="front-page-mainsection">
+
+    <div class="ui fluid container">
+
+        <div class="ui container">
+
+            <div class="secondary-new-title">
+                Unaty is the platform to connect your community to the people, apps, information,
+                knowledge and resources it needs to reach its potential
+            </div>
+
+            <div class="ui divider hidden"></div>
+
+            <div class="platform-video-box">
+                <div class="ui embed" id="unatyVideo"><img class="placeholder"
+                                                           src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105"
+                                                           alt="Screenshot of the Platform">
+                    <iframe src="https://www.youtube.com/embed/noabdyzBGkU" alt="Explanation video for the Platform">
+                    </iframe>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
 <div class="final-general-section">
 
     <div class="ui fluid container">
@@ -711,7 +742,7 @@
                     <div>Start your Free Trial</div>
 
                     <div>
-                        Try Unaty today for free on Unaty and try all products free for 14 days
+                        Try Unaty today for free then add and try all products free for 14 days
                     </div>
                 </div>
 
@@ -796,7 +827,7 @@
                                 <a role="listitem" class="item"
                                    href="https://www.unaty.de/en-us/company/security.html"><span>Security</span></a>
 
-                                <a role="listitem" class="item"                                    href="http://help.unaty.de/" target="_blank"><span>Help Center</span></a>
+                                <a role="listitem" class="item" href="http://help.unaty.de/" target="_blank"><span>Help Center</span></a>
 
                                 <a role="listitem" class="item" target="_blank"
                                    href="https://app.unaty.de/compass/explore"><span>Compass</span></a>

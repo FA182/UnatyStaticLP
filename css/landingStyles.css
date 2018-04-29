@@ -1168,9 +1168,7 @@ img.unatySmartCityFrameworkImg {
     .flp-title-text {
         padding-top: 8px !important;
     }
-    .ui.container.flex-control-grid.mobileFlexFlow {
-        flex-flow: column-reverse !important;
-    }
+
     .mobileFlexFlow .final-main-image-home > img {
         margin-top: 8px !important;
     }
@@ -3867,6 +3865,7 @@ span.mainNumber {
         left: 275px !important;
         width: calc(-175vw) !important;
     }
+
     .ui.dimmer.showSidebarDesktop > div {
         padding-left: 2em;
         padding-right: 2em;
@@ -4350,10 +4349,46 @@ span.mainNumber {
 .marginRight8 {
     margin-right: 8px;
 }
+.ui.container > .makeTextNormal.ui.header.new-header-section {
+    font-weight: 400 !important;
+}
+.underUseCasesText {
+    margin-top: 32px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.73);
+    max-width: 60%;
+    text-align: center;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+}
+.finalHeaderSection {
+    margin-top: 92px;
+}
+.finalPlatformTitleSection {
+    padding-top: 48px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.83);
+}
+.finalPlatformButtons {
+
+}
 @media (max-width: 768px) {
     .notificationsBoxHeader {
         width: 100% !important;
         max-width: 98% !important;
+    }
+    .ui.container.flex-control-grid.mobileFlexFlow {
+        flex-flow: column-reverse !important;
+    }
+    .underUseCasesText {
+        max-width: 100%;
+        text-align: left;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }
 .overflowVisible {
@@ -5822,7 +5857,7 @@ letter-spacing: normal !important;
 .item:hover .platform-free-span {
     background-color: rgba(0,0,0,0.45);
 }
-#intercom_chat_link, #getStartedBtn1, #getStartedBtn, .ui.button.compact {
+#getStartedBtn1, #getStartedBtn, .ui.button.compact {
     letter-spacing: 1px !important;
     font-weight: 500 !important;
 }
