@@ -4349,7 +4349,7 @@ span.mainNumber {
 .marginRight8 {
     margin-right: 8px;
 }
-.ui.container > .makeTextNormal.ui.header.new-header-section {
+.ui.container > .makeTextNormal.ui.header.new-header-section, .makeTextNormal {
     font-weight: 400 !important;
 }
 .underUseCasesText {
@@ -5180,7 +5180,7 @@ letter-spacing: normal !important;
     margin-top: 24px !important;
 }
 .text-align-left {
-    text-align: left;
+    text-align: left !important;
 }
 .final-use-case-name {
     font-family: 'unaty-cheltenham' !important;
@@ -5349,12 +5349,24 @@ letter-spacing: normal !important;
 #item30 {
     margin-top: 48px;
 }
-.final-list-use-case {
-
+.final-list-use-case .item i {
+    font-size: 24px !important;
+    padding-left: 2px !important;
+    padding-top: 2px !important;
+}
+.final-list-use-case .item .content {
+    line-height: 1.4 !important;
 }
 .final-list-use-case .item {
     font-weight: 900;
     color: rgba(0,0,0,0.63) !important;
+}
+.productSubtitle {
+    font-size: 18px;
+    font-style: italic;
+    color: rgba(0,0,0,0.63);
+    padding-left: 16px;
+    padding-top: 12px;
 }
 .final-list-use-case .item:hover {
     color: rgba(0,0,0,0.93) !important;
@@ -5961,8 +5973,15 @@ body {
 }
 .requestDemoSpan a {
     margin-left: 4px;
-    letter-spacing: 0.7px !important;
+
     color: rgba(54, 133, 208, 0.83);
+}
+.productSecondarySubtitle {
+    margin-top: 24px;
+    font-size: 16px;
+    margin-left: 6px;
+    color: rgba(0,0,0,0.63);
+    line-height: 1.4;
 }
 @media screen and (max-width: 400px) {
     .marginRight16.hideOnDesktop.menu .menuButtonBlue {
@@ -6053,8 +6072,8 @@ body {
     position: relative;
 }
 .productItemSubtitle {
-    margin-top: 24px;
-    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
     margin-left: 8px;
     font-size: 18px;
     line-height: 1.4;
@@ -6111,4 +6130,25 @@ body {
 .emojiBottomRight {
     bottom: -20px;
     right: -15px;
+}
+.newPlatformTitle {
+    padding-top: 40px;
+    font-size: 24px;
+    text-align: left;
+    line-height: 48px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.83);
+}
+.underUseCasesTextTwo {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 16px;
+    color: rgba(0,0,0,0.63);
+}
+.underUseCasesTextTwo a {
+    color: rgba(0,0,0,0.73);
+}
+.underUseCasesTextTwo a:hover {
+    text-decoration: underline;
+    color: rgba(0,0,0,0.93);
 }
