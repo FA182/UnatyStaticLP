@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<html lang="de">
+<html lang="en">
 <head>
 
 
-    <title>Verwaltung einfach gemacht durch Standardisierung und Automatisierung | Build | Unaty</title>
+    <title>Professionelle Administration endlich einfach | Build | Unaty</title>
     <link rel="shortcut icon"
           href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,8 @@
           content="membership management software, membership management, member software, membership database software">
     <meta name="apple-mobile-web-app-title" content="Unaty">
     <meta name="application-name" content="Unaty">
-    <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css"><meta name="author" content="Unaty Technologies GmbH">
+    <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css">
+    <meta name="author" content="Unaty Technologies GmbH">
 
     <script>window.intercomSettings = {
         app_id: "auma9g4d",
@@ -44,7 +45,6 @@
                 var x = d.getElementsByTagName('script')[0];
                 x.parentNode.insertBefore(s, x);
             }
-
             if (w.attachEvent) {
                 w.attachEvent('onload', l);
             } else {
@@ -59,7 +59,8 @@
 
     <meta name="description"
           content="Unaty is a platform for Communities with the tools administrators need and the features members want. Get started on Unaty and set up your new digital Community in less than 5 minutes.">
-    <meta property="og:image" content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
+    <meta property="og:image"
+          content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
     <meta property="og:image:type" content="image/jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -69,10 +70,11 @@
 
     <meta content="https://www.unaty.de/" property="og:url">
     <meta content="Unaty" property="og:site_name">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
-        window.addEventListener("load", function(){
+        window.addEventListener("load", function () {
             window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
@@ -87,10 +89,10 @@
                 "position": "bottom-left",
                 "type": "opt-in",
                 "content": {
-                    "message": "\nCookies sind für die korrekte Funktionsweise von Unaty wichtig. Wir nutzen Cookies zum bequemen Bereitstellen Ihrer Anmeldedaten, um eine sichere Anmeldung zu garantieren, und um anonyme statistische Daten zur Optimierung der Website zu erheben. Klicken Sie auf „Stimme zu und weiter“, um Cookies zu akzeptieren oder klicken Sie auf "Nicht Jetzt“, um Cookies vorerst abzustellen.",
-                    "dismiss": "Nicht Jetzt",
-                    "allow": "Stimme zu und weiter",
-                    "href": "https://www.unaty.de/de-de/company/privacy.html"
+                    "message": "\nCookies are important to the proper functioning of a site. To improve your experience, we use cookies to remember log-in details and provide secure log-in, and collect statistics to optimize site functionality.",
+                    "dismiss": "Not Now",
+                    "allow": "Agree and Proceed",
+                    "href": "https://www.unaty.de/en-us/company/privacy.html"
                 },
                 onInitialise: function (status) {
                     var type = this.options.type;
@@ -104,8 +106,7 @@
                         navigator.cookieEnabled = false
                     }
                 },
-
-                onStatusChange: function(status, chosenBefore) {
+                onStatusChange: function (status, chosenBefore) {
                     var type = this.options.type;
                     var didConsent = this.hasConsented();
                     if (type == 'opt-in' && didConsent) {
@@ -117,8 +118,7 @@
                         navigator.cookieEnabled = false
                     }
                 },
-
-                onRevokeChoice: function() {
+                onRevokeChoice: function () {
                     var type = this.options.type;
                     if (type == 'opt-in') {
                         // disable cookies
@@ -129,7 +129,8 @@
                         navigator.cookieEnabled = true
                     }
                 }
-            })});
+            })
+        });
     </script>
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
@@ -138,37 +139,45 @@
     <meta name="twitter:description"
           content="Whatever your Goal, Interest, or Idea, Unaty makes administration simple and unites you with those you want to share it with. No matter your passion or your challenges, the journey to success starts here.">
     <meta name="twitter:creator" content="@unatyde">
-    <meta name="twitter:image" content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
-    <meta name="twitter:url" content="https://www.unaty.de/">     <!-- Global site tag (gtag.js) - Google AdWords: 850680838 -->     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-850680838"></script>     <script>         window.dataLayer = window.dataLayer || [];         function gtag(){dataLayer.push(arguments);}         gtag('js', new Date());          gtag('config', 'AW-850680838');     </script>
+    <meta name="twitter:image"
+          content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
+    <meta name="twitter:url" content="https://www.unaty.de/">
+    <!-- Global site tag (gtag.js) - Google AdWords: 850680838 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-850680838"></script>
+    <script>         window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-850680838');     </script>
     <meta name="twitter:domain" content="https://www.unaty.de">
 
     <link rel="apple-touch-icon" sizes="180x180"
           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333373730">
+    <script type="text/javascript">         localStorage.setItem('language', 'en-US');     </script>
     <link rel="icon" type="image/png" sizes="32x32"
           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333361779">
     <link rel="icon" type="image/png" sizes="16x16"
           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333346991">
 
-    <link rel="shortcut icon"           href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">     <script type="text/javascript">         localStorage.setItem('language', 'de-DE');     </script>
+    <link rel="shortcut icon"
+          href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">
 
 
-    <link target="_blank" href="../../../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
-    <script src="../../../semantic/dist/jquery-3.1.1.min.js"></script>
-    <script src="../../../semantic/dist/semantic.min.js"></script>
+    <link target="_blank" href="../../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+    <script src="../../semantic/dist/jquery-3.1.1.min.js"></script>
+    <script src="../../semantic/dist/semantic.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" target="_blank" href="../../../css/landingStyles.css">
+    <link rel="stylesheet" type="text/css" target="_blank" href="../../css/landingStyles.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92484757-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
-
         gtag('js', new Date());
-
         gtag('config', 'UA-92484757-1');
     </script>
 </head>
@@ -351,12 +360,12 @@
             </div>
             <a class="ui button blue compact menuButtonBlue" aria-current="false"
                target="_blank"
-               href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Jetzt loslegen</span></a>
+               href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Unaty Testen</span></a>
         </div>
 
         <div class="ui orange large text marginRight16 hideOnDesktop menu">
             <a class="ui button blue compact menuButtonBlue" aria-current="false" target="_blank"
-               href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Jetzt loslegen</span></a>
+               href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Unaty Testen</span></a>
         </div>
         <div class="ui orange large text hideOnDesktop menu">
             <div class="item landingHamburger" id="landingHamburger"><i aria-hidden="true" class="sidebar icon"></i>
@@ -379,7 +388,7 @@
                 <div class="nmm-tc">
                     <a class="ui button blue compact menuButtonBlue" aria-current="false"
                        target="_blank"
-                       href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Jetzt loslegen</span></a>
+                       href="https://app.unaty.de/get-started?_source=landingPageMenuSignUp"><span>Unaty Testen</span></a>
                     or <a href="https://app.unaty.de/login?source=landing_page_menu">Einloggen</a>
                 </div>
 
@@ -488,28 +497,49 @@
             <div>
                 <div class="final-product-name"><i class="ui icon large magic teal"></i> Build</div>
                 <div class="final-product-title">
-                    Verwaltung einfach gemacht durch Standardisierung und Automatisierung
+                    Professionelle Administration endlich einfach gemacht
                 </div>
-                <div class="final-product-description">
-                    Desc what it all includes
-                </div>
-                <div role="list" class="ui ordered list large relaxed final-list-use-case">
-                    <a role="listitem" href="#list" class="item">Roles</a>
-                    <a role="listitem" href="#teams" class="item">Teams</a>
-                    <a role="listitem" href="#topics" class="item">Topics</a>
-                    <a role="listitem" href="#documents" class="item">Documents</a>
-                    <a role="listitem" href="#automation" class="item">Automation</a>
+                <div role="list" class="ui ordered list big relaxed  final-list-use-case">
+                    <a role="listitem" href="#roles_teams" class="item">Besser arbeiten und delegieren mit Teams und Rollen</a>
+                    <a role="listitem" href="#topics" class="item">Informationen organisieren und finden mit Themen</a>
+                    <a role="listitem" href="#documents" class="item">Zugriff und Schutz von Dokumenten</a>
+                    <a role="listitem" href="#automatisation" class="item">Automatisch Daten aktualisieren und Neuigkeiten teilen</a>
 
                 </div>
-                <div class="final-product-button">
-                    <a href="#features" class="ui button compact teal large">
-                        View Features
-                    </a>
+
+                <div class="flp-sign-up-box">
+                    <div>
+
+                        <a id="newGetStartedBtn" href="https://app.unaty.de/get-started?source=pricing_page"
+                           target="_blank" class="ui huge compact button blue" role="button">Unaty Testen</a>
+
+                    </div>
                 </div>
+
             </div>
 
-            <div>
-                <img class="img-shadow" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1522067823685" alt="Unaty Build" />
+            <div class="productpage-problemlist">
+
+                <a href="#roles_teams" class="productproblem">
+                    Es ist schwer Mitglieder zu finden, die ein Amt übernehmen möchten. Die Übergabe ist mühsam und dann oft zu kurz.
+                    <span class="emojiBottomLeft emojispan">😥</span>
+                </a>
+
+                <a href="#topics" class="productproblem">
+                    Informationen, Dokumente und Diskussionen sind bei uns über E-Mails, verschiedene Plattformen und Tools durcheinander verteilt.
+                    <span class="emojiTopRight emojispan">😞</span>
+                </a>
+
+                <a href="#documents" class="productproblem">
+                    Als neuer Vorstand Zugriff auf die alle Dokumente und Inhalte zu bekommen dauert...
+                    <span class="emojiBottomLeft emojispan">😖</span>
+                </a>
+
+                <a href="#automatisation" class="productproblem">
+                    Wenn sich Daten eines Mitglieds ändern, muss das telefonisch abgeklärt und dann im System geändert werden.
+                    <span class="emojiTopRight emojispan">😒</span>
+                </a>
+
             </div>
 
         </div>
@@ -518,40 +548,110 @@
 
 
 </div>
-<div class="final-general-section2">
 
-    <div class="ui fluid container" id="features">
+<div class="ui fluid container">
+    <div class="final-landing-page-main2 " id="roles_teams">
 
-        <div class="ui container">
 
-            <div class="ui divider hidden"></div>
+        <div class="ui container flex-control-grid">
 
-            <div role="list" class="ui huge link list horizontal relaxed" id="list">
-
-                <a role="listitem" class="item list-item-clean" href="#roles"><span>Roles</span></a>
-
-                <a role="listitem" class="item list-item-clean" href="#teams"><span>Teams</span></a>
-
-                <a role="listitem" class="item list-item-clean" href="#topics"><span>Topics</span></a>
-
-                <a role="listitem" class="item list-item-clean" href="#documents"><span>Documents</span></a>
-
-                <a role="listitem" class="item list-item-clean" href="#automation"><span>Automation</span></a>
-
+            <div class="final-main-image-home productPageScreenshot">
+                <img class="img-shadow"
+                     src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1524652221353"/>
             </div>
+            <div>
+
+                <div class="productPageLabel">
+                    <span>Besser arbeiten und delegieren mit Teams und Rollen</span>
+                </div>
+
+                <a href="#roles_teams" class="productproblem realProblemCard">
+                    Es ist schwer Mitglieder zu finden, die ein Amt übernehmen möchten. Die Übergabe ist mühsam und dann oft zu kurz.
+                    <span class="emojiBottomLeft emojispan">😥</span>
+                </a>
+                <div class="productItemSubtitle">
+
+                    Mit Build teilt man Arbeit auf Rollen und Teams auf auf und standardisiert die Aufgaben von Ämtern. Durch Transparenz und Verfügbarkeit von ehemaligen Amtsträgern, Dokumenten und Diskussionen zur Rolle senkst Du die Hürden, Ämter zu wechseln oder ein neues Amt zu übernehmen.
+
+
+                </div>
+
+                <div class="ui stackable grid productPageFeatures">
+
+                    <div class="three column row">
+
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon teal sitemap"></i></div>
+                                <div>
+                                    Strukutriere Teams & Rollen
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon teal book"></i></div>
+                                <div>
+                                    Erweiterbare Wissensbasis
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon teal history"></i></div>
+                                <div>
+                                    Ehemalige Amtsträger
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="productPage-ButtonContainer">
+                    <a class="ui button compact large teal" href="https://www.unaty.de/products/build/features.html#one">Alle Funktionen sehen</a>
+                </div>
+            </div>
+
         </div>
 
     </div>
 
-    <div class="final-general-section">
 
-        <div class="ui fluid container">
+    <div class="final-landing-page-main2 " id="topics">
 
-            <div class="ui container">
 
-                <div class="ui header large" id="roles">Roles</div>
+        <div class="ui container flex-control-grid ">
 
-                <div class="ui stackable grid">
+            <div>
+
+                <div class="productPageLabel">
+                    <span>Informationen organisieren und finden mit Themen</span>
+                </div>
+
+                <a href="#topics" class="productproblem realProblemCard">
+                    Informationen, Dokumente und Diskussionen sind bei uns über E-Mails, verschiedene Plattformen und Tools durcheinander verteilt.
+                    <span class="emojiTopRight emojispan">😞</span>
+                </a>
+                <div class="productItemSubtitle">
+
+                    Schaffe eine gemeinsame Datenbasis in der Veranstaltungen, Dokumente, Rollen und Diskussionen um Themen organisiert sind, die einfach und schnell durchsucht werden können.
+                    Themen können von Mitgliedern abonniert werden, damit
+
+                </div>
+
+                <div class="ui stackable grid productPageFeatures">
 
                     <div class="three column row">
 
@@ -559,90 +659,8 @@
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon teal remove user"></i></div>
-                                <div>Past Role holders</div>
-                                <div>who occupied this role before? Maybe he knows something you don´t know</div>
-
-                            </div>
-                        </div>
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon teal question"></i></div>
-                                <div>Role Q&A</div>
-                                <div>Look at frequently asked Questions and ask some yourself</div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon teal sitemap" ></i></div>
-                                <div>Role as Admin</div>
-                                <div>Set a Role as Administrator for your Communaty, the member changes but the role doesn't</div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="final-general-section3" >
-                    <div class="ui section divider" ></div>
-                </div>
-                <div class="ui header large" id="teams">Teams</div>
-
-                <div class="ui stackable grid">
-
-                    <div class="three column row">
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon teal group"></i></div>
-                                <div>Add Roles to Teams</div>
-                                <div>Create Teams to interact with other Roles</div>
-
-                            </div>
-                        </div>
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon teal tags"></i></div>
-                                <div>Teams & Positions</div>
-                                <div>Who is in the Team and what is his task? Get a clear structure of your Communaty</div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="final-general-section3" >
-                    <div class="ui section divider"></div>
-                </div>
-                <div class="ui header large" id="topics">Topics</div>
-
-                <div class="ui stackable grid">
-
-                    <div class="three column row">
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon teal tasks"></i></div>
-                                <div>Suggest Topics</div>
-                                <div>As a Member you can suggest Topics of your Interests</div>
+                                <div><i class="ui icon teal hashtag"></i></div>
+                                <div>Organisiere alles nach Themen</div>
 
                             </div>
 
@@ -652,58 +670,64 @@
                             <div class="final-real-feature2">
 
                                 <div><i class="ui icon teal newspaper"></i></div>
-                                <div>Subscribe</div>
-                                <div>Subscribe to your Interests and always stay updated</div>
+                                <div>Abonniere bestimmte Themen</div>
 
                             </div>
                         </div>
 
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon teal hashtag"></i></div>
-                                <div>Topics for every Channel</div>
-                                <div>Categorize Groups, Events, Post and Documents in different Topics</div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="three column row">
                         <div class="column">
 
                             <div class="final-real-feature2">
 
                                 <div><i class="ui icon teal browser"></i></div>
-                                <div>Topics Feed</div>
-                                <div>Post your own Updates and Discussions in the News Feed of your Topic</div>
-
+                                <div>Feed und Cloud für jedes Thema</div>
                             </div>
 
-                        </div>
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon teal smile" id="memtop"></i></div>
-                                <div>Members Topics</div>
-                                <div>Which Topics did your Members subscribe? Adapt to the wishes of your Members</div>
-
-                            </div>
 
                         </div>
+
                     </div>
+                </div>
+
+                <div class="productPage-ButtonContainer">
+                    <a class="ui button compact large teal" href="https://www.unaty.de/products/build/features.html#two">Alle Funktionen sehen</a>
+                </div>
+
+            </div>
+
+            <div class="final-main-image-home productPageScreenshot2">
+                <img class="img-shadow"
+                     src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1524652523882"/>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="final-landing-page-main2 " id="documents">
+
+        <div class="ui container flex-control-grid ">
+
+            <div class="final-main-image-home productPageScreenshot">
+                <img class="img-shadow"
+                     src="https://unaty-media.s3.amazonaws.com/organizations/xKAh8ZNK8vzKEL4P7/public/main/1524652913818"/>
+            </div>
+            <div>
+                <div class="productPageLabel">
+                    <span>Zugriff und Schutz von Dokumenten</span>
+                </div>
+
+                <a href="#documents" class="productproblem realProblemCard">
+                    Als neuer Vorstand Zugriff auf die alle Dokumente und Inhalte zu bekommen dauert...
+                    <span class="emojiBottomRight emojispan">😖</span>
+                </a>
+                <div class="productItemSubtitle">
+
+                    Rollen und Teams haben über Amtswechsel hinweg Zugriff auf eigene, geschützte Clouds. Mit der neuen Rolle erhält ein Mitglied automatisch Zugriff auf alle Dokumente und Inhalte.
 
                 </div>
-                <div class="final-general-section3">
-                    <div class="ui section divider"></div>
-                </div>
-                <div class="ui header large" id="documents">Documents</div>
-
-                <div class="ui stackable grid">
+                <div class="ui stackable grid productPageFeatures">
 
                     <div class="three column row">
 
@@ -712,46 +736,85 @@
                             <div class="final-real-feature2">
 
                                 <div><i class="ui icon teal upload"></i></div>
-                                <div>Upload</div>
-                                <div>Images, PDF and Other files; Upload them to your Communaty Cloud</div>
+                                <div>Speichere Bilder, PDF und mehr sicher und praktisch</div>
 
                             </div>
-                        </div>
 
+                        </div>
                         <div class="column">
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon teal download"></i></div>
-                                <div>Download</div>
-                                <div>Always reach the files you need and download them</div>
+                                <div><i class="ui icon teal open folder" id="assign"></i></div>
+                                <div>Binde Ordner an Rollen oder Mitgliedstypen</div>
 
                             </div>
-
                         </div>
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon teal find" id="assign"></i></div>
-                                <div>View Files</div>
-                                <div>View the different Files in the App without downloading them</div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="three column row">
 
                         <div class="column">
 
                             <div class="final-real-feature2">
 
                                 <div><i class="ui icon teal lock"></i></div>
-                                <div>Permissions</div>
-                                <div>Determine who can view your files and folders</div>
+                                <div>Bestimme Zugriffsrechte</div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="productPage-ButtonContainer">
+                    <a class="ui button compact large teal" href="https://www.unaty.de/products/build/features.html#three">Alle Funktionen sehen</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="final-landing-page-main2 " id="automatisation">
+
+
+        <div class="ui container flex-control-grid ">
+
+            <div>
+
+                <div class="productPageLabel">
+                    <span>Automatisch Daten aktualisieren und Neuigkeiten teilen</span>
+                </div>
+
+                <a href="#automatisation" class="productproblem realProblemCard">
+                    Wenn sich Daten eines Mitglieds ändern, muss das telefonisch abgeklärt und dann im System geändert werden.
+                    <span class="emojiTopLeft emojispan">😒</span>
+                </a>
+                <div class="productItemSubtitle">
+
+                    In Unatys dezentraler Datenverwaltung braucht sich kein Administrator mehr um Mitdliedsdaten sorgen. Noch einfacher geht es mit einer E-Mail mit der Datenänderung oder neuen Nachrichten und Inhalten an das Unaty System: Die Änderung wird automatisiert übernommen. Um Daten zu aktualisieren, musst sich ein Mitglied also noch nicht einmal anmelden.
+
+                </div>
+                <div class="ui stackable grid productPageFeatures">
+
+                    <div class="three column row">
+
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon teal refresh"></i></div>
+                                <div>Dezentrale Datenverwaltung</div>
+                            </div>
+
+                        </div>
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon teal user"></i></div>
+                                <div>Mitgliedsdaten über E-Mail ändern</div>
 
                             </div>
                         </div>
@@ -760,28 +823,31 @@
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon teal open folder" id="assign"></i></div>
-                                <div>Folders</div>
-                                <div>Classify the Files in different Folders</div>
+                                <div><i class="ui icon teal envelope"></i></div>
+                                <div>Inhalt über E-Mail teilen</div>
 
                             </div>
 
                         </div>
 
                     </div>
-
-                </div>
-                <div class="final-general-section3">
-                    <div class="ui section divider"></div>
                 </div>
 
-                <div class="ui header large" id="automation">Automation</div>
+                <div class="productPage-ButtonContainer">
+                    <a class="ui button compact large teal" href="https://www.unaty.de/products/build/features.html#four">Alle Funktionen sehen</a>
+                </div>
             </div>
+
+            <div class="final-main-image-home productPageScreenshot2">
+                <img class="img-shadow"
+                     src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1522056514284"/>
+            </div>
+
         </div>
 
     </div>
-</div>
 
+</div>
 
 <div class="final-general-section">
 
@@ -790,7 +856,7 @@
         <div class="ui container">
 
             <div class="ui header large new-header-section">
-               Use Cases supported by Build
+                Anwendungsfälle von Build
             </div>
             <div class="ui divider hidden"></div>
             <div class="ui stackable grid">
@@ -798,16 +864,17 @@
                     <div class="column">
 
                         <div class="use-case-type-tag">
-                            <span>Gemeinschaftsverwaltung</span>
+                            <span>Mitgliederverwaltung</span>
                         </div>
 
                         <a class="final-use-cases-list-item-two"
-                           href="https://www.unaty.de/de-de/use-cases/easy-administration.html">
+                           href="https://www.unaty.de/en-us/use-cases/easy-administration.html">
 
-                            <div>Verwaltung standardisieren und automatisieren</div>
+                            <div>Professionalize and automate administration</div>
 
                             <div>
-                                Unaty macht Verwaltung einfach
+                                Add Roles, Teams, Folders, Documents and organize your Community around Topics. Use
+                                Semantic Automation Emails to update your Data without lifting a finger.
                             </div>
 
                             <div>Powered by: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span>
@@ -815,7 +882,8 @@
                                         class="ui icon red lightning"></i> Engage</span></div>
 
 
-                            <div><span>Mehr erfahren →</span></div>
+                            <div><span>Learn
+                                more →</span></div>
 
                         </a>
 
@@ -832,6 +900,7 @@
     </div>
 
 </div>
+
 <div class="final-general-section">
 
     <div class="ui fluid container">
@@ -841,23 +910,23 @@
             <div class="unaty-sign-up-box">
 
                 <div>
-                    <div>Kostenlos testen</div>
+                    <div>Start your Free Trial</div>
 
                     <div>
-                        Starte heute Deinen Weg zur Gemeinschaft von morgen mit Unaty und teste alle Produkte kostenlos für 14 Tage
+                        Get started today for free on Unaty and try all products free for 14 days
                     </div>
                 </div>
 
                 <div>
                     <div>
                         <div class="ui action input  input250 final-sign-up-button">
-                            <input id="emailInput1" type="text" placeholder="E-mail Adresse eingeben.."/>
-                            <button id="getStartedBtn1" class="ui button blue large compact" role="button">Jetzt loslegen
+                            <input id="emailInput1" type="text" placeholder="Enter your Email.."/>
+                            <button id="getStartedBtn1" class="ui button blue large compact" role="button">Get Started
                             </button>
                         </div>
                     </div>
                     <div class="extra-infos-subset">
-                        Kostenlose Plattform ● Einfache Einrichtung
+                        14 Day Free Trial ● Simple Setup ● Cancel Anytime
                     </div>
                 </div>
 
@@ -868,6 +937,7 @@
     </div>
 
 </div>
+
 
 <div class="LandingHomeFooter">
     <div class="ui fluid container">
@@ -896,7 +966,8 @@
                             <div role="list" class="ui large link list relaxed">
 
                                 <a role="listitem" class="item"
-                                   href="https://www.unaty.de/de-de/pricing/pricing.html"><span>Preise</span></a>
+                                   href="https://www.unaty.de/de-de/pricing.html"><span>Preise erfahren</span></a>
+
 
                                 <a role="listitem" class="item"
                                    href="https://www.unaty.de/de-de/unaty-platform.html"><span>Unaty Plattform</span><span
@@ -916,7 +987,7 @@
                                    href="https://www.unaty.de/de-de/use-cases/activate-members.html"><span>Mitglieder, Sponsoren, Freunde und Familien aktivieren</span></a>
 
                                 <a role="listitem" class="item "
-                                   href="https://www.unaty.de/de-de/use-cases/recruit-members.html"><span>Finde, rekrutiere und binde neue Mitglieder</span></a>
+                                   href="https://www.unaty.de/de-de/use-cases/recruit-members.html"><span>Neue Mitglieder rekrutieren und binden</span></a>
 
                             </div>
 
@@ -1007,200 +1078,151 @@
 </div>
 
 <script type="text/javascript">
-
-            $("#menuProducts").hover(
-                function () {
-                    // add visible class to menu products
-                    $("#menuProductsContainer").addClass("visible")
-
-                    $("#menuPricingContainer").removeClass("visible")
-                    $("#menuCompanyContainer").removeClass("visible")
-                    $("#menuForumContainer").removeClass("visible")
-                }, function () {
-
-                    // check if entered products container on this leave, maybe just close all others
-                }
-            );
-
-            $("#menuProductsContainer").hover(
-                function () {
-
-                }, function () {
-                    // remove visible class to menu products
-                    $("#menuProductsContainer").removeClass("visible")
-                }
-            );
-
-
-            $("#item1").click(
-                function () {
-                    // add visible class to menu Company
-                    if ($("#item1").hasClass('final-active') === true) {
-                        // it's been clicked and is already active
-
-                    } else {
-                        $("#item2").removeClass("final-active")
-                        $("#item3").removeClass("final-active")
-                        $("#item1").toggleClass("final-active")
-
-                        $("#item20").removeClass("show-block")
-                        $("#item30").removeClass("show-block")
-                        $("#item10").toggleClass("show-block")
-
-                    }
-                }
-            );
-
-            $("#item2").click(
-                function () {
-                    // add visible class to menu Company
-                    if ($("#item2").hasClass('final-active') === true) {
-                        // it's been clicked and is already active
-
-                    } else {
-                        $("#item1").removeClass("final-active")
-                        $("#item3").removeClass("final-active")
-                        $("#item2").toggleClass("final-active")
-
-                        $("#item10").removeClass("show-block")
-                        $("#item30").removeClass("show-block")
-                        $("#item20").toggleClass("show-block")
-
-                    }
-                }
-            );
-
-            $("#item3").click(
-                function () {
-                    // add visible class to menu Company
-                    if ($("#item3").hasClass('final-active') === true) {
-                        // it's been clicked and is already active
-
-                    } else {
-                        $("#item2").removeClass("final-active")
-                        $("#item1").removeClass("final-active")
-                        $("#item3").toggleClass("final-active")
-
-                        $("#item20").removeClass("show-block")
-                        $("#item10").removeClass("show-block")
-                        $("#item30").toggleClass("show-block")
-
-                    }
-                }
-            );
-
-            $("#menuCompany").hover(
-                function () {
-                    // add visible class to menu Company
-                    $("#menuCompanyContainer").addClass("visible")
-
-                    $("#menuProductsContainer").removeClass("visible")
-                    $("#menuPricingContainer").removeClass("visible")
-                    $("#menuForumContainer").removeClass("visible")
-                }, function () {
-
-                }
-            );
-
-            $("#menuCompanyContainer").hover(
-                function () {
-
-                }, function () {
-                    // remove visible class to menu Company
-                    $("#menuCompanyContainer").removeClass("visible")
-                }
-            );
-
-            $("#menuForum").hover(
-                function () {
-                    // add visible class to menu Forum
-                    $("#menuForumContainer").addClass("visible")
-
-                    $("#menuProductsContainer").removeClass("visible")
-                    $("#menuCompanyContainer").removeClass("visible")
-                    $("#menuPricingContainer").removeClass("visible")
-                }, function () {
-
-                }
-            );
-
-            $("#menuForumContainer").hover(
-                function () {
-
-                }, function () {
-                    // remove visible class to menu Forum
-                    $("#menuForumContainer").removeClass("visible")
-                }
-            );
-
-            $("#bodyContainer").hover(
-                function () {
-                    $("#menuForumContainer").removeClass("visible")
-
-                    $("#menuProductsContainer").removeClass("visible")
-                    $("#menuCompanyContainer").removeClass("visible")
-                    $("#menuPricingContainer").removeClass("visible")
-                }, function () {
-
-                }
-            )
-
-            $("#landingHamburger").click(
-                function () {
-                    $("#mobileMenu").removeClass("hidden-block")
-                    $("#mobileMenu").addClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
-                }
-            )
-
-            $("#closeMobileMenu").click(
-                function () {
-                    $("#mobileMenu").removeClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
-                    $("#mobileMenu").addClass("hidden-block")
-
-                }
-            )
-
-            $("#switchLanguagesDropdown").click(
-                function () {
-
-                    if ($("#showMenu").hasClass('visible') === true) {
-                        $("#switchLanguagesDropdown").removeClass("active visible")
-                        $("#showMenu").removeClass("visible")
-                    } else {
-                        $("#menuForumContainer").removeClass("visible")
-
-                        $("#menuProductsContainer").removeClass("visible")
-                        $("#menuCompanyContainer").removeClass("visible")
-                        $("#menuPricingContainer").removeClass("visible")
-
-                        $("#switchLanguagesDropdown").addClass("active visible")
-                        $("#showMenu").addClass("visible")
-                    }
-
-                }
-            )
-
-            $("#getStartedBtn").click(
-                function () {
-
-                    var email = document.getElementById("emailInput").value
-
-                    window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
-
-                }
-            )
-
-            $("#getStartedBtn1").click(
-                function () {
-
-                    var email = document.getElementById("emailInput1").value
-
-                    window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
-
-                }
-            )
-
-
-        </script>
+    $("#menuProducts").hover(
+        function () {
+            // add visible class to menu products
+            $("#menuProductsContainer").addClass("visible")
+            $("#menuPricingContainer").removeClass("visible")
+            $("#menuCompanyContainer").removeClass("visible")
+            $("#menuForumContainer").removeClass("visible")
+        }, function () {
+            // check if entered products container on this leave, maybe just close all others
+        }
+    );
+    $("#menuProductsContainer").hover(
+        function () {
+        }, function () {
+            // remove visible class to menu products
+            $("#menuProductsContainer").removeClass("visible")
+        }
+    );
+    $("#item1").click(
+        function () {
+            // add visible class to menu Company
+            if ($("#item1").hasClass('final-active') === true) {
+                // it's been clicked and is already active
+            } else {
+                $("#item2").removeClass("final-active")
+                $("#item3").removeClass("final-active")
+                $("#item1").toggleClass("final-active")
+                $("#item20").removeClass("show-block")
+                $("#item30").removeClass("show-block")
+                $("#item10").toggleClass("show-block")
+            }
+        }
+    );
+    $("#item2").click(
+        function () {
+            // add visible class to menu Company
+            if ($("#item2").hasClass('final-active') === true) {
+                // it's been clicked and is already active
+            } else {
+                $("#item1").removeClass("final-active")
+                $("#item3").removeClass("final-active")
+                $("#item2").toggleClass("final-active")
+                $("#item10").removeClass("show-block")
+                $("#item30").removeClass("show-block")
+                $("#item20").toggleClass("show-block")
+            }
+        }
+    );
+    $("#item3").click(
+        function () {
+            // add visible class to menu Company
+            if ($("#item3").hasClass('final-active') === true) {
+                // it's been clicked and is already active
+            } else {
+                $("#item2").removeClass("final-active")
+                $("#item1").removeClass("final-active")
+                $("#item3").toggleClass("final-active")
+                $("#item20").removeClass("show-block")
+                $("#item10").removeClass("show-block")
+                $("#item30").toggleClass("show-block")
+            }
+        }
+    );
+    $("#menuCompany").hover(
+        function () {
+            // add visible class to menu Company
+            $("#menuCompanyContainer").addClass("visible")
+            $("#menuProductsContainer").removeClass("visible")
+            $("#menuPricingContainer").removeClass("visible")
+            $("#menuForumContainer").removeClass("visible")
+        }, function () {
+        }
+    );
+    $("#menuCompanyContainer").hover(
+        function () {
+        }, function () {
+            // remove visible class to menu Company
+            $("#menuCompanyContainer").removeClass("visible")
+        }
+    );
+    $("#menuForum").hover(
+        function () {
+            // add visible class to menu Forum
+            $("#menuForumContainer").addClass("visible")
+            $("#menuProductsContainer").removeClass("visible")
+            $("#menuCompanyContainer").removeClass("visible")
+            $("#menuPricingContainer").removeClass("visible")
+        }, function () {
+        }
+    );
+    $("#menuForumContainer").hover(
+        function () {
+        }, function () {
+            // remove visible class to menu Forum
+            $("#menuForumContainer").removeClass("visible")
+        }
+    );
+    $("#bodyContainer").hover(
+        function () {
+            $("#menuForumContainer").removeClass("visible")
+            $("#menuProductsContainer").removeClass("visible")
+            $("#menuCompanyContainer").removeClass("visible")
+            $("#menuPricingContainer").removeClass("visible")
+        }, function () {
+        }
+    )
+    $("#landingHamburger").click(
+        function () {
+            $("#mobileMenu").removeClass("hidden-block")
+            $("#mobileMenu").addClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
+        }
+    )
+    $("#closeMobileMenu").click(
+        function () {
+            $("#mobileMenu").removeClass("landingMobileMenuFull animated fadeIn animationSpeedUp")
+            $("#mobileMenu").addClass("hidden-block")
+        }
+    )
+    $("#switchLanguagesDropdown").click(
+        function () {
+            if ($("#showMenu").hasClass('visible') === true) {
+                $("#switchLanguagesDropdown").removeClass("active visible")
+                $("#showMenu").removeClass("visible")
+            } else {
+                $("#menuForumContainer").removeClass("visible")
+                $("#menuProductsContainer").removeClass("visible")
+                $("#menuCompanyContainer").removeClass("visible")
+                $("#menuPricingContainer").removeClass("visible")
+                $("#switchLanguagesDropdown").addClass("active visible")
+                $("#showMenu").addClass("visible")
+            }
+        }
+    )
+    $("#getStartedBtn").click(
+        function () {
+            var email = document.getElementById("emailInput").value
+            window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
+        }
+    )
+    $("#getStartedBtn1").click(
+        function () {
+            var email = document.getElementById("emailInput1").value
+            window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
+        }
+    )
+</script>
 </body>
 </html>
