@@ -5976,6 +5976,13 @@ body {
 
     color: rgba(54, 133, 208, 0.83);
 }
+.productSecondarySubtitle {
+    margin-top: 24px;
+    font-size: 16px;
+    margin-left: 6px;
+    color: rgba(0,0,0,0.63);
+    line-height: 1.4;
+}
 @media screen and (max-width: 400px) {
     .marginRight16.hideOnDesktop.menu .menuButtonBlue {
         display: none !important;
@@ -6065,8 +6072,8 @@ body {
     position: relative;
 }
 .productItemSubtitle {
-    margin-top: 24px;
-    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
     margin-left: 8px;
     font-size: 18px;
     line-height: 1.4;
