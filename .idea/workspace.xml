@@ -2,43 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263bb2fe-6ac8-4ce0-a04a-788f0738841d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/en-us/use-cases/easy-administration-new.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landingStyles.css" afterPath="$PROJECT_DIR$/css/landingStyles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/pricing.html" afterPath="$PROJECT_DIR$/de-de/pricing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/Build/features.html" afterPath="$PROJECT_DIR$/de-de/products/Build/features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/Engage/features.html" afterPath="$PROJECT_DIR$/de-de/products/Engage/features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/Grow/features.html" afterPath="$PROJECT_DIR$/de-de/products/Grow/features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/build.html" afterPath="$PROJECT_DIR$/de-de/products/build.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/engage.html" afterPath="$PROJECT_DIR$/de-de/products/engage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/grow.html" afterPath="$PROJECT_DIR$/de-de/products/grow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/use-cases/activate-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/activate-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" afterPath="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/community.html" afterPath="$PROJECT_DIR$/en-us/community.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/about-us.html" afterPath="$PROJECT_DIR$/en-us/company/about-us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/about.html" afterPath="$PROJECT_DIR$/en-us/company/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/careers.html" afterPath="$PROJECT_DIR$/en-us/company/careers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/contact-us.html" afterPath="$PROJECT_DIR$/en-us/company/contact-us.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/imprint.html" afterPath="$PROJECT_DIR$/en-us/company/imprint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/press.html" afterPath="$PROJECT_DIR$/en-us/company/press.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/privacy.html" afterPath="$PROJECT_DIR$/en-us/company/privacy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/security.html" afterPath="$PROJECT_DIR$/en-us/company/security.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/index.html" afterPath="$PROJECT_DIR$/en-us/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/pricing.html" afterPath="$PROJECT_DIR$/en-us/pricing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/build.html" afterPath="$PROJECT_DIR$/en-us/products/build.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/build/features.html" afterPath="$PROJECT_DIR$/en-us/products/build/features.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/engage.html" afterPath="$PROJECT_DIR$/en-us/products/engage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/engage/features.html" afterPath="$PROJECT_DIR$/en-us/products/engage/features.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/grow.html" afterPath="$PROJECT_DIR$/en-us/products/grow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/grow/features.html" afterPath="$PROJECT_DIR$/en-us/products/grow/features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/seed-round.html" afterPath="$PROJECT_DIR$/en-us/seed-round.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/unaty-platform-old.html" afterPath="$PROJECT_DIR$/en-us/unaty-platform-old.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/unaty-platform.html" afterPath="$PROJECT_DIR$/en-us/unaty-platform.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/use-cases/activate-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/activate-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/use-cases/easy-administration-old.html" afterPath="$PROJECT_DIR$/en-us/use-cases/easy-administration-old.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/use-cases/easy-administration.html" afterPath="$PROJECT_DIR$/en-us/use-cases/easy-administration.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,11 +30,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="easy-administration.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="easy-administration.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en-us/use-cases/easy-administration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="219" column="70" lean-forward="true" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="70" />
+            <state relative-caret-position="390">
+              <caret line="546" column="49" lean-forward="true" selection-start-line="546" selection-start-column="49" selection-end-line="546" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landingStyles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="5696" column="5" lean-forward="true" selection-start-line="5696" selection-start-column="5" selection-end-line="5696" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -73,18 +53,48 @@
       <file leaf-file-name="recruit-members.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-members.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="512" column="63" lean-forward="false" selection-start-line="512" selection-start-column="63" selection-end-line="512" selection-end-column="63" />
+            <state relative-caret-position="45">
+              <caret line="446" column="0" lean-forward="true" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activate-members.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="919" column="151" lean-forward="false" selection-start-line="919" selection-start-column="32" selection-end-line="919" selection-end-column="151" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activate-members.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en-us/use-cases/activate-members.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="512" column="66" lean-forward="false" selection-start-line="512" selection-start-column="66" selection-end-line="512" selection-end-column="66" />
+            <state relative-caret-position="1140">
+              <caret line="414" column="0" lean-forward="true" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="625" column="0" lean-forward="true" selection-start-line="625" selection-start-column="0" selection-end-line="625" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="engage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="979" column="43" lean-forward="true" selection-start-line="978" selection-start-column="32" selection-end-line="979" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -94,8 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Member Relations</find>
-      <find>text-align-left</find>
       <find>final-list-use-case</find>
       <find>makeTextNormal</find>
       <find>use_cases</find>
@@ -124,9 +132,10 @@
       <find>Activate members, sponsors, friends and family</find>
       <find>Catch, recruit and bind new Members</find>
       <find>productsecon</find>
+      <find>Make member management simple\, improve community communications\,\n                                and increase productivity with smarter collaboration\.</find>
+      <find>useCaseStep</find>
     </findStrings>
     <replaceStrings>
-      <replace>&gt;Karriere&lt;</replace>
       <replace>&gt;Impressum&lt;</replace>
       <replace>Organisationen</replace>
       <replace>Unternehmen</replace>
@@ -156,6 +165,7 @@
       <replace>Reduce administration and reach more members</replace>
       <replace>Activate your community and inspire action</replace>
       <replace>Raise awareness and recruit new members</replace>
+      <replace>Simply send an email to update members or create content. Personalize messages to your members and get their attention.</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Fabian Ahrens\Documents\GitHub\UnatyStaticLP\de-de</dir>
@@ -196,15 +206,15 @@
         <option value="$PROJECT_DIR$/en-us/community.html" />
         <option value="$PROJECT_DIR$/en-us/unaty-platform.html" />
         <option value="$PROJECT_DIR$/en-us/pricing.html" />
-        <option value="$PROJECT_DIR$/en-us/index.html" />
+        <option value="$PROJECT_DIR$/en-us/products/build.html" />
+        <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/en-us/products/engage.html" />
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
-        <option value="$PROJECT_DIR$/css/landingStyles.css" />
-        <option value="$PROJECT_DIR$/en-us/products/build.html" />
-        <option value="$PROJECT_DIR$/en-us/use-cases/easy-administration.html" />
-        <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" />
+        <option value="$PROJECT_DIR$/en-us/index.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/activate-members.html" />
+        <option value="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" />
+        <option value="$PROJECT_DIR$/css/landingStyles.css" />
+        <option value="$PROJECT_DIR$/en-us/use-cases/easy-administration.html" />
       </list>
     </option>
   </component>
@@ -239,8 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,6 +327,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,11 +458,12 @@
       <workItem from="1524752203811" duration="26551000" />
       <workItem from="1524905540000" duration="41475000" />
       <workItem from="1525094655185" duration="7203000" />
+      <workItem from="1525158862168" duration="2850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132258000" />
+    <option name="totallyTimeSpent" value="135108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -595,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="553" column="0" lean-forward="true" selection-start-line="553" selection-start-column="0" selection-end-line="553" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="699" column="23" lean-forward="false" selection-start-line="699" selection-start-column="23" selection-end-line="699" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="22" column="121" lean-forward="false" selection-start-line="22" selection-start-column="121" selection-end-line="22" selection-end-column="121" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="443" column="25" lean-forward="true" selection-start-line="443" selection-start-column="25" selection-end-line="443" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,10 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="744" column="0" lean-forward="false" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="966" column="0" lean-forward="true" selection-start-line="966" selection-start-column="0" selection-end-line="966" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="963" column="0" lean-forward="false" selection-start-line="963" selection-start-column="0" selection-end-line="963" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="553" column="75" lean-forward="true" selection-start-line="553" selection-start-column="75" selection-end-line="553" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="466" column="18" lean-forward="false" selection-start-line="421" selection-start-column="12" selection-end-line="466" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="329" column="47" lean-forward="true" selection-start-line="329" selection-start-column="47" selection-end-line="329" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,23 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
           <caret line="454" column="22" lean-forward="true" selection-start-line="445" selection-start-column="16" selection-end-line="454" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="621" column="0" lean-forward="true" selection-start-line="621" selection-start-column="0" selection-end-line="621" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="817" column="0" lean-forward="true" selection-start-line="817" selection-start-column="0" selection-end-line="817" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,31 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="829" column="22" lean-forward="true" selection-start-line="829" selection-start-column="22" selection-end-line="829" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="6308" column="17" lean-forward="false" selection-start-line="6308" selection-start-column="17" selection-end-line="6308" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="286" column="82" lean-forward="true" selection-start-line="286" selection-start-column="57" selection-end-line="286" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,30 +734,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="119" column="67" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="520" column="26" lean-forward="false" selection-start-line="520" selection-start-column="26" selection-end-line="520" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="625" column="0" lean-forward="true" selection-start-line="625" selection-start-column="0" selection-end-line="625" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="919" column="151" lean-forward="false" selection-start-line="919" selection-start-column="32" selection-end-line="919" selection-end-column="151" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="979" column="43" lean-forward="true" selection-start-line="978" selection-start-column="32" selection-end-line="979" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-members.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="512" column="63" lean-forward="false" selection-start-line="512" selection-start-column="63" selection-end-line="512" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/use-cases/easy-administration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="219" column="70" lean-forward="true" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="70" />
+        <state relative-caret-position="45">
+          <caret line="446" column="0" lean-forward="true" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/activate-members.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="512" column="66" lean-forward="false" selection-start-line="512" selection-start-column="66" selection-end-line="512" selection-end-column="66" />
+        <state relative-caret-position="1140">
+          <caret line="414" column="0" lean-forward="true" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="5696" column="5" lean-forward="true" selection-start-line="5696" selection-start-column="5" selection-end-line="5696" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/use-cases/easy-administration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="546" column="49" lean-forward="true" selection-start-line="546" selection-start-column="49" selection-end-line="546" selection-end-column="49" />
           <folding />
         </state>
       </provider>
