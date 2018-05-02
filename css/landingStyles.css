@@ -5699,6 +5699,9 @@ letter-spacing: normal !important;
         height: 340px !important;
     }
 }
+.useCaseStep img {
+    max-width: 144px;
+}
 .useCaseStep {
     margin-top: 32px;
 }
