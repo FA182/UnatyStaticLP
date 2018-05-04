@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263bb2fe-6ac8-4ce0-a04a-788f0738841d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/landingStyles.css" afterPath="$PROJECT_DIR$/css/landingStyles.css" />
       <change beforePath="$PROJECT_DIR$/en-us/products/build.html" afterPath="$PROJECT_DIR$/en-us/products/build.html" />
       <change beforePath="$PROJECT_DIR$/en-us/products/engage.html" afterPath="$PROJECT_DIR$/en-us/products/engage.html" />
       <change beforePath="$PROJECT_DIR$/en-us/products/grow.html" afterPath="$PROJECT_DIR$/en-us/products/grow.html" />
@@ -28,21 +26,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.73803526">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="build.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
-                  <caret line="628" column="63" lean-forward="false" selection-start-line="628" selection-start-column="63" selection-end-line="628" selection-end-column="63" />
+                <state relative-caret-position="402">
+                  <caret line="621" column="22" lean-forward="true" selection-start-line="613" selection-start-column="8" selection-end-line="621" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="engage.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="engage.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="141">
-                  <caret line="1047" column="22" lean-forward="false" selection-start-line="1047" selection-start-column="22" selection-end-line="1047" selection-end-column="22" />
+                <state relative-caret-position="742">
+                  <caret line="1059" column="21" lean-forward="true" selection-start-line="1059" selection-start-column="21" selection-end-line="1059" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -51,8 +49,8 @@
           <file leaf-file-name="grow.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="626" column="0" lean-forward="true" selection-start-line="626" selection-start-column="0" selection-end-line="626" selection-end-column="0" />
+                <state relative-caret-position="785">
+                  <caret line="637" column="26" lean-forward="true" selection-start-line="637" selection-start-column="26" selection-end-line="637" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -78,10 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
-      <find>.requestDemoSpan a</find>
-      <find>productitem</find>
-      <find>productsec</find>
       <find>check green icon</find>
       <find>automatisation</find>
       <find>.final-use-case-header-body</find>
@@ -108,6 +102,10 @@
       <find>create</find>
       <find>productPageScreenshot2</find>
       <find>send or</find>
+      <find>save and shae</find>
+      <find>your easy re</find>
+      <find>community ca</find>
+      <find>roles</find>
     </findStrings>
     <replaceStrings>
       <replace>&gt;Karriere&lt;</replace>
@@ -186,9 +184,9 @@
         <option value="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/activate-members.html" />
         <option value="$PROJECT_DIR$/css/landingStyles.css" />
+        <option value="$PROJECT_DIR$/en-us/products/build.html" />
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
         <option value="$PROJECT_DIR$/en-us/products/engage.html" />
-        <option value="$PROJECT_DIR$/en-us/products/build.html" />
       </list>
     </option>
   </component>
@@ -374,12 +372,12 @@
       <workItem from="1524752203811" duration="26551000" />
       <workItem from="1524905540000" duration="41475000" />
       <workItem from="1525094655185" duration="7203000" />
-      <workItem from="1525433218138" duration="1100000" />
+      <workItem from="1525433218138" duration="5449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133571000" />
+    <option name="totallyTimeSpent" value="137920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -706,26 +704,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="1047" column="22" lean-forward="false" selection-start-line="1047" selection-start-column="22" selection-end-line="1047" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="626" column="0" lean-forward="true" selection-start-line="626" selection-start-column="0" selection-end-line="626" selection-end-column="0" />
+        <state relative-caret-position="785">
+          <caret line="637" column="26" lean-forward="true" selection-start-line="637" selection-start-column="26" selection-end-line="637" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/build.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="628" column="63" lean-forward="false" selection-start-line="628" selection-start-column="63" selection-end-line="628" selection-end-column="63" />
+        <state relative-caret-position="402">
+          <caret line="621" column="22" lean-forward="true" selection-start-line="613" selection-start-column="8" selection-end-line="621" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="1059" column="21" lean-forward="true" selection-start-line="1059" selection-start-column="21" selection-end-line="1059" selection-end-column="21" />
           <folding />
         </state>
       </provider>
