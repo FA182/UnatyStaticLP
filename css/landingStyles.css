@@ -5786,6 +5786,12 @@ letter-spacing: normal !important;
     color: rgba(0,0,0,0.83);
     margin-bottom: 16px;
 }
+.leftPadding40 {
+    padding-left: 40px;
+}
+.rightPadding40 {
+    padding-right: 40px;
+}
 .newUseCaseDesc {
     font-weight: 400 !important;
     font-size: 18px;
@@ -5862,6 +5868,10 @@ display: flex;
 .useCaseDiagramCont {
     min-width: 500px;
     text-align: center;
+
+}
+.imgEngage{
+    max-width: 480px;
 }
 .useCaseDiagAction {
     display: flex;
