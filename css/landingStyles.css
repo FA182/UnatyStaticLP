@@ -241,15 +241,15 @@ ui.grid.AcademyMenu {
     padding: 4em 0;
 }
 .LandingPageSecuritySystem {
-    background-color: #F6F9FC;
+
     padding: 4em 0;
 }
 .LandingPageSecurityOverview {
-    background-color: #F6F9FC;
+
     padding: 4em 0;
 }
 .LandingPageSecurityContact {
-    background-color: #F6F9FC;
+
     padding: 3em 0;
 }
 @media screen and (max-width: 768px) {
