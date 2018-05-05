@@ -24,7 +24,7 @@ var unatyData = {
             date: 'May 17th @ 10AM EST',
             desc: 'Best practice advice and insights on how to raise awareness and reach potential members. We will be covering how to use Unaty to capture, convert and onboard new members.',
             slug: '05-17-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457072004'
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738'
         },
         {
             name: 'Activate your community and inspire action',
