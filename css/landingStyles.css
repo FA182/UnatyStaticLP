@@ -265,7 +265,7 @@ ui.grid.AcademyMenu {
     display: flex;
 }
 .SecurityCard img {
-    height: 150px !important;
+   height: 80px !important;
     margin-right: 24px;
 }
 .SecurityCard i {
@@ -6724,4 +6724,48 @@ body {
     font-weight: 500;
     color: rgba(0,0,0,0.53);
     margin-top: 2px;
+}
+.policiesBackgroundGray {
+    margin-top: 64px;
+    padding-top: 32px;
+    background-color: #fafafa;
+    border-top: 1px solid #efefef;
+    padding-bottom: 88px;
+    border-bottom: 1px solid #efefef;
+}
+.policyCard {
+    padding: 16px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.1);
+    display: block;
+    opacity: 0.9;
+    background-color: #fff;
+    box-shadow: 0 2px 0 0 rgba(82,114,175,0.15);
+}
+.policyCard:hover {
+    box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
+    opacity: 1;
+}
+.policyCard > div:nth-child(1) {
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 12px;
+    font-weight: 900;
+    color: rgba(0,0,0,0.83);
+}
+.policyCard > div:nth-child(2) {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: rgba(0,0,0,0.73);
+    margin-top: 8px;
+    max-width: 95% !important;
+    line-height: 1.3 !important;
+}
+.policyCard > div:nth-child(3) {
+    font-size: 16px;
+}
+.policyCard > div:nth-child(3):hover {
+    text-decoration: underline;
 }
