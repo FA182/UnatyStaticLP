@@ -101,6 +101,25 @@
             r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+        window.addEventListener('scroll', function () {
+
+            if (window.scrollY > 150||document.body.scrollTop > 150) {
+                // > 100px from top - show div 
+
+                if ($("#addShowClass").hasClass('showFlexNow') === true) {
+                    // it's been clicked and is already active  
+                } else {
+                    $("#addShowClass").addClass("showFlexNow")
+                }
+            } else {
+
+                // <= 100px from top - hide div 
+                $("#addShowClass").removeClass("showFlexNow")
+            }
+
+
+        }, true)
     </script>
 
 
@@ -113,6 +132,26 @@
 <script type="text/javascript">
     document.write(menu)
 </script>
+
+<div class="useCaseMenuTop" id="addShowClass">
+
+    <div>
+        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525608510560"/>
+    </div>
+
+    <div>
+        Reduce administration and reach more members
+    </div>
+
+    <div>
+        <a class="ui button blue basic large compact" href="https://www.unaty.de/en-us/pricing.html">See Pricing</a>
+    </div>
+
+    <div>
+        <a class="ui button blue large compact" href="https://app.unaty.de/get-started">Get Started</a>
+    </div>
+
+</div>
 
 <div class="final-use-case-page-header">
 
@@ -153,7 +192,7 @@
                             </div>
                         </div>
                         <div>
-                            14 Day Free Trial ● Get Started in Minutes
+                            <script type="text/javascript">document.write(unatyData.global.promises)</script>
                         </div>
                     </div>
 
@@ -259,7 +298,7 @@
 
                 <div>
 
-                    <div class="ui list horizontal large link newUseCaseList">
+                    <div class="ui list horizontal relaxed large link newUseCaseList">
                         <a href="#collaborate" class="active blueActiveItem item">Collaborate</a>
                         <a href="#automate" class=" item">Automate</a>
                         <a href="#target" class=" item">Target</a>
@@ -274,7 +313,7 @@
                         All members have a profile in your Communaty and can login anytime and edit their profile. Administrators can see and edit all member information, as well as when it was changed and by who.
                     </div>
 
-                    <div class="ui grid very relaxed newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
                         <div class="two column row">
 
@@ -295,20 +334,20 @@
                         </div>
 
                         <div class="two column row">
-
-                            <div class="column">
-                                <div class="newUseCaseFeature">
-                                    <i class="ui icon blue write"></i>
-                                    <div>Members can easily edit their profile</div>
-                                </div>
-                            </div>
-
                             <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon blue browser"></i>
                                     <div>Administrators can see who made which changes</div>
                                 </div>
                             </div>
+                            <div class="column">
+                                <div class="newUseCaseFeature">
+                                    <i class="ui icon blue write"></i>
+                                    <div>Use custom profile fields to collect more information</div>
+                                </div>
+                            </div>
+
+
 
                         </div>
 
@@ -347,7 +386,7 @@
 
                 <div>
 
-                    <div class="ui list horizontal large link newUseCaseList">
+                    <div class="ui list horizontal relaxed large link newUseCaseList">
                         <a href="#collaborate" class=" item">Collaborate</a>
                         <a href="#automate" class="active redActiveItem item">Automate</a>
                         <a href="#target" class=" item">Target</a>
@@ -362,7 +401,7 @@
                         Subscribers to Build receive a personalized email for members to send or forward action requests to. These requests can be in any format and the changes will be made automatically in your system.
                     </div>
 
-                    <div class="ui grid very relaxed newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
                         <div class="two column row">
 
@@ -488,7 +527,7 @@
 
                 <div>
 
-                    <div class="ui list horizontal large link newUseCaseList">
+                    <div class="ui list horizontal relaxed large link newUseCaseList">
                         <a href="#collaborate" class=" item">Collaborate</a>
                         <a href="#automate" class=" item">Automate</a>
                         <a href="#target" class="active yellowActiveItem item">Target</a>
@@ -503,7 +542,7 @@
                         Easily filter members based on profile and behavior data and save them for later use. Then create member lists by combining member segments, groups, topic subscribers, roles, member types and members themselves.
                     </div>
 
-                    <div class="ui grid very relaxed newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
                         <div class="two column row">
 
@@ -593,7 +632,7 @@
 
                 <div>
 
-                    <div class="ui list horizontal large link newUseCaseList">
+                    <div class="ui list horizontal relaxed large link newUseCaseList">
                         <a href="#collaborate" class=" item">Collaborate</a>
                         <a href="#automate" class=" item">Automate</a>
                         <a href="#target" class=" item">Target</a>
@@ -608,13 +647,13 @@
                         Use the engage messenger to contact your members and apply merge tags to personalize any part of your message with single member data, like a members first name. The Messenger helps you reach members on multiple channels (like email and sms), without having to send each seperately.
                     </div>
 
-                    <div class="ui grid very relaxed newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
                         <div class="two column row">
 
                             <div class="column">
                                 <div class="newUseCaseFeature">
-                                    <i class="ui icon green cloud"></i>
+                                    <i class="ui icon green code"></i>
                                     <div>Use merge tags to personalize messages</div>
                                 </div>
                             </div>

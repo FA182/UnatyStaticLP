@@ -1128,9 +1128,68 @@ img.unatySmartCityFrameworkImg {
     color: rgba(0, 0, 0, 0.83) !important;
     border-color: rgba(0, 0, 0, 0.43) !important;
 }
+.useCaseMenuTop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #fff;
+    padding: 12px 24px;
+    z-index: 99;
+    display: none;
+}
+.showFlexNow {
+    display: flex !important;
+}
+.useCaseMenuTop > div:nth-child(1) {
+
+}
+.useCaseMenuTop > div:nth-child(1) > img {
+    max-width: 40px;
+}
+.useCaseMenuTop > div:nth-child(2) {
+    flex-grow: 1;
+    line-height: 40px;
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: 900;
+    color: rgba(0,0,0,0.83);
+}
+.useCaseMenuTop > div:nth-child(3) {
+
+}
+.useCaseMenuTop > div:nth-child(4) {
+
+}
+.useCaseMenuTop > div:nth-child(3) > a {
+    margin-top: 4px;
+    margin-right: 12px;
+}
+.useCaseMenuTop > div:nth-child(4) > a {
+    margin-top: 4px;
+    margin-right: 12px;
+}
 @media all and (max-width: 768px) {
+    .newUseCaseMainItem, .newUseCaseMainItem.flexRowTypeOne {
+        flex-flow: column !important;
+    }
+    .newUseCaseMainItem > div:nth-child(1) {
+        margin-right: 0 !important;
+        margin-bottom: 48px;
+    }
+    .newUseCaseMainItem.flexRowTypeOne > div:nth-child(1) {
+        margin-left: 0 !important;
+    }
     .NewMainLoginPage > div:nth-child(1) {
         width: 100vw !important;
+    }
+    .productPageLabel, .productSecondarySubtitle, .productPageFeatures, .productPage-ButtonContainer {
+        text-align: left !important;
+    }
+
+    .flex-control-grid > div:nth-child(1) {
+        margin-bottom: 32px;
     }
     .NewMainLoginPage > div:nth-child(1) > div:nth-child(1) {
         max-width: 500px !important;
@@ -1381,6 +1440,35 @@ img.unatySmartCityFrameworkImg {
     }
 }
 @media all and (max-width: 500px) {
+    .final-use-case-header-body > div:nth-child(1), .final-use-case-header-body > div:nth-child(3) {
+        display: none;
+    }
+    .flexRowTypeOne.newUseCaseMainItem > div:nth-child(1) {
+        margin-left: 0 !important;
+    }
+    .newUseCaseMainItem > div:nth-child(1) {
+        margin-right: 0 !important;
+    }
+    .newUseCaseList > .item {
+        margin-left: 0 !important;
+    }
+    .useCaseDiagramCont {
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+    .newUseCaseMainItem.flexRowTypeOne {
+        flex-flow: column !important;
+    }
+    .newUseCaseMainItem > div:nth-child(2) img {
+        max-width: 100% !important;
+    }
+    .newUseCaseMainItem {
+        flex-flow: column !important;
+    }
+    .final-use-case-header-body {
+        text-align: left !important;
+        padding: 8px 12px !important;
+    }
     .NLP-mainHeroContainer {
         margin-top: 0 !important;
         padding-bottom: 0 !important;
@@ -1637,6 +1725,7 @@ img.unatySmartCityFrameworkImg {
     }
 }
 @media screen and (max-width: 500px) {
+
     .createAcctBtns {
         flex-direction: column !important;
     }
@@ -4387,6 +4476,9 @@ span.mainNumber {
         margin-left: 16px;
         margin-right: 16px;
     }
+    .useCaseMenuTop {
+        display: none !important;
+    }
 }
 .overflowVisible {
     overflow: visible !important;
@@ -5614,6 +5706,9 @@ letter-spacing: normal !important;
 }
 @media all and (max-width: 992px) {
     .flex-control-grid, .final-unaty-features {
+        flex-flow: column-reverse !important;
+    }
+    .ui.fluid.container .final-landing-page-main2:nth-child(even) .ui.container.flex-control-grid  {
         flex-flow: column !important;
     }
     .new-products-box {
@@ -5667,12 +5762,21 @@ letter-spacing: normal !important;
 }
 @media all and (max-width: 768px) {
 
+    .final-product-header-grid > div:nth-child(2) {
+        margin-right: auto;
+    }
+
+    .finalPlatformTitleSection, .newPlatformTitle {
+        text-align: left;
+        font-size: 24px;
+        line-height: 1.4 !important;
+    }
+
     .final-use-case-header-body > div > img {
         max-width: 140px !important;
     }
     .final-use-case-header-body > div:nth-child(1), .final-use-case-header-body > div:nth-child(3) {
-        max-width: 140px !important;
-        min-width: 140px !important;
+       display: none;
     }
 
     .flex-control-grid > div:nth-child(1) {
@@ -5718,6 +5822,11 @@ letter-spacing: normal !important;
         flex-flow: column;
     }
     .final-list-use-case {
+        max-width: 450px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .productpage-problemlist {
         display: none;
     }
     .final-product-header-grid > div:nth-child(1) {
@@ -6062,6 +6171,13 @@ display: flex;
     margin: 0 !important;
 }
 @media all and (max-width: 500px) {
+    .final-product-name, .final-product-title, .productSubtitle, .final-list-use-case, .flp-sign-up-box, .productPageFeatures {
+        text-align: left;
+    }
+    .requestDemoSpan {
+        margin-top: 16px;
+    }
+
     .flp-title-text {
         font-size: 32px;
     }
