@@ -104,7 +104,7 @@ var unatyData = {
             slug: 'recruit-members',
             type: 'Membership Growth',
             desc: 'Simple solutions to reach potential members, raise awareness and grow community membership.',
-            tagline: 'Increase impact and grow community membership.',
+            tagline: 'Increase community impact and grow membership.',
             poweredBy: '<div>Powered by: <span class="final-powered-by-icon"><i class="ui icon green grow-icon-3 icon-growicon position-relative"></i> Grow</span> + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>',
             poweredByMobile: '<span class="nmm-uc-2">Powered by: <span class="final-powered-by-icon"><i class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span> + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></span>',
             poweredByList: '<div>Powered by: <span class="final-powered-by-icon"><i class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span>  + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>'
