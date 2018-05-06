@@ -260,6 +260,9 @@ ui.grid.AcademyMenu {
         margin-right: auto !important;
     }
 }
+.ui.blue.massive.vertical.menu .item .header {
+    color: rgba(0,0,0,0.53);
+}
 .SecurityCard {
     text-align: left;
     display: flex;
