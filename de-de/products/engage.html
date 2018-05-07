@@ -1,57 +1,21 @@
 <!DOCTYPE html>
 
-<html lang="de">
+<html lang="en">
 <head>
 
 
-    <title>Increase participation by reaching Members based on their interests | Engage | Unaty</title>
+    <title>Engagement steigern und Mitglieder gezielt ansprechen  | Engage | Unaty</title>
 
     <meta charset="utf-8">
 
 
     <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css">
-    <script>window.intercomSettings = {
-        app_id: "auma9g4d",
-        custom_launcher_selector: '#intercom_chat_link'
-    };      </script>
-    <script>(function () {
-        var w = window;
-        var ic = w.Intercom;
-        if (typeof ic === "function") {
-            ic('reattach_activator');
-            ic('update', intercomSettings);
-        } else {
-            var d = document;
-            var i = function () {
-                i.c(arguments)
-            };
-            i.q = [];
-            i.c = function (args) {
-                i.q.push(args)
-            };
-            w.Intercom = i;
-            function l() {
-                var s = d.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = 'https://widget.intercom.io/widget/auma9g4d';
-                var x = d.getElementsByTagName('script')[0];
-                x.parentNode.insertBefore(s, x);
-            }
-
-            if (w.attachEvent) {
-                w.attachEvent('onload', l);
-            } else {
-                w.addEventListener('load', l, false);
-            }
-        }
-    })()</script>
-
-    <link rel="stylesheet" type="text/css"
-          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+    <script src="../configureDEDE.js"></script>
+    <script type="text/javascript">document.write(headData)</script>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
-        window.addEventListener("load", function () {
+        window.addEventListener("load", function(){
             window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
@@ -83,8 +47,7 @@
                         navigator.cookieEnabled = false
                     }
                 },
-
-                onStatusChange: function (status, chosenBefore) {
+                onStatusChange: function(status, chosenBefore) {
                     var type = this.options.type;
                     var didConsent = this.hasConsented();
                     if (type == 'opt-in' && didConsent) {
@@ -96,8 +59,7 @@
                         navigator.cookieEnabled = false
                     }
                 },
-
-                onRevokeChoice: function () {
+                onRevokeChoice: function() {
                     var type = this.options.type;
                     if (type == 'opt-in') {
                         // disable cookies
@@ -108,21 +70,14 @@
                         navigator.cookieEnabled = true
                     }
                 }
-            })
-        });
+            })});
     </script>
 
-    <!-- Global site tag (gtag.js) - Google AdWords: 850680838 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-850680838"></script>
-    <script>         window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'AW-850680838');     </script>
-    <script type="text/javascript">         localStorage.setItem('language', 'en-US');     </script>
-    <script src="../configureDEDE.js"></script>
-    <script type="text/javascript">document.write(headData)</script>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-850680838"></script>     <script>         window.dataLayer = window.dataLayer || [];         function gtag(){dataLayer.push(arguments);}         gtag('js', new Date());          gtag('config', 'AW-850680838');     </script>
+  <script type="text/javascript">         localStorage.setItem('language', 'en-US');     </script>
+
+
+
     <link target="_blank" href="../../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
     <script src="../../semantic/dist/jquery-3.1.1.min.js"></script>
     <script src="../../semantic/dist/semantic.min.js"></script>
@@ -133,13 +88,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92484757-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
-
         gtag('js', new Date());
-
         gtag('config', 'UA-92484757-1');
     </script>
     <!-- Hotjar Tracking Code for www.unaty.de -->
@@ -194,7 +146,7 @@
     </div>
 
     <div>
-        <a class="ui button blue basic large compact" href="https://www.unaty.de/en-us/products/engage/features.html">Funktionen Sehen</a>
+        <a class="ui button blue basic large compact" href="https://www.unaty.de/de-de/products/engage/features.html">Funktionen Ansehen</a>
     </div>
 
     <div>
@@ -202,6 +154,7 @@
     </div>
 
 </div>
+
 <div class="final-product-page-header">
 
     <div class="ui fluid container">
@@ -211,46 +164,20 @@
             <div>
                 <div class="final-product-name"><i class="ui icon large lightning red"></i> Engage</div>
                 <div class="final-product-title">
-                    Increase participation by reaching Members based on their interests
+                    Engagement steigern und Mitglieder gezielt ansprechen
                 </div>
 
-                <div class="productSubtitle">
-                    <strong>Engage</strong> makes members happy by:
+                <div role="list" class="ui ordered list large relaxed final-list-use-case">
+                    <a role="listitem" href="#segments" class="item">Daten nutzen mit dynamischen Zielgruppen und Segmente</a>
+                    <a role="listitem" href="#subscription" class="item">Interessen verstehen mit Themen-Abonnements</a>
+                    <a role="listitem" href="#messenger" class="item">Mitglieder aktivieren mit dem Engage Messenger</a>
+                    <a role="listitem" href="#events" class="item">Synchronisierte Kalender und Veranstaltungen</a>
                 </div>
-
-                <div role="list" class="ui list big relaxed final-list-use-case">
-                    <a role="listitem" href="#topics" class="item">
-                        <i aria-hidden="true" class="check blue icon"></i>
-                        <div class="content">
-                            Enabling members to follow their interests
-                        </div>
-                    </a>
-                    <a role="listitem" href="#messenger" class="item">
-                        <i aria-hidden="true" class="check blue icon"></i>
-                        <div class="content">
-                            Reaching members with more relevant content
-                        </div>
-                    </a>
-                    <a role="listitem" href="#segments" class="item">
-                        <i aria-hidden="true" class="check blue icon"></i>
-                        <div class="content">
-                            Easily grouping similar members in segments
-                        </div>
-                    </a>
-                    <a role="listitem" href="#events" class="item">
-                        <i aria-hidden="true" class="check blue icon"></i>
-                        <div class="content">
-                            Community calendar for members to subscribe
-                        </div>
-                    </a>
-                </div>
-
                 <div class="flp-sign-up-box">
                     <div>
 
-                        <a href="#segments" class="ui huge compact button red" role="button">How it works</a>
-
-                        <span class="requestDemoSpan"> or see its <a href="#use_cases">Use Cases</a></span>
+                        <a id="newGetStartedBtn" href="https://app.unaty.de/get-started?source=pricing_page"
+                           target="_blank" class="ui huge compact button blue" role="button">Unaty Testen</a>
 
                     </div>
                 </div>
@@ -259,23 +186,23 @@
 
             <div class="productpage-problemlist">
 
-                <a href="#topics" class="productproblem">
-                    Inactive Members don't react to emails and nothing seems to get their attention
+                <a href="#segments" class="productproblem">
+                    Unsere E-Mailverteiler sind oft nicht mehr aktuell, schnell eine gezielte Gruppe Mitglieder anschreiben geht kaum.
                     <span class="emojiBottomLeft emojispan">🤔</span>
                 </a>
 
-                <a href="#messenger" class="productproblem">
-                    Members want to receive information about different things, it's hard to please everyone
+                <a href="#subscription" class="productproblem">
+                    Einige Mitgliedern wollen ganz bestimmte Infos, andere wollen gar keine Mails von uns bekommen. Es jedem recht zu machen ist fast unmöglich.
                     <span class="emojiBottomRight emojispan">😩</span>
                 </a>
 
-                <a href="#segments" class="productproblem">
-                    We want to contact similar members, but filtering with excel is too difficult
+                <a href="#messsenger" class="productproblem">
+                    Unser Newsletter macht viel Arbeit. Aber ob wir damit jedes Mitglied mit den richtigen Informationen versorgen kann ich nicht überprüfen.
                     <span class="emojiBottomLeft emojispan">😰</span>
                 </a>
 
                 <a href="#events" class="productproblem">
-                    Planning events is hard - and in the end, not as many members show up as expected
+                    Veranstaltungsplanung mit Mitgliedern raubt viel Zeit. Am Ende kommen dann oft weniger als erwartet.
                     <span class="emojiBottomRight emojispan">😞</span>
                 </a>
 
@@ -287,248 +214,29 @@
 
 </div>
 <div class="ui fluid container">
-    <div class="final-landing-page-main2 " id="topics">
+    <div class="final-landing-page-main2 " id="segments">
 
 
         <div class="ui container flex-control-grid">
 
-
-            <div class="useCaseDiagramCont rightPadding40">
-
-                <div class="useCaseDiagAction">
-                    <div>
-                        Create Topics and subscribe them
-                    </div>
-                </div>
-                <div class="final-main-image-home productPageScreenshot">
-
-                <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525252833528" class="img-shadow imgEngage"/>
-                </div>
-
-                <div  class="useCaseDiagAction">
-                    <div>
-                       Watch the Topics and check their Subscribers
-                    </div>
-                </div>
-                <div class="final-main-image-home productPageScreenshot">
-
-                <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525261175767" class="img-shadow imgEngage"/>
-                </div>
-
-                <div class="useCaseDiagAction">
-                    <div>
-                        Send Messages and engage your members
-                    </div>
-                </div>
-
+            <div class="final-main-image-home productPageScreenshot">
+                <img class="img-shadow" src="https://unaty-media.s3.amazonaws.com/organizations/xKAh8ZNK8vzKEL4P7/public/main/1524659941714" />
             </div>
             <div>
 
                 <div class="productPageLabel">
-                    <span>Enabling members to follow their interests</span>
+                    <span>Dynamische Zielgruppen und Segmente</span>
                 </div>
 
                 <a href="#segments" class="productproblem realProblemCard">
-                    Inactive Members don't react to emails and nothing seems to get their attention
+                    Unsere E-Mailverteiler sind oft nicht mehr aktuell, schnell eine gezielte Gruppe Mitglieder anschreiben geht kaum.
                     <span class="emojiBottomRight emojispan">🤔</span>
                 </a>
-                <div class="productSecondarySubtitle">
-                    Engage helps your community <strong>gather members' interests</strong> and use them to offer <strong>new opportunities to engage</strong> and follow their passions.
-                </div>
+                <div class="productItemSubtitle">
 
-
-                <div class="ui stackable grid productPageFeatures">
-
-                    <div class="three column row">
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon red check square"></i></div>
-                                <div>
-                                    Members can subscribe to topics
-                                </div>
-
-                            </div>
-
-
-                        </div>
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon red heart"></i></div>
-                                <div>
-                                    Members can suggest new topics
-                                </div>
-
-                            </div>
-
-
-                        </div>
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon red compass"></i></div>
-                                <div>
-                                    Discover interesting events and groups
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="productPage-ButtonContainer">
-                    <a class="ui button compact large red"
-                       href="https://www.unaty.de/products/engage/features.html#one">See all Features</a>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <div class="final-landing-page-main2 " id="messenger">
-
-
-        <div class="ui container flex-control-grid ">
-
-            <div>
-
-                <div class="productPageLabel">
-                    <span>Reaching members with more relevant content</span>
-                </div>
-
-                <a href="#subscription" class="productproblem realProblemCard">
-                    Members want to receive information about different things, it's hard to please everyone
-                    <span class="emojiBottomLeft emojispan">😩</span>
-                </a>
-                <div class="productSecondarySubtitle">
-                    <strong>Simply send members personalized messages</strong> based on their interests to boost engagement.
-                </div>
-
-
-                <div class="ui stackable grid productPageFeatures">
-
-                    <div class="three column row">
-
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon red zoom"></i></div>
-                                <div>
-                                    Simple audience selection
-                                </div>
-
-                            </div>
-
-
-                        </div>
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon red child"></i></div>
-                                <div>
-                                    Personalize with merge tags
-                                </div>
-
-                            </div>
-
-
-                        </div>
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon red student"></i></div>
-                                <div>
-                                    Auto-message Signature
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="productPage-ButtonContainer">
-                    <a class="ui button compact large red"
-                       href="https://www.unaty.de/products/engage/features.html#two">See all Features</a>
-                </div>
-
-            </div>
-
-            <div class="useCaseDiagramCont leftPadding40">
-
-                <div class="useCaseDiagAction">
-                    <div>
-                    Choose your individual Audience by Roles, Members, Segments and Topics                    </div>
-                </div>
-                <div class="final-main-image-home productPageScreenshot">
-
-                <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525254139521" class="img-shadow imgEngage"/>
+                    Zielgruppen sind selbst definierbare Mitgliedergruppen, fasse zum Beispiel eine bestimmten Arbeitskreis, alle daran interessierten Mitglied und den Kassenwart in einer Zielgruppe zusammen. Segmente sind Zielgruppen, die du anhand von Daten definierst: Alle Mitglieder zwischen 30 und 40, alle mit Kindern oder alle deren PLZ mit 8 beginnt, lassen sich so schnell und direkt anwählen. Gespeicherte Zeilgruppen und Segemente aktualiseren sich selbst, wenn Mitgliedsdaten sich ändern.
 
                 </div>
-                <div  class="useCaseDiagAction">
-                    <div>
-                        Write a message with Merge Tags and Attachement</div>
-                </div>
-                <div class="final-main-image-home productPageScreenshot">
-
-                <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525254595563" class="img-shadow imgEngage"/>
-                </div>
-
-                <div class="useCaseDiagAction">
-                    <div>
-                        Send Messages and engage your members
-                    </div>
-                </div>
-
-
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <div class="final-landing-page-main2 " id="segments">
-
-        <div class="ui container flex-control-grid ">
-
-            <div class="useCaseDiagramCont rightPadding40">
-                <div  class="useCaseDiagAction">
-                    <div>
-                        Create Member Segments with your own rules
-                    </div>
-                </div>
-                <div class="final-main-image-home productPageScreenshot">
-                    <img class="img-shadow"
-                        src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525254948048"/>
-                </div>
-
-            </div>
-            <div>
-
-                <div class="productPageLabel">
-                    <span>Easily grouping similar members in segments</span>
-                </div>
-
-                <a href="#events" class="productproblem realProblemCard">
-                    We want to contact similar members, but filtering with excel is too difficult
-                    <span class="emojiBottomRight emojispan">😰</span>
-                </a>
-
-                <div class="productSecondarySubtitle">
-                    Create member lists based on <strong>profile and behavior attributes</strong> and then contact or export those lists. <strong>Create an Auto-updating Group from a segment</strong> to keep similar members together.
-                </div>
-
 
                 <div class="ui stackable grid productPageFeatures">
 
@@ -538,30 +246,175 @@
                             <div class="final-real-feature2">
 
                                 <div><i class="ui icon red filter"></i></div>
-                                <div>Easily filter your members</div>
+                                <div>Basierend auf Text/Datum/Profilfeld Filtern</div>
 
                             </div>
 
 
                         </div>
-                        <div class="column">
-
-                            <div class="final-real-feature2">
-
-                                <div><i class="ui icon red pie chart"></i></div>
-                                <div>Save groups as segments</div>
-
-                            </div>
-
-
-                        </div>
-
                         <div class="column">
 
                             <div class="final-real-feature2">
 
                                 <div><i class="ui icon red refresh"></i></div>
-                                <div>Auto-updating segments</div>
+                                <div>Selbstaktualisierend bei jeder Veränderung</div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon red users" ></i></div>
+                                <div>Nachrichten und Exporte nach Segmenten und Zielgruppen</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="productPage-ButtonContainer">
+                    <a class="ui button compact large red" href="https://www.unaty.de/products/engage/features.html#one">Alle Funktionen sehen</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="final-landing-page-main2 " id="subscription">
+
+
+        <div class="ui container flex-control-grid ">
+
+            <div>
+
+                <div class="productPageLabel">
+                    <span>Themen-Abonnements und Inhalte</span>
+                </div>
+
+                <a href="#subscription" class="productproblem realProblemCard">
+                    Einige Mitgliedern wollen ganz bestimmte Infos, andere wollen gar keine Mails von uns bekommen. Es jedem recht zu machen ist fast unmöglich.
+                    <span class="emojiBottomLeft emojispan">😩</span>
+                </a>
+                <div class="productItemSubtitle">
+
+                    Mitglieder können selbst definieren, welche Inhalte sie interessieren, indem sie Themen abonnieren oder wieder abwählen und so im Hintergrund in bestimmte Zielgruppen betreten oder verlassen.
+
+                </div>
+
+                <div class="ui stackable grid productPageFeatures">
+
+                    <div class="three column row">
+
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon red filter"></i></div>
+                                <div>based on Text/Date/Profile Field Filters</div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon red refresh"></i></div>
+                                <div>Autoupdating with every change</div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon red users" ></i></div>
+                                <div>Messages and Exports with Segments</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="productPage-ButtonContainer">
+                    <a class="ui button compact large red" href="https://www.unaty.de/products/engage/features.html#two">Alle Funktionen sehen</a>
+                </div>
+
+            </div>
+
+            <div class="final-main-image-home productPageScreenshot2">
+                <img class="img-shadow" src="https://unaty-media.s3.amazonaws.com/organizations/xKAh8ZNK8vzKEL4P7/public/main/1524659941714" />
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="final-landing-page-main2 " id="messenger">
+
+        <div class="ui container flex-control-grid ">
+
+            <div class="final-main-image-home productPageScreenshot">
+                <img class="img-shadow" src="https://unaty-media.s3.amazonaws.com/organizations/xKAh8ZNK8vzKEL4P7/public/main/1524658052585" />
+            </div>
+            <div>
+
+                <div class="productPageLabel">
+                    <span>Unser Engage Messenger</span>
+                </div>
+
+                <a href="#events" class="productproblem realProblemCard">
+                    Unser Newsletter macht viel Arbeit. Aber ob wir damit jedes Mitglied mit den richtigen Informationen versorgen kann ich nicht überprüfen.
+                    <span class="emojiBottomRight emojispan">😰</span>
+                </a>
+                <div class="productItemSubtitle">
+
+                    Der Engage Messenger lässt Dich gezielt verschiedene Arten von Informationen, Anhänge und Veranstaltungseinladungen an Zielgruppen oder Segmente schicken. Du siehst genau, wieviele und welche Mitglieder du erreichst und kannst den Text dynamisch an den Empfänger anpassen, zum Beispiel mit einer namentlichen Begrüßung. Zu jeder NAchricht stehen Dir umfangreiche Analysen zur Verfügung, zum BEispiel, wie viele Mitglieder die Nachricht gelesen und integrierte Links geklickt haben.
+
+                </div>
+
+                <div class="ui stackable grid productPageFeatures">
+
+                    <div class="three column row">
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon red edit"></i></div>
+                                <div>Rich Text Editor + Dateianhänge</div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon red user group"></i></div>
+                                <div>Zielgruppen, Segmente, Teams und Rollen ansprechen</div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="column">
+
+                            <div class="final-real-feature2">
+
+                                <div><i class="ui icon red settings"></i></div>
+                                <div>Automatische Newsletter und Nachrichten nach Regeln</div>
 
                             </div>
 
@@ -571,8 +424,7 @@
                 </div>
 
                 <div class="productPage-ButtonContainer">
-                    <a class="ui button compact large red"
-                       href="https://www.unaty.de/products/engage/features.html#three">See all Features</a>
+                    <a class="ui button compact large red" href="https://www.unaty.de/products/engage/features.html#three">Alle Funktionen sehen</a>
                 </div>
 
             </div>
@@ -589,18 +441,17 @@
             <div>
 
                 <div class="productPageLabel">
-                    <span>Community calendar for members to subscribe</span>
+                    <span>Synchronisierte Kalender und Veranstaltungen</span>
                 </div>
 
                 <a href="#events" class="productproblem realProblemCard">
-                    Planning events is hard - and in the end, not as many members show up as expected
+                    Veranstaltungsplanung mit Mitgliedern raubt viel Zeit. Am Ende kommen dann oft weniger als erwartet
                     <span class="emojiBottomLeft emojispan">😞</span>
                 </a>
+                <div class="productItemSubtitle">
 
-                <div class="productSecondarySubtitle">
-                    <strong>Engage</strong> includes a <strong>Community Calendar</strong>, which all members can
-                    subscribe and then automatically all events that are created and updates are automatically sent to
-                    members calendars.
+                    Teile die Veranstaltungsplanung mit interessierten Mitgliedern und basiere Einladungen auf Zielgruppen und Segmenten. Arbeite mit einem, geteilten Kalender, den alle Mitglieder in ihr individuelles Mailprogramm integrieren können.
+
                 </div>
 
                 <div class="ui stackable grid productPageFeatures">
@@ -610,10 +461,8 @@
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon red calendar check"></i></div>
-                                <div>
-                                    Community Calendar
-                                </div>
+                                <div><i class="ui icon red calendar"></i></div>
+                                <div>KAlender Abonnements</div>
 
                             </div>
 
@@ -624,9 +473,7 @@
                             <div class="final-real-feature2">
 
                                 <div><i class="ui icon red mail forward"></i></div>
-                                <div>
-                                    View and manage RSVPs
-                                </div>
+                                <div>Einladungen und Zusagen managen</div>
 
                             </div>
 
@@ -636,10 +483,8 @@
 
                             <div class="final-real-feature2">
 
-                                <div><i class="ui icon red user marker"></i></div>
-                                <div>
-                                    Shared event locations
-                                </div>
+                                <div><i class="ui icon red user marker" ></i></div>
+                                <div>Verwaltung von Veranstaltungsorten</div>
                             </div>
                         </div>
 
@@ -647,21 +492,19 @@
                 </div>
 
                 <div class="productPage-ButtonContainer">
-                    <a class="ui button compact large red"
-                       href="https://www.unaty.de/products/engage/features.html#four">See all Features</a>
+                    <a class="ui button compact large red" href="https://www.unaty.de/products/engage/features.html#four">Alle Funktionen sehen</a>
                 </div>
 
             </div>
 
             <div class="final-main-image-home productPageScreenshot2">
-                <img
-                     src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525447749849"/>
-
+                <img class="img-shadow" src="https://unaty-media.s3.amazonaws.com/organizations/xKAh8ZNK8vzKEL4P7/public/main/1524659585202" />
             </div>
 
         </div>
 
     </div>
+
 
 
 </div>
@@ -769,198 +612,150 @@
 
 <script type="text/javascript">document.write(footer)</script>
 
-
 <script tipe="text/javascript">
-
     $("#menuProducts").hover(
         function () {
             // add visible class to menu products
             $("#menuProductsContainer").addClass("visible")
-
             $("#menuPricingContainer").removeClass("visible")
             $("#menuCompanyContainer").removeClass("visible")
             $("#menuForumContainer").removeClass("visible")
         }, function () {
-
             // check if entered products container on this leave, maybe just close all others
         }
     );
-
     $("#menuProductsContainer").hover(
         function () {
-
         }, function () {
             // remove visible class to menu products
             $("#menuProductsContainer").removeClass("visible")
         }
     );
-
-
     $("#item1").click(
         function () {
             // add visible class to menu Company
             if ($("#item1").hasClass('final-active') === true) {
                 // it's been clicked and is already active
-
             } else {
                 $("#item2").removeClass("final-active")
                 $("#item3").removeClass("final-active")
                 $("#item1").toggleClass("final-active")
-
                 $("#item20").removeClass("show-block")
                 $("#item30").removeClass("show-block")
                 $("#item10").toggleClass("show-block")
-
             }
         }
     );
-
     $("#item2").click(
         function () {
             // add visible class to menu Company
             if ($("#item2").hasClass('final-active') === true) {
                 // it's been clicked and is already active
-
             } else {
                 $("#item1").removeClass("final-active")
                 $("#item3").removeClass("final-active")
                 $("#item2").toggleClass("final-active")
-
                 $("#item10").removeClass("show-block")
                 $("#item30").removeClass("show-block")
                 $("#item20").toggleClass("show-block")
-
             }
         }
     );
-
     $("#item3").click(
         function () {
             // add visible class to menu Company
             if ($("#item3").hasClass('final-active') === true) {
                 // it's been clicked and is already active
-
             } else {
                 $("#item2").removeClass("final-active")
                 $("#item1").removeClass("final-active")
                 $("#item3").toggleClass("final-active")
-
                 $("#item20").removeClass("show-block")
                 $("#item10").removeClass("show-block")
                 $("#item30").toggleClass("show-block")
-
             }
         }
     );
-
     $("#menuCompany").hover(
         function () {
             // add visible class to menu Company
             $("#menuCompanyContainer").addClass("visible")
-
             $("#menuProductsContainer").removeClass("visible")
             $("#menuPricingContainer").removeClass("visible")
             $("#menuForumContainer").removeClass("visible")
         }, function () {
-
         }
     );
-
     $("#menuCompanyContainer").hover(
         function () {
-
         }, function () {
             // remove visible class to menu Company
             $("#menuCompanyContainer").removeClass("visible")
         }
     );
-
     $("#menuForum").hover(
         function () {
             // add visible class to menu Forum
             $("#menuForumContainer").addClass("visible")
-
             $("#menuProductsContainer").removeClass("visible")
             $("#menuCompanyContainer").removeClass("visible")
             $("#menuPricingContainer").removeClass("visible")
         }, function () {
-
         }
     );
-
     $("#menuForumContainer").hover(
         function () {
-
         }, function () {
             // remove visible class to menu Forum
             $("#menuForumContainer").removeClass("visible")
         }
     );
-
     $("#bodyContainer").hover(
         function () {
             $("#menuForumContainer").removeClass("visible")
-
             $("#menuProductsContainer").removeClass("visible")
             $("#menuCompanyContainer").removeClass("visible")
             $("#menuPricingContainer").removeClass("visible")
         }, function () {
-
         }
     )
-
     $("#landingHamburger").click(
         function () {
             $("#mobileMenu").removeClass("hidden-block")
             $("#mobileMenu").addClass("landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp")
         }
     )
-
     $("#closeMobileMenu").click(
         function () {
             $("#mobileMenu").removeClass("landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp")
             $("#mobileMenu").addClass("hidden-block")
-
         }
     )
-
     $("#switchLanguagesDropdown").click(
         function () {
-
             if ($("#showMenu").hasClass('visible') === true) {
                 $("#switchLanguagesDropdown").removeClass("active visible")
                 $("#showMenu").removeClass("visible")
             } else {
                 $("#menuForumContainer").removeClass("visible")
-
                 $("#menuProductsContainer").removeClass("visible")
                 $("#menuCompanyContainer").removeClass("visible")
                 $("#menuPricingContainer").removeClass("visible")
-
                 $("#switchLanguagesDropdown").addClass("active visible")
                 $("#showMenu").addClass("visible")
             }
-
         }
     )
-
     $("#getStartedBtn").click(
         function () {
-
             var email = document.getElementById("emailInput").value
-
             window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
-
         }
     )
-
     $("#getStartedBtn1").click(
         function () {
-
             var email = document.getElementById("emailInput1").value
-
             window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
-
         }
     )
 </script>
