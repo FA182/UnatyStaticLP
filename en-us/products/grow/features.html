@@ -102,6 +102,25 @@
             r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+        window.addEventListener('scroll', function () {
+
+            if (window.scrollY > 150||document.body.scrollTop > 150) {
+                // > 100px from top - show div 
+
+                if ($("#addShowClass").hasClass('showFlexNow') === true) {
+                    // it's been clicked and is already active  
+                } else {
+                    $("#addShowClass").addClass("showFlexNow")
+                }
+            } else {
+
+                // <= 100px from top - hide div 
+                $("#addShowClass").removeClass("showFlexNow")
+            }
+
+
+        }, true)
     </script>
 
 </head>
@@ -113,6 +132,25 @@
 <script type="text/javascript">
     document.write(menu)
 </script>
+<div class="useCaseMenuTop" id="addShowClass">
+
+    <div>
+        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525608510560"/>
+    </div>
+
+    <div>
+        Grow Features
+    </div>
+
+    <div>
+        <a class="ui button blue basic large compact" href="https://www.unaty.de/en-us/products/grow.html">See Overview</a>
+    </div>
+
+    <div>
+        <a class="ui button blue large compact" href="https://app.unaty.de/get-started">Get Started</a>
+    </div>
+
+</div>
 <div class="final-product-page-header">
 
     <div class="ui fluid container">
