@@ -7804,3 +7804,11 @@ body {
     box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
     opacity: 1;
 }
+.minWidth400 {
+    min-width: 400px;
+}
+@media all and (max-width: 768px) {
+    .minWidth400 {
+        min-width: 0 !important;
+    }
+}
