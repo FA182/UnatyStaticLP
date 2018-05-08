@@ -12,7 +12,7 @@ var unatyData = {
         enabled: true
     },
     global: {
-      promises: 'Free Unaty Platform ● 14 Day Products Free Trial ● Simple Setup'
+      promises: 'Free Unaty Platform ● Simple Setup ● GDPR compliant'
     },
     indexPage: {
         heroTitle: 'Reach, activate and connect your community',
