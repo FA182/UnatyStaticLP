@@ -100,10 +100,10 @@ var unatyData = {
             poweredByList: '<div>Produkte:<span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>'
         },
         {
-            name: 'Neue Mitglieder akquirieren und binden',
+            name: 'Neue Mitglieder akquirieren und einbinden',
             slug: 'recruit-members',
             type: 'Mitgliederwachstum',
-            desc: 'Einfache Lösungen umd potentielle Mitglieder zu begeistern, sie gut zu integrieren und Mitgliederzahlen steigen zu lassen.',
+            desc: 'Potentielle Mitglieder gewinnen, gut integrieren und die Gemeinschaft wachsen lassen.',
             tagline: 'Begeistere Deine Gemeinschaft und lass sie wachsen.',
             poweredBy: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon green grow-icon-3 icon-growicon position-relative"></i> Grow</span> + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>',
             poweredByMobile: '<span class="nmm-uc-2">Produkte: <span class="final-powered-by-icon"><i class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span> + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></span>',
