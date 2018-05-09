@@ -147,51 +147,24 @@
         gtag('config', 'UA-92484757-1');
     </script>
 
+
     <script type="text/javascript">
 
-        function getRandomInt(min, max) {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
+        var parseQueryString = function (url) {
+            var urlParams = {};
+            url.replace(
+                new RegExp("([^?=&]+)(=([^&]*))?", "g"),
+                function ($0, $1, $2, $3) {
+                    urlParams[$1] = $3;
+                }
+            );
+
+            return urlParams;
         }
+        var urlToParse = location.search;
+        var result = parseQueryString(urlToParse);
 
-        var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
-        var text = 'Studentengruppen'
-        var type = 'student association'
-
-        var num = getRandomInt(0, 13)
-
-        if (num === 0) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
-            text = 'Studentengruppen'
-            type = 'student association'
-        } else if (num === 1) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148703286" alt="Sports Teams Community Administrators" />'
-            text = 'Sportvereine'
-            type = 'sports team'
-        } else if (num === 2) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148660420" alt="Business Associations Community Administrators" />'
-            text = 'Business Klubs'
-            type = 'business association'
-        } else if (num === 3) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478128143" alt="Soccer Teams Community Administrators" />'
-            text = 'Fußballteams'
-            type = 'soccer team'
-        } else if (num === 4) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478120430" alt="Swim Teams Community Administrators" />'
-            text = 'Schwimmvereine'
-            type = 'swim team'
-        } else if (num === 5) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478110434" alt="Alumni Associations Community Administrators" />'
-            text = 'Alumni Netzwerke'
-            type = 'alumni association'
-        } else if (num === 6) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478103216" alt="Celebrations Community Administrators" />'
-            text = 'Leisure Groups'
-            type = 'leisure group'
-        } else {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148690788" alt="Professional Associations Community Administrators" />'
-            text = 'Berufsverbände'
-            type = 'professional association'
-        }
+        var finalName = result.communatyName.replace(/%20/g, ' ')
 
     </script>
     <!-- Hotjar Tracking Code for www.unaty.de -->
@@ -226,18 +199,20 @@
             <div>
 
                 <div class="flp-title-text">
-                    <script type="text/javascript">document.write(unatyData.indexPage.heroTitle)</script>
+                    Unaty hilft
+                    <script type="text/javascript">document.write(finalName)</script>
+                     Mitglieder zu erreichen.
                 </div>
 
                 <div class="flp-subtitle-text">
-                    <script type="text/javascript">document.write(unatyData.indexPage.heroSubtext)</script>
+                    Unaty verschafft die Sicherheit, Mitgliederdaten immer valide und auf dem neuesten Stand zu haben.
                 </div>
 
                 <div class="flp-sign-up-box">
                     <div>
                         <div class="ui action input input250 final-sign-up-button">
                             <input id="emailInput" autofocus type="text" placeholder="E-Mail-Adresse.."/>
-                            <button id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt loslegen
+                            <button id="getStartedBtn" class="ui button blue large compact" role="button">Unaty testen
                             </button>
                         </div>
                     </div>
@@ -249,7 +224,8 @@
             </div>
 
             <div class="final-main-image-home">
-                <script type="text/javascript">document.write(img)</script>
+                <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015"
+                     alt="Student Groups Community Administrators"/>
 
             </div>
 

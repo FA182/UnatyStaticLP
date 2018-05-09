@@ -1405,6 +1405,19 @@ img.unatySmartCityFrameworkImg {
         margin-left: 0 !important;
     }
 
+    .newUseCaseMainItem2, .newUseCaseMainItem2.flexRowTypeOne {
+        flex-flow: column !important;
+    }
+
+    .newUseCaseMainItem2 > div:nth-child(1) {
+        margin-right: 0 !important;
+        margin-bottom: 48px;
+    }
+
+    .newUseCaseMainItem2.flexRowTypeOne > div:nth-child(1) {
+        margin-left: 0 !important;
+    }
+
     .NewMainLoginPage > div:nth-child(1) {
         width: 100vw !important;
     }
@@ -1730,6 +1743,14 @@ img.unatySmartCityFrameworkImg {
         margin-right: 0 !important;
     }
 
+    .flexRowTypeOne.newUseCaseMainItem2 > div:nth-child(1) {
+        margin-left: 0 !important;
+    }
+
+    .newUseCaseMainItem2 > div:nth-child(1) {
+        margin-right: 0 !important;
+    }
+
     .newUseCaseList > .item {
         margin-left: 0 !important;
     }
@@ -1748,6 +1769,18 @@ img.unatySmartCityFrameworkImg {
     }
 
     .newUseCaseMainItem {
+        flex-flow: column !important;
+    }
+
+    .newUseCaseMainItem2.flexRowTypeOne {
+        flex-flow: column !important;
+    }
+
+    .newUseCaseMainItem2 > div:nth-child(2) img {
+        max-width: 100% !important;
+    }
+
+    .newUseCaseMainItem2 {
         flex-flow: column !important;
     }
 
@@ -6755,7 +6788,50 @@ a.nmmPI i {
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 rgba(34, 36, 38, .12), 0 2px 10px 0 rgba(34, 36, 38, .15);
 }
+.newUseCaseMainItem2 {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    padding: 48px 32px;
+    background-color: #f6f9fc;
+}
 
+.newUseCaseMainItem2 > div:nth-child(1) {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newUseCaseMainItem2 > div:nth-child(2) {
+    position: relative;
+    display: flex;
+    margin-top: 16px;
+}
+.newUseCaseMainItem2 > div:nth-child(2) > div > div > span {
+    padding: 2px 12px;
+    margin-bottom: 8px;
+    display: inline-block;
+    background-color: #fff;
+    color: rgba(0,0,0,0.73);
+    font-weight: 900;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.newUseCaseMainItem2 > div:nth-child(2) img {
+    max-width: 90%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(34, 36, 38, .12), 0 2px 10px 0 rgba(34, 36, 38, .15);
+}
+
+.newUseCaseGrid2 {
+    margin-top: 32px !important;
+    margin-left: 1em !important;
+    margin-right: 1em !important;
+}
+.newUseCaseGrid2 .column {
+    text-align: left;
+}
 .productPictureCaption {
     position: absolute;
     padding: 6px 12px;
@@ -7803,4 +7879,78 @@ body {
 .unatyLegalUpdateCard:hover {
     box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
     opacity: 1;
+}
+.minWidth400 {
+    min-width: 400px;
+}
+@media all and (max-width: 768px) {
+    .minWidth400 {
+        min-width: 0 !important;
+    }
+}
+.rileyHeader {
+    background-color: #1C412E;
+}
+.rileyHeader > div > img {
+    max-width: 600px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 32px;
+}
+.rileyHeader > div > div:nth-child(2) {
+    padding-top: 56px;
+    padding-bottom: 16px;
+    line-height: normal;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+}
+.rileyHeader > div > div:nth-child(3) {
+    padding-top: 8px;
+    padding-bottom: 56px;
+    line-height: normal;
+    text-align: center;
+    font-size: 18px;
+    color: #fafafa;
+}
+.rileyBody {
+    margin-top: 48px;
+}
+.rileyBody > div {
+    display: flex !important;
+}
+.rileyBody > div > div > img {
+    max-width: 225px;
+}
+.rileyBody > div > div:nth-child(1) {
+    margin-right: 32px;
+}
+.titleRileyHeader {
+
+}
+.titleRileyHeader > div:nth-child(1) {
+    margin-top: 32px;
+    line-height: 1.4 !important;
+    color: rgba(0,0,0.83);
+    font-size: 24px;
+}
+.titleRileyHeader > div:nth-child(2) {
+
+}
+.rileyFooter {
+    margin-top: 128px;
+    text-align: center;
+    margin-bottom: 88px;
+}
+.rileyFooterText {
+    font-size: 32px;
+    color: rgba(0,0,0.83);
+    font-weight: 900;
+}
+@media all and (max-width: 768px) {
+    .rileyBody > div {
+        flex-flow: column !important;
+    }
 }
