@@ -5088,6 +5088,12 @@ span.mainNumber {
     .useCaseMenuTop {
         display: none !important;
     }
+    .newUseCaseMainItem2 > div:nth-child(2) {
+        flex-flow: column !important;
+    }
+    .newUseCaseMainItem2 > div:nth-child(2) > div:nth-child(1) {
+        margin-bottom: 24px;
+    }
 }
 
 .overflowVisible {
@@ -6802,7 +6808,9 @@ a.nmmPI i {
     margin-left: auto;
     margin-right: auto;
 }
-
+.newUseCaseMainItem2 > div:nth-child(2) > div {
+    width: 50%;
+}
 .newUseCaseMainItem2 > div:nth-child(2) {
     position: relative;
     display: flex;
@@ -6817,6 +6825,7 @@ a.nmmPI i {
     font-weight: 900;
     font-size: 14px;
     border-radius: 4px;
+    margin-top: 8px;
 }
 .newUseCaseMainItem2 > div:nth-child(2) img {
     max-width: 90%;
@@ -6905,6 +6914,55 @@ a.nmmPI i {
     margin-bottom: 4px;
 }
 
+.useCaseDiagMail2 {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    padding: 8px 16px;
+    box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
+    margin-top: 8px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.useCaseDiagMail2 > div:nth-child(1) {
+    line-height: normal;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.73);
+}
+.fontWeight900 {
+    font-weight: 900 !important;
+}
+.ui.button.compact.fontWeight900 {
+    font-weight: 900 !important;
+}
+.useCaseDiagMail2 > div:nth-child(2) {
+    line-height: normal;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.73);
+}
+
+.useCaseDiagMail2 > div:nth-child(3) {
+    line-height: normal;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.73);
+}
+
+.useCaseDiagMail2 > div:nth-child(4) {
+    color: rgba(0, 0, 0, 0.83);
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
 .useCaseDiagMail {
     border: 1px solid rgba(0, 0, 0, 0.07);
     border-radius: 4px;
@@ -7114,8 +7172,12 @@ a.nmmPI i {
         display: none;
     }
 
+    .final-use-case-title {
+        font-size: 20px !important;
+    }
+
     .final-use-case-name {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .unaty-sign-up-box > div:nth-child(1) > div:nth-child(2) {
@@ -7731,8 +7793,32 @@ body {
     .announcementBar {
         display: none;
     }
+    .newUseCaseMainItem2 > div:nth-child(2) > div {
+        width: 100%;
+    }
+    .newUseCaseMainItem2 {
+        margin-left: -16px !important;
+        margin-right: -16px !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        text-align: left !important;
+    }
 }
-
+.aboutHeader {
+    font-size: 24px !important;
+    text-align: left !important;
+    line-height: 48px !important;
+    font-weight: 500 !important;
+    color: rgba(0, 0, 0, 0.83) !important;
+}
+.maxWidth100 {
+    max-width: 90%;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0 2px 4px 0 rgba(34, 36, 38, .12), 0 2px 10px 0 rgba(34, 36, 38, .15);
+}
 .webinarMenuItem {
 
 }
