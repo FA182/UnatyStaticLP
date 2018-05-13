@@ -4,11 +4,11 @@
 
 var unatyData = {
     announcement: {
-        main: 'Sei dabei: Unser Webinar am 17. Mai',
-        itemText: 'Verwaltung reduzieren und Mitglieder erreichen',
-        itemLink: 'https://www.unaty.de/de-de/webinars/05-17-18.html',
+        main: 'Sei dabei: Unser Webinar am 24. Mai',
+        itemText: 'Mache Deine Organisation EU-DSGVO fit',
+        itemLink: 'https://www.unaty.de/de-de/webinars/05-24-18.html',
         actionText: 'Jetzt registrieren →',
-        actionLink: "mailto:hello@unaty.de?subject=May 17 Webinar&body=Hi, I'd like to register for the upcoming webinar on May 17th. Thanks!",
+        actionLink: "mailto:hello@unaty.de?subject=May 24 Webinar&body=Hi, I'd like to register for the upcoming webinar on May 24th. Thanks!",
         enabled: true
     },
     global: {
@@ -20,24 +20,31 @@ var unatyData = {
     },
     webinars: [
         {
+            name: 'Mache Deine Organisation fit für die DS-GVO',
+            date: '24. Mai um 16 Uhr CET',
+            desc: 'Best practices zu den Inhalten und Auswirkungen der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
+            slug: '24-05-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526141862628'
+        },
+        {
             name: 'Verwaltung reduzieren und Mitglieder erreichen',
-            date: '17. Mai um 16 Uhr CET',
+            date: '31. Mai um 16 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um die Verwaltung von Vereinen und Klubs zu digitalisieren und Mitglieder zu engagieren. Wir werden zeigen, wie Verwaltung von Netzwerken auf Unaty dezentralisiert wird und Mitglieder integriert werden.',
-            slug: '05-17-18',
+            slug: '05-31-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738'
         },
         {
             name: 'Aktiviere und inspiriere Deine Gemeinschaft',
-            date: '24. Mai um 16 Uhr CET',
+            date: '07. Juni um 16 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu aktivieren, mehr Mitglieder zu begeistern und inspirieren. Wir werden zeigen, wie sich Unaty verwenden lässt, um Mitglieder, Unterstützer, Freunde und Familien zu aktivieren.',
-            slug: '05-24-18',
+            slug: '06-07-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538'
         },
         {
             name: 'Aufmerksamkeit schaffen und neue Mitglieder gewinnen',
-            date: '31. Mai um 16 Uhr CET',
+            date: '14. Juni um 16 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu bewerben und neue Mitglieder zu erreichen. Wir werden zeigen, wie sich Unaty verwenden lässt, um Zielgruppen anzusprechen und sie zu rekrutieren.',
-            slug: '05-31-18',
+            slug: '06-14-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078'
         }
     ],
@@ -51,7 +58,7 @@ var unatyData = {
             link: 'https://blog.unaty.de/building-a-better-world-8fa4ee557c9f'
         },
         {
-            name: 'Products & Services Pricing',
+            name: 'Preise Produkte & Services',
             link: 'https://blog.unaty.de/unaty-products-services-pricing-25247e6ce379'
         }
     ],
@@ -106,8 +113,18 @@ var unatyData = {
             desc: 'Potentielle Mitglieder gewinnen, gut integrieren und die Gemeinschaft wachsen lassen.',
             tagline: 'Begeistere Deine Gemeinschaft und lass sie wachsen.',
             poweredBy: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon green grow-icon-3 icon-growicon position-relative"></i> Grow</span> + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>',
-            poweredByMobile: '<span class="nmm-uc-2">Produkte: <span class="final-powered-by-icon"><i class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span> + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></span>',
-            poweredByList: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span>  + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>'
+            poweredByMobile: '<span class="nmm-uc-2">Powered by: <span class="final-powered-by-icon"><i class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span> + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></span>',
+            poweredByList: '<div>Powered by: <span class="final-powered-by-icon"><i class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span>  + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>'
+        },
+        {
+            name: 'Mache Deine Organisation fit für die EU-DSGVO',
+            slug: 'gdpr-compliant',
+            type: 'GDPR Compliance',
+            desc: 'Professionelle DSGVO Konformität für Vereine und Klubs.',
+            tagline: 'Einfache DSGVO Konformität.',
+            poweredBy: '<div>Powered by: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span></div>',
+            poweredByMobile: '<span class="nmm-uc-2">Powered by: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span>  </span>',
+            poweredByList: '<div>Powered by: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span></div>'
         }
     ]
 }
