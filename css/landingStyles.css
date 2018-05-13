@@ -5404,7 +5404,7 @@ a.nmmPI i {
 }
 
 #newGetStartedBtn {
-    font-weight: 100 !important;
+    font-weight: 500 !important;
     letter-spacing: 1.5px !important;
 }
 
@@ -5526,7 +5526,7 @@ a.nmmPI i {
 }
 
 #newGetStartedBtn {
-    font-weight: 100 !important;
+    font-weight: 500 !important;
     letter-spacing: 1.5px !important;
 }
 
@@ -5918,7 +5918,7 @@ a.nmmPI i {
 
 .final-product-name {
     font-size: 32px;
-    font-weight: 100;
+    font-weight: 500;
     padding-top: 64px;
     color: rgba(0, 0, 0, 0.73);
 }
@@ -8042,6 +8042,9 @@ body {
 .rileyHeader {
     background-color: #1C412E;
 }
+.rileyHeaderPlain.rileyHeader {
+    background-color: #FFFBEC;
+}
 .rileyHeader > div > img {
     max-width: 600px;
     margin-left: auto;
@@ -8050,6 +8053,9 @@ body {
     width: 80%;
     padding-top: 32px;
 }
+.rileyHeader.rileyHeaderPlain > div > div:nth-child(2) {
+    color: rgba(0,0,0,0.83);
+}
 .rileyHeader > div > div:nth-child(2) {
     padding-top: 56px;
     padding-bottom: 16px;
@@ -8057,6 +8063,9 @@ body {
     text-align: center;
     font-size: 48px;
     color: #fff;
+}
+.rileyHeader.rileyHeaderPlain > div > div:nth-child(3) {
+    color: rgba(0,0,0,0.63);
 }
 .rileyHeader > div > div:nth-child(3) {
     padding-top: 8px;
