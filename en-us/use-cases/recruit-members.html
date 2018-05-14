@@ -8,7 +8,42 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css">
 
+    <script>         window.intercomSettings = {
+        app_id: "auma9g4d",
+        custom_launcher_selector: '#intercom_chat_link'
+    };      </script>
+    <script>(function () {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === "function") {
+            ic('reattach_activator');
+            ic('update', intercomSettings);
+        } else {
+            var d = document;
+            var i = function () {
+                i.c(arguments)
+            };
+            i.q = [];
+            i.c = function (args) {
+                i.q.push(args)
+            };
+            w.Intercom = i;
+            function l() {
+                var s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://widget.intercom.io/widget/auma9g4d';
+                var x = d.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
 
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })()</script>
     <link rel="stylesheet" type="text/css"
           href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
@@ -187,7 +222,7 @@
                 <div>
 
                     <div class="final-use-case-name">
-                        Increase impact and grow community membership.
+                        Increase community impact and grow membership.
                     </div>
 
                     <div class="final-use-case-title">
@@ -307,7 +342,7 @@
 
         <div class="ui container">
 
-            <div class="newUseCaseMainItem" id="launch">
+            <div class="newUseCaseMainItem2" id="launch">
 
                 <div>
 
@@ -328,55 +363,44 @@
                         they should join.
                     </div>
 
-                    <div class="ui grid very relaxed stackable newUseCaseGrid">
-
-                        <div class="two column row">
-
-                            <div class="column">
-                                <div class="newUseCaseFeature">
-                                    <i class="ui icon blue desktop"></i>
-                                    <div>
-                                        Create an attractive community website
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="newUseCaseFeature">
-                                    <i class="ui icon blue cloud"></i>
-                                    <div>Simple CMS to change content anytime</div>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                        <div class="two column row">
-
-                            <div class="column">
-                                <div class="newUseCaseFeature">
-                                    <i class="ui icon blue sign in"></i>
-                                    <div>Visitors can sign up to join your Communaty</div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
                 </div>
 
-                <div class="useCaseDiagramCont">
-                    <div class="useCaseDiagAction">
-                        <div>
-                            Easily personalize your Community Page
-                        </div>
+                <div>
+                    <div>
+                        <div><span>Easily build, launch, and improve your page</span></div>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525936278750"/>
                     </div>
 
-                    <div class="useCaseImage">
-
+                    <div>
+                        <div><span>Customize your community site, optimized for your audience</span></div>
                         <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525552601200"/>
+                    </div>
+                </div>
+                <div class="ui grid very relaxed stackable newUseCaseGrid2">
 
+                    <div class="three column row">
+
+                        <div class="column">
+                            <div class="newUseCaseFeature">
+                                <i class="ui icon blue desktop"></i>
+                                <div>
+                                    Create an attractive community website
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="newUseCaseFeature">
+                                <i class="ui icon blue cloud"></i>
+                                <div>Simple CMS to change content anytime</div>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="newUseCaseFeature">
+                                <i class="ui icon blue sign in"></i>
+                                <div>Visitors can sign up to join your Communaty</div>
+                            </div>
+                        </div>
                     </div>
 
 
@@ -539,7 +563,8 @@
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Visitors to your page can signup to receive updates and join your organization. Get a steady stream of interested recruits who are finding you, instead of the other way around.
+                        Visitors to your page can signup to receive updates and join your organization. Get a steady
+                        stream of interested recruits who are finding you, instead of the other way around.
                     </div>
 
                     <div class="ui grid very relaxed stackable newUseCaseGrid">
@@ -657,7 +682,9 @@
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Show recruits you care by sending them personalized messages and inviting them to join your Communaty. Working hard to bind new members will get them to stick around, engage more and invite their friends and family.
+                        Show recruits you care by sending them personalized messages and inviting them to join your
+                        Communaty. Working hard to bind new members will get them to stick around, engage more and
+                        invite their friends and family.
                     </div>
 
                     <div class="ui grid very relaxed stackable newUseCaseGrid">

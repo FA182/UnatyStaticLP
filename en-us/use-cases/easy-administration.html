@@ -6,10 +6,47 @@
 
     <title>Reduce administration and reach more members | Unaty</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script>         window.intercomSettings = {
+        app_id: "auma9g4d",
+        custom_launcher_selector: '#intercom_chat_link'
+    };      </script>
+    <script>(function () {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === "function") {
+            ic('reattach_activator');
+            ic('update', intercomSettings);
+        } else {
+            var d = document;
+            var i = function () {
+                i.c(arguments)
+            };
+            i.q = [];
+            i.c = function (args) {
+                i.q.push(args)
+            };
+            w.Intercom = i;
+            function l() {
+                var s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://widget.intercom.io/widget/auma9g4d';
+                var x = d.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })()</script>
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
-        window.addEventListener("load", function(){
+        window.addEventListener("load", function () {
             window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
@@ -42,7 +79,7 @@
                     }
                 },
 
-                onStatusChange: function(status, chosenBefore) {
+                onStatusChange: function (status, chosenBefore) {
                     var type = this.options.type;
                     var didConsent = this.hasConsented();
                     if (type == 'opt-in' && didConsent) {
@@ -55,7 +92,7 @@
                     }
                 },
 
-                onRevokeChoice: function() {
+                onRevokeChoice: function () {
                     var type = this.options.type;
                     if (type == 'opt-in') {
                         // disable cookies
@@ -66,7 +103,8 @@
                         navigator.cookieEnabled = true
                     }
                 }
-            })});
+            })
+        });
     </script>
     <!-- Twitter Card data -->
 
@@ -93,18 +131,21 @@
     </script>
     <!-- Hotjar Tracking Code for www.unaty.de -->
     <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:867076,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+            h._hjSettings = {hjid: 867076, hjsv: 6};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
             a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 
         window.addEventListener('scroll', function () {
 
-            if (window.scrollY > 150||document.body.scrollTop > 150) {
+            if (window.scrollY > 150 || document.body.scrollTop > 150) {
                 // > 100px from top - show div 
 
                 if ($("#addShowClass").hasClass('showFlexNow') === true) {
@@ -160,8 +201,11 @@
         <div class="ui container">
 
             <div class="final-use-case-header-top">
-                <div><strong>Reduce administration and reach more members</strong> Powered by: <a href="https://www.unaty.de/en-us/products/build.html?source=use_case_1" class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</a>
-                    + <a href="https://www.unaty.de/en-us/products/engage.html?source=use_case_1" class="final-powered-by-icon"><i
+                <div><strong>Reduce administration and reach more members</strong> Powered by: <a
+                        href="https://www.unaty.de/en-us/products/build.html?source=use_case_1"
+                        class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</a>
+                    + <a href="https://www.unaty.de/en-us/products/engage.html?source=use_case_1"
+                         class="final-powered-by-icon"><i
                             class="ui icon red lightning"></i> Engage</a></div>
 
             </div>
@@ -169,7 +213,7 @@
             <div class="final-use-case-header-body">
 
                 <div>
-                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525072785883" />
+                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525072785883"/>
                 </div>
 
                 <div>
@@ -180,14 +224,16 @@
                     </div>
 
                     <div class="final-use-case-title">
-                        Simply send an email to update members or create content. Personalize messages to your members and get their attention.
+                        Simply send an email to update members or create content. Personalize messages to your members
+                        and get their attention.
                     </div>
 
                     <div class="flp-sign-up-box noBottomPadding">
                         <div>
                             <div class="ui action input input250 final-sign-up-button">
                                 <input id="emailInput" autofocus type="text" placeholder="Enter your Email.."/>
-                                <button id="getStartedBtn" class="ui button blue large compact" role="button">Get Started
+                                <button id="getStartedBtn" class="ui button blue large compact" role="button">Get
+                                    Started
                                 </button>
                             </div>
                         </div>
@@ -199,7 +245,7 @@
                 </div>
 
                 <div>
-                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525072797647" />
+                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525072797647"/>
                 </div>
 
             </div>
@@ -227,10 +273,11 @@
 
                     <div class="column">
                         <div class="useCaseStep">
-                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444808203" />
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444808203"/>
                             <div>Collaborate</div>
                             <div>
-                                Leave excel sheets and legacy software behind and start working better together with members.
+                                Leave excel sheets and legacy software behind and start working better together with
+                                members.
                             </div>
                             <a href="#collaborate">
                                 Learn more →
@@ -240,10 +287,11 @@
                     </div>
                     <div class="column">
                         <div class="useCaseStep">
-                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444819099" />
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444819099"/>
                             <div>Automate</div>
                             <div>
-                                Save time on community administration and automatically update members and create events.
+                                Save time on community administration and automatically update members and create
+                                events.
                             </div>
                             <a href="#automate">
                                 Learn more →
@@ -253,7 +301,7 @@
                     </div>
                     <div class="column">
                         <div class="useCaseStep">
-                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444829680" />
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444829680"/>
                             <div>Target</div>
                             <div>
                                 Easily create lists and contact members based on their profile and behavior information.
@@ -266,7 +314,7 @@
                     </div>
                     <div class="column">
                         <div class="useCaseStep">
-                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444837161" />
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444837161"/>
                             <div>Inform</div>
                             <div>
                                 Engage your members with personalized messages and increase your response rate.
@@ -294,7 +342,7 @@
 
         <div class="ui container">
 
-            <div class="newUseCaseMainItem" id="collaborate">
+            <div class="newUseCaseMainItem2" id="collaborate">
 
                 <div>
 
@@ -306,67 +354,54 @@
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Collaborate with members</strong> to update their profile information
+                        <strong>Collaborate with members</strong> to get information you can rely on
                     </div>
 
                     <div class="newUseCaseDesc">
-                        All members have a profile in your Communaty and can login anytime and edit their profile. Administrators can see and edit all member information, as well as when it was changed and by who.
+                        All members have a profile in your Communaty and can login anytime and edit their profile.
+                        Administrators can see and edit all member information, as well as when it was changed and by
+                        who.
                     </div>
-
-                    <div class="ui grid very relaxed stackable newUseCaseGrid">
-
-                        <div class="two column row">
-
-                            <div class="column">
-                                <div class="newUseCaseFeature">
-                                    <i class="ui icon blue cloud"></i>
-                                    <div>Secure cloud storage for member data</div>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="newUseCaseFeature">
-                                    <i class="ui icon blue configure"></i>
-                                    <div>Administrators can edit all member profiles</div>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                        <div class="two column row">
-                            <div class="column">
-                                <div class="newUseCaseFeature">
-                                    <i class="ui icon blue browser"></i>
-                                    <div>Administrators can see who made which changes</div>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="newUseCaseFeature">
-                                    <i class="ui icon blue write"></i>
-                                    <div>Use custom profile fields to collect more information</div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-
-                    </div>
-
 
                 </div>
 
                 <div>
-                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525081820362" />
-                    <div class="productPictureCaption ppposition1">
-                        Every member has their own profile
+                    <div>
+                        <div><span>Members can edit their own profile</span></div>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525878274787"/>
                     </div>
-                    <div class="productPictureCaption ppposition2">
-                        Members can edit their profiles
+
+                    <div>
+                        <div><span>Admins see profile updates immediately</span></div>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525878265420"/>
                     </div>
-                    <div class="productPictureCaption ppposition3">
-                       Administrators can edit all member profiles
+                </div>
+
+                <div class="ui grid very relaxed stackable newUseCaseGrid2">
+
+                    <div class="three column row">
+
+                        <div class="column">
+                            <div class="newUseCaseFeature">
+                                <i class="ui icon blue cloud"></i>
+                                <div>Secure cloud storage for member data</div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="newUseCaseFeature">
+                                <i class="ui icon blue configure"></i>
+                                <div>Administrators can edit all member profiles</div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="newUseCaseFeature">
+                                <i class="ui icon blue browser"></i>
+                                <div>Administrators can see who made which changes</div>
+                            </div>
+                        </div>
+
                     </div>
+
                 </div>
             </div>
 
@@ -398,7 +433,9 @@
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Subscribers to Build receive a personalized email for members to send or forward action requests to. These requests can be in any format and the changes will be made automatically in your system.
+                        Subscribers to Build receive a personalized email for members to send or forward action requests
+                        to. These requests can be in any format and the changes will be made automatically in your
+                        system.
                     </div>
 
                     <div class="ui grid very relaxed stackable newUseCaseGrid">
@@ -448,53 +485,52 @@
 
                     <div class="useCaseDiagAction">
                         <div>
-                            Send or forward an action request to your Communaty email
+                            Check if a members profile is up to date
                         </div>
                     </div>
 
-                    <div class="useCaseDiagMail">
-                        <div><strong>To</strong>: mycommunaty@unaty.de</div>
-                        <div><strong>Subject</strong>: Action Request</div>
-                        <div><strong>From</strong>: Thomas Jefferson</div>
-                        <div>
-                            <div>
-                                Begin Forwarded Message:<br/><br/>
-                                Hey Thomas, wanted to let you know Martha and I moved to Mount Vernon, 3200 Mount Vernon Hwy, Mt Vernon, VA 22121, USA<br/><br/>Best,<br/>Your Commander in Chief
-                            </div>
-                        </div>
+                    <div class="useCaseImage">
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525878588841"/>
                     </div>
 
                     <div class="useCaseDiagIcon">
 
                         <div>
                             <div><i class="ui icon mail forward"></i></div>
-                            <div>Forward mail to <strong>mycommunaty@unaty.de</strong></div>
+                            <div>Easily send a profile update mail</div>
 
                         </div>
 
                     </div>
 
-                    <div  class="useCaseDiagAction">
+                    <div class="useCaseDiagMail2">
+                        <div><strong>From</strong>: Thomas Jefferson | United States</div>
+                        <div><strong>To</strong>: George Washington [washington@unaty.de]</div>
+                        <div><strong>Subject</strong>: Update your Profile</div>
                         <div>
-                            Natural Language Action Processor
-                        </div>
-                    </div>
-
-                    <div class="useCaseDiagContextBox">
-                        <div><strong>Update Member Profile</strong></div>
-                        <div><strong>Member</strong>: George Washington</div>
-                        <div><strong>Update Address</strong> to: Mount Vernon, 3200 Mount Vernon Hwy, Mt Vernon, VA 22121, USA</div>
-                    </div>
-
-                    <div class="useCaseDiagAction">
-                        <div>
-                            Unaty checks authorization
-                        </div>
-                    </div>
-
-                    <div class="useCaseDiagShowChange">
-                        <div>
-                            Member Thomas Jefferson <strong>is allowed to update Member Profiles</strong>
+                            <div>
+                                Dear George,<br/><br/>
+                                Your Profile has not yet been verified, please check your information
+                                below and let us know if your profile information is up to date.<br/>
+                                <br/>
+                                <a href="https://www.unaty.de/en-us/valid-data.html?communatyName=your community" target="_blank" class="ui button compact tiny green">Verify Profile</a>
+                                <br/>
+                                <br/>
+                                <strong>Your Profile Information</strong><br/>
+                                First Name: <strong>George</strong><br/>
+                                Last Name: <strong>Washington</strong><br/>
+                                Email: <strong>washington@unaty.de</strong><br/>
+                                Phone: <strong>--</strong><br/>
+                                Birthday: <strong>Feb. 22nd, 1732</strong><br/><br/>
+                                <strong>Address</strong><br/>
+                                Street: <strong>3200 Mount Vernon Hwy</strong><br/>
+                                City: <strong>Mt Vernon</strong><br/>
+                                ZIP Code: <strong>22121</strong><br/>
+                                State: <strong>VA</strong><br/>
+                                Country: <strong>USA</strong><br/>
+                                <br/>
+                                <a href="https://www.unaty.de/en-us/valid-data.html?communatyName=your community" target="_blank" class="ui button compact tiny fontWeight900">Update Profile</a>
+                            </div>
                         </div>
                     </div>
 
@@ -502,7 +538,7 @@
 
                         <div>
                             <div><i class="ui icon check"></i></div>
-                            <div>Unaty makes changes</div>
+                            <div>Profile is updated and verified</div>
                         </div>
 
                     </div>
@@ -539,7 +575,9 @@
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Easily filter members based on profile and behavior data and save them for later use. Then create member lists by combining member segments, groups, topic subscribers, roles, member types and members themselves.
+                        Easily filter members based on profile and behavior data and save them for later use. Then
+                        create member lists by combining member segments, groups, topic subscribers, roles, member types
+                        and members themselves.
                     </div>
 
                     <div class="ui grid very relaxed stackable newUseCaseGrid">
@@ -589,7 +627,8 @@
                     </div>
 
                     <div class="useCaseDiagContextBox">
-                        <div><i class="ui icon blue pie chart"></i>Create Segment: <strong>New York Elders</strong></div>
+                        <div><i class="ui icon blue pie chart"></i>Create Segment: <strong>New York Elders</strong>
+                        </div>
                         <div>Member that <strong>live in</strong> <strong>New York State</strong></div>
                         <div>and are <strong>over the age of 40</strong></div>
                     </div>
@@ -606,7 +645,7 @@
 
                     <div class="useCaseImage">
 
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525088261208" />
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525088261208"/>
 
                         <div class="positionUC1">Target any combination of members</div>
 
@@ -644,7 +683,9 @@
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Use the engage messenger to contact your members and apply merge tags to personalize any part of your message with single member data, like a members first name. The Messenger helps you reach members on multiple channels (like email and sms), without having to send each seperately.
+                        Use the engage messenger to contact your members and apply merge tags to personalize any part of
+                        your message with single member data, like a members first name. The Messenger helps you reach
+                        members on multiple channels (like email and sms), without having to send each seperately.
                     </div>
 
                     <div class="ui grid very relaxed stackable newUseCaseGrid">
@@ -696,7 +737,7 @@
 
                     <div class="useCaseImage">
 
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525088261208" />
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525088261208"/>
 
                         <div class="positionUC2">Personalize your Message with Merge Tags</div>
 
@@ -714,7 +755,7 @@
 
                     </div>
 
-                    <div  class="useCaseDiagAction">
+                    <div class="useCaseDiagAction">
                         <div>
                             Unaty adds signature and personalizes message
                         </div>
