@@ -5,7 +5,7 @@
 var unatyData = {
     announcement: {
         main: 'Sei dabei: Unser Webinar am 24. Mai',
-        itemText: 'Wie mache ich meine organisation bereit für die EU-DSGVO',
+        itemText: 'Wie mache ich meine Organisation bereit für die EU-DSGVO',
         itemLink: 'https://www.unaty.de/de-de/webinars/05-24-18.html',
         actionText: 'Jetzt registrieren →',
         actionLink: "mailto:hello@unaty.de?subject=May 24 Webinar&body=Hi, I'd like to register for the upcoming webinar on May 24th. Thanks!",
@@ -20,11 +20,11 @@ var unatyData = {
     },
     webinars: [
         {
-            name: 'Wie mache ich meine organisation bereit für die EU-DSGVO',
+            name: 'Wie mache ich meine Organisation bereit für die EU-DSGVO',
             date: '24. Mai um 17 Uhr CET',
             desc: 'Best practices zu den Inhalten und Auswirkungen der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
             slug: '05-24-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526291883635'
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442'
         },
         {
             name: 'Verwaltung reduzieren und Mitglieder erreichen',
