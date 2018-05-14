@@ -5,7 +5,7 @@
 var unatyData = {
     announcement: {
         main: 'Join us on May 24th for our Webinar',
-        itemText: 'Make your organization GDPR compliant',
+        itemText: 'Make your organization GDPR ready',
         itemLink: 'https://www.unaty.de/en-us/webinars/05-24-18.html',
         actionText: 'Register now →',
         actionLink: "mailto:hello@unaty.de?subject=May 24 Webinar&body=Hi, I'd like to register for the upcoming webinar on May 24th. Thanks!",
@@ -20,9 +20,9 @@ var unatyData = {
     },
     webinars: [
         {
-            name: 'Make your organization GDPR compliant',
+            name: 'Make your organization GDPR ready',
             date: 'May 24th @ 10AM EST',
-            desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization compliant.',
+            desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization ready.',
             slug: '05-24-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526141862628'
         },
