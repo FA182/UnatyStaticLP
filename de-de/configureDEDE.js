@@ -5,7 +5,7 @@
 var unatyData = {
     announcement: {
         main: 'Sei dabei: Unser Webinar am 24. Mai',
-        itemText: 'Mache Deine Organisation EU-DSGVO fit',
+        itemText: 'Wie mache ich meine organisation bereit für die EU-DSGVO',
         itemLink: 'https://www.unaty.de/de-de/webinars/05-24-18.html',
         actionText: 'Jetzt registrieren →',
         actionLink: "mailto:hello@unaty.de?subject=May 24 Webinar&body=Hi, I'd like to register for the upcoming webinar on May 24th. Thanks!",
@@ -20,29 +20,29 @@ var unatyData = {
     },
     webinars: [
         {
-            name: 'Mache Deine Organisation fit für die DS-GVO',
-            date: '24. Mai um 16 Uhr CET',
+            name: 'Wie mache ich meine organisation bereit für die EU-DSGVO',
+            date: '24. Mai um 17 Uhr CET',
             desc: 'Best practices zu den Inhalten und Auswirkungen der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
-            slug: '24-05-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526141862628'
+            slug: '05-24-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526291883635'
         },
         {
             name: 'Verwaltung reduzieren und Mitglieder erreichen',
-            date: '31. Mai um 16 Uhr CET',
+            date: '31. Mai um 17 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um die Verwaltung von Vereinen und Klubs zu digitalisieren und Mitglieder zu engagieren. Wir werden zeigen, wie Verwaltung von Netzwerken auf Unaty dezentralisiert wird und Mitglieder integriert werden.',
             slug: '05-31-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738'
         },
         {
             name: 'Aktiviere und inspiriere Deine Gemeinschaft',
-            date: '07. Juni um 16 Uhr CET',
+            date: '07. Juni um 17 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu aktivieren, mehr Mitglieder zu begeistern und inspirieren. Wir werden zeigen, wie sich Unaty verwenden lässt, um Mitglieder, Unterstützer, Freunde und Familien zu aktivieren.',
             slug: '06-07-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538'
         },
         {
             name: 'Aufmerksamkeit schaffen und neue Mitglieder gewinnen',
-            date: '14. Juni um 16 Uhr CET',
+            date: '14. Juni um 17 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu bewerben und neue Mitglieder zu erreichen. Wir werden zeigen, wie sich Unaty verwenden lässt, um Zielgruppen anzusprechen und sie zu rekrutieren.',
             slug: '06-14-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078'
