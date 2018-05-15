@@ -117,7 +117,7 @@ var unatyData = {
             poweredByList: '<div>Powered by: <span class="final-powered-by-icon"><i class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span>  + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>'
         },
         {
-            name: 'Make your organization GDPR ready',
+            name: 'Get your organization GDPR ready',
             slug: 'gdpr-compliant',
             type: 'GDPR Readiness',
             desc: 'Professional GDPR readiness for your organization made easy.',
