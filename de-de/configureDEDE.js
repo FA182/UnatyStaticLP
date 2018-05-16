@@ -12,7 +12,7 @@ var unatyData = {
         enabled: true
     },
     global: {
-      promises: 'Kostenlose Plattform ● Einfache Einrichtung ● GDPR compliant'
+      promises: 'Kostenlose Plattform ● Einfache Einrichtung ● DSGVO compliant'
     },
     indexPage: {
         heroTitle: 'Erreiche, engagiere und gewinne neue Mitglieder',
