@@ -7784,7 +7784,13 @@ body {
     bottom: -20px;
     right: -15px;
 }
-
+.unatyProofText {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    color: rgba(0,0,0,0.673);
+    font-style: italic;
+}
 .newPlatformTitle {
     padding-top: 40px;
     font-size: 24px;
