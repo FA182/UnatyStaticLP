@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <title>404 | Unaty</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css">
+    <script>         window.intercomSettings = {
+        app_id: "auma9g4d",
+        custom_launcher_selector: '#intercom_chat_link'
+    };      </script>
+    <script>(function () {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === "function") {
+            ic('reattach_activator');
+            ic('update', intercomSettings);
+        } else {
+            var d = document;
+            var i = function () {
+                i.c(arguments)
+            };
+            i.q = [];
+            i.c = function (args) {
+                i.q.push(args)
+            };
+            w.Intercom = i;
+            function l() {
+                var s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://widget.intercom.io/widget/auma9g4d';
+                var x = d.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })()</script>
+
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "type": "opt-in",
+                "content": {
+                    "message": "\nCookies are important to the proper functioning of a site. To improve your experience, we use cookies to remember log-in details and provide secure log-in, and collect statistics to optimize site functionality.",
+                    "dismiss": "Not Now",
+                    "allow": "Agree and Proceed",
+                    "href": "https://www.unaty.de/en-us/company/privacy.html"
+                },
+                onInitialise: function (status) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onStatusChange: function (status, chosenBefore) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onRevokeChoice: function () {
+                    var type = this.options.type;
+                    if (type == 'opt-in') {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                    if (type == 'opt-out') {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                }
+            })
+        });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google AdWords: 850680838 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-850680838"></script>
+    <script>         window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-850680838');     </script>
+
+    <script type="text/javascript">
+        localStorage.setItem('language', 'en-US');
+    </script>
+
+    <script src="configureENUS.js"></script>
+
+    <script type="text/javascript">document.write(headData)</script>
+
+    <link target="_blank" href="../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+    <script src="../semantic/dist/jquery-3.1.1.min.js"></script>
+    <script src="../semantic/dist/semantic.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92484757-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-92484757-1');
+    </script>
+
+    <script type="text/javascript">
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
+        var text = 'Student Groups'
+        var type = 'student association'
+
+        var num = getRandomInt(0, 13)
+
+        if (num === 0) {
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
+            text = 'Student Groups'
+            type = 'student association'
+        } else if (num === 1) {
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148703286" alt="Sports Teams Community Administrators" />'
+            text = 'Sports Teams'
+            type = 'sports team'
+        } else if (num === 2) {
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148660420" alt="Business Associations Community Administrators" />'
+            text = 'Business Associations'
+            type = 'business association'
+        } else if (num === 3) {
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478128143" alt="Soccer Teams Community Administrators" />'
+            text = 'Soccer Teams'
+            type = 'soccer team'
+        } else if (num === 4) {
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478120430" alt="Swim Teams Community Administrators" />'
+            text = 'Swim Teams'
+            type = 'swim team'
+        } else if (num === 5) {
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478110434" alt="Alumni Associations Community Administrators" />'
+            text = 'Alumni Associations'
+            type = 'alumni association'
+        } else if (num === 6) {
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478103216" alt="Celebrations Community Administrators" />'
+            text = 'Leisure Groups'
+            type = 'leisure group'
+        } else {
+            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148690788" alt="Professional Associations Community Administrators" />'
+            text = 'Professional Associations'
+            type = 'professional association'
+        }
+
+    </script>
+    <!-- Hotjar Tracking Code for www.unaty.de -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:867076,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+</head>
+<body>
+
+<script type="text/javascript">
+    document.write(accouncement)
+</script>
+
+<script type="text/javascript">
+    document.write(menu)
+</script>
+
+<div class="final-landing-page-main">
+
+    <div class="ui fluid container">
+
+        <div class="ui text container NLP-bigTextContainer">
+            <div class="ui header emojiHeader"><span>🤷‍</span><br>
+                <div class="content headerCreditPage"><span>404 - There's nothing here</span>
+                    <div class="sub header"><span>Either you can't type properly or we placed a bad link.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script type="text/javascript">document.write(footer)</script>
+
+<script type="text/javascript">
+
+    $("#menuProducts").hover(
+        function () {
+            // add visible class to menu products
+            $("#menuProductsContainer").addClass("visible")
+
+            $("#menuPricingContainer").removeClass("visible")
+            $("#menuCompanyContainer").removeClass("visible")
+            $("#menuForumContainer").removeClass("visible")
+        }, function () {
+
+            // check if entered products container on this leave, maybe just close all others
+        }
+    );
+
+    $("#menuProductsContainer").hover(
+        function () {
+
+        }, function () {
+            // remove visible class to menu products
+            $("#menuProductsContainer").removeClass("visible")
+        }
+    );
+
+
+    $("#item1").click(
+        function () {
+            // add visible class to menu Company
+            if ($("#item1").hasClass('final-active') === true) {
+                // it's been clicked and is already active
+
+            } else {
+                $("#item2").removeClass("final-active")
+                $("#item3").removeClass("final-active")
+                $("#item1").toggleClass("final-active")
+
+                $("#item20").removeClass("show-block")
+                $("#item30").removeClass("show-block")
+                $("#item10").toggleClass("show-block")
+
+            }
+        }
+    );
+
+    $("#item2").click(
+        function () {
+            // add visible class to menu Company
+            if ($("#item2").hasClass('final-active') === true) {
+                // it's been clicked and is already active
+
+            } else {
+                $("#item1").removeClass("final-active")
+                $("#item3").removeClass("final-active")
+                $("#item2").toggleClass("final-active")
+
+                $("#item10").removeClass("show-block")
+                $("#item30").removeClass("show-block")
+                $("#item20").toggleClass("show-block")
+
+            }
+        }
+    );
+
+    $("#item3").click(
+        function () {
+            // add visible class to menu Company
+            if ($("#item3").hasClass('final-active') === true) {
+                // it's been clicked and is already active
+
+            } else {
+                $("#item2").removeClass("final-active")
+                $("#item1").removeClass("final-active")
+                $("#item3").toggleClass("final-active")
+
+                $("#item20").removeClass("show-block")
+                $("#item10").removeClass("show-block")
+                $("#item30").toggleClass("show-block")
+
+            }
+        }
+    );
+
+    $("#menuCompany").hover(
+        function () {
+            // add visible class to menu Company
+            $("#menuCompanyContainer").addClass("visible")
+
+            $("#menuProductsContainer").removeClass("visible")
+            $("#menuPricingContainer").removeClass("visible")
+            $("#menuForumContainer").removeClass("visible")
+        }, function () {
+
+        }
+    );
+
+    $("#menuCompanyContainer").hover(
+        function () {
+
+        }, function () {
+            // remove visible class to menu Company
+            $("#menuCompanyContainer").removeClass("visible")
+        }
+    );
+
+    $("#menuForum").hover(
+        function () {
+            // add visible class to menu Forum
+            $("#menuForumContainer").addClass("visible")
+
+            $("#menuProductsContainer").removeClass("visible")
+            $("#menuCompanyContainer").removeClass("visible")
+            $("#menuPricingContainer").removeClass("visible")
+        }, function () {
+
+        }
+    );
+
+    $("#menuForumContainer").hover(
+        function () {
+
+        }, function () {
+            // remove visible class to menu Forum
+            $("#menuForumContainer").removeClass("visible")
+        }
+    );
+
+    $("#bodyContainer").hover(
+        function () {
+            $("#menuForumContainer").removeClass("visible")
+
+            $("#menuProductsContainer").removeClass("visible")
+            $("#menuCompanyContainer").removeClass("visible")
+            $("#menuPricingContainer").removeClass("visible")
+        }, function () {
+
+        }
+    )
+
+    $("#landingHamburger").click(
+        function () {
+            $("#mobileMenu").removeClass("hidden-block")
+            $("#mobileMenu").addClass("landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp")
+        }
+    )
+
+    $("#closeMobileMenu").click(
+        function () {
+            $("#mobileMenu").removeClass("landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp")
+            $("#mobileMenu").addClass("hidden-block")
+
+        }
+    )
+
+    $("#switchLanguagesDropdown").click(
+        function () {
+
+            if ($("#showMenu").hasClass('visible') === true) {
+                $("#switchLanguagesDropdown").removeClass("active visible")
+                $("#showMenu").removeClass("visible")
+            } else {
+                $("#menuForumContainer").removeClass("visible")
+
+                $("#menuProductsContainer").removeClass("visible")
+                $("#menuCompanyContainer").removeClass("visible")
+                $("#menuPricingContainer").removeClass("visible")
+
+                $("#switchLanguagesDropdown").addClass("active visible")
+                $("#showMenu").addClass("visible")
+            }
+
+        }
+    )
+
+    $("#getStartedBtn").click(
+        function () {
+
+            var email = document.getElementById("emailInput").value
+
+            window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
+
+        }
+    )
+
+    $("#getStartedBtn1").click(
+        function () {
+
+            var email = document.getElementById("emailInput1").value
+
+            window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
+
+        }
+    )
+
+
+</script>
+</body>
+</html>
