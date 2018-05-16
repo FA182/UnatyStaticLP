@@ -22,7 +22,7 @@ var unatyData = {
         {
             name: 'Wie mache ich meine Organisation bereit für die EU-DSGVO',
             date: '24. Mai um 17 Uhr CET',
-            desc: 'Best practices zu den Inhalten und Auswirkungen der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
+            desc: 'Best practices zu den Inhalten, Auswirkungen und Umsetzung der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
             slug: '05-24-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442'
         },
@@ -117,11 +117,11 @@ var unatyData = {
             poweredByList: '<div>Powered by: <span class="final-powered-by-icon"><i class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span>  + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>'
         },
         {
-            name: 'Mache Deine Organisation EU-DSGVO konform',
+            name: 'Mache Deine Organisation EU-DSGVO bereit',
             slug: 'gdpr-compliant',
-            type: 'GDPR Konformität',
-            desc: 'Professionelle DSGVO Konformität für Vereine und Klubs.',
-            tagline: 'Einfache DSGVO Konformität.',
+            type: 'GDPR Bereitschaft',
+            desc: 'DSGVO Umsetzung für Vereine und Klubs mit Unaty.',
+            tagline: 'Einfache DSGVO Umstellung.',
             poweredBy: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span></div>',
             poweredByMobile: '<span class="nmm-uc-2">Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span>  </span>',
             poweredByList: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span></div>'
