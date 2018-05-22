@@ -24,28 +24,32 @@ var unatyData = {
             date: '24. Mai um 17 Uhr CET',
             desc: 'Best practices zu den Inhalten, Auswirkungen und Umsetzung der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
             slug: '05-24-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442'
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442',
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
         },
         {
             name: 'Verwaltung reduzieren und Mitglieder erreichen',
             date: '31. Mai um 17 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um die Verwaltung von Vereinen und Klubs zu digitalisieren und Mitglieder zu engagieren. Wir werden zeigen, wie Verwaltung von Netzwerken auf Unaty dezentralisiert wird und Mitglieder integriert werden.',
             slug: '05-31-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738'
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738',
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
         },
         {
             name: 'Aktiviere und inspiriere Deine Gemeinschaft',
             date: '07. Juni um 17 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu aktivieren, mehr Mitglieder zu begeistern und inspirieren. Wir werden zeigen, wie sich Unaty verwenden lässt, um Mitglieder, Unterstützer, Freunde und Familien zu aktivieren.',
             slug: '06-07-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538'
+            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538',
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
         },
         {
             name: 'Aufmerksamkeit schaffen und neue Mitglieder gewinnen',
             date: '14. Juni um 17 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu bewerben und neue Mitglieder zu erreichen. Wir werden zeigen, wie sich Unaty verwenden lässt, um Zielgruppen anzusprechen und sie zu rekrutieren.',
             slug: '06-14-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078'
+            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078',
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
         }
     ],
     blogs: [
