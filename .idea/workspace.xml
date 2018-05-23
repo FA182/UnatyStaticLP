@@ -2,79 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263bb2fe-6ac8-4ce0-a04a-788f0738841d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/activate-more.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/cloud-community.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/company/about-us.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/company/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/company/academy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/company/careers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/company/contact-us.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/company/imprint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/company/press.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/company/privacy-old.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/company/privacy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/company/security.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/engage-your-community.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/own-social-network.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/platform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/pricing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/private-social-network.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/products/Build/features.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/products/Engage/features.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/products/Grow/features.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/products/build.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/products/communaty.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/products/engage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/products/grow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/products/smart-city-framework.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/reach-more.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/recruit-potential.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/unaty-platform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/use-cases/activate-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/use-cases/easy-administration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/use-cases/recruit-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-newest/use-cases/smart-city-framework.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/company/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/company/academy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/company/career.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/company/contact-us.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/company/imprint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/company/press.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/company/privacy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/company/security.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/pricing/credits-experience.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/pricing/pricing-policy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/pricing/pricing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/products/build.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/products/engage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/products/grow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/products/smart-city-framework.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/unaty-platform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/use-cases/recruit-potential-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/use-cases/simply-reach-and-engage-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old-new/use-cases/support-and-activate-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/company/about-us.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/company/career.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/company/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/company/imprint.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/company/press.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/company/privacy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/company/security.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/pricing/credits-experience.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/pricing/pricing-policy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/pricing/pricing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/products/academy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/products/communaty.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/products/engage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/products/grow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de-old/products/smart-city-framework.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/landingStyles.css" afterPath="$PROJECT_DIR$/css/landingStyles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/configureDEDE.js" afterPath="$PROJECT_DIR$/de-de/configureDEDE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/use-cases/gdpr-compliant.html" afterPath="$PROJECT_DIR$/de-de/use-cases/gdpr-compliant.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/use-cases/gdpr-compliant.html" afterPath="$PROJECT_DIR$/en-us/use-cases/gdpr-compliant.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/de-de/use-cases/activate-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/activate-members.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" afterPath="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" />
+      <change beforePath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" />
+      <change beforePath="$PROJECT_DIR$/en-us/use-cases/easy-administration.html" afterPath="$PROJECT_DIR$/en-us/use-cases/easy-administration.html" />
+      <change beforePath="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,55 +25,39 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="UnatyStaticLP" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gdpr-compliant.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de-de/use-cases/gdpr-compliant.html">
+      <file leaf-file-name="recruit-members.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-members.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="868" column="0" lean-forward="true" selection-start-line="868" selection-start-column="0" selection-end-line="868" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="930">
+              <caret line="662" column="47" lean-forward="false" selection-start-line="662" selection-start-column="47" selection-end-line="662" selection-end-column="47" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gdpr-compliant.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/en-us/use-cases/gdpr-compliant.html">
+      <file leaf-file-name="recruit-members.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/de-de/use-cases/recruit-members.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="311" column="0" lean-forward="true" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configureDEDE.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de-de/configureDEDE.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configureENUS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en-us/configureENUS.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landingStyles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="7791" column="23" lean-forward="false" selection-start-line="7791" selection-start-column="23" selection-end-line="7791" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="581">
+              <caret line="669" column="65" lean-forward="true" selection-start-line="669" selection-start-column="65" selection-end-line="669" selection-end-column="65" />
+              <folding>
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,7 +95,7 @@
       <find>Werben</find>
       <find>binden</find>
       <find>Binde Neumitglieder</find>
-      <find>====</find>
+      <find>id=&quot;in</find>
     </findStrings>
     <replaceStrings>
       <replace>Alle Funktionen sehen</replace>
@@ -250,24 +167,22 @@
         <option value="$PROJECT_DIR$/en-us/unaty-platform.html" />
         <option value="$PROJECT_DIR$/en-us/pricing.html" />
         <option value="$PROJECT_DIR$/en-us/index.html" />
-        <option value="$PROJECT_DIR$/en-us/use-cases/easy-administration.html" />
         <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/activate-members.html" />
+        <option value="$PROJECT_DIR$/css/landingStyles.css" />
         <option value="$PROJECT_DIR$/en-us/products/build.html" />
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
         <option value="$PROJECT_DIR$/en-us/products/engage.html" />
         <option value="$PROJECT_DIR$/de-de/products/engage.html" />
         <option value="$PROJECT_DIR$/de-de/index.html" />
         <option value="$PROJECT_DIR$/en-us/configureENUS.js" />
-        <option value="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" />
         <option value="$PROJECT_DIR$/de-de/use-cases/activate-members.html" />
-        <option value="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" />
-        <option value="$PROJECT_DIR$/de-de/pricing.html" />
-        <option value="$PROJECT_DIR$/css/landingStyles.css" />
         <option value="$PROJECT_DIR$/de-de/configureDEDE.js" />
-        <option value="$PROJECT_DIR$/de-de/use-cases/gdpr-compliant.html" />
-        <option value="$PROJECT_DIR$/en-us/use-cases/gdpr-compliant.html" />
+        <option value="$PROJECT_DIR$/de-de/pricing.html" />
+        <option value="$PROJECT_DIR$/en-us/use-cases/easy-administration.html" />
+        <option value="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" />
+        <option value="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" />
+        <option value="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" />
       </list>
     </option>
   </component>
@@ -280,9 +195,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
-    <option name="y" value="-344" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -306,94 +219,35 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en-us" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en-us" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="use-cases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de-de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de-de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="use-cases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnatyStaticLP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
+              <item name="de-de" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
+              <item name="de-de" type="462c0819:PsiDirectoryNode" />
+              <item name="use-cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
+              <item name="en-us" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
+              <item name="en-us" type="462c0819:PsiDirectoryNode" />
+              <item name="use-cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -407,7 +261,6 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/seanmccall/Dev/UnatyStaticLP/css/landingStyles.css" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -468,15 +321,6 @@
       <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -496,6 +340,14 @@
       <test-directory />
       <recursive>false</recursive>
       <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -530,34 +382,34 @@
       <workItem from="1525433218138" duration="5449000" />
       <workItem from="1525763901103" duration="19217000" />
       <workItem from="1525859767970" duration="8741000" />
-      <workItem from="1526478387512" duration="990000" />
+      <workItem from="1526456325706" duration="5049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166868000" />
+    <option name="totallyTimeSpent" value="171147000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-344" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15323855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17061612" sideWeight="0.49652433" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17061612" sideWeight="0.50347567" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -580,7 +432,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -711,20 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="512" column="63" lean-forward="false" selection-start-line="512" selection-start-column="63" selection-end-line="512" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/use-cases/easy-administration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="219" column="70" lean-forward="true" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/activate-members.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -736,6 +574,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6443">
           <caret line="379" column="0" lean-forward="false" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="7789" column="23" lean-forward="true" selection-start-line="7789" selection-start-column="23" selection-end-line="7789" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -781,82 +626,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5505">
-          <caret line="367" column="0" lean-forward="false" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/use-cases/activate-members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="699" column="188" lean-forward="false" selection-start-line="699" selection-start-column="188" selection-end-line="699" selection-end-column="188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/pricing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="83" column="6" lean-forward="true" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/use-cases/recruit-members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="661" column="0" lean-forward="true" selection-start-line="661" selection-start-column="0" selection-end-line="661" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/use-cases/easy-administration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="305" column="26" lean-forward="false" selection-start-line="305" selection-start-column="26" selection-end-line="305" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="7791" column="23" lean-forward="false" selection-start-line="7791" selection-start-column="23" selection-end-line="7791" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/configureENUS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="58" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="367" column="0" lean-forward="false" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/de-de/configureDEDE.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="190">
+          <caret line="100" column="10" lean-forward="false" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="102" column="46" lean-forward="false" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/use-cases/activate-members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="789" column="84" lean-forward="true" selection-start-line="789" selection-start-column="84" selection-end-line="789" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/de-de/use-cases/gdpr-compliant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="868" column="0" lean-forward="true" selection-start-line="868" selection-start-column="0" selection-end-line="868" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="501" column="128" lean-forward="false" selection-start-line="501" selection-start-column="128" selection-end-line="501" selection-end-column="128" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/gdpr-compliant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="311" column="0" lean-forward="true" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="666" column="26" lean-forward="false" selection-start-line="666" selection-start-column="26" selection-end-line="666" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/use-cases/easy-administration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4020">
+          <caret line="803" column="22" lean-forward="true" selection-start-line="803" selection-start-column="22" selection-end-line="803" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/use-cases/easy-administration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="543" column="26" lean-forward="false" selection-start-line="543" selection-start-column="26" selection-end-line="543" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/use-cases/recruit-members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="662" column="47" lean-forward="false" selection-start-line="662" selection-start-column="47" selection-end-line="662" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/use-cases/recruit-members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="669" column="65" lean-forward="true" selection-start-line="669" selection-start-column="65" selection-end-line="669" selection-end-column="65" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
