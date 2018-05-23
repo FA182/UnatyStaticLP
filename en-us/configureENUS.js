@@ -25,7 +25,7 @@ var unatyData = {
             desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization ready.',
             slug: '05-24-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071',
-            link: '<a href="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071">Watch now</a>'
+            link: 'Link will be posted 1 hour before webinar starts'
         },
         {
             name: 'Reduce administration and reach more members',
