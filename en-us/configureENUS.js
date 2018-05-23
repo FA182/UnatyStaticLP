@@ -24,28 +24,32 @@ var unatyData = {
             date: 'May 24th @ 10AM CST',
             desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization ready.',
             slug: '05-24-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071'
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071',
+            link: 'Link will be posted 1 hour before webinar starts'
         },
         {
             name: 'Reduce administration and reach more members',
             date: 'May 31st @ 10AM EST',
             desc: 'Best practice advice and insights on how to raise awareness and reach potential members. We will be covering how to use Unaty to capture, convert and onboard new members.',
             slug: '05-31-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738'
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738',
+            link: 'Link will be posted 1 hour before webinar starts'
         },
         {
             name: 'Activate your community and inspire action',
             date: 'June 7th @ 10AM EST',
             desc: 'Best practice advice and insights on how to activate your community, engage and inspire your members. We will be covering how to use Unaty to activate your members and supporters and increase participation.',
             slug: '06-07-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538'
+            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538',
+            link: 'Link will be posted 1 hour before webinar starts'
         },
         {
             name: 'Raise awareness and reach more members',
             date: 'June 14th @ 10AM EST',
             desc: 'Best practice advice and insights on how to raise awareness and reach potential members. We will be covering how to use Unaty to capture, convert and onboard new members.',
             slug: '06-14-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078'
+            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078',
+            link: 'Link will be posted 1 hour before webinar starts'
         }
     ],
     blogs: [

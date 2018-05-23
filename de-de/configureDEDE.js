@@ -12,40 +12,44 @@ var unatyData = {
         enabled: true
     },
     global: {
-      promises: 'Kostenlose Plattform ● Einfache Einrichtung ● GDPR compliant'
+      promises: 'Kostenlose Plattform ● Einfache Einrichtung ● DSGVO compliant'
     },
     indexPage: {
         heroTitle: 'Erreiche, engagiere und gewinne neue Mitglieder',
-        heroSubtext: 'Bringe Menschen zusammen und mache aus Mitgliedern eine florierende Community. Verbinde Passion mit Produktivität - alles auf der ersten sozialen Organisationsplattform die Mitglieder und Administratoren zusammenbringt.'
+        heroSubtext: 'Bringe Menschen zusammen und mache aus Mitgliedern eine lebendige Gemeinschaft. Verbinde Passion mit Produktivität - alles auf der ersten sozialen Organisationsplattform, die Mitglieder und Administratoren zusammenbringt.'
     },
     webinars: [
         {
             name: 'Wie mache ich meine Organisation bereit für die EU-DSGVO',
             date: '24. Mai um 17 Uhr CET',
-            desc: 'Best practices zu den Inhalten und Auswirkungen der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
+            desc: 'Best practices zu den Inhalten, Auswirkungen und Umsetzung der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
             slug: '05-24-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442'
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442',
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
         },
         {
             name: 'Verwaltung reduzieren und Mitglieder erreichen',
             date: '31. Mai um 17 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um die Verwaltung von Vereinen und Klubs zu digitalisieren und Mitglieder zu engagieren. Wir werden zeigen, wie Verwaltung von Netzwerken auf Unaty dezentralisiert wird und Mitglieder integriert werden.',
             slug: '05-31-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738'
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738',
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
         },
         {
             name: 'Aktiviere und inspiriere Deine Gemeinschaft',
             date: '07. Juni um 17 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu aktivieren, mehr Mitglieder zu begeistern und inspirieren. Wir werden zeigen, wie sich Unaty verwenden lässt, um Mitglieder, Unterstützer, Freunde und Familien zu aktivieren.',
             slug: '06-07-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538'
+            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538',
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
         },
         {
             name: 'Aufmerksamkeit schaffen und neue Mitglieder gewinnen',
             date: '14. Juni um 17 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu bewerben und neue Mitglieder zu erreichen. Wir werden zeigen, wie sich Unaty verwenden lässt, um Zielgruppen anzusprechen und sie zu rekrutieren.',
             slug: '06-14-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078'
+            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078',
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
         }
     ],
     blogs: [
@@ -90,7 +94,11 @@ var unatyData = {
             name: 'Verwaltung reduzieren und Mitglieder einbinden',
             slug: 'easy-administration',
             type: 'Gemeinschaftsverwaltung',
+<<<<<<< HEAD
             desc: 'Dein digitaler Assistent: Personalisiere Inhalte und spreche jedes Mitglied individuell an - ganz automatisch.',
+=======
+            desc: 'Sende einfach eine E-Mail an Unaty, um Daten zu pflegen. Personalisiere Inhalte und spreche jedes Mitglied individuell an - ganz automatisch.',
+>>>>>>> master
             tagline: 'Ihr persönlicher Assistent: digital, automatisch.',
             poweredBy: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span> + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>',
             poweredByMobile: '<span class="nmm-uc-2">Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span>  + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></span>',
@@ -100,7 +108,7 @@ var unatyData = {
             name: 'Aktiviere und inspiriere Deine Gemeinschaft',
             slug: 'activate-members',
             type: 'Mitgliederengagement',
-            desc: 'Inspiriere Interaktion in Deiner Gemeinschaft und erreiche und aktiviere Mitglieder und Unterstützer.',
+            desc: 'Fördere Interaktion in Deiner Gemeinschaft, erreiche und aktiviere Mitglieder, sowie Unterstützer.',
             tagline: 'Bringe Mitglieder zusammen: engagierter, aktiver.',
             poweredBy: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span> </div>',
             poweredByMobile: '<span class="nmm-uc-2">Produkte: <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></span>',
@@ -117,11 +125,11 @@ var unatyData = {
             poweredByList: '<div>Powered by: <span class="final-powered-by-icon"><i class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span>  + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>'
         },
         {
-            name: 'Mache Deine Organisation EU-DSGVO konform',
+            name: 'Mache Deine Organisation EU-DSGVO bereit',
             slug: 'gdpr-compliant',
-            type: 'GDPR Konformität',
-            desc: 'Professionelle DSGVO Konformität für Vereine und Klubs.',
-            tagline: 'Einfache DSGVO Konformität.',
+            type: 'GDPR Bereitschaft',
+            desc: 'DSGVO Umsetzung für Vereine und Klubs mit Unaty.',
+            tagline: 'Einfache DSGVO Umstellung.',
             poweredBy: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span></div>',
             poweredByMobile: '<span class="nmm-uc-2">Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span>  </span>',
             poweredByList: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span></div>'
@@ -133,7 +141,7 @@ var menu = '<div class=" LandingMenu"> <div class="ui container"> <div class="La
 
 var footer = '<div class="LandingHomeFooter"> <div class="ui fluid container"> <div class="ui container"> <div style="padding: 2em; margin-bottom: 2em;"> <div class="ui grid"> <div class="row"> <div class="three wide computer sixteen wide mobile three wide tablet column"> <div class="ui header grey topMargin18 uiGreyHeader"><span>Produkte</span> </div> <div role="list" class="ui large link list relaxed"> <a role="listitem" class="item" href="https://www.unaty.de/de-de/products/build.html"><span>Build</span></a> <a role="listitem" class="item" href="https://www.unaty.de/de-de/products/grow.html"><span>Grow</span></a> <a role="listitem" class="item" href="https://www.unaty.de/de-de/products/engage.html"><span>Engage</span></a> </div> <div class="ui divider"> </div> <div role="list" class="ui large link list relaxed"> <a role="listitem" class="item" href="https://www.unaty.de/de-de/pricing.html"><span>Preise sehen</span></a> <a role="listitem" class="item" href="https://www.unaty.de/de-de/unaty-platform.html"><span>Unaty Plattform</span><span class="platform-free-span">UMSONST</span></a> </div> </div> <div class="six wide computer sixteen wide mobile seven wide tablet column"> <div class="ui header grey topMargin18 uiGreyHeader"><span>Anwendungsfälle</span> </div> <div role="list" class="ui large link list relaxed"><a role="listitem" class="item " href="https://www.unaty.de/en-us/use-cases/'+unatyData.useCases[0].slug+'.html"><span>'+unatyData.useCases[0].name+'</span></a> <a role="listitem" class="item " href="https://www.unaty.de/en-us/use-cases/'+unatyData.useCases[1].slug+'.html"><span>'+unatyData.useCases[1].name+'</span></a> <a role="listitem" class="item " href="https://www.unaty.de/en-us/use-cases/'+unatyData.useCases[2].slug+'.html"><span>'+unatyData.useCases[2].name+'</span></a><a role="listitem" class="item " href="https://www.unaty.de/en-us/use-cases/'+unatyData.useCases[3].slug+'.html"><span>'+unatyData.useCases[3].name+'</span></a></div> </div> <div class="four wide computer sixteen wide mobile three wide tablet column"> <div class="ui header grey topMargin18 uiGreyHeader"><span>Ressourcen</span> </div> <div role="list" class="ui large link list relaxed"> <a role="listitem" class="item" href="https://www.unaty.de/de-de/webinars.html"><span>Webinare</span></a> <a role="listitem" class="item" href="https://www.unaty.de/de-de/company/Sicherheit.html"><span>Sicherheit</span></a> <a role="listitem" class="item" href="http://help.unaty.de/" target="_blank"><span>Support-Center</span></a> <a role="listitem" class="item" target="_blank" href="https://app.unaty.de/compass/explore"><span>Compass</span></a> <a role="listitem" class="item" href="https://www.unaty.de/de-de/policies.html"><span>Datenschutz & Bedingungen</span></a> <a target="_blank" href="http://status.unaty.de/" role="listitem" class="item statusFooterArea"><i aria-hidden="true" class="green circle icon"></i><span>Alle Systeme online</span></a> </div> </div> <div class="three wide computer sixteen wide mobile three wide tablet column"> <div class="ui header grey topMargin18 uiGreyHeader"><span>Unternehmen</span> </div> <div role="list" class="ui large link list relaxed"> <a role="listitem" class="item" href="https://www.unaty.de/de-de/company/about.html"><span>Über uns</span></a> <a role="listitem" class="item" href="https://www.unaty.de/de-de/company/contact-us.html"><span>Kontakt aufnehmen</span></a> <a role="listitem" class="item" href="https://www.unaty.de/de-de/company/careers.html"><span>Karriere</span></a> <a role="listitem" class="item" href="https://www.unaty.de/de-de/company/imprint.html"><span>Impressum</span></a> </div> </div> </div> </div> </div> <div style="padding: 32px;"> <div class="ui stackable grid"> <div class="row"> <div class="five wide computer five wide mobile five wide tablet column footerMenuLang flex-display"> <div class="img-footer-holder"> <img src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1524137274188"/> </div> <div> <span class="copyrightText">© 2018 Unaty Technologies GmbH</span> </div> </div> <div class="eleven wide computer eleven wide mobile eleven wide tablet column"> <div role="list" class="ui horizontal list float-right"><a target="_blank" role="listitem" class="item" href="https://www.facebook.com/unatyde"><i aria-hidden="true" class="facebook square large icon"></i></a><a target="_blank" role="listitem" class="item" href="https://www.linkedin.com/company/12904664/"><i aria-hidden="true" class="linkedin square large icon"></i></a><a target="_blank" role="listitem" class="item" href="https://twitter.com/unatyde"><i aria-hidden="true" class="twitter square large icon"></i></a><a target="_blank" role="listitem" class="item" href="https://blog.unaty.de"><i aria-hidden="true" class="medium large icon"></i></a></div> </div> </div> </div> </div> </div> </div> </div>'
 
-var signUp = '<div class="final-general-section"> <div class="ui fluid container"> <div class="ui container"> <div class="unaty-sign-up-box"> <div> <div>Kostenlos loslegen</div> <div>Starte heute Deinen Weg zur Gemeinschaft von morgen mit Unaty und teste alle Produkte kostenlos für 14 Tage</div> </div> <div class="minWidth400"> <div> <div class="ui action input input250 final-sign-up-button"> <input id="emailInput1" type="text" placeholder="E-Mail Adresse..."/> <button id="getStartedBtn1" class="ui button blue large compact" role="button">Unaty testen </button> </div> </div> <div class="extra-infos-subset"> '+unatyData.global.promises+' </div> </div> </div> </div> </div> </div>'
+var signUp = '<div class="final-general-section"> <div class="ui fluid container"> <div class="ui container"> <div class="unaty-sign-up-box"> <div> <div>Kostenlos loslegen</div> <div>Starte heute mit Unaty Deinen Weg zur Gemeinschaft von morgen und teste alle Produkte kostenlos für 14 Tage</div> </div> <div class="minWidth400"> <div> <div class="ui action input input250 final-sign-up-button"> <input id="emailInput1" type="text" placeholder="E-Mail Adresse..."/> <button id="getStartedBtn1" class="ui button blue large compact" role="button">Unaty testen </button> </div> </div> <div class="extra-infos-subset"> '+unatyData.global.promises+' </div> </div> </div> </div> </div> </div>'
 
 if(unatyData.announcement.enabled) {
     var accouncement = '<div class="announcementBar" id="webinarAnnouncement">'+unatyData.announcement.main+': <a href="'+unatyData.announcement.itemLink+'">'+unatyData.announcement.itemText+'</a> - <a href="'+unatyData.announcement.actionLink+'">'+unatyData.announcement.actionText+'</a></div>'
