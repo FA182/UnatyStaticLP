@@ -25,7 +25,8 @@ var unatyData = {
             desc: 'Best practices zu den Inhalten, Auswirkungen und Umsetzung der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
             slug: '05-24-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442',
-            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt',
+            btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
         },
         {
             name: 'Verwaltung reduzieren und Mitglieder erreichen',
@@ -33,7 +34,8 @@ var unatyData = {
             desc: 'Best practices, Ratschläge und Erfahrungen um die Verwaltung von Vereinen und Klubs zu digitalisieren und Mitglieder zu engagieren. Wir werden zeigen, wie Verwaltung von Netzwerken auf Unaty dezentralisiert wird und Mitglieder integriert werden.',
             slug: '05-31-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738',
-            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt',
+            btn: '<a href="https://my.demio.com/ref/JMd6px9RWkIdE8WM" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
         },
         {
             name: 'Aktiviere und inspiriere Deine Gemeinschaft',
@@ -41,7 +43,8 @@ var unatyData = {
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu aktivieren, mehr Mitglieder zu begeistern und inspirieren. Wir werden zeigen, wie sich Unaty verwenden lässt, um Mitglieder, Unterstützer, Freunde und Familien zu aktivieren.',
             slug: '06-07-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538',
-            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt',
+            btn: '<a href="https://my.demio.com/ref/231Z6y5vNITKzJ2W" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
         },
         {
             name: 'Aufmerksamkeit schaffen und neue Mitglieder gewinnen',
@@ -49,7 +52,8 @@ var unatyData = {
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu bewerben und neue Mitglieder zu erreichen. Wir werden zeigen, wie sich Unaty verwenden lässt, um Zielgruppen anzusprechen und sie zu rekrutieren.',
             slug: '06-14-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078',
-            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt'
+            link: 'Link wird hier geposted eine stunde bevor das webinar anfängt',
+            btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
         }
     ],
     blogs: [
@@ -94,11 +98,7 @@ var unatyData = {
             name: 'Verwaltung reduzieren und Mitglieder einbinden',
             slug: 'easy-administration',
             type: 'Gemeinschaftsverwaltung',
-<<<<<<< HEAD
             desc: 'Dein digitaler Assistent: Personalisiere Inhalte und spreche jedes Mitglied individuell an - ganz automatisch.',
-=======
-            desc: 'Sende einfach eine E-Mail an Unaty, um Daten zu pflegen. Personalisiere Inhalte und spreche jedes Mitglied individuell an - ganz automatisch.',
->>>>>>> master
             tagline: 'Ihr persönlicher Assistent: digital, automatisch.',
             poweredBy: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span> + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>',
             poweredByMobile: '<span class="nmm-uc-2">Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span>  + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></span>',
