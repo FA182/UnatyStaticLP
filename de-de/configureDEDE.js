@@ -90,7 +90,7 @@ var unatyData = {
             name: 'Verwaltung reduzieren und Mitglieder einbinden',
             slug: 'easy-administration',
             type: 'Gemeinschaftsverwaltung',
-            desc: 'Sende einfach eine E-Mail an Unaty um Daten zu pflegen. Personalisiere Inhalte und spreche jedes Mitglied individuell an - ganz automatisch.',
+            desc: 'Dein digitaler Assistent: Personalisiere Inhalte und spreche jedes Mitglied individuell an - ganz automatisch.',
             tagline: 'Ihr persönlicher Assistent: digital, automatisch.',
             poweredBy: '<div>Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span> + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></div>',
             poweredByMobile: '<span class="nmm-uc-2">Produkte: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span>  + <span class="final-powered-by-icon"><i class="ui icon red lightning"></i> Engage</span></span>',
