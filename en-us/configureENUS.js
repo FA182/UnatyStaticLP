@@ -4,11 +4,11 @@
 
 var unatyData = {
     announcement: {
-        main: 'Join us on May 24th for our Webinar',
-        itemText: 'How can my organization get ready for GDPR?',
-        itemLink: 'https://www.unaty.de/en-us/webinars/05-24-18.html',
+        main: 'Join us on May 31th for our Webinar',
+        itemText: 'Reduce administration and reach more members',
+        itemLink: 'https://www.unaty.de/en-us/webinars/05-31-18.html',
         actionText: 'Register now →',
-        actionLink: "mailto:hello@unaty.de?subject=May 24 Webinar&body=Hi, I'd like to register for the upcoming webinar on May 24th. Thanks!",
+        actionLink: "mailto:hello@unaty.de?subject=May 31 Webinar&body=Hi, I'd like to register for the upcoming webinar on May 31st. Thanks!",
         enabled: true
     },
     global: {
@@ -25,7 +25,7 @@ var unatyData = {
             desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization ready.',
             slug: '05-24-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071',
-            link: 'Link will be posted 1 hour before webinar starts',
+            link: 'https://www.youtube.com/watch?v=UbwmD19fh5o',
             btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
         },
         {
@@ -34,7 +34,7 @@ var unatyData = {
             desc: 'Best practice advice and insights on how to raise awareness and reach potential members. We will be covering how to use Unaty to capture, convert and onboard new members.',
             slug: '05-31-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738',
-            link: 'Link will be posted 1 hour before webinar starts',
+            link: '',
             btn: '<a href="https://my.demio.com/ref/JMd6px9RWkIdE8WM" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
         },
         {
@@ -43,7 +43,7 @@ var unatyData = {
             desc: 'Best practice advice and insights on how to activate your community, engage and inspire your members. We will be covering how to use Unaty to activate your members and supporters and increase participation.',
             slug: '06-07-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538',
-            link: 'Link will be posted 1 hour before webinar starts',
+            link: '',
             btn: '<a href="https://my.demio.com/ref/231Z6y5vNITKzJ2W" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
         },
         {
@@ -52,7 +52,7 @@ var unatyData = {
             desc: 'Best practice advice and insights on how to raise awareness and reach potential members. We will be covering how to use Unaty to capture, convert and onboard new members.',
             slug: '06-14-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078',
-            link: 'Link will be posted 1 hour before webinar starts',
+            link: '',
             btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
         }
     ],
