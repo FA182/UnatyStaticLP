@@ -19,15 +19,7 @@ var unatyData = {
         heroSubtext: 'Bring people together and make community life more pleasant, passionate and productive - all on the first social administration platform made with members in mind.'
     },
     webinars: [
-        {
-            name: 'How can my organization get ready for GDPR?',
-            date: 'May 24th @ 10AM CST',
-            desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization ready.',
-            slug: '05-24-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071',
-            link: 'https://www.youtube.com/watch?v=UbwmD19fh5o',
-            btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
-        },
+
         {
             name: 'Reduce administration and reach more members',
             date: 'May 31st @ 10AM EST',
@@ -53,6 +45,16 @@ var unatyData = {
             slug: '06-14-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078',
             link: '',
+            btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
+        },
+
+        {
+            name: 'How can my organization get ready for GDPR?',
+            date: 'May 24th @ 10AM CST',
+            desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization ready.',
+            slug: '05-24-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071',
+            link: 'https://www.youtube.com/watch?v=UbwmD19fh5o',
             btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
         }
     ],

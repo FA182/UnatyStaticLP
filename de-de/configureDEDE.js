@@ -19,15 +19,7 @@ var unatyData = {
         heroSubtext: 'Bringe Menschen zusammen und mache aus Mitgliedern eine lebendige Gemeinschaft. Verbinde Passion mit Produktivität - alles auf der ersten sozialen Organisationsplattform, die Mitglieder und Administratoren zusammenbringt.'
     },
     webinars: [
-        {
-            name: 'Wie mache ich meine Organisation bereit für die EU-DSGVO',
-            date: '24. Mai um 17 Uhr CET',
-            desc: 'Best practices zu den Inhalten, Auswirkungen und Umsetzung der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
-            slug: '05-24-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442',
-            link: 'https://www.youtube.com/watch?v=UbwmD19fh5o',
-            btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
-        },
+
         {
             name: 'Verwaltung reduzieren und Mitglieder erreichen',
             date: '31. Mai um 17 Uhr CET',
@@ -53,6 +45,16 @@ var unatyData = {
             slug: '06-14-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078',
             link: '',
+            btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
+        },
+
+        {
+            name: 'Wie mache ich meine Organisation bereit für die EU-DSGVO',
+            date: '24. Mai um 17 Uhr CET',
+            desc: 'Best practices zu den Inhalten, Auswirkungen und Umsetzung der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
+            slug: '05-24-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442',
+            link: 'https://www.youtube.com/watch?v=UbwmD19fh5o',
             btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
         }
     ],
