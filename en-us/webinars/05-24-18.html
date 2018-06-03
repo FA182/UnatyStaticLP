@@ -282,30 +282,16 @@
 
     <div class="ui fluid container">
 
-        <div class="ui container flex-control-grid reverse-home-page mobileFlexFlow">
+        <div class="ui container">
 
-            <div>
-
-
-                <div class="flp-title-text">
-                    <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].name)</script>
-                </div>
-
-                <div class="flp-subtitle-text">
-                    <strong>
-                        <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].date)</script>
-                    </strong> -
-                    <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].desc)</script>
-
-                </div>
-
-                <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].btn)</script>
-
+            <div class="finalPlatformTitleSection">
+                <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].name)</script>
             </div>
 
-            <div class="final-main-image-home">
-                <script type="text/javascript">document.write('<img class="paddingTop32" src="' + unatyData.webinars[getWebinar()].img + '" />')</script>
+            <div class="ui divider hidden section"></div>
 
+            <div class="platform-video-box">
+                <script type="text/javascript">if(unatyData.webinars[getWebinar()].link!=='') { document.write('<div class="ui embed" id="unatyVideo"><img class="placeholder" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105" alt="Screenshot of the Platform"> <iframe src="'+unatyData.webinars[getWebinar()].link+'" alt="Explanation video for the Platform"></iframe> </div>') }else {document.write('<img class="paddingTop32" src="' + unatyData.webinars[getWebinar()].img + '" />')}</script>
             </div>
 
         </div>

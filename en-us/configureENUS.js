@@ -54,7 +54,7 @@ var unatyData = {
             desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization ready.',
             slug: '05-24-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071',
-            link: 'https://www.youtube.com/watch?v=UbwmD19fh5o',
+            link: 'https://www.youtube.com/embed/UbwmD19fh5o',
             btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
         }
     ],

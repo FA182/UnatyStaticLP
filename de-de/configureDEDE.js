@@ -52,9 +52,9 @@ var unatyData = {
             name: 'Wie mache ich meine Organisation bereit für die EU-DSGVO',
             date: '5. Juli um 17 Uhr CET',
             desc: 'Best practices zu den Inhalten, Auswirkungen und Umsetzung der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
-            slug: '07-05-18',
+            slug: '05-24-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442',
-            link: 'https://www.youtube.com/watch?v=UbwmD19fh5o',
+            link: 'https://www.youtube.com/embed/UbwmD19fh5o',
             btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
         },
 
