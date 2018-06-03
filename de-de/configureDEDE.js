@@ -4,11 +4,11 @@
 
 var unatyData = {
     announcement: {
-        main: 'Sei dabei: Unser Webinar am 31. Mai',
+        main: 'Sei dabei: Unser Webinar am 7. Juni',
         itemText: 'Verwaltung reduzieren und Mitglieder erreichen',
-        itemLink: 'https://www.unaty.de/de-de/webinars/05-31-18.html',
+        itemLink: 'https://www.unaty.de/de-de/webinars/06-07-18.html',
         actionText: 'Jetzt registrieren →',
-        actionLink: "mailto:hello@unaty.de?subject=May 31 Webinar&body=Hi, I'd like to register for the upcoming webinar on 31 May. Thanks!",
+        actionLink: "https://my.demio.com/ref/KNHlLEYCsFNbPwDO",
         enabled: true
     },
     global: {
@@ -20,15 +20,7 @@ var unatyData = {
     },
     webinars: [
 
-        {
-            name: 'Verwaltung reduzieren und Mitglieder erreichen',
-            date: '31. Mai um 17 Uhr CET',
-            desc: 'Best practices, Ratschläge und Erfahrungen um die Verwaltung von Vereinen und Klubs zu digitalisieren und Mitglieder zu engagieren. Wir werden zeigen, wie Verwaltung von Netzwerken auf Unaty dezentralisiert wird und Mitglieder integriert werden.',
-            slug: '05-31-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738',
-            link: '',
-            btn: '<a href="https://my.demio.com/ref/JMd6px9RWkIdE8WM" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
-        },
+
         {
             name: 'Aktiviere und inspiriere Deine Gemeinschaft',
             date: '07. Juni um 17 Uhr CET',
@@ -36,13 +28,13 @@ var unatyData = {
             slug: '06-07-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538',
             link: '',
-            btn: '<a href="https://my.demio.com/ref/231Z6y5vNITKzJ2W" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
+            btn: '<a href="https://my.demio.com/ref/naeWBcuvTbZsejha" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
         },
         {
             name: 'Aufmerksamkeit schaffen und neue Mitglieder gewinnen',
-            date: '14. Juni um 17 Uhr CET',
+            date: '21. Juni um 17 Uhr CET',
             desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu bewerben und neue Mitglieder zu erreichen. Wir werden zeigen, wie sich Unaty verwenden lässt, um Zielgruppen anzusprechen und sie zu rekrutieren.',
-            slug: '06-14-18',
+            slug: '06-21-18',
             img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078',
             link: '',
             btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
@@ -50,12 +42,22 @@ var unatyData = {
 
         {
             name: 'Wie mache ich meine Organisation bereit für die EU-DSGVO',
-            date: '24. Mai um 17 Uhr CET',
+            date: '5. Juli um 17 Uhr CET',
             desc: 'Best practices zu den Inhalten, Auswirkungen und Umsetzung der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
-            slug: '05-24-18',
+            slug: '07-05-18',
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292761442',
             link: 'https://www.youtube.com/watch?v=UbwmD19fh5o',
             btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
+        },
+
+        {
+            name: 'Verwaltung reduzieren und Mitglieder erreichen',
+            date: '31. Mai um 17 Uhr CET',
+            desc: 'Best practices, Ratschläge und Erfahrungen um die Verwaltung von Vereinen und Klubs zu digitalisieren und Mitglieder zu engagieren. Wir werden zeigen, wie Verwaltung von Netzwerken auf Unaty dezentralisiert wird und Mitglieder integriert werden.',
+            slug: '06-07-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738',
+            link: '',
+            btn: '<a href="https://my.demio.com/ref/KNHlLEYCsFNbPwDO" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
         }
     ],
     blogs: [
