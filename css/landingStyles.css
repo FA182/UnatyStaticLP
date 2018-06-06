@@ -5769,6 +5769,7 @@ a.nmmPI i {
 
 .final-main-image-home img {
     max-width: 160%;
+    max-width: 1100px;
     margin-top: 48px;
     margin-left: 24px;
 }
