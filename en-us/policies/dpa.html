@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="de">
 <head>
 
 
-    <title>Webinars - Best practice advice and industry insights | Unaty</title>
+    <title>Data Processing Addendum | Unaty</title>
     <link rel="shortcut icon"
           href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
     <meta name="application-name" content="Unaty">
     <link rel="stylesheet" type="text/css" target="_blank" href="../css/landingStyles.css">
     <meta name="author" content="Unaty Technologies GmbH">
-    <script>         window.intercomSettings = {
+    <script>window.intercomSettings = {
         app_id: "auma9g4d",
         custom_launcher_selector: '#intercom_chat_link'
     };      </script>
@@ -52,12 +52,13 @@
             }
         }
     })()</script>
+
     <link href="https://www.unaty.de/" rel="canonical">
     <meta content="index, follow" name="robots">
     <meta name="copyright" content="Unaty Technologies GmbH Copyright (c) 2018">
-
+    <script src="../configureENUS.js"></script>
     <meta name="description"
-          content="Unaty is a platform for Communities with simple tools to reach, support, engage, and activate more Members.">
+          content="Unaty is a platform for Communities with the tools administrators need and the features members want. Try Unaty on Unaty and set up your new digital Community in less than 5 minutes.">
     <meta property="og:image"
           content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
     <meta property="og:image:type" content="image/jpg">
@@ -70,77 +71,12 @@
     <meta content="https://www.unaty.de/" property="og:url">
     <meta content="Unaty" property="og:site_name">
 
-    <link rel="stylesheet" type="text/css"
-          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-    <script>
-        window.addEventListener("load", function () {
-            window.cookieconsent.initialise({
-                "palette": {
-                    "popup": {
-                        "background": "#edeff5",
-                        "text": "#838391"
-                    },
-                    "button": {
-                        "background": "#4b81e8"
-                    }
-                },
-                "theme": "edgeless",
-                "position": "bottom-left",
-                "type": "opt-in",
-                "content": {
-                    "message": "\nCookies are important to the proper functioning of a site. To improve your experience, we use cookies to remember log-in details and provide secure log-in, and collect statistics to optimize site functionality.",
-                    "dismiss": "Not Now",
-                    "allow": "Agree and Proceed",
-                    "href": "https://www.unaty.de/en-us/company/privacy.html"
-                },
-                onInitialise: function (status) {
-                    var type = this.options.type;
-                    var didConsent = this.hasConsented();
-                    if (type == 'opt-in' && didConsent) {
-                        // enable cookies
-                        navigator.cookieEnabled = true
-                    }
-                    if (type == 'opt-out' && !didConsent) {
-                        // disable cookies
-                        navigator.cookieEnabled = false
-                    }
-                },
-
-                onStatusChange: function (status, chosenBefore) {
-                    var type = this.options.type;
-                    var didConsent = this.hasConsented();
-                    if (type == 'opt-in' && didConsent) {
-                        // enable cookies
-                        navigator.cookieEnabled = true
-                    }
-                    if (type == 'opt-out' && !didConsent) {
-                        // disable cookies
-                        navigator.cookieEnabled = false
-                    }
-                },
-
-                onRevokeChoice: function () {
-                    var type = this.options.type;
-                    if (type == 'opt-in') {
-                        // disable cookies
-                        navigator.cookieEnabled = false
-                    }
-                    if (type == 'opt-out') {
-                        // enable cookies
-                        navigator.cookieEnabled = true
-                    }
-                }
-            })
-        });
-    </script>
-
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@unatyde">
     <meta name="twitter:title" content="Unaty, grow your Community's engagement and impact.">
     <meta name="twitter:description"
-          content="Unaty is a platform for Communities with simple tools to reach, support, engage, and activate more Members.">
+          content="Whatever your Goal, Interest, or Idea, Unaty makes administration simple and unites you with those you want to share it with. No matter your passion or your challenges, the journey to success starts here.">
     <meta name="twitter:creator" content="@unatyde">
     <meta name="twitter:image"
           content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
@@ -153,16 +89,11 @@
     }
     gtag('js', new Date());
     gtag('config', 'AW-850680838');     </script>
-
     <meta name="twitter:domain" content="https://www.unaty.de">
-
-    <script src="../configureENUS.js"></script>
 
     <link rel="apple-touch-icon" sizes="180x180"
           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333373730">
-    <script type="text/javascript">
-        localStorage.setItem('language', 'en-US');
-    </script>
+    <script type="text/javascript">         localStorage.setItem('language', 'en-US');     </script>
     <link rel="icon" type="image/png" sizes="32x32"
           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333361779">
     <link rel="icon" type="image/png" sizes="16x16"
@@ -191,83 +122,21 @@
 
         gtag('config', 'UA-92484757-1');
     </script>
-
-    <script type="text/javascript">
-
-        function getRandomInt(min, max) {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
-        }
-
-        var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
-        var text = 'Student Groups'
-        var type = 'student association'
-
-        var num = getRandomInt(0, 13)
-
-        if (num === 0) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Student Groups Community Administrators" />'
-            text = 'Student Groups'
-            type = 'student association'
-        } else if (num === 1) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148703286" alt="Sports Teams Community Administrators" />'
-            text = 'Sports Teams'
-            type = 'sports team'
-        } else if (num === 2) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148660420" alt="Business Associations Community Administrators" />'
-            text = 'Business Associations'
-            type = 'business association'
-        } else if (num === 3) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478128143" alt="Soccer Teams Community Administrators" />'
-            text = 'Soccer Teams'
-            type = 'soccer team'
-        } else if (num === 4) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478120430" alt="Swim Teams Community Administrators" />'
-            text = 'Swim Teams'
-            type = 'swim team'
-        } else if (num === 5) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478110434" alt="Alumni Associations Community Administrators" />'
-            text = 'Alumni Associations'
-            type = 'alumni association'
-        } else if (num === 6) {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524478103216" alt="Celebrations Community Administrators" />'
-            text = 'Leisure Groups'
-            type = 'leisure group'
-        } else {
-            img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148690788" alt="Professional Associations Community Administrators" />'
-            text = 'Professional Associations'
-            type = 'professional association'
-        }
-
-    </script>
-    <script type="text/javascript">
-        function getWebinar() {
-            var slug = '05-24-18'
-
-            for (var i = 0; i < unatyData.webinars.length; i++) {
-
-                var item = unatyData.webinars[i]
-
-                if (item.slug === slug) {
-                    return i;
-                }
-
-            }
-
-            return 0;
-
-        }
+    <!-- Hotjar Tracking Code for www.unaty.de -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+            h._hjSettings = {hjid: 867076, hjsv: 6};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 
-    <meta name="description" content="Get your organization GDPR ready with Unaty">
-    <meta property="og:image"
-          content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071">
-
-    <meta name="twitter:title" content="Get your organization GDPR ready with Unaty">
-    <meta name="twitter:description" content="Professional GDPR readiness made easy">
-    <meta name="twitter:creator" content="@unatyde">
-    <meta name="twitter:image"
-          content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071">
-    <meta name="twitter:url" content="https://www.unaty.de/en-us/use-cases/gdpr-compliant.html">
 </head>
 <body>
 <script type="text/javascript">
@@ -277,37 +146,104 @@
 <script type="text/javascript">
     document.write(menu)
 </script>
+<div class="animated fadeIn animationSpeedUpHalf">
+    <div class="ui container NLP-bigTextContainer">
+        <div class="ui huge header">
+            <div class="content"><span>Data Processing Addendum</span>
 
-<div class="final-landing-page-main">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="policiesBackgroundGray">
 
     <div class="ui fluid container">
 
         <div class="ui container">
+            <div class="ui very relaxed grid stackable text-align-left">
+                <div class="row">
+                    <div class="four wide computer sixteen wide mobile four wide tablet column">
+                        <div class="ui blue massive secondary vertical menu">
+                            <div class="item">
+                                <div class="header">Getting started</div>
+                                <div class="menu">
+                                    <a href="https://www.unaty.de/en-us/policies.html" class="item ">Overview</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="header">Terms</div>
+                                <div class="menu">
+                                    <a href="https://www.unaty.de/en-us/policies/user-terms.html" class="item">User
+                                        Terms Of Service</a>
+                                    <a href="https://www.unaty.de/en-us/policies/customer-terms.html" class="item">Customer
+                                        Terms Of Service</a>
 
-            <div class="finalPlatformTitleSection">
-                <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].name)</script>
+                                    <a href="https://www.unaty.de/en-us/policies/dpa.html" class="item active">Data
+                                        Processing Addendum</a>
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="header">Policies</div>
+                                <div class="menu">
+                                    <a href="https://www.unaty.de/en-us/policies/privacy-policy.html" class="item">Privacy
+                                        Policy</a>
+                                    <a href="https://www.unaty.de/en-us/policies/cookie-policy.html"
+                                       class="item">Cookie Policy</a>
+                                    <a href="https://www.unaty.de/en-us/policies/acceptable-use.html"
+                                       class="item">Acceptable Use Policy</a>
+                                    <a href="https://www.unaty.de/en-us/policies/dmca-policy.html"
+                                       class="item">DMCA Policy</a>
+                                    <a href="https://www.unaty.de/en-us/policies/gdpr.html" class="item">GDPR</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="header">Actions</div>
+                                <div class="menu">
+                                    <a href="https://www.unaty.de/en-us/policies/right-to-be-forgotton.html"
+                                       class="item">Right to be Forgotten</a>
+                                    <a href="https://www.unaty.de/en-us/policies/right-to-data.html" class="item">Data
+                                        Request</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="twelve wide computer sixteen wide mobile twelve wide tablet column final-normal-text addParagraphBreaks">
+                        <div class="ui header tiny grey">Last updated: May 14th, 2018</div>
+                        <div class="ui header large">Data Processing Addendum (DPA)</div>
+                        <div>
+                            <strong>What it's about:</strong><br/>
+                            To fufill the requirements of the GDPR §28, we prepared a contract that regulates to
+                            processing of data from Unaty.
+                            <br/>
+                            To conform to the GDPR, we suggest that you as a representative of the customer (your
+                            organization on Unaty) to sign this agreement. In case you don't agree to the contract, we
+                            can gladly discuss details: <a href="mailto:datenschutz@unaty.de">datenschutz@unaty.de</a>
+
+                        </div>
+                        <div>
+                            <strong>How it works:</strong><br/>
+                            Below you'll find our DPA contact as a PDF<br/>
+                            Please fill out the placeholders in the contract in english or german and send us a scan to
+                            <a href="mailto:datenschutz@unaty.de">datenschutz@unaty.de</a>
+                            or send it per post to <br/>
+                            <br/><strong>Unaty Technologies GmbH</strong><br/>
+                            Unertlstraße 27<br/>
+                            D-80803 Munich<br/>
+                            Germany<br/><br/>
+                            We will send you the signed document back per post.
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="ui divider hidden section"></div>
-
-            <div class="platform-video-box">
-                <script type="text/javascript">if(unatyData.webinars[getWebinar()].link!=='') { document.write('<div class="ui embed" id="unatyVideo"><img class="placeholder" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105" alt="Screenshot of the Platform"> <iframe src="'+unatyData.webinars[getWebinar()].link+'" alt="Explanation video for the Platform"></iframe> </div>') }else {document.write('<img class="paddingTop32" src="' + unatyData.webinars[getWebinar()].img + '" />')}</script>
-            </div>
-
         </div>
-
     </div>
-
 </div>
-
-<script type="text/javascript">
-    document.write(signUp)
-</script>
-
+</div>
+<div class="ui divider section hidden"></div>
 <script type="text/javascript">
     document.write(footer)
 </script>
-
 <script type="text/javascript">
 
     $("#menuProducts").hover(

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="de">
+<html lang="en">
 <head>
 
 
@@ -156,7 +156,7 @@
 
     <meta name="twitter:domain" content="https://www.unaty.de">
 
-    <script src="../configureDEDE.js"></script>
+    <script src="../configureENUS.js"></script>
 
     <link rel="apple-touch-icon" sizes="180x180"
           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333373730">
@@ -241,7 +241,7 @@
     </script>
     <script type="text/javascript">
         function getWebinar() {
-            var slug = '05-17-18'
+            var slug = '06-21-18'
 
             for (var i = 0; i < unatyData.webinars.length; i++) {
 
@@ -266,6 +266,7 @@
 <script type="text/javascript">
     document.write(menu)
 </script>
+
 <div class="final-landing-page-main">
 
     <div class="ui fluid container">
@@ -286,11 +287,7 @@
                     <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].desc)</script>
 
                 </div>
-
-                <a href="mailto:hello@unaty.de?subject=Register for next Webinar&body=Hi, I'd like to register for the upcoming webinar. Thanks!"
-                   id="getStartedBtn" class="ui button blue large compact" role="button">Register
-                </a>
-
+                <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].btn)</script>
             </div>
 
             <div class="final-main-image-home">
@@ -304,180 +301,13 @@
 
 </div>
 
+<script type="text/javascript">
+    document.write(signUp)
+</script>
 
-<div class="final-general-section">
-
-    <div class="ui fluid container">
-
-        <div class="ui container">
-
-            <div class="unaty-sign-up-box">
-
-                <div>
-                    <div>Start your Free Trial</div>
-
-                    <div>
-                        Try Unaty today for free then add and try all products free for 14 days
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <div class="ui action input  input250 final-sign-up-button">
-                            <input id="emailInput1" type="text" placeholder="Enter your Email.."/>
-                            <button id="getStartedBtn1" class="ui button blue large compact" role="button">Try Unaty
-                            </button>
-                        </div>
-                    </div>
-                    <div class="extra-infos-subset">
-                        <script type="text/javascript">document.write(unatyData.global.promises)</script>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<div class="LandingHomeFooter">
-    <div class="ui fluid container">
-        <div class="ui container">
-            <div style="padding: 2em; margin-bottom: 2em;">
-
-                <div class="ui grid">
-                    <div class="row">
-                        <div class="three wide computer sixteen wide mobile three wide tablet column">
-                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Products</span>
-                            </div>
-                            <div role="list" class="ui large link list relaxed">
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/products/build.html"><span>Build</span></a>
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/products/grow.html"><span>Grow</span></a>
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/products/engage.html"><span>Engage</span></a>
-
-                            </div>
-                            <div class="ui divider">
-                            </div>
-                            <div role="list" class="ui large link list relaxed">
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/pricing.html"><span>View Pricing</span></a>
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/unaty-platform.html"><span>Unaty Platform</span><span
-                                        class="platform-free-span">FREE</span></a>
-
-                            </div>
-                        </div>
-                        <div class="six wide computer sixteen wide mobile seven wide tablet column">
-                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Use Cases</span>
-                            </div>
-                            <div role="list" class="ui large link list relaxed">
-
-                                <a role="listitem" class="item "
-                                   href="https://www.unaty.de/en-us/use-cases/easy-administration.html"><span>Verwaltung reduzieren und Mitglieder erreichen</span></a>
-
-                                <a role="listitem" class="item "
-                                   href="https://www.unaty.de/en-us/use-cases/activate-members.html"><span>Aktiviere und inspiriere Deine Gemeinschaft</span></a>
-
-                                <a role="listitem" class="item "
-                                   href="https://www.unaty.de/en-us/use-cases/recruit-members.html"><span>Neue Mitglieder akquirieren und binden</span></a>
-
-                            </div>
-
-                        </div>
-                        <div class="four wide computer sixteen wide mobile three wide tablet column">
-                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Resources</span>
-                            </div>
-                            <div role="list" class="ui large link list relaxed">
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/security.html"><span>Security</span></a>
-
-                                <a role="listitem" class="item" href="http://help.unaty.de/" target="_blank"><span>Help Center</span></a>
-
-                                <a role="listitem" class="item" target="_blank"
-                                   href="https://app.unaty.de/compass/explore"><span>Compass</span></a>
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/privacy.html"><span>Datenschutzerklärung</span></a>
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/press.html"><span>Press Kit</span></a>
-
-                                <a target="_blank" href="http://status.unaty.de/" role="listitem"
-                                   class="item statusFooterArea"><i aria-hidden="true"
-                                                                    class="green circle icon"></i><span>All Systems online</span></a>
-
-                            </div>
-                        </div>
-                        <div class="three wide computer sixteen wide mobile three wide tablet column">
-                            <div class="ui header grey topMargin18  uiGreyHeader"><span>Company</span>
-                            </div>
-                            <div role="list" class="ui large link list relaxed">
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/about.html"><span>About</span></a>
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/contact-us.html"><span>Contact</span></a>
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/careers.html"><span>Careers</span></a>
-
-                                <a role="listitem" class="item"
-                                   href="https://www.unaty.de/en-us/company/imprint.html"><span>Imprint</span></a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div style="padding: 32px;">
-                <div class="ui stackable grid">
-                    <div class="row">
-                        <div class="five wide computer five wide mobile five wide tablet column footerMenuLang flex-display">
-                            <div class="img-footer-holder">
-                                <img src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1524137274188"/>
-                            </div>
-                            <div>
-                                <span class="copyrightText">© 2018 Unaty Technologies GmbH</span>
-                            </div>
-
-                        </div>
-                        <div class="eleven wide computer eleven wide mobile eleven wide tablet column">
-                            <div role="list" class="ui horizontal list float-right"><a target="_blank" role="listitem"
-                                                                                       class="item"
-                                                                                       href="https://www.facebook.com/unatyde"><i
-                                    aria-hidden="true" class="facebook square large icon"></i></a><a target="_blank"
-                                                                                                     role="listitem"
-                                                                                                     class="item"
-                                                                                                     href="https://www.linkedin.com/company/12904664/"><i
-                                    aria-hidden="true" class="linkedin square large icon"></i></a><a target="_blank"
-                                                                                                     role="listitem"
-                                                                                                     class="item"
-                                                                                                     href="https://twitter.com/unatyde"><i
-                                    aria-hidden="true" class="twitter square large icon"></i></a><a target="_blank"
-                                                                                                    role="listitem"
-                                                                                                    class="item"
-                                                                                                    href="https://blog.unaty.de"><i
-                                    aria-hidden="true" class="medium large icon"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<script type="text/javascript">
+    document.write(footer)
+</script>
 
 <script type="text/javascript">
 

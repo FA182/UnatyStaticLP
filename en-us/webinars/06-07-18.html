@@ -241,7 +241,7 @@
     </script>
     <script type="text/javascript">
         function getWebinar() {
-            var slug = '05-24-18'
+            var slug = '06-07-18'
 
             for (var i = 0; i < unatyData.webinars.length; i++) {
 
@@ -257,17 +257,6 @@
 
         }
     </script>
-
-    <meta name="description" content="Get your organization GDPR ready with Unaty">
-    <meta property="og:image"
-          content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071">
-
-    <meta name="twitter:title" content="Get your organization GDPR ready with Unaty">
-    <meta name="twitter:description" content="Professional GDPR readiness made easy">
-    <meta name="twitter:creator" content="@unatyde">
-    <meta name="twitter:image"
-          content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071">
-    <meta name="twitter:url" content="https://www.unaty.de/en-us/use-cases/gdpr-compliant.html">
 </head>
 <body>
 <script type="text/javascript">
@@ -282,16 +271,28 @@
 
     <div class="ui fluid container">
 
-        <div class="ui container">
+        <div class="ui container flex-control-grid reverse-home-page mobileFlexFlow">
 
-            <div class="finalPlatformTitleSection">
-                <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].name)</script>
+            <div>
+
+
+                <div class="flp-title-text">
+                    <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].name)</script>
+                </div>
+
+                <div class="flp-subtitle-text">
+                    <strong>
+                        <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].date)</script>
+                    </strong> -
+                    <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].desc)</script>
+
+                </div>
+                <script type="text/javascript">document.write(unatyData.webinars[getWebinar()].btn)</script>
             </div>
 
-            <div class="ui divider hidden section"></div>
+            <div class="final-main-image-home">
+                <script type="text/javascript">document.write('<img class="paddingTop32" src="' + unatyData.webinars[getWebinar()].img + '" />')</script>
 
-            <div class="platform-video-box">
-                <script type="text/javascript">if(unatyData.webinars[getWebinar()].link!=='') { document.write('<div class="ui embed" id="unatyVideo"><img class="placeholder" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105" alt="Screenshot of the Platform"> <iframe src="'+unatyData.webinars[getWebinar()].link+'" alt="Explanation video for the Platform"></iframe> </div>') }else {document.write('<img class="paddingTop32" src="' + unatyData.webinars[getWebinar()].img + '" />')}</script>
             </div>
 
         </div>
