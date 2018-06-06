@@ -6895,8 +6895,8 @@ a.nmmPI i {
 
 }
 
-.imgEngage {
-    max-width: 480px;
+.imgProduct {
+    max-width: 480px !important;
 }
 
 .useCaseDiagAction {
