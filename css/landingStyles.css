@@ -7739,6 +7739,7 @@ body {
 
 .productPageScreenshot img {
     margin-top: 24px !important;
+    max-width: 90% !important;
 }
 
 .productPageScreenshot img {
@@ -8156,7 +8157,7 @@ body {
     padding-right: 96px !important;
 }
 @media all and (max-width: 1200px) {
-    .final-main-image-home img {
+    .final-main-image-home:not(.productPageScreenshot) img {
         max-width: 220% !important;
         margin-top: 64px !important;
 
@@ -8167,7 +8168,7 @@ body {
     .mobileFlexFlow.unatyFluidPadding {
         flex-flow: column-reverse !important;
     }
-    .final-main-image-home img {
+    .final-main-image-home:not(.productPageScreenshot) img {
         max-width: 85% !important;
         margin-top: 12px;
         margin-left: 0 !important;
@@ -8203,6 +8204,9 @@ body {
     .flp-subtitle-text {
         display: block !important;
     }
+    .final-landing-page-main2 .flex-display {
+        flex-flow: column !important;
+    }
 }
 @media all and (max-width: 500px) {
     .ui.container.flex-control-grid.mobileFlexFlow {
@@ -8227,4 +8231,12 @@ body {
     .flp-title-text {
         font-size: 28px !important;
     }
+}
+.flp-title-text.smallerText {
+    font-size: 48px;
+    line-height: 56px;
+}
+.flp-subtitle-text.smallerText {
+    font-size: 20px;
+    line-height: 32px !important;
 }
