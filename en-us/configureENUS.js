@@ -4,11 +4,11 @@
 
 var unatyData = {
     announcement: {
-        main: 'Join us on June 7th for our Webinar',
-        itemText: 'Reduce administration and reach more members',
-        itemLink: 'https://www.unaty.de/en-us/webinars/06-07-18.html',
+        main: 'Join us on June 21st for our Webinar',
+        itemText: 'Build a thriving online community',
+        itemLink: 'https://www.unaty.de/en-us/webinars/06-21-18.html',
         actionText: 'Register now →',
-        actionLink: "https://my.demio.com/ref/KNHlLEYCsFNbPwDO",
+        actionLink: "https://my.demio.com/ref/QRqgwAa6Pc7AIi2f",
         enabled: true
     },
     global: {
@@ -16,9 +16,48 @@ var unatyData = {
     },
     indexPage: {
         heroTitle: 'Reach, activate and inspire more members',
-        heroSubtext: 'Modern engagement and commmunication products for community leaders - all on the first Platform made with members in mind.'
+        heroSubtext: 'Modern engagement and communication products for community leaders - all on the first platform made with members in mind.'
     },
     webinars: [
+
+
+        {
+            name: 'Build a thriving online community',
+            date: 'June 21st @ 10AM EST',
+            desc: 'Best practice advice and insights on how to activate your community, engage and inspire your members.',
+            slug: '06-21-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1528978882538',
+            link: '',
+            btn: '<a href="https://my.demio.com/ref/QRqgwAa6Pc7AIi2f" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
+        },
+        {
+            name: 'How can my organization get ready for GDPR?',
+            date: 'July 5th @ 10AM EST',
+            desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization ready.',
+            slug: '07-05-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1528978921806',
+            link: '',
+            btn: '<a href="https://my.demio.com/ref/Fakjqj6iKCWXaWhI" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
+        },
+
+        {
+            name: 'Build a thriving online community',
+            date: 'July 26th @ 10AM EST',
+            desc: 'Best practice advice and insights on how to activate your community, engage and inspire your members.',
+            slug: '07-26-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1528978882538',
+            link: '',
+            btn: '<a href="https://my.demio.com/ref/ojr8JtYQuPqS2ktw" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
+        },
+        {
+            name: 'How can my organization get ready for GDPR?',
+            date: 'May 24th @ 10AM CST',
+            desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization ready.',
+            slug: '05-24-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071',
+            link: 'https://www.youtube.com/embed/UbwmD19fh5o',
+            btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
+        },
 
         {
             name: 'Reduce administration and reach more members',
@@ -28,34 +67,6 @@ var unatyData = {
             img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738',
             link: '',
             btn: '<a href="https://my.demio.com/ref/KNHlLEYCsFNbPwDO" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
-        },
-        {
-            name: 'Activate your community and inspire action',
-            date: 'June 7th @ 10AM EST',
-            desc: 'Best practice advice and insights on how to activate your community, engage and inspire your members. We will be covering how to use Unaty to activate your members and supporters and increase participation.',
-            slug: '06-21-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538',
-            link: '',
-            btn: '<a href="https://my.demio.com/ref/naeWBcuvTbZsejha" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
-        },
-        {
-            name: 'Raise awareness and reach more members',
-            date: 'June 14th @ 10AM EST',
-            desc: 'Best practice advice and insights on how to raise awareness and reach potential members. We will be covering how to use Unaty to capture, convert and onboard new members.',
-            slug: '07-05-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078',
-            link: '',
-            btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
-        },
-
-        {
-            name: 'How can my organization get ready for GDPR?',
-            date: 'May 24th @ 10AM CST',
-            desc: 'Insights into the requirements and impact of the GDPR and a step-by-step guide on how to make your organization ready.',
-            slug: '05-24-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290012071',
-            link: 'https://www.youtube.com/embed/UbwmD19fh5o',
-            btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
         }
     ],
     blogs: [

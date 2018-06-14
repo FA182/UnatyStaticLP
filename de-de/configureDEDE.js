@@ -4,11 +4,11 @@
 
 var unatyData = {
     announcement: {
-        main: 'Sei dabei: Unser Webinar am 7. Juni',
-        itemText: 'Verwaltung reduzieren und Mitglieder erreichen',
-        itemLink: 'https://www.unaty.de/de-de/webinars/06-07-18.html',
+        main: 'Sei dabei: Unser Webinar am 21. Juni',
+        itemText: 'Eine lebhafte online community aufbauen',
+        itemLink: 'https://www.unaty.de/de-de/webinars/06-21-18.html',
         actionText: 'Jetzt registrieren →',
-        actionLink: "https://my.demio.com/ref/KNHlLEYCsFNbPwDO",
+        actionLink: "https://my.demio.com/ref/QRqgwAa6Pc7AIi2f",
         enabled: true
     },
     global: {
@@ -21,32 +21,34 @@ var unatyData = {
     webinars: [
 
         {
-            name: 'Verwaltung reduzieren und Mitglieder erreichen',
-            date: '7. Juni um 17 Uhr CET',
-            desc: 'Best practices, Ratschläge und Erfahrungen um die Verwaltung von Vereinen und Klubs zu digitalisieren und Mitglieder zu engagieren. Wir werden zeigen, wie Verwaltung von Netzwerken auf Unaty dezentralisiert wird und Mitglieder integriert werden.',
-            slug: '06-07-18',
-            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738',
-            link: '',
-            btn: '<a href="https://my.demio.com/ref/KNHlLEYCsFNbPwDO" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
-        },
-        {
-            name: 'Aktiviere und inspiriere Deine Gemeinschaft',
-            date: '07. Juni um 17 Uhr CET',
-            desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu aktivieren, mehr Mitglieder zu begeistern und inspirieren. Wir werden zeigen, wie sich Unaty verwenden lässt, um Mitglieder, Unterstützer, Freunde und Familien zu aktivieren.',
+            name: 'Eine lebhafte online community aufbauen',
+            date: '21. Juni @ 17 Uhr CET',
+            desc: 'Best practices wie man eine aktive digitale Gemeinschaft aufbaut',
             slug: '06-21-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457194538',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1528978570898',
             link: '',
-            btn: '<a href="https://my.demio.com/ref/naeWBcuvTbZsejha" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
+            btn: '<a href="https://my.demio.com/ref/QRqgwAa6Pc7AIi2f" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
         },
         {
-            name: 'Aufmerksamkeit schaffen und neue Mitglieder gewinnen',
-            date: '21. Juni um 17 Uhr CET',
-            desc: 'Best practices, Ratschläge und Erfahrungen um eine Community zu bewerben und neue Mitglieder zu erreichen. Wir werden zeigen, wie sich Unaty verwenden lässt, um Zielgruppen anzusprechen und sie zu rekrutieren.',
+            name: 'How can my organization get ready for GDPR?',
+            date: '5. Juli @ 17 Uhr CET',
+            desc: 'Best practices zu den Inhalten, Auswirkungen und Umsetzung der EU Datenschutzgrundverordnung für Organisationen der Zivilgesellschaft wie Vereine und Klubs',
             slug: '07-05-18',
-            img: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1525457287078',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1528978651974',
             link: '',
-            btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
+            btn: '<a href="https://my.demio.com/ref/Fakjqj6iKCWXaWhI" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
         },
+
+        {
+            name: 'Eine lebhafte online community aufbauen',
+            date: '26. Juli @ 17 Uhr CET',
+            desc: 'Best practices wie man eine aktive digitale Gemeinschaft aufbaut',
+            slug: '07-26-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1528978570898',
+            link: '',
+            btn: '<a href="https://my.demio.com/ref/ojr8JtYQuPqS2ktw" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Register</a>'
+        },
+
 
         {
             name: 'Wie mache ich meine Organisation bereit für die EU-DSGVO',
@@ -57,6 +59,16 @@ var unatyData = {
             link: 'https://www.youtube.com/embed/UbwmD19fh5o',
             btn: '<a href="https://my.demio.com/ref/1zxdGmaqtvP6AMAq" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
         },
+
+        {
+            name: 'Verwaltung reduzieren und Mitglieder erreichen',
+            date: '7. Juni um 17 Uhr CET',
+            desc: 'Best practices, Ratschläge und Erfahrungen um die Verwaltung von Vereinen und Klubs zu digitalisieren und Mitglieder zu engagieren. Wir werden zeigen, wie Verwaltung von Netzwerken auf Unaty dezentralisiert wird und Mitglieder integriert werden.',
+            slug: '06-07-18',
+            img: 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525541415738',
+            link: '',
+            btn: '<a href="https://my.demio.com/ref/KNHlLEYCsFNbPwDO" target="_blank" id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt Registrieren</a>'
+        }
 
 
     ],
