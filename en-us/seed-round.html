@@ -55,10 +55,11 @@
     <link href="https://www.unaty.de/" rel="canonical">
     <meta content="index, follow" name="robots">
     <meta name="copyright" content="Unaty Technologies GmbH Copyright (c) 2018">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
-        window.addEventListener("load", function(){
+        window.addEventListener("load", function () {
             window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
@@ -91,7 +92,7 @@
                     }
                 },
 
-                onStatusChange: function(status, chosenBefore) {
+                onStatusChange: function (status, chosenBefore) {
                     var type = this.options.type;
                     var didConsent = this.hasConsented();
                     if (type == 'opt-in' && didConsent) {
@@ -104,7 +105,7 @@
                     }
                 },
 
-                onRevokeChoice: function() {
+                onRevokeChoice: function () {
                     var type = this.options.type;
                     if (type == 'opt-in') {
                         // disable cookies
@@ -115,11 +116,13 @@
                         navigator.cookieEnabled = true
                     }
                 }
-            })});
+            })
+        });
     </script>
     <meta name="description"
           content="Unaty is a platform for Communities with simple tools to reach, support, engage, and activate more Members.">
-    <meta property="og:image" content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
+    <meta property="og:image"
+          content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
     <meta property="og:image:type" content="image/jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -137,11 +140,21 @@
     <meta name="twitter:description"
           content="Unaty is a platform for Communities with simple tools to reach, support, engage, and activate more Members.">
     <meta name="twitter:creator" content="@unatyde">
-    <meta name="twitter:image" content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
-    <meta name="twitter:url" content="https://www.unaty.de/">     <!-- Global site tag (gtag.js) - Google AdWords: 850680838 -->     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-850680838"></script>     <script>         window.dataLayer = window.dataLayer || [];         function gtag(){dataLayer.push(arguments);}         gtag('js', new Date());          gtag('config', 'AW-850680838');     </script>
+    <meta name="twitter:image"
+          content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524167660626">
+    <meta name="twitter:url" content="https://www.unaty.de/">
+    <!-- Global site tag (gtag.js) - Google AdWords: 850680838 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-850680838"></script>
+    <script>         window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-850680838');     </script>
     <meta name="twitter:domain" content="https://www.unaty.de">
     <script src="configureENUS.js"></script>
-    <link rel="apple-touch-icon" sizes="180x180"           href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333373730">
+    <link rel="apple-touch-icon" sizes="180x180"
+          href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333373730">
     <script type="text/javascript">
         localStorage.setItem('language', 'en-US');
     </script>
@@ -182,7 +195,7 @@
 
         function getUrlVars() {
             var vars = {};
-            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
                 vars[key] = value;
             });
             return vars;
@@ -199,7 +212,7 @@
         var linkInfo = 'https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525259393133'
         var linkDemo = 'https://app.unaty.de/o/mountainlions/login?demo=true'
 
-        if(vc==='1') {
+        if (vc === '1') {
 
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524647086561" alt="Unaty and Picus Capital" />'
             var text = 'Picus Capital'
@@ -208,7 +221,7 @@
             var linkDeck = 'http://bit.ly/2vGILgs'
             var linkInfo = 'http://bit.ly/2HttVv9'
             var linkDemo = 'http://bit.ly/2HqPMan'
-        } else if(vc==='0') {
+        } else if (vc === '0') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524647359129" alt="Unaty and Point Nine" />'
             var text = 'Point Nine'
             var linkBlog = 'http://bit.ly/2rgAMRu'
@@ -216,7 +229,7 @@
             var linkDeck = 'http://bit.ly/2rhH1oX'
             var linkInfo = 'http://bit.ly/2rj5gDi'
             var linkDemo = 'http://bit.ly/2IfCEEZ'
-        } else if(vc==='2') {
+        } else if (vc === '2') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651481310" alt="Unaty and Balderton" />'
             var text = 'Balderton'
             var linkBlog = 'http://bit.ly/2HQALLi'
@@ -224,7 +237,7 @@
             var linkDeck = 'http://bit.ly/2KAAQ7O'
             var linkInfo = 'http://bit.ly/2JOlJWR'
             var linkDemo = 'http://bit.ly/2HNMYAm'
-        } else if(vc==='3') {
+        } else if (vc === '3') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651500189" alt="Unaty and Connect Ventures" />'
             var text = 'Connect Ventures'
             var linkBlog = 'http://bit.ly/2rgMOdO'
@@ -232,7 +245,7 @@
             var linkDeck = 'http://bit.ly/2rj0DIK'
             var linkInfo = 'http://bit.ly/2HLB9yR'
             var linkDemo = 'http://bit.ly/2HQUsT6'
-        } else if(vc==='4') {
+        } else if (vc === '4') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651559304" alt="Unaty and Playfair" />'
             var text = 'Playfair'
             var linkBlog = 'http://bit.ly/2rj0she'
@@ -240,7 +253,7 @@
             var linkDeck = 'http://bit.ly/2HQcmp7'
             var linkInfo = 'http://bit.ly/2HPKtxA'
             var linkDemo = 'http://bit.ly/2roM0Ur'
-        } else if(vc==='5') {
+        } else if (vc === '5') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651490618" alt="Unaty and BlueYard" />'
             var text = 'BlueYard'
             var linkBlog = 'http://bit.ly/2FDF7ng'
@@ -248,7 +261,7 @@
             var linkDeck = 'http://bit.ly/2ri3W3A'
             var linkInfo = 'http://bit.ly/2JQZdg9'
             var linkDemo = 'http://bit.ly/2Ku08nP'
-        } else if(vc==='6') {
+        } else if (vc === '6') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651495006" alt="Unaty and Cherry Ventures" />'
             var text = 'Cherry Ventures'
             var linkBlog = 'http://bit.ly/2rhCfYT'
@@ -256,7 +269,7 @@
             var linkDeck = 'http://bit.ly/2KxaOCc'
             var linkInfo = 'http://bit.ly/2rjAWaQ'
             var linkDemo = 'http://bit.ly/2rg988k'
-        } else if(vc==='7') {
+        } else if (vc === '7') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651549904" alt="Unaty and Paua Ventures" />'
             var text = 'Paua Ventures'
             var linkBlog = 'http://bit.ly/2HLwi0B'
@@ -264,7 +277,7 @@
             var linkDeck = 'http://bit.ly/2HTzqUc'
             var linkInfo = 'http://bit.ly/2KyqR2S'
             var linkDemo = 'http://bit.ly/2joTpzj'
-        } else if(vc==='8') {
+        } else if (vc === '8') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651485771" alt="Unaty and Berlin Ventures" />'
             var text = 'Berlin Ventures'
             var linkBlog = 'http://bit.ly/2rigiZE'
@@ -272,7 +285,7 @@
             var linkDeck = 'http://bit.ly/2FF97yQ'
             var linkInfo = 'http://bit.ly/2Idxo4C'
             var linkDemo = 'http://bit.ly/2rj92f8'
-        } else if(vc==='9') {
+        } else if (vc === '9') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651535419" alt="Unaty and Mangrove" />'
             var text = 'Mangrove'
             var linkBlog = 'http://bit.ly/2ri4Axk'
@@ -281,7 +294,7 @@
             var linkInfo = 'http://bit.ly/2HMKhDl'
             var linkDemo = 'http://bit.ly/2rg7CTI'
 
-        } else if(vc==='10') {
+        } else if (vc === '10') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651506455" alt="Unaty and Creandum" />'
             var text = 'Creandum'
             var linkBlog = 'http://bit.ly/2JPxFYA'
@@ -289,7 +302,7 @@
             var linkDeck = 'http://bit.ly/2rlp1cu'
             var linkInfo = 'http://bit.ly/2HNwx6Z'
             var linkDemo = 'http://bit.ly/2IetQiv'
-        } else if(vc==='11') {
+        } else if (vc === '11') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651539944" alt="Unaty and Notion Capital" />'
             var text = 'Notion Capital'
             var linkBlog = 'http://bit.ly/2FDu51a'
@@ -297,7 +310,7 @@
             var linkDeck = 'http://bit.ly/2rjyS2O'
             var linkInfo = 'http://bit.ly/2JRmbnd'
             var linkDemo = 'http://bit.ly/2rivJQJ'
-        } else if(vc==='12') {
+        } else if (vc === '12') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651511454" alt="Unaty and Firestartr" />'
             var text = 'Firestartr'
             var linkBlog = 'http://bit.ly/2HOJcXD'
@@ -305,7 +318,7 @@
             var linkDeck = 'http://bit.ly/2IeH9PO'
             var linkInfo = 'http://bit.ly/2JPvEeO'
             var linkDemo = 'http://bit.ly/2Id4l0V'
-        } else if(vc==='13') {
+        } else if (vc === '13') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651575379" alt="Unaty and Seedcamp" />'
             var text = 'Seedcamp'
             var linkBlog = 'http://bit.ly/2HNnu6g'
@@ -313,7 +326,7 @@
             var linkDeck = 'http://bit.ly/2walROK'
             var linkInfo = 'http://bit.ly/2rj8Ix1'
             var linkDemo = 'http://bit.ly/2JSP0jt'
-        } else if(vc==='14') {
+        } else if (vc === '14') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651530126" alt="Unaty and Frontline" />'
             var text = 'Frontline Ventures'
             var linkBlog = 'http://bit.ly/2KvhErQ'
@@ -321,7 +334,7 @@
             var linkDeck = 'http://bit.ly/2HR0x6o'
             var linkInfo = 'http://bit.ly/2w718LJ'
             var linkDemo = 'http://bit.ly/2HNPvum'
-        } else if(vc==='15') {
+        } else if (vc === '15') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651590458" alt="Unaty and Target Partners" />'
             var text = 'Target Partners'
             var linkBlog = 'http://bit.ly/2w82Dcu'
@@ -329,7 +342,7 @@
             var linkDeck = 'http://bit.ly/2FESlAd'
             var linkInfo = 'http://bit.ly/2HKUYpU'
             var linkDemo = 'http://bit.ly/2FECly5'
-        } else if(vc==='16') {
+        } else if (vc === '16') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651569365" alt="Unaty and Reimann Investors" />'
             var text = 'Reimann Investors'
             var linkBlog = 'http://bit.ly/2HP5Oaa'
@@ -337,7 +350,7 @@
             var linkDeck = 'http://bit.ly/2IfY7xh'
             var linkInfo = 'http://bit.ly/2rgSXH1'
             var linkDemo = 'http://bit.ly/2HLjozq'
-        } else if(vc==='17') {
+        } else if (vc === '17') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651470297" alt="Unaty and Project A" />'
             var text = 'Project A Ventures'
             var linkBlog = 'http://bit.ly/2jl5XaP'
@@ -345,7 +358,7 @@
             var linkDeck = 'http://bit.ly/2KEjoze'
             var linkInfo = 'http://bit.ly/2w84Q7D'
             var linkDemo = 'http://bit.ly/2rj9Lgm'
-        } else if(vc==='18') {
+        } else if (vc === '18') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651580404" alt="Unaty and Senovo" />'
             var text = 'Senovo'
             var linkBlog = 'http://bit.ly/2rhHjvy'
@@ -353,7 +366,7 @@
             var linkDeck = 'http://bit.ly/2IgJutz'
             var linkInfo = 'http://bit.ly/2JKvyoM'
             var linkDemo = 'http://bit.ly/2KyvF88'
-        }  else if(vc==='19') {
+        } else if (vc === '19') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651585183" alt="Unaty and Sequoia" />'
             var text = 'Sequoia'
             var linkBlog = 'http://bit.ly/2rh8My2'
@@ -361,7 +374,7 @@
             var linkDeck = 'http://bit.ly/2FNldpO'
             var linkInfo = 'http://bit.ly/2KvmHbM'
             var linkDemo = 'http://bit.ly/2w7OcVV'
-        } else if(vc==='20') {
+        } else if (vc === '20') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525253756413" alt="Unaty and Accel" />'
             var text = 'Accel'
             var linkBlog = 'http://bit.ly/2jl5XaP'
@@ -369,7 +382,7 @@
             var linkDeck = 'http://bit.ly/2HJgoDR'
             var linkInfo = 'http://bit.ly/2JKvyoM'
             var linkDemo = 'http://bit.ly/2HOi1vQ'
-        } else if(vc==='21') {
+        } else if (vc === '21') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651516296" alt="Unaty and First Round" />'
             var text = 'First Round'
             var linkBlog = 'http://bit.ly/2HKQEXI'
@@ -377,7 +390,7 @@
             var linkDeck = 'http://bit.ly/2wkfM24'
             var linkInfo = 'http://bit.ly/2FC5h9S'
             var linkDemo = 'http://bit.ly/2Ky2OAX'
-        } else if(vc==='22') {
+        } else if (vc === '22') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651524563" alt="Unaty and Founders Fund" />'
             var text = 'Founders Fund'
             var linkBlog = 'http://bit.ly/2HKdRco'
@@ -385,7 +398,7 @@
             var linkDeck = 'http://bit.ly/2KF5n4h'
             var linkInfo = 'http://bit.ly/2JRI85V'
             var linkDemo = 'http://bit.ly/2FG9gSO'
-        } else if(vc==='23') {
+        } else if (vc === '23') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651594400" alt="Unaty and Thrive Capital" />'
             var text = 'Thrive Capital'
             var linkBlog = 'http://bit.ly/2JLlsUP'
@@ -393,7 +406,7 @@
             var linkDeck = 'http://bit.ly/2wjOLfi'
             var linkInfo = 'http://bit.ly/2w84mOR'
             var linkDemo = 'http://bit.ly/2wfwShQ'
-        } else if(vc==='24') {
+        } else if (vc === '24') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524651563805" alt="Unaty and Redpoint" />'
             var text = 'Redpoint'
             var linkBlog = 'http://bit.ly/2HOltKU'
@@ -401,15 +414,15 @@
             var linkDeck = 'http://bit.ly/2HSX8DY'
             var linkInfo = 'http://bit.ly/2joajxQ'
             var linkDemo = 'http://bit.ly/2JP7fpL'
-        } else if(vc==='25') {
-            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525253763328" alt="Unaty and Redpoint" />'
+        } else if (vc === '25') {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525253763328" alt="Unaty and Nauta" />'
             var text = 'Nauta Capital'
             var linkBlog = 'http://bit.ly/2Kyg9Jl'
             var linkVideo = 'http://bit.ly/2FOBHxX'
             var linkDeck = 'http://bit.ly/2FPr79R'
             var linkInfo = 'http://bit.ly/2HT2oTO'
             var linkDemo = 'http://bit.ly/2rhXGrO'
-        } else if(vc==='26') {
+        } else if (vc === '26') {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525680540062" alt="Unaty and Surplus" />'
             var text = 'Surplus'
             var linkBlog = 'http://bit.ly/2wpWCI2'
@@ -417,6 +430,12 @@
             var linkDeck = 'http://bit.ly/2HVdaNt'
             var linkInfo = 'http://bit.ly/2HSv7wa'
             var linkDemo = 'http://bit.ly/2wnLPOQ'
+        } else if (vc === '27') {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1528741046566" alt="Unaty and WestTech" />'
+            var text = 'WestTech'
+        } else if(vc === '28') {
+            var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1528742308404" alt="Unaty and Las Olas VC" />'
+            var text = 'Las Olas'
         } else {
             var img = '<img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1524148716015" alt="Investor" />'
             var text = 'Investor'
@@ -425,14 +444,17 @@
     </script>
     <!-- Hotjar Tracking Code for www.unaty.de -->
     <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:867076,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+            h._hjSettings = {hjid: 867076, hjsv: 6};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
             a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 
         window.addEventListener('scroll', function () {
 
@@ -473,7 +495,8 @@
     </div>
 
     <div>
-        <script type="text/javascript">document.write(text)</script> & Unaty Partnership
+        <script type="text/javascript">document.write(text)</script>
+        & Unaty Partnership
     </div>
 
     <div>
@@ -481,7 +504,9 @@
     </div>
 
     <div>
-        <a class="ui button blue large compact" href="mailto:mccall@unaty.de?subject=Partnership with Unaty&body=Hi! We'd love to discuss a possible partnership with Unaty.">Get in Touch</a>
+        <a class="ui button blue large compact"
+           href="mailto:mccall@unaty.de?subject=Partnership with Unaty&body=Hi! We'd love to discuss a possible partnership with Unaty.">Get
+            in Touch</a>
     </div>
 
 </div>
@@ -494,22 +519,31 @@
 
             <div>
 
-                <div class="flp-title-text">
-                    Dear <script type="text/javascript">document.write(text)</script> Team, we're glad you're here!
+                <div class="flp-title-text-new thefinalTextInvestor">
+                    Dear
+                    <script type="text/javascript">document.write(text)</script>
+                    Team, we're glad you're here!
                 </div>
 
-                <div class="flp-subtitle-text">
-                    We're raising <strong>€1.6M in our Seed Round</strong> to build out and market our platform which can <strong>impact over 4 Billion people</strong>. We'd like to give you an idea who you might be working with and wanted to tell you some of the things you might like to know.
+                <div class="flp-subtitle-text-new thefinalTextInvestorSub">
+                    We're raising <strong>€1.6M in our Seed Round</strong> to build out and market our platform which
+                    can <strong>impact over 4 Billion people</strong>. We'd like to give you an idea who you might be
+                    working with and wanted to tell you some of the things you might like to know.
                 </div>
 
-
+                <a href="mailto:mccall@unaty.de?subject=Unaty Partnership"
+                   id="getStartedBtn" class="ui button blue large compact marginLeft24" role="button">Get in Touch
+                </a>
 
             </div>
 
-            <div class="final-main-image-home">
+            <div class="final-main-image-home-new">
                 <script type="text/javascript">document.write(img)</script>
 
-                <div><strong>Unaty & <script type="text/javascript">document.write(text)</script></strong> could achieve great things together</div>
+                <div class="textAlignCenter"><strong>Unaty &
+                    <script type="text/javascript">document.write(text)</script>
+                </strong> could achieve great things together
+                </div>
 
             </div>
 
@@ -532,7 +566,10 @@
             </div>
 
             <div class="new-subheader-section">
-                If you have any questions feel free to send us an email at <a href="mailto:mccall@unaty.de">mccall@unaty.de</a> or <a id="intercom_chat_link" class="plainTextLink" href="mailto:auma9g4d@intercom-mail.com">chat</a> with us. <br/>Be sure to check out our <script>document.write('<a class="" target="_blank" href="' + linkBlog + '">Blog</a>');</script> and <script>document.write('<a class="" target="_blank" href="' + linkVideo + '">Story Video</a>');</script> as well.
+                If you have any questions feel free to send us an email at <a href="mailto:mccall@unaty.de">mccall@unaty.de</a>
+                or <a id="intercom_chat_link" class="plainTextLink" href="mailto:auma9g4d@intercom-mail.com">chat</a>
+                with us. <br/>Be sure to check out our <a class="" target="_blank" href="https://blog.unaty.de/">Blog</a> and
+                <a class="" target="_blank" href="https://www.youtube.com/watch?v=noabdyzBGkU">Story Video</a> as well.
             </div>
 
             <div class="ui stackable grid">
@@ -543,22 +580,22 @@
                             <span>Overview Infographic</span>
                         </div>
 
-                        <script>
-                            document.write('<a class="final-use-cases-list-item-two" target="_blank" href="' + linkInfo + '">');
-                        </script>
+                       <a class="final-use-cases-list-item-two" target="_blank" href="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525259393133">
 
-                            <div>Unaty Infographic Overview</div>
+                        <div>Unaty Infographic Overview</div>
 
-                            <div>
-                                Check out this Infographic to learn about our Team, Tech, TAM, Traction, Trenches, The Ask, and look at a project timeline with a breakdown of the next 24 months.
-                            </div>
+                        <div>
+                            Check out this Infographic to learn about our Team, Tech, TAM, Traction, Trenches, The Ask,
+                            and look at a project timeline with a breakdown of the next 24 months.
+                        </div>
 
-                            <div class="hidden-block">Powered by: <span class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</span>
-                                + <span class="final-powered-by-icon"><i
-                                        class="ui icon red lightning"></i> Engage</span></div>
+                        <div class="hidden-block">Powered by: <span class="final-powered-by-icon"><i
+                                class="ui icon teal magic"></i> Build</span>
+                            + <span class="final-powered-by-icon"><i
+                                    class="ui icon red lightning"></i> Engage</span></div>
 
 
-                            <div><span>Download →</span></div>
+                        <div><span>Download →</span></div>
 
                         </a>
 
@@ -570,20 +607,21 @@
                             <span>Pitch Deck</span>
                         </div>
 
-                        <script>
-                            document.write('<a class="final-use-cases-list-item-two" target="_blank" href="' + linkDeck + '">');
-                        </script>
 
-                            <div>Unaty Pitch Deck</div>
-                            <div>
-                                We uploaded a text-rich version of our Pitch Deck for your perusal and would love to come by and pitch in person.
-                            </div>
-
-                            <div class="hidden-block">Powered by:<span class="final-powered-by-icon"><i
-                                    class="ui icon red lightning"></i> Engage</span></div>
+                           <a class="final-use-cases-list-item-two" target="_blank" href="https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1529475764998">
 
 
-                            <div><span>Download →</span></div>
+                        <div>Unaty Pitch Deck</div>
+                        <div>
+                            We uploaded a text-rich version of our Pitch Deck for your perusal and would love to come by
+                            and pitch in person.
+                        </div>
+
+                        <div class="hidden-block">Powered by:<span class="final-powered-by-icon"><i
+                                class="ui icon red lightning"></i> Engage</span></div>
+
+
+                        <div><span>Download →</span></div>
 
                         </a>
 
@@ -595,22 +633,21 @@
                             <span>Platform Demo</span>
                         </div>
 
-                        <script>
-                            document.write('<a class="final-use-cases-list-item-two" target="_blank" href="' + linkDemo + '">');
-                        </script>
+                        <a class="final-use-cases-list-item-two" target="_blank" href="https://app.unaty.de/o/mountainlions/login?demo=true">
 
-                            <div>Explore the Unaty Platform</div>
-                            <div>
-                                Check out Unaty with our Demo Community <strong>Mountain View Lions</strong> to get a better idea of what we want to build.
-                            </div>
+                        <div>Explore the Unaty Platform</div>
+                        <div>
+                            Check out Unaty with our Demo Community <strong>Mountain View Lions</strong> to get a better
+                            idea of what we want to build.
+                        </div>
 
-                            <div class="hidden-block">Powered by: <span class="final-powered-by-icon"><i
-                                    class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span>
-                                + <span class="final-powered-by-icon"><i
-                                        class="ui icon red lightning"></i> Engage</span></div>
+                        <div class="hidden-block">Powered by: <span class="final-powered-by-icon"><i
+                                class="ui icon green  grow-icon-3 icon-growicon position-relative"></i> Grow</span>
+                            + <span class="final-powered-by-icon"><i
+                                    class="ui icon red lightning"></i> Engage</span></div>
 
 
-                            <div><span>Go to Demo →</span></div>
+                        <div><span>Go to Demo →</span></div>
 
                         </a>
 
@@ -635,12 +672,17 @@
 
         <div class="ui container">
 
-            <div class="secondary-new-title makeTextNormal">We want to build the best platform for any Organization to make administration easier, members happier, and raise awareness. <strong>We need your help to make it happen</strong>.</div>
+            <div class="secondary-new-title makeTextNormal">We want to build the best platform for any Organization to
+                make administration easier, members happier, and raise awareness. <strong>We need your help to make it
+                    happen</strong>.
+            </div>
 
             <div class="ui divider hidden"></div>
 
             <div class="platform-video-box">
-                <div class="ui embed" id="unatyVideo"><img class="placeholder" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105" alt="Screenshot of the Platform">
+                <div class="ui embed" id="unatyVideo"><img class="placeholder"
+                                                           src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1520332632105"
+                                                           alt="Screenshot of the Platform">
                     <iframe src="https://www.youtube.com/embed/noabdyzBGkU" alt="Explanation video for the Platform">
                     </iframe>
                 </div>

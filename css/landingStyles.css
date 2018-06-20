@@ -1479,11 +1479,11 @@ img.unatySmartCityFrameworkImg {
         margin-top: 8px !important;
     }
 
-    .mobileFlexFlow > div:nth-child(1) > div:nth-child(1) {
+    .unatyFluidPadding.mobileFlexFlow > div:nth-child(1) > div:nth-child(1) {
         margin-bottom: 8px;
     }
 
-    .mobileFlexFlow > div:nth-child(1) > div:nth-child(2), .mobileFlexFlow > div:nth-child(1) input {
+    .unatyFluidPadding.mobileFlexFlow > div:nth-child(1) > div:nth-child(2), .mobileFlexFlow > div:nth-child(1) input {
         display: none;
     }
 
@@ -5769,6 +5769,7 @@ a.nmmPI i {
 
 .final-main-image-home img {
     max-width: 160%;
+    max-width: 1100px;
     margin-top: 48px;
     margin-left: 24px;
 }
@@ -7738,6 +7739,7 @@ body {
 
 .productPageScreenshot img {
     margin-top: 24px !important;
+    max-width: 90% !important;
 }
 
 .productPageScreenshot img {
@@ -8155,7 +8157,7 @@ body {
     padding-right: 96px !important;
 }
 @media all and (max-width: 1200px) {
-    .final-main-image-home img {
+    .final-main-image-home:not(.productPageScreenshot) img {
         max-width: 220% !important;
         margin-top: 64px !important;
 
@@ -8166,7 +8168,7 @@ body {
     .mobileFlexFlow.unatyFluidPadding {
         flex-flow: column-reverse !important;
     }
-    .final-main-image-home img {
+    .final-main-image-home:not(.productPageScreenshot) img {
         max-width: 85% !important;
         margin-top: 12px;
         margin-left: 0 !important;
@@ -8199,23 +8201,26 @@ body {
     .ui.container.flex-control-grid.mobileFlexFlow {
         padding: 0 !important;
     }
-    .flp-subtitle-text {
+    .unatyFluidPadding .flp-subtitle-text {
         display: block !important;
+    }
+    .final-landing-page-main2 .flex-display {
+        flex-flow: column !important;
     }
 }
 @media all and (max-width: 500px) {
     .ui.container.flex-control-grid.mobileFlexFlow {
         padding: 0 !important;
     }
-    .mobileFlexFlow > div:nth-child(1) > div:nth-child(1) {
+    .mobileFlexFlow.unatyFluidPadding > div:nth-child(1) > div:nth-child(1) {
         font-size: 32px;
     }
-    .flp-subtitle-text {
+    .unatyFluidPadding .flp-subtitle-text {
         font-size: 18px;
         margin-top: 12px !important;
         display: block !important;
     }
-    .mobileFlexFlow .final-main-image-home > img {
+    .mobileFlexFlow.unatyFluidPadding .final-main-image-home > img {
         max-width: 95% !important;
     }
     .unatyFluidPadding {
@@ -8226,4 +8231,53 @@ body {
     .flp-title-text {
         font-size: 28px !important;
     }
+}
+.flp-title-text.smallerText {
+    font-size: 48px;
+    line-height: 56px;
+}
+.flp-subtitle-text.smallerText {
+    font-size: 20px;
+    line-height: 32px !important;
+}
+.flp-title-text-new {
+    font-family: 'unaty-cheltenham' !important;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.83);
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.flp-subtitle-text-new {
+    font-family: lato;
+    margin-bottom: 18px;
+    margin-top: 16px;
+    line-height: 1.5 !important;
+    font-size: 18px;
+
+    color: rgba(0, 0, 0, 0.53);
+}
+.final-main-image-home-new {
+
+}
+.final-main-image-home-new img {
+    max-width: 95%;
+    margin-top: 24px;
+    border-radius: 4px;
+}
+.thefinalTextInvestor {
+    margin-left: 24px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 56px;
+}
+.thefinalTextInvestorSub {
+    margin-left: 24px;
+    font-size: 20px;
+
+}
+.marginLeft24 {
+    margin-left: 24px !important;
 }
