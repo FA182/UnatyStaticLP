@@ -4,10 +4,10 @@
 
 var unatyData = {
     announcement: {
-        main: 'Gemeinnützige und junge Organisationen',
-        itemText: 'in den letzten 2 Jahren gegründet können Unaty kostenfrei nutzen',
+        main: 'Kostenlose Nutzung: ',
+        itemText: 'Gemeinnützige oder junge Organisation?',
         itemLink: 'https://www.unaty.de/de-de/pricing.html',
-        actionText: 'Jetzt registrieren →',
+        actionText: 'Jetzt für kostenlose Produkte bewerben →',
         actionLink: "mailto:mccall@unaty.de?subject=Register%20for%20Unaty%20for%20Free&body=Please%20tell%20us%20about%20your%20organization%20here",
         enabled: true
     },
