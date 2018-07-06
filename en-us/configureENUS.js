@@ -4,11 +4,11 @@
 
 var unatyData = {
     announcement: {
-        main: 'Free products: ',
-        itemText: 'Charitable or young organization? Apply for free Products',
-        itemLink: 'https://www.unaty.de/en-us/pricing.html',
+        main: 'Young or Charitable Organization? ',
+        itemText: 'Get all Unaty products for free',
+        itemLink: 'mailto:mccall@unaty.de?subject=Register for Unaty for Free&body=Please tell us about your organization here',
         actionText: 'Apply now →',
-        actionLink: "mailto:mccall@unaty.de?subject=Register%20for%20Unaty%20for%20Free&body=Please%20tell%20us%20about%20your%20organization%20here",
+        actionLink: "mailto:mccall@unaty.de?subject=Register for Unaty for Free&body=Please tell us about your organization here",
         enabled: true
     },
     global: {
