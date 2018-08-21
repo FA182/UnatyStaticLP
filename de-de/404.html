@@ -49,7 +49,7 @@
           href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
-        window.addEventListener("load", function () {
+        window.addEventListener("load", function(){
             window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
@@ -64,10 +64,10 @@
                 "position": "bottom-left",
                 "type": "opt-in",
                 "content": {
-                    "message": "\nCookies are important to the proper functioning of a site. To improve your experience, we use cookies to remember log-in details and provide secure log-in, and collect statistics to optimize site functionality.",
-                    "dismiss": "Not Now",
-                    "allow": "Agree and Proceed",
-                    "href": "https://www.unaty.de/en-us/company/privacy.html"
+                    "message": "\nCookies sind für die korrekte Funktionsweise von Unaty wichtig. Wir nutzen Cookies zum bequemen Bereitstellen Ihrer Anmeldedaten, um eine sichere Anmeldung zu garantieren, und um anonyme statistische Daten zur Optimierung der Website zu erheben. Klicken Sie auf 'Stimme zu und weiter', um Cookies zu akzeptieren oder klicken Sie auf 'Nicht Jetzt', um Cookies vorerst abzustellen.",
+                    "dismiss": "Nicht Jetzt",
+                    "allow": "Stimme zu und weiter",
+                    "href": "https://www.unaty.de/de-de/company/privacy.html"
                 },
                 onInitialise: function (status) {
                     var type = this.options.type;
@@ -82,7 +82,7 @@
                     }
                 },
 
-                onStatusChange: function (status, chosenBefore) {
+                onStatusChange: function(status, chosenBefore) {
                     var type = this.options.type;
                     var didConsent = this.hasConsented();
                     if (type == 'opt-in' && didConsent) {
@@ -95,7 +95,7 @@
                     }
                 },
 
-                onRevokeChoice: function () {
+                onRevokeChoice: function() {
                     var type = this.options.type;
                     if (type == 'opt-in') {
                         // disable cookies
@@ -106,8 +106,7 @@
                         navigator.cookieEnabled = true
                     }
                 }
-            })
-        });
+            })});
     </script>
 
     <!-- Global site tag (gtag.js) - Google AdWords: 850680838 -->
