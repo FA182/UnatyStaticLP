@@ -9,7 +9,7 @@ var unatyData = {
         itemLink: 'mailto:mccall@unaty.de?subject=Register for Unaty for Free&body=Please tell us about your organization here',
         actionText: 'Apply now →',
         actionLink: "mailto:mccall@unaty.de?subject=Register for Unaty for Free&body=Please tell us about your organization here",
-        enabled: true
+        enabled: false
     },
     global: {
       promises: 'Free Unaty Platform ● Simple Setup ● GDPR compliant'
@@ -159,7 +159,7 @@ var signUp = '<div class="final-general-section"> <div class="ui fluid container
 if(unatyData.announcement.enabled) {
     var accouncement = '<div class="announcementBar" id="webinarAnnouncement">'+unatyData.announcement.main+' <a href="'+unatyData.announcement.itemLink+'">'+unatyData.announcement.itemText+'</a> - <a href="'+unatyData.announcement.actionLink+'">'+unatyData.announcement.actionText+'</a></div>'
 } else {
-    var accouncement = null;
+    var accouncement = '<span></span>';
 }
 
 var headData = '<link rel="shortcut icon" href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta charset="utf-8"> <meta name="keywords" content="association management software, membership management, membership website, create a membership website, build a membership website, best membership sites, knowledge management system, church membership software"> <meta name="apple-mobile-web-app-title" content="Unaty"> <meta name="application-name" content="Unaty"> <meta name="author" content="Unaty Technologies GmbH"> <link href="https://www.unaty.de/" rel="canonical"> <meta content="index, follow" name="robots"> <meta name="copyright" content="Unaty Technologies GmbH Copyright (c) 2018"> <meta name="description" content="Reach, activate and connect your community with Unaty."> <meta property="og:image" content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525262743352"> <meta property="og:image:type" content="image/jpg"> <meta property="og:image:width" content="1200"> <meta property="og:image:height" content="630"> <meta content="en_US" property="og:locale"> <meta content="website" property="og:type"> <meta content="https://www.unaty.de/" property="og:url"> <meta content="Unaty" property="og:site_name"> <!-- Twitter Card data --> <meta name="twitter:card" content="summary"> <meta name="twitter:site" content="@unatyde"> <meta name="twitter:title" content="Reach, activate and connect your community with Unaty"> <meta name="twitter:description" content="Reach, activate and connect your community with Unaty"> <meta name="twitter:creator" content="@unatyde"> <meta name="twitter:image" content="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525262743352"> <meta name="twitter:url" content="https://www.unaty.de/"> <meta name="twitter:domain" content="https://www.unaty.de"> <link rel="apple-touch-icon" sizes="180x180" href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333373730"> <link rel="icon" type="image/png" sizes="32x32" href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333361779"> <link rel="icon" type="image/png" sizes="16x16" href="https://unaty-media.s3.amazonaws.com/users/undefined/public/1513333346991"> <link rel="shortcut icon" href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">'
