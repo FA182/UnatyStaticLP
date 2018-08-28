@@ -171,7 +171,14 @@
 
             <div class="un-mn-logo">
                 <a  href="https://www.unaty.de/en-us/index.html">
-                    <img src="https://unaty-media.s3.amazonaws.com/organizations/ykmddfYPoaHY2kf52/public/main/1534028463625" />
+                    <script type="text/javascript">
+                        if(window.innerWidth<551) {
+                            document.write('<img src="https://unaty-media.s3.amazonaws.com/static/logos/logoNormal.png" />')
+                        } else {
+                            document.write('<img src="https://unaty-media.s3.amazonaws.com/organizations/ykmddfYPoaHY2kf52/public/main/1534028463625" />')
+                        }
+                    </script>
+                  
                 </a>
 
             </div>
@@ -202,7 +209,7 @@
                 <h1>Passion at work.</h1>
             </div>
 
-            <div>
+            <div id="hideunder550">
                 <span>
                   A community platform that keeps leaders and members on the same page.
                 </span>
@@ -233,6 +240,16 @@
                         We've received your information and will send your invitation shortly.
                     </div>
                 </div>
+            </div>
+            
+            <div id="hideover550">
+                <span>
+                  A community platform that keeps leaders and members on the same page.
+                </span>
+              
+                <span>Unaty brings your members, files, and communication together in one place.</span>
+                <span>It's administration, engagement, and recruitment for modern communities.</span>
+            
             </div>
 
         </div>
