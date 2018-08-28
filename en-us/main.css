@@ -2924,15 +2924,27 @@ span.un-asterix {
     .un-lp-section-one>div:nth-child(1)>div:nth-child(1) h1 {
         color: rgb(72,72,72) !important;
         text-shadow: none !important;
-            font-size: 56px !important;
+            font-size: 64px !important;
     line-height: 1.1 !important;
+            letter-spacing: 0 !important;
     }
     .un-lp-section-one>div:nth-child(1)>div:nth-child(3) {
         margin-top: 24px !important;
+            background-color: #fff !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
     }
     .un-lp-section-one>div:nth-child(1)>div:nth-child(2) {
         color: rgb(121,121,121) !important;
         text-shadow: none !important;
+    }
+    #mainForm {
+            padding-bottom: 6px !important;
+    }
+    .un-lp-signup-box>div:nth-child(2) {
+            color: rgb(144,144,144) !important;
+    line-height: normal;
+        font-size: 15px !important;
     }
     .un-menu>div:nth-child(2)>a:nth-child(2) {
            text-shadow: none !important;
@@ -3003,17 +3015,20 @@ span.un-asterix {
         display: none !important
     }
     .un-lp-section-one>div:nth-child(1)>div:nth-child(4) {
-        padding-left: 24px;
+         padding-left: 24px;
     padding-right: 24px;
     text-align: left;
-            font-size: 20px;
-            font-family: CircularBook !important;
-    letter-spacing: 0.4px;
-    margin-bottom: 24px;
-        line-height: 1.5;
-        color: rgb(121,121,121) !important;
+    font-size: 19px;
+    font-family: CircularBook !important;
+    letter-spacing: normal;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: rgb(121,121,121) !important;
     text-shadow: none !important;
-        margin-top: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #fafafa;
+    margin-top: 12px;
     }
     .un-lp-section-one>div:nth-child(1)>div:nth-child(4) span {
             display: contents;
