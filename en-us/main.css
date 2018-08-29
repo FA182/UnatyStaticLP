@@ -2924,7 +2924,7 @@ span.un-asterix {
     .un-lp-section-one>div:nth-child(1)>div:nth-child(1) h1 {
         color: rgb(72,72,72) !important;
         text-shadow: none !important;
-            font-size: 64px !important;
+            font-size: 44px !important;
     line-height: 1.1 !important;
             letter-spacing: 0 !important;
     }
@@ -3107,7 +3107,7 @@ span.un-asterix {
     text-align: center;
 }
 .un-lp-section-one>div:nth-child(1)>div:nth-child(1) h1 {
-    font-size: 81px;
+    font-size: 72px;
     line-height: normal;
     color: #fff;
     text-shadow: 1px 1px 8px rgba(72, 72, 72, 0.5);
