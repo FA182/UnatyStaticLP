@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Where passion inspires participation - Unaty</title>
+    <script src="configureENUS.js"></script>
+    <script type="text/javascript">
+        document.write(headData)
+
+    </script>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
+    <link target="_blank" href="../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+    <script src="../semantic/dist/jquery-3.1.1.min.js"></script>
+    <script src="../semantic/dist/semantic.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Listen to submit event on the <form> itself!
+            $('#mainForm').submit(function(e) {
+
+                e.preventDefault();
+
+                resetErrors()
+
+                $("#submitBtn").addClass('loading')
+
+
+                var name = $("#nameInput").val();
+                var email = $("#emailInput").val();
+
+                checkFields(name, email)
+
+            });
+
+            function resetErrors() {
+                document.getElementById("nameInputBox").className = "ui input"
+                document.getElementById("emailInputBox").className = "ui input"
+
+            }
+
+            function stopLoading() {
+                document.getElementById("submitBtn").className = "ui button large compact blue"
+            }
+
+            function checkFields(name, email) {
+
+                let emailSubmit = email.trim()
+                let nameSubmit = name.trim()
+                let error = false
+
+                // email check
+
+                // name check
+
+                if (nameSubmit.length < 1) {
+                    // throw error
+                    document.getElementById("nameInputBox").className = "ui input error"
+                    error = true
+                }
+
+                if (emailSubmit.length < 1) {
+                    // throw error
+                    document.getElementById("emailInputBox").className = "ui input error"
+                    error = true
+                }
+
+                if (error) {
+                    stopLoading()
+                    return;
+                }
+
+                submitForm(emailSubmit, nameSubmit)
+            }
+
+            function submitForm(email, name) {
+                var data = {
+                    email: email,
+                    name: name
+                }
+                const Url = 'https://script.google.com/macros/s/AKfycbzVJ0JPzjSf_vpIRkvBVgv_3KGgMnUrmmJfHtORaMj0SddmCX95/exec'
+                $.post(Url, data, function(data, status) {
+                    if (status === 'success') {
+                        showSuccess()
+                    } else {
+                        showFailure()
+                    }
+                })
+
+            }
+
+            function showSuccess() {
+                document.getElementById("mainForm").className = "hidden-block"
+                document.getElementById("mainSectionOne").className = "hidden-block"
+                document.getElementById("mainSectionTwo").className = "un-lp-success-area"
+            }
+
+            function showFailure() {
+                resetErrors()
+                stopLoading()
+                alert('Submission failed')
+            }
+
+        });
+
+
+        // set initial bkg image
+
+        var num = Math.floor(Math.random() * 15)
+
+        var bkgs = [{
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186682'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186678'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186680'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186679'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534103000300'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186681'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534103000201'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186677'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186525'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186674'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534103000205'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534103000203'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186673'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186676'
+            },
+            {
+                img: 'https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186672'
+            }
+
+        ]
+
+    </script>
+
+</head>
+
+<body id="un-body">
+
+    <div class="un-menu animated fadeIn un-absolute-header">
+
+        <div>
+
+            <div class="un-mn-logo">
+                <a  href="https://www.unaty.de/en-us/index.html">
+                    <script type="text/javascript">
+                        if(window.innerWidth<551) {
+                            document.write('<img src="https://unaty-media.s3.amazonaws.com/static/logos/logoNormal.png" />')
+                        } else {
+                            document.write('<img src="https://unaty-media.s3.amazonaws.com/organizations/ykmddfYPoaHY2kf52/public/main/1534028463625" />')
+                        }
+                    </script>
+                  
+                </a>
+
+            </div>
+
+            <div class="un-mn-items">
+
+                <a  href="https://www.unaty.de/en-us/why-unaty.html" class=" un-white-text">Why Unaty?</a>
+
+
+            </div>
+        </div>
+
+        <div>
+
+            <a href="https://app.unaty.de/login" class="un-plain-link un-white-text hidden-block">Sign in</a>
+
+            <a href="https://app.unaty.de/login" class="ui button inverted un-button large compact un-show-mobile">Sign in</a>
+
+        </div>
+
+    </div>
+
+    <div class="un-lp-section-one" id="lpBkg">
+
+        <div>
+
+            <div>
+                <h1>Where passion inspires participation.</h1>
+            </div>
+
+            <div id="hideunder550">
+                <span>
+                  A community platform that keeps leaders and members on the same page.
+                </span>
+              
+                <span>Unaty brings your members, files, and communication together in one place.</span>
+                <span>It's administration, engagement, and recruitment for modern communities.</span>
+            
+            </div>
+
+            <div class="un-lp-signup-box">
+                <form id="mainForm" class="ui form large">
+                    <div id="emailInputBox" class="ui input">
+                        <input id="emailInput" placeholder="Your email" />
+                    </div>
+                    <div id="nameInputBox" class="ui input">
+                        <input id="nameInput" placeholder="Community name" />
+                    </div>
+                    <button id="submitBtn" class="ui button blue compact large">Sign up</button>
+                </form>
+                <div id="mainSectionOne">
+                    Sign up to get your invitation to Unaty.
+                </div>
+                <div id="mainSectionTwo" class="hidden-block">
+                    <div>
+                        <i class="ui icon check inverted large"></i>
+                    </div>
+                    <div>
+                        We've received your information and will send your invitation shortly.
+                    </div>
+                </div>
+            </div>
+            
+            <div id="hideover550">
+                <span>
+                  A community platform that keeps leaders and members on the same page.
+                </span>
+              
+                <span>Unaty brings your members, files, and communication together in one place.</span>
+                <span>It's administration, engagement, and recruitment for modern communities.</span>
+            
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="un-lp-section-two">
+
+        <div class="ui container">
+
+            <div class="ui grid three columns stackable">
+                <div class="row">
+                    <div class="column">
+                        <div class="un-lp-col-img-2">
+                            <div>
+                                <img src="https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1535380548729" />
+                            </div>
+                          
+                            <div>
+                                Help leaders inspire
+                            </div>
+                            
+                            <div>
+                                It's easy to better understand, reach, and activate your members with Unaty's engagement tools. Make <span class="un-lp-underline">informed decisions</span> and plan events members will love and send content they actually want to see.
+                            </div>
+                            <div>
+                                <i class="ui icon external square"></i> 30% higher member participation
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="un-lp-col-img-2">
+                            <div>
+                                <img src="https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1535380584092" />
+                            </div>
+                           
+
+                            
+                            <div>
+                                Involve more members
+                            </div>
+                            
+                            <div>
+                                Unaty was <span class="un-lp-underline">built with members in mind</span> and makes it simple to join the conversation, make suggestions and have their voice heard. It <span class="un-lp-underline">gives members control</span> over their data, interests, and reachability. 
+                            </div>
+                             <div>
+                                <i class="ui icon comment"></i> Reach up to 40% more members
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="un-lp-col-img-2">
+                            <div>
+                                <img src="https://unaty-media.s3.amazonaws.com/organizations/QrYFMZuREag4YNxJo/public/main/1534092775201" />
+                            </div>
+                            
+                            <div>
+                               Less work, more fun
+                            </div>
+                            
+                            <div>
+                                Unlike other membership platforms, <span class="un-lp-underline">Unaty keeps working</span> even after you turn in. It updates member data, sends reminders, and backs up your files automatically - so you can finally <span class="un-lp-underline">get back to having fun</span>.
+                            </div>
+                            <div>
+                                <i class="ui icon cogs"></i> Spend 70% less time on administration
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="un-lp-section-three">
+
+        <div class="ui container">
+            <div class="un-lp-mission-area">
+                <div>
+                    <img src="https://unaty-media.s3.amazonaws.com/static/logos/logoNormal.png" />
+                </div>
+                <div>We're on a mission to empower leaders to inspire members and positively transform their community.</div>
+            </div>
+
+        </div>
+
+    </div>
+    
+<div class="un-lp-footer">
+    
+    
+    </div>
+<script type="text/javascript">document.write(footer)</script>
+
+    <div id="mobileMenu" class="hidden-block">
+
+        <div>
+
+            <div class="ui small header"><a class="un-link-icon">Why Unaty <i class="ui icon right angle"></i></a></div>
+
+            <div class="ui divider hidden"></div>
+
+            <div class="ui sub header">Use Cases</div>
+
+            <div class="ui list relaxed">
+                <a class="item un-link-alt">Reduce administration and reach more members</a>
+                <a class="item un-link-alt">Reduce administration and reach more members</a>
+                <a class="item un-link-alt">Reduce administration and reach more members</a>
+                <a class="item un-link-alt">Reduce administration and reach more members</a>
+            </div>
+
+            <div class="ui divider hidden"></div>
+            <div class="ui sub header">Products</div>
+
+            <div class="ui list relaxed">
+                <a class="item un-link-alt">Build</a>
+                <a class="item un-link-alt">Engage</a>
+                <a class="item un-link-alt">Grow</a>
+                <a class="item un-link-alt">Unaty Platform</a>
+            </div>
+            <div class="ui divider hidden"></div>
+            <div class="ui small header"><a class="un-link-icon">Pricing <i class="ui icon right angle"></i></a></div>
+
+        </div>
+
+        <i onclick="closeMenu()" class="ui icon x un-close-x"></i>
+
+    </div>
+    
+    
+    <script type="text/javascript">
+        document.getElementById('lpBkg').style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url('" + bkgs[num].img + "')"
+
+    </script>
+</body>
+
+</html>

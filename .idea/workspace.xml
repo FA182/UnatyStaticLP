@@ -2,11 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263bb2fe-6ac8-4ce0-a04a-788f0738841d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" afterPath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/configureENUS.js" afterPath="$PROJECT_DIR$/en-us/configureENUS.js" />
-      <change beforePath="$PROJECT_DIR$/en-us/use-cases/activate-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/activate-members.html" />
-      <change beforePath="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" afterPath="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/company/press.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/company/security.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/configureDEDE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/products/communaty.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/products/smart-city-framework.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/seed-round.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/unaty-platform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/use-cases/activate-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/use-cases/gdpr-compliant.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/use-cases/smart-city-framework.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/valid-data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/webinars/05-24-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/webinars/05-31-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/webinars/06-07-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/webinars/06-21-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/de-de/webinars/07-05-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/company/press.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/company/security.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/configureENUS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/mothers-day.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/old-index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/products/communaty.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/products/smart-city-framework.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/riley.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/seed-round.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/unaty-platform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/use-cases/activate-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/use-cases/easy-administration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/use-cases/gdpr-compliant.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/use-cases/smart-city-framework.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/valid-data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/webinars/05-17-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/webinars/05-24-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/webinars/05-31-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/webinars/06-07-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/webinars/06-21-18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en-us/webinars/07-05-18.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/about.html" afterPath="$PROJECT_DIR$/de-de/company/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/careers.html" afterPath="$PROJECT_DIR$/de-de/company/careers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/contact-us.html" afterPath="$PROJECT_DIR$/de-de/company/contact-us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/company/imprint.html" afterPath="$PROJECT_DIR$/de-de/company/imprint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/index.html" afterPath="$PROJECT_DIR$/de-de/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies.html" afterPath="$PROJECT_DIR$/de-de/policies.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/acceptable-use.html" afterPath="$PROJECT_DIR$/de-de/policies/acceptable-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/cookie-policy.html" afterPath="$PROJECT_DIR$/de-de/policies/cookie-policy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/customer-terms.html" afterPath="$PROJECT_DIR$/de-de/policies/customer-terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/dmca-policy.html" afterPath="$PROJECT_DIR$/de-de/policies/dmca-policy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/dpa.html" afterPath="$PROJECT_DIR$/de-de/policies/dpa.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/gdpr.html" afterPath="$PROJECT_DIR$/de-de/policies/gdpr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/privacy-policy.html" afterPath="$PROJECT_DIR$/de-de/policies/privacy-policy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/product-terms.html" afterPath="$PROJECT_DIR$/de-de/policies/product-terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/right-to-be-forgotton.html" afterPath="$PROJECT_DIR$/de-de/policies/right-to-be-forgotton.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/right-to-data.html" afterPath="$PROJECT_DIR$/de-de/policies/right-to-data.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/policies/user-terms.html" afterPath="$PROJECT_DIR$/de-de/policies/user-terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/pricing.html" afterPath="$PROJECT_DIR$/de-de/pricing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/build.html" afterPath="$PROJECT_DIR$/de-de/products/build.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/engage.html" afterPath="$PROJECT_DIR$/de-de/products/engage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/products/grow.html" afterPath="$PROJECT_DIR$/de-de/products/grow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/webinars.html" afterPath="$PROJECT_DIR$/de-de/webinars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/de-de/why-unaty.html" afterPath="$PROJECT_DIR$/de-de/why-unaty.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/about.html" afterPath="$PROJECT_DIR$/en-us/company/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/careers.html" afterPath="$PROJECT_DIR$/en-us/company/careers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/contact-us.html" afterPath="$PROJECT_DIR$/en-us/company/contact-us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/company/imprint.html" afterPath="$PROJECT_DIR$/en-us/company/imprint.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/index.html" afterPath="$PROJECT_DIR$/en-us/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies.html" afterPath="$PROJECT_DIR$/en-us/policies.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/acceptable-use.html" afterPath="$PROJECT_DIR$/en-us/policies/acceptable-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/cookie-policy.html" afterPath="$PROJECT_DIR$/en-us/policies/cookie-policy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/customer-terms.html" afterPath="$PROJECT_DIR$/en-us/policies/customer-terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/dmca-policy.html" afterPath="$PROJECT_DIR$/en-us/policies/dmca-policy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/dpa.html" afterPath="$PROJECT_DIR$/en-us/policies/dpa.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/gdpr.html" afterPath="$PROJECT_DIR$/en-us/policies/gdpr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/privacy-policy.html" afterPath="$PROJECT_DIR$/en-us/policies/privacy-policy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/product-terms.html" afterPath="$PROJECT_DIR$/en-us/policies/product-terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/right-to-be-forgotton.html" afterPath="$PROJECT_DIR$/en-us/policies/right-to-be-forgotton.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/right-to-data.html" afterPath="$PROJECT_DIR$/en-us/policies/right-to-data.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/policies/user-terms.html" afterPath="$PROJECT_DIR$/en-us/policies/user-terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/pricing.html" afterPath="$PROJECT_DIR$/en-us/pricing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/build.html" afterPath="$PROJECT_DIR$/en-us/products/build.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/engage.html" afterPath="$PROJECT_DIR$/en-us/products/engage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/products/grow.html" afterPath="$PROJECT_DIR$/en-us/products/grow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/webinars.html" afterPath="$PROJECT_DIR$/en-us/webinars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en-us/why-unaty.html" afterPath="$PROJECT_DIR$/en-us/why-unaty.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,85 +111,28 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="UnatyStaticLP" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="landingStyles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
+    <leaf>
+      <file leaf-file-name="en-setup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/de-de/en-setup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103365">
-              <caret line="6891" column="0" lean-forward="false" selection-start-line="6891" selection-start-column="0" selection-end-line="6891" selection-end-column="0" />
+            <state relative-caret-position="372">
+              <caret line="148" column="4219" lean-forward="false" selection-start-line="148" selection-start-column="4219" selection-end-line="148" selection-end-column="4219" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="engage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de-de/products/engage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="engage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="179" column="31" lean-forward="false" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configureENUS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en-us/configureENUS.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/en-us/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <marker date="1530711735445" expanded="true" signature="15399:15419" ph="..." />
-                <marker date="1530711735445" expanded="true" signature="15607:15627" ph="..." />
-                <marker date="1530711735445" expanded="true" signature="20342:20375" ph="..." />
-                <marker date="1530711735445" expanded="true" signature="23881:23895" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grow.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de-de/products/grow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="42" column="50" lean-forward="true" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de-de/products/build.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="436" column="0" lean-forward="false" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recruit-members.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/de-de/use-cases/recruit-members.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding>
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -111,22 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Neue mitglieder</find>
-      <find>plattfr</find>
-      <find>speicher</find>
-      <find>mitglieder erreichen</find>
-      <find>inspiriere deiner Gemeinschaft</find>
-      <find>admin</find>
-      <find>Reach</find>
-      <find>Activate</find>
-      <find>Inspire</find>
-      <find>Launch</find>
-      <find>Measure</find>
-      <find>Convert</find>
-      <find>Onboard</find>
-      <find>verwaltung</find>
-      <find>Werben</find>
-      <find>binden</find>
       <find>Binde Neumitglieder</find>
       <find>id=&quot;in</find>
       <find>deine eigene öffen</find>
@@ -141,20 +155,24 @@
       <find>join us on</find>
       <find>join us</find>
       <find>accounce</find>
+      <find>buttoncontexts</find>
+      <find>buttoncontext</find>
+      <find>&lt;Butt</find>
+      <find>un-button</find>
+      <find>en-us</find>
+      <find>./img/cloud.png</find>
+      <find>./img/people.png</find>
+      <find>./img/seurity.png</find>
+      <find>./img/unaty-screenshot.png</find>
+      <find>img/politics-min.jpg</find>
+      <find>img/young_men-min.jpg</find>
+      <find>img/business-min.jpg</find>
+      <find>img/service-min.jpg</find>
+      <find>img/nonprofit-min.jpg</find>
+      <find>img/sports-min.jpg</find>
+      <find>./img/desktop.png</find>
     </findStrings>
     <replaceStrings>
-      <replace>Alle Funktionen sehen</replace>
-      <replace>See all Features</replace>
-      <replace>Get Started in Minutes</replace>
-      <replace />
-      <replace>check blue icon</replace>
-      <replace>Standardize, simplify and automate member and content management</replace>
-      <replace>Reduce administration and reach more members</replace>
-      <replace>Activate your community and inspire action</replace>
-      <replace>Raise awareness and recruit new members</replace>
-      <replace>Mehr erfahren →</replace>
-      <replace>Mitglieder erreichen</replace>
-      <replace>Preise</replace>
       <replace>Jetzt loslegen</replace>
       <replace>Neue Mitglieder</replace>
       <replace>Kollaborieren</replace>
@@ -173,12 +191,24 @@
       <replace>Binde ein</replace>
       <replace>Verwaltung</replace>
       <replace>Werbe</replace>
+      <replace>de-de</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004226</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004224</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004233</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004268</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004271</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004262</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004274</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004218</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004265</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004231</replace>
+      <replace>https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540414004270</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/de-de</dir>
-      <dir>$PROJECT_DIR$/en-us</dir>
       <dir>$PROJECT_DIR$/en-us/products</dir>
       <dir>C:\Users\Fabian Ahrens\Documents\GitHub\UnatyStaticLP\de-de</dir>
+      <dir>$PROJECT_DIR$/de-de</dir>
+      <dir>$PROJECT_DIR$/en-us</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -211,7 +241,6 @@
         <option value="$PROJECT_DIR$/en-us/community.html" />
         <option value="$PROJECT_DIR$/en-us/unaty-platform.html" />
         <option value="$PROJECT_DIR$/en-us/pricing.html" />
-        <option value="$PROJECT_DIR$/en-us/index.html" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/activate-members.html" />
         <option value="$PROJECT_DIR$/css/landingStyles.css" />
@@ -219,7 +248,6 @@
         <option value="$PROJECT_DIR$/en-us/products/grow.html" />
         <option value="$PROJECT_DIR$/en-us/products/engage.html" />
         <option value="$PROJECT_DIR$/de-de/products/engage.html" />
-        <option value="$PROJECT_DIR$/de-de/index.html" />
         <option value="$PROJECT_DIR$/en-us/configureENUS.js" />
         <option value="$PROJECT_DIR$/de-de/use-cases/activate-members.html" />
         <option value="$PROJECT_DIR$/de-de/configureDEDE.js" />
@@ -228,6 +256,12 @@
         <option value="$PROJECT_DIR$/de-de/use-cases/easy-administration.html" />
         <option value="$PROJECT_DIR$/en-us/use-cases/recruit-members.html" />
         <option value="$PROJECT_DIR$/de-de/use-cases/recruit-members.html" />
+        <option value="$PROJECT_DIR$/un-member-styles.css" />
+        <option value="$PROJECT_DIR$/unaty-style-guide.html" />
+        <option value="$PROJECT_DIR$/de-de/en-setup.js" />
+        <option value="$PROJECT_DIR$/de-de/index.html" />
+        <option value="$PROJECT_DIR$/en-us/index.html" />
+        <option value="$PROJECT_DIR$/en-us/why-unaty.html" />
       </list>
     </option>
   </component>
@@ -240,9 +274,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -262,35 +296,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-              <item name="en-us" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UnatyStaticLP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnatyStaticLP" type="462c0819:PsiDirectoryNode" />
-              <item name="en-us" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnatyStaticLP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,6 +335,9 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/seanmccall/Dev/UnatyStaticLP/css/landingStyles.css" />
+    <property name="FullScreen" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -360,6 +398,15 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -379,14 +426,6 @@
       <test-directory />
       <recursive>false</recursive>
       <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -424,32 +463,35 @@
       <workItem from="1526456325706" duration="5049000" />
       <workItem from="1529478775822" duration="211000" />
       <workItem from="1530710867790" duration="711000" />
+      <workItem from="1537785755860" duration="1643000" />
+      <workItem from="1540412933911" duration="1445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172690000" />
+    <option name="totallyTimeSpent" value="175778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17061612" sideWeight="0.49652433" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17054264" sideWeight="0.49652433" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32770607" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17061612" sideWeight="0.50347567" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -472,7 +514,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -482,23 +524,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fonts/Icons/icon-unaty.svg" />
-    <entry file="file://$PROJECT_DIR$/en-us/company/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="447" column="6" lean-forward="false" selection-start-line="447" selection-start-column="6" selection-end-line="447" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/company/privacy-old.html" />
-    <entry file="file://$PROJECT_DIR$/en-us/company/security.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="530" column="34" lean-forward="true" selection-start-line="530" selection-start-column="34" selection-end-line="530" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en-us/company/privacy.html" />
     <entry file="file://$PROJECT_DIR$/en-us/company/press.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -576,13 +601,6 @@
     <entry file="file://$PROJECT_DIR$/en-us/pricing.html" />
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/easy-administration-old.html" />
     <entry file="file://$PROJECT_DIR$/en-us/use-cases/easy-administration-new.html" />
-    <entry file="file://$PROJECT_DIR$/en-us/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="286" column="82" lean-forward="true" selection-start-line="286" selection-start-column="57" selection-end-line="286" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/unaty-platform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -611,14 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103365">
-          <caret line="6891" column="0" lean-forward="false" selection-start-line="6891" selection-start-column="0" selection-end-line="6891" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/grow.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -635,24 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/de-de/products/build.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="15">
           <caret line="436" column="0" lean-forward="false" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/products/grow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="367" column="0" lean-forward="false" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -660,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="100" column="10" lean-forward="false" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,53 +703,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="662" column="47" lean-forward="false" selection-start-line="662" selection-start-column="47" selection-end-line="662" selection-end-column="47" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/use-cases/recruit-members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/configureENUS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <marker date="1530711735445" expanded="true" signature="15399:15419" ph="..." />
-            <marker date="1530711735445" expanded="true" signature="15607:15627" ph="..." />
-            <marker date="1530711735445" expanded="true" signature="20342:20375" ph="..." />
-            <marker date="1530711735445" expanded="true" signature="23881:23895" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/de-de/products/engage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/en-us/products/engage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="179" column="31" lean-forward="false" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="31" />
+        <state relative-caret-position="135">
+          <caret line="187" column="9" lean-forward="true" selection-start-line="187" selection-start-column="9" selection-end-line="187" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/products/engage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landingStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6891" column="0" lean-forward="false" selection-start-line="6891" selection-start-column="0" selection-end-line="6891" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/products/grow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/use-cases/recruit-members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unaty-style-guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="2419" column="55" lean-forward="false" selection-start-line="2419" selection-start-column="55" selection-end-line="2419" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/un-member-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="3455" column="1" lean-forward="true" selection-start-line="3455" selection-start-column="1" selection-end-line="3455" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/en-setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="148" column="4219" lean-forward="false" selection-start-line="148" selection-start-column="4219" selection-end-line="148" selection-end-column="4219" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/why-unaty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de-de/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/why-unaty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="107" column="29" lean-forward="true" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en-us/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="42" column="50" lean-forward="true" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
           <folding />
         </state>
       </provider>

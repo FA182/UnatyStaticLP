@@ -1,0 +1,2436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Engage your members | Unaty</title>
+    <script src="configureENUS.js"></script>
+    <script type="text/javascript">
+        document.write(headData)
+
+    </script>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
+    <link target="_blank" href="../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+    <script src="../semantic/dist/jquery-3.1.1.min.js"></script>
+    <script src="../semantic/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="mootools-core.js"></script>
+
+    <script type="text/javascript">
+        // Initialize Variables
+        var slide = 1;
+
+        var mockupData = {
+            name: 'ACME Sports',
+            group: {
+                name: 'Camp Helpers',
+                bkg: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1534000704107'
+            },
+            topics: [{
+                    name: 'Fishing',
+                    bkg: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1527883453683'
+                },
+                {
+                    name: 'Hunting',
+                    bkg: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1534000640915'
+                },
+                {
+                    name: 'Tennis',
+                    bkg: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1534000669798'
+                },
+                {
+                    name: 'Golf',
+                    bkg: 'https://unaty-media.s3.amazonaws.com/users/undefined/public/1534000608452'
+                }
+            ],
+            members: [{
+                    name: 'Jimmy Caldwell',
+                    profilePic: '',
+                    bkg: ''
+                },
+                {
+                    name: 'Thomas Calhoun',
+                    profilePic: '',
+                    bkg: ''
+                },
+                {
+                    name: 'Aaron Young',
+                    profilePic: '',
+                    bkg: ''
+                },
+                {
+                    name: 'Eric Rangle',
+                    profilePic: '',
+                    bkg: ''
+                },
+                {
+                    name: 'Peter Cranston',
+                    profilePic: '',
+                    bkg: ''
+                }
+            ]
+        }
+
+    </script>
+
+    <script>
+        // control the mouse, pad, wheel
+        let canMove = true
+        let count = 0;
+        $(document).on('wheel mousedown keydown', function(e) {
+
+            if (e.type === 'wheel') {
+
+                if (e.originalEvent.deltaY < 0) {
+                    count++;
+                    if (count > 0) {
+                        count = 0;
+
+                        if (slide > 1 && canMove) {
+                            slide--;
+                            canMove = false;
+                            setTimeout(resetMove, 1200)
+                            adjustNav(slide)
+                        }
+
+                    }
+
+                } else if (e.originalEvent.deltaY > 0) {
+                    count++;
+                    if (count > 0) {
+                        count = 0;
+                        if (slide < 6 && canMove) {
+                            slide++;
+                            canMove = false;
+                            setTimeout(resetMove, 1200)
+                            adjustNav(slide)
+                        }
+                    }
+                }
+
+            } else if (e.type == 'keydown' && ((e.ctrlKey && (e.keyCode == 36 || e.which == 35)) ||
+                    (!e.ctrlKey && (e.keyCode == 33 || e.which == 34 || e.which == 38 || e.which == 40)))) {
+
+                console.log('gogo')
+
+                if (e.keyCode === 38 || e.which === 38) {
+                    if (slide > 1 && canMove) {
+                        slide--;
+                        canMove = false;
+                        setTimeout(resetMove, 1200)
+                        adjustNav(slide)
+                    }
+                } else if (e.keyCode === 40 || e.which === 40) {
+                    if (slide < 6 && canMove) {
+                        slide++;
+                        canMove = false;
+                        setTimeout(resetMove, 1200)
+                        adjustNav(slide)
+                    }
+                }
+            } else if (e.target.tagName == 'HTML') {
+                console.log('html scroll')
+            }
+
+
+        });
+
+
+
+        setTimeout(startSequence, 500)
+        setTimeout(startScreenSeq, 3000)
+        setTimeout(startScreenSeq2, 5500)
+
+        function startSequence() {
+            if (window.innerWidth < 901) {
+                showAllItems()
+
+            }
+        }
+
+
+        function startScreenSeq() {
+            handleChangeScreen('topics')
+        }
+
+        function startScreenSeq2() {
+            handleChangeScreen('members')
+        }
+
+        document.getElementById("prevIcon").className = "hidden-block"
+
+        function nextSlide() {
+            slide++;
+            adjustNav(slide)
+        }
+
+        function prevSlide() {
+            slide--;
+            adjustNav(slide)
+        }
+
+        function resetMove() {
+            canMove = true
+        }
+
+        function goTo(num) {
+
+            console.log('goto', num)
+            slide = num;
+            adjustNav(num)
+        }
+
+        function adjustNav(num) {
+
+
+            if (window.innerWidth < 901) {
+                // do what we gotta do
+
+                return;
+            }
+
+            if (num === 1) {
+                // navbar
+                document.getElementById("circleOne").className = "un-circle un-filled"
+                document.getElementById("circleTwo").className = "un-circle"
+                document.getElementById("circleThree").className = "un-circle"
+                document.getElementById("circleFour").className = "un-circle"
+                document.getElementById("circleFive").className = "un-circle"
+                document.getElementById("circleSix").className = "un-circle"
+
+                // pages
+                document.getElementById("slideOne").className = "un-full-slide un-slide-one un-slide-active"
+
+                document.getElementById("slideTwo").className = "un-full-slide un-slide-two"
+
+                document.getElementById("slideThree").className = "un-full-slide un-slide-three"
+
+                document.getElementById("slideFour").className = "un-full-slide un-slide-four"
+
+                document.getElementById("slideFive").className = "un-full-slide un-slide-five"
+
+                document.getElementById("slideSix").className = "un-full-slide un-slide-six"
+
+                // extras
+                document.getElementById("nextIcon").className = "ui icon down angle"
+                document.getElementById("prevIcon").className = "hidden-block"
+                setTimeout(showItems, 650)
+            } else if (num === 2) {
+                // navbar
+                document.getElementById("circleOne").className = "un-circle un-filled"
+                document.getElementById("circleTwo").className = "un-circle un-filled"
+                document.getElementById("circleThree").className = "un-circle"
+                document.getElementById("circleFour").className = "un-circle"
+                document.getElementById("circleFive").className = "un-circle"
+                document.getElementById("circleSix").className = "un-circle"
+
+                // pages
+                document.getElementById("slideOne").className = "un-full-slide un-slide-one un-slide-active"
+
+                document.getElementById("slideTwo").className = "un-full-slide un-slide-two un-slide-active"
+
+                document.getElementById("slideThree").className = "un-full-slide un-slide-three"
+
+                document.getElementById("slideFour").className = "un-full-slide un-slide-four"
+
+                document.getElementById("slideFive").className = "un-full-slide un-slide-five"
+
+                document.getElementById("slideSix").className = "un-full-slide un-slide-six"
+
+                // extras
+                document.getElementById("nextIcon").className = "ui icon down angle"
+                document.getElementById("prevIcon").className = "ui icon up angle"
+                setTimeout(showItems, 650)
+            } else if (num === 3) {
+                // navbar
+                document.getElementById("circleOne").className = "un-circle un-filled"
+                document.getElementById("circleTwo").className = "un-circle un-filled"
+                document.getElementById("circleThree").className = "un-circle un-filled"
+                document.getElementById("circleFour").className = "un-circle"
+                document.getElementById("circleFive").className = "un-circle"
+                document.getElementById("circleSix").className = "un-circle"
+
+                // pages
+                document.getElementById("slideOne").className = "un-full-slide un-slide-one un-slide-active"
+
+                document.getElementById("slideTwo").className = "un-full-slide un-slide-two un-slide-active"
+
+                document.getElementById("slideThree").className = "un-full-slide un-slide-three un-slide-active"
+
+                document.getElementById("slideFour").className = "un-full-slide un-slide-four"
+
+                document.getElementById("slideFive").className = "un-full-slide un-slide-five"
+
+                document.getElementById("slideSix").className = "un-full-slide un-slide-six"
+
+                // extras
+                document.getElementById("prevIcon").className = "ui icon up angle"
+                document.getElementById("nextIcon").className = "ui icon down angle"
+                setTimeout(showItems, 650)
+            } else if (num === 4) {
+                // navbar
+                document.getElementById("circleOne").className = "un-circle un-filled"
+                document.getElementById("circleTwo").className = "un-circle un-filled"
+                document.getElementById("circleThree").className = "un-circle un-filled"
+                document.getElementById("circleFour").className = "un-circle un-filled"
+                document.getElementById("circleFive").className = "un-circle"
+                document.getElementById("circleSix").className = "un-circle"
+
+                // pages
+                document.getElementById("slideOne").className = "un-full-slide un-slide-one un-slide-active"
+
+                document.getElementById("slideTwo").className = "un-full-slide un-slide-two un-slide-active"
+
+                document.getElementById("slideThree").className = "un-full-slide un-slide-three un-slide-active"
+
+                document.getElementById("slideFour").className = "un-full-slide un-slide-four  un-slide-active"
+
+                document.getElementById("slideFive").className = "un-full-slide un-slide-five"
+
+                document.getElementById("slideSix").className = "un-full-slide un-slide-six"
+
+                // extras
+                document.getElementById("prevIcon").className = "ui icon up angle"
+                document.getElementById("nextIcon").className = "ui icon down angle"
+                setTimeout(showItems, 350)
+            } else if (num === 5) {
+                // navbar
+                document.getElementById("circleOne").className = "un-circle un-filled"
+                document.getElementById("circleTwo").className = "un-circle un-filled"
+                document.getElementById("circleThree").className = "un-circle un-filled"
+                document.getElementById("circleFour").className = "un-circle un-filled"
+                document.getElementById("circleFive").className = "un-circle un-filled"
+                document.getElementById("circleSix").className = "un-circle"
+
+                // pages
+                document.getElementById("slideOne").className = "un-full-slide un-slide-one un-slide-active "
+
+                document.getElementById("slideTwo").className = "un-full-slide un-slide-two un-slide-active"
+
+                document.getElementById("slideThree").className = "un-full-slide un-slide-three un-slide-active"
+
+                document.getElementById("slideFour").className = "un-full-slide un-slide-four un-slide-active"
+
+                document.getElementById("slideFive").className = "un-full-slide un-slide-five  un-slide-active"
+
+                document.getElementById("slideSix").className = "un-full-slide un-slide-six"
+
+                // extras
+                document.getElementById("prevIcon").className = "ui icon up angle"
+                document.getElementById("nextIcon").className = "ui icon down angle"
+
+
+                // timeouts
+
+                setTimeout(showItems, 650)
+            } else if (num === 6) {
+                // navbar
+                document.getElementById("circleOne").className = "un-circle un-filled"
+                document.getElementById("circleTwo").className = "un-circle un-filled"
+                document.getElementById("circleThree").className = "un-circle un-filled"
+                document.getElementById("circleFour").className = "un-circle un-filled"
+                document.getElementById("circleFive").className = "un-circle un-filled"
+                document.getElementById("circleSix").className = "un-circle un-filled"
+
+                // pages
+                document.getElementById("slideOne").className = "un-full-slide un-slide-one un-slide-active"
+
+                document.getElementById("slideTwo").className = "un-full-slide un-slide-two  un-slide-active"
+
+                document.getElementById("slideThree").className = "un-full-slide un-slide-three un-slide-active"
+
+                document.getElementById("slideFour").className = "un-full-slide un-slide-four un-slide-active"
+
+                document.getElementById("slideFive").className = "un-full-slide un-slide-five  un-slide-active"
+
+                document.getElementById("slideSix").className = "un-full-slide un-slide-six un-slide-active"
+
+                // extras
+                document.getElementById("prevIcon").className = "ui icon up angle"
+                document.getElementById("nextIcon").className = "hidden-block"
+                setTimeout(showItems, 350)
+            }
+
+
+        }
+
+        function showItems() {
+
+            if (slide === 1) {
+                document.getElementById("secChecklist").className = "hidden-block"
+                document.getElementById("imgOne").className = "hidden-block"
+                document.getElementById("imgTwo").className = "hidden-block"
+                document.getElementById("imgThree").className = "hidden-block"
+                document.getElementById("imgFour").className = "hidden-block"
+                document.getElementById("imgFive").className = "hidden-block"
+
+                document.getElementById("slideFourSec").className = "hidden-block"
+                document.getElementById("slideSixSec").className = "hidden-block"
+
+                document.getElementById("fourOne").className = "hidden-block"
+                document.getElementById("fourTwo").className = "hidden-block"
+                document.getElementById("fourThree").className = "hidden-block"
+            } else if (slide === 2) {
+                document.getElementById("secChecklist").className = "hidden-block"
+                document.getElementById("imgOne").className = "hidden-block"
+                document.getElementById("imgTwo").className = "hidden-block"
+                document.getElementById("imgThree").className = "hidden-block"
+
+                document.getElementById("imgFour").className = "un-img-one animated fadeInUp"
+                document.getElementById("imgFive").className = "un-img-two animated fadeInUp"
+
+                document.getElementById("slideFourSec").className = "hidden-block"
+                document.getElementById("slideSixSec").className = "hidden-block"
+
+                document.getElementById("fourOne").className = "hidden-block"
+                document.getElementById("fourTwo").className = "hidden-block"
+                document.getElementById("fourThree").className = "hidden-block"
+            } else if (slide === 3) {
+                document.getElementById("secChecklist").className = "hidden-block"
+
+                document.getElementById("imgOne").className = "un-img-one animated fadeInUp"
+                document.getElementById("imgTwo").className = "un-img-two animated fadeInUp"
+                document.getElementById("imgThree").className = "un-img-three un-card-send-message animated fadeInUp"
+                document.getElementById("imgFour").className = "hidden-block"
+                document.getElementById("imgFive").className = "hidden-block"
+
+                document.getElementById("slideFourSec").className = "hidden-block"
+                document.getElementById("slideSixSec").className = "hidden-block"
+
+                document.getElementById("fourOne").className = "hidden-block"
+                document.getElementById("fourTwo").className = "hidden-block"
+                document.getElementById("fourThree").className = "hidden-block"
+            } else if (slide === 4) {
+                document.getElementById("secChecklist").className = "hidden-block"
+                document.getElementById("imgOne").className = "hidden-block"
+                document.getElementById("imgTwo").className = "hidden-block"
+                document.getElementById("imgThree").className = "hidden-block"
+                document.getElementById("imgFour").className = "hidden-block"
+                document.getElementById("imgFive").className = "hidden-block"
+
+                document.getElementById("slideFourSec").className = "animated fadeInUp"
+                document.getElementById("slideSixSec").className = "hidden-block"
+
+                /* TIMERS */
+
+                document.getElementById("fourOne").className = "un-card margin-bottom-16 animated fadeInUp un-event-large-card"
+                setTimeout(eventInvitees, 1500)
+                setTimeout(eventNF, 4200)
+            } else if (slide === 5) {
+                document.getElementById("secChecklist").className = "un-shadow-checklist animated fadeInUp"
+                document.getElementById("imgOne").className = "hidden-block"
+                document.getElementById("imgTwo").className = "hidden-block"
+                document.getElementById("imgThree").className = "hidden-block"
+                document.getElementById("imgFour").className = "hidden-block"
+                document.getElementById("imgFive").className = "hidden-block"
+
+                document.getElementById("fourOne").className = "hidden-block"
+                document.getElementById("fourTwo").className = "hidden-block"
+                document.getElementById("fourThree").className = "hidden-block"
+
+                document.getElementById("slideFourSec").className = "hidden-block"
+                document.getElementById("slideSixSec").className = "hidden-block"
+            } else if (slide === 6) {
+                document.getElementById("secChecklist").className = "hidden-block"
+                document.getElementById("imgOne").className = "hidden-block"
+                document.getElementById("imgTwo").className = "hidden-block"
+                document.getElementById("imgThree").className = "hidden-block"
+                document.getElementById("imgFour").className = "hidden-block"
+                document.getElementById("imgFive").className = "hidden-block"
+
+                document.getElementById("fourOne").className = "hidden-block"
+                document.getElementById("fourTwo").className = "hidden-block"
+                document.getElementById("fourThree").className = "hidden-block"
+
+                document.getElementById("slideFourSec").className = "hidden-block"
+                document.getElementById("slideSixSec").className = "animated fadeInUp"
+            }
+        }
+
+        function showAllItems() {
+            document.getElementById("imgOne").className = "un-img-one animated fadeInUp"
+            document.getElementById("imgFour").className = "un-img-one animated fadeInUp"
+            document.getElementById("imgFive").className = "un-img-two animated fadeInUp"
+            document.getElementById("imgTwo").className = "un-img-two animated fadeInUp"
+            document.getElementById("imgThree").className = "un-img-three un-card-send-message animated fadeInUp"
+            document.getElementById("slideSixSec").className = "animated fadeInUp"
+            document.getElementById("slideFourSec").className = "animated fadeInUp"
+            document.getElementById("secChecklist").className = "un-shadow-checklist animated fadeInUp"
+            document.getElementById("imgThree").className = "un-img-three un-card-send-message animated fadeInUp"
+            document.getElementById("fourOne").className = "un-card margin-bottom-16 animated fadeInUp un-event-large-card"
+            setTimeout(eventInvitees, 5500)
+            setTimeout(eventNF, 8000)
+
+
+        }
+
+        function eventInvitees() {
+            document.getElementById("fourTwo").className = "un-card animated fadeInUp"
+
+            setTimeout(startEvent, 1500)
+        }
+
+        function startEvent() {
+            document.getElementById("e4-you").innerHTML = "You, "
+            document.getElementById("e4-totalOne").innerHTML = "49"
+            document.getElementById("e4-btnText").innerHTML = "Attending"
+            document.getElementById("e4-btn").className = "ui large label compact green un-button animated pulse"
+            document.getElementById("e4-tenless").innerHTML = "37"
+            document.getElementById("e4-total").innerHTML = "(49)"
+        }
+
+        function eventNF() {
+            document.getElementById("fourThree").className = "un-nf-item animated fadeInUp"
+
+            setTimeout(commentOne, 1250)
+            setTimeout(commentTwo, 3200)
+            setTimeout(commentThree, 5600)
+        }
+
+        function commentOne() {
+
+            document.getElementById("e4-comment-one").className = "animated fadeInUp"
+        }
+
+        function commentTwo() {
+            document.getElementById("e4-comment-two").className = "animated fadeInUp"
+        }
+
+        function commentThree() {
+            document.getElementById("e4-comment-three").className = "animated fadeInUp"
+        }
+
+        function handleLike() {
+            document.getElementById("e4-like-heart").className = "ui icon heart animated tada un-pink"
+
+            document.getElementById("e4-like-num").innerHTML = "You and 73 others like this"
+        }
+
+        function handleChangeScreen(screen, num) {
+
+            var realNum = num - 1
+            if (screen === 'feed') {
+                document.getElementById("umk-body-feed").className = "un-mk-body un-mk-split-two-alt animated fadeIn"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-members").className = "hidden-block"
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+            } else if (screen === 'topics') {
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "un-mk-body un-no-padding animated fadeIn"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-members").className = "hidden-block"
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+            } else if (screen === 'singleTopic') {
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+                document.getElementById("umk-body-singleTopic").className = "un-mk-body un-no-padding animated fadeIn"
+                document.getElementById("umk-body-members").className = "hidden-block"
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+
+                document.getElementById("singleTopicName").innerHTML = mockupData.topics[realNum].name
+                document.getElementById("singleTopicBkg").style.backgroundImage = "url(" + mockupData.topics[realNum].bkg + ")"
+            } else if (screen === 'members') {
+                document.getElementById("umk-body-members").className = "un-mk-body un-no-padding animated fadeIn"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+            } else if (screen === 'singleMember') {
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-members").className = "hidden-block"
+
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "un-mk-body un-no-padding animated fadeIn un-table-display"
+            } else if (screen === 'events') {
+                document.getElementById("umk-body-members").className = "hidden-block"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "un-mk-body un-no-padding animated fadeIn un-table-display"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+            } else if (screen === 'singleEvent') {
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-members").className = "hidden-block"
+
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "un-mk-body un-no-padding animated fadeIn un-table-display"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+            } else if (screen === 'teams') {
+                document.getElementById("umk-body-members").className = "hidden-block"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+
+                document.getElementById("umk-body-teams").className = "un-mk-body un-no-padding animated fadeIn un-table-display"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+            } else if (screen === 'singleTeam') {
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-members").className = "hidden-block"
+
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "un-mk-body un-no-padding animated fadeIn un-table-display"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+            } else if (screen === 'singleGroup') {
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-members").className = "hidden-block"
+
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "un-mk-body un-no-padding animated fadeIn"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+            } else if (screen === 'docs') {
+                document.getElementById("umk-body-members").className = "hidden-block"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "un-mk-body un-no-padding animated fadeIn un-table-display"
+                document.getElementById("umk-body-admin").className = "hidden-block"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+            } else if (screen === 'admin') {
+                document.getElementById("umk-body-members").className = "hidden-block"
+                document.getElementById("umk-body-singleTopic").className = "hidden-block"
+                document.getElementById("umk-body-feed").className = "hidden-block"
+                document.getElementById("umk-body-topics").className = "hidden-block"
+
+                document.getElementById("umk-body-teams").className = "hidden-block"
+                document.getElementById("umk-body-singleTeam").className = "hidden-block"
+                document.getElementById("umk-body-events").className = "hidden-block"
+                document.getElementById("umk-body-singleEvent").className = "hidden-block"
+                document.getElementById("umk-body-docs").className = "hidden-block"
+                document.getElementById("umk-body-admin").className = "un-mk-admin-fs un-table-display-admin animated fadeIn"
+                document.getElementById("umk-body-singleGroup").className = "hidden-block"
+                document.getElementById("umk-body-singleMember").className = "hidden-block"
+            }
+            changeSidebar(screen)
+        }
+
+        function changeSidebar(item) {
+            if (item === 'feed') {
+                document.getElementById("umk-menu-feed").className = "un-active"
+                document.getElementById("umk-menu-topics").className = ""
+                document.getElementById("umk-menu-members").className = ""
+                document.getElementById("umk-menu-docs").className = ""
+                document.getElementById("umk-menu-events").className = ""
+                document.getElementById("umk-menu-team").className = ""
+                document.getElementById("umk-menu-group").className = ""
+            } else if (item === 'topics' || item === "singleTopic") {
+                document.getElementById("umk-menu-feed").className = ""
+                document.getElementById("umk-menu-topics").className = "un-active"
+                document.getElementById("umk-menu-members").className = ""
+                document.getElementById("umk-menu-docs").className = ""
+                document.getElementById("umk-menu-events").className = ""
+                document.getElementById("umk-menu-team").className = ""
+                document.getElementById("umk-menu-group").className = ""
+            } else if (item === 'members' || item === "singleMember") {
+                document.getElementById("umk-menu-feed").className = ""
+                document.getElementById("umk-menu-topics").className = ""
+                document.getElementById("umk-menu-members").className = "un-active"
+                document.getElementById("umk-menu-docs").className = ""
+                document.getElementById("umk-menu-events").className = ""
+                document.getElementById("umk-menu-team").className = ""
+                document.getElementById("umk-menu-group").className = ""
+            } else if (item === 'teams' || item === "singleTeam") {
+                document.getElementById("umk-menu-feed").className = ""
+                document.getElementById("umk-menu-topics").className = ""
+                document.getElementById("umk-menu-members").className = ""
+                document.getElementById("umk-menu-docs").className = ""
+                document.getElementById("umk-menu-events").className = ""
+                document.getElementById("umk-menu-team").className = "un-active"
+                document.getElementById("umk-menu-group").className = ""
+            } else if (item === 'events' || item === "singleEvent") {
+                document.getElementById("umk-menu-feed").className = ""
+                document.getElementById("umk-menu-topics").className = ""
+                document.getElementById("umk-menu-members").className = ""
+                document.getElementById("umk-menu-docs").className = ""
+                document.getElementById("umk-menu-events").className = "un-active"
+                document.getElementById("umk-menu-team").className = ""
+                document.getElementById("umk-menu-group").className = ""
+            } else if (item === 'docs') {
+                document.getElementById("umk-menu-feed").className = ""
+                document.getElementById("umk-menu-topics").className = ""
+                document.getElementById("umk-menu-members").className = ""
+                document.getElementById("umk-menu-docs").className = "un-active"
+                document.getElementById("umk-menu-events").className = ""
+                document.getElementById("umk-menu-team").className = ""
+                document.getElementById("umk-menu-group").className = ""
+            } else if (item === 'admin') {
+                document.getElementById("umk-menu-feed").className = ""
+                document.getElementById("umk-menu-topics").className = ""
+                document.getElementById("umk-menu-members").className = ""
+                document.getElementById("umk-menu-docs").className = ""
+                document.getElementById("umk-menu-events").className = ""
+                document.getElementById("umk-menu-team").className = ""
+                document.getElementById("umk-menu-group").className = ""
+            } else if (item === "singleGroup") {
+                document.getElementById("umk-menu-feed").className = ""
+                document.getElementById("umk-menu-topics").className = ""
+                document.getElementById("umk-menu-members").className = ""
+                document.getElementById("umk-menu-docs").className = ""
+                document.getElementById("umk-menu-events").className = ""
+                document.getElementById("umk-menu-team").className = ""
+                document.getElementById("umk-menu-group").className = "un-active"
+            }
+        }
+
+        function openMenu() {
+            document.getElementById("mobileMenu").className = "fullScreenMobileMenu animated fadeIn"
+        }
+
+        function closeMenu() {
+            document.getElementById("mobileMenu").className = "hidden-block"
+
+        }
+
+    </script>
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Listen to submit event on the <form> itself!
+            $('#mainFormTwo').submit(function(e) {
+
+                e.preventDefault();
+
+                resetErrorsTwo()
+
+                $("#submitBtnTwo").addClass('loading')
+
+
+             
+                var email = $("#emailInputTwo").val();
+
+                checkFieldsTwo('', email)
+
+            });
+            
+            function resetErrorsTwo() {
+                document.getElementById("emailInputBoxTwo").className = "ui input"
+
+            }
+
+            function stopLoadingTwo() {
+                document.getElementById("submitBtnTwo").className = "ui button large compact orange"
+            }
+
+            function checkFieldsTwo(name, email) {
+
+                let emailSubmit = email.trim()
+                let nameSubmit = ''
+                let error = false
+
+                // email check
+
+                // name check
+
+                if (emailSubmit.length < 1) {
+                    // throw error
+                    document.getElementById("emailInputBoxTwo").className = "ui input error"
+                    error = true
+                }
+
+                if (error) {
+                    stopLoadingTwo()
+                    return;
+                }
+
+                submitFormTwo(emailSubmit, nameSubmit)
+            }
+
+            function submitFormTwo(email, name) {
+                var data = {
+                    email: email,
+                    name: 'WANTS TO BOOK A DEMO'
+                }
+                const Url = 'https://script.google.com/macros/s/AKfycbxibHchHMEVFlHpCYgisLmdzGMiMMUo5sBElsyBUc6lZUQ4zXk/exec'
+                $.post(Url, data, function(data, status) {
+                    if (status === 'success') {
+                        showSuccessTwo()
+                    } else {
+                        showFailureTwo()
+                    }
+                })
+
+            }
+
+            function showSuccessTwo() {
+                document.getElementById("mainFormTwo").className = "hidden-block"
+            
+                document.getElementById("mainSectionTwoTwo").className = "un-new-success-area"
+            }
+
+            function showFailureTwo() {
+                resetErrors()
+                stopLoading()
+                alert('Submission failed')
+            }
+            
+            $('#mainForm').submit(function(e) {
+
+                e.preventDefault();
+
+                resetErrors()
+
+                $("#submitBtn").addClass('loading')
+
+
+            
+                var email = $("#emailInput").val();
+
+                checkFields('', email)
+
+            });
+
+            function resetErrors() {
+                document.getElementById("emailInputBox").className = "ui input"
+
+            }
+
+            function stopLoading() {
+                document.getElementById("submitBtn").className = "ui button large compact orange"
+            }
+
+            function checkFields(name, email) {
+
+                let emailSubmit = email.trim()
+                let nameSubmit = ''
+                let error = false
+
+                // email check
+
+                // name check
+
+                if (emailSubmit.length < 1) {
+                    // throw error
+                    document.getElementById("emailInputBox").className = "ui input error"
+                    error = true
+                }
+
+                if (error) {
+                    stopLoading()
+                    return;
+                }
+
+                submitForm(emailSubmit, nameSubmit)
+            }
+
+            function submitForm(email, name) {
+                var data = {
+                    email: email,
+                    name: 'WANTS TO BOOK A DEMO'
+                }
+                const Url = 'https://script.google.com/macros/s/AKfycbxibHchHMEVFlHpCYgisLmdzGMiMMUo5sBElsyBUc6lZUQ4zXk/exec'
+                $.post(Url, data, function(data, status) {
+                    if (status === 'success') {
+                        showSuccess()
+                    } else {
+                        showFailure()
+                    }
+                })
+
+            }
+
+            function showSuccess() {
+                document.getElementById("mainForm").className = "hidden-block"
+                document.getElementById("mainSectionTwo").className = "un-new-success-area"
+            }
+
+            function showFailure() {
+                resetErrors()
+                stopLoading()
+                alert('Submission failed')
+            }
+
+        });
+
+
+        // set initial bkg image
+
+    </script>
+</head>
+
+<body class="un-body" id="un-body">
+
+    <div class="un-menu animated fadeIn">
+
+        <div>
+
+            <div class="un-mn-logo">
+                <a  href="https://www.unaty.de/en-us/index.html">
+                    <img src="https://unaty-media.s3.amazonaws.com/static/logos/logoNormal.png" />
+                </a>
+
+            </div>
+
+            <div class="un-mn-items">
+
+                <a href="https://www.unaty.de/en-us/why-unaty.html">Why Unaty?</a>
+
+                <div class="ui simple dropdown item">
+                    <a class="text">Use Cases</a>
+                    <div class="menu un-new-menu">
+                        <a class="item" href="https://www.unaty.de/en-us/use-cases/easy-administration.html">Reduce administration and reach more members</a>
+                        <a class="item" href="https://www.unaty.de/en-us/use-cases/activate-members.html">Activate your community and inspire action</a>
+                        <a class="item" href="https://www.unaty.de/en-us/use-cases/recruit-members.html">Raise awareness and recruit new members</a>
+                        <a class="item" href="https://www.unaty.de/en-us/use-cases/gdpr-compliant.html">Get your organization GDPR ready</a>
+                    </div>
+                </div>
+
+                <div class="ui simple dropdown item">
+                    <a class="text">Products</a>
+                    <div class="menu un-new-menu">
+                        <a class="item " href="https://www.unaty.de/en-us/products/build.html"><i class="ui icon magic teal"></i> Build</a>
+                        <a class="item" href="https://www.unaty.de/en-us/products/engage.html"><i class="ui icon lightning red"></i> Engage</a>
+                        <a class="item" href="https://www.unaty.de/en-us/products/grow.html"><i class="ui icon long arrow up green alternate rotate-icon-45"></i> Grow</a>
+                        <div class="ui divider"></div>
+                        <a class="item" href="https://www.unaty.de/en-us/why-unaty.html">Unaty Platform</a>
+                    </div>
+                </div>
+
+                <a href="https://www.unaty.de/en-us/pricing.html">Pricing</a>
+
+            </div>
+        </div>
+
+        <div>
+
+            <a class="un-plain-link" href="https://app.unaty.de/login">Sign in</a>
+
+            <a class="ui button blue un-button large compact" href="https://www.unaty.de/en-us/index.html">Sign up</a>
+
+            <a onclick="openMenu()" class="un-menu-hamburger">
+                <i class="ui icon bars"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="un-full-slide un-slide-one un-slide-active" id="slideOne">
+
+        <div class="un-slide-container animated fadeInUp">
+
+            <div class="un-slide-item-one">
+
+                <div class="un-header-large">
+                    Engage your members<span></span>
+                </div>
+
+                <div class="un-subheader-large">
+                    A new and better way to understand, reach, and activate your community.
+                </div>
+            </div>
+
+            <div class="un-slide-item-two">
+
+                <div class="un-comment-slide">
+                    See what's happening in your Communaty at a glance
+                </div>
+
+                <div class="un-mk-screen un-mk-use-screen">
+                    <div class="un-mk-sidebar">
+                        <div>
+                            <script type="text/javascript">
+                                document.write(mockupData.name)
+
+                            </script> <i class="ui icon angle down"></i></div>
+                        <div onclick="handleChangeScreen('admin')"><i class="ui icon left arrow"></i> Administrator</div>
+                        <div>
+                            <a id="umk-menu-feed" class="un-active" onclick="handleChangeScreen('feed')"><i class="ui icon newspaper"></i> Feed</a>
+                            <a id="umk-menu-topics" onclick="handleChangeScreen('topics')"><i class="ui icon hashtag"></i> Topics</a>
+                            <a id="umk-menu-members" onclick="handleChangeScreen('members')"><i class="ui icon book"></i> Members</a>
+                            <a id="umk-menu-events" onclick="handleChangeScreen('events')"><i class="ui icon calendar"></i> Events</a>
+                            <a id="umk-menu-docs" onclick="handleChangeScreen('docs')"><i class="ui icon open folder"></i> Documents</a>
+                            <a id="umk-menu-team" onclick="handleChangeScreen('teams')"><i class="ui icon bookmark"></i> Teams</a>
+                        </div>
+
+                        <div>
+                            <div>
+                                <div>Groups</div><i class="ui icon plus circle"></i></div>
+                            <div>
+                                <a id="umk-menu-group" onclick="handleChangeScreen('singleGroup')"><span><i class="ui icon lock"></i> <script type="text/javascript">document.write(mockupData.group.name)</script></span></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="un-mk-main">
+                        <div class="un-mk-menu">
+                            <div>
+                                <div><i class="ui icon left angle"></i></div>
+                                <div><i class="ui icon search"></i></div>
+                            </div>
+
+                            <div>
+
+                                <div>
+                                    <i class="ui icon bell"></i>
+                                </div>
+
+                                <div>
+                                    <i class="ui icon help circle"></i>
+                                </div>
+
+                                <div>
+                                    <div><i class="ui icon user"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="umk-body-feed" class="un-mk-body un-mk-split-two-alt">
+                            <div>
+                                <div class="un-mk-nf-create un-mk-card">
+                                    <div>
+
+                                        <div class="un-mk-c-dark-grey"></div>
+
+                                        <div class="un-mk-c-light-grey"></div>
+
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <div class="un-mk-c-light-grey"></div>
+                                            <div class="un-mk-c-light-grey"></div>
+                                            <div class="un-mk-c-light-grey"></div>
+                                            <div class="un-mk-c-light-grey"></div>
+                                        </div>
+                                        <div>
+                                            <div class="un-mk-c-blue"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="un-mk-nf-item un-mk-card">
+
+                                    <div>
+                                        <div class="un-mk-c-dark-grey"></div>
+                                        <div class="un-mk-c-light-grey"></div>
+                                        <div class="un-mk-c-light-grey"></div>
+                                    </div>
+
+                                    <div>
+                                        <div class="un-mk-c-dark-grey"></div>
+                                        <div class="un-mk-c-light-grey"></div>
+                                    </div>
+
+                                    <div>
+                                        <div class="un-mk-c-dark-grey"></div>
+                                        <div class="un-mk-c-dark-grey"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div>
+
+                                <div class="un-mk-wd-birthdays un-mk-card">
+
+                                    <div>
+                                        <i class="ui icon birthday cake"></i>
+                                    </div>
+
+                                    <div></div>
+
+                                    <div></div>
+                                    <div></div>
+
+                                </div>
+
+                                <div class="un-mk-wd-events un-mk-card">
+
+                                    <div class="un-mk-cl-white">Events</div>
+
+                                    <div>
+
+                                        <div>
+                                            <div class="un-mk-c-grey-light"></div>
+                                            <div class="un-mk-c-white"></div>
+                                        </div>
+
+                                        <div>
+                                            <div class="un-mk-c-grey-light"></div>
+                                            <div class="un-mk-c-white"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="un-mk-wd-topics un-mk-card">
+
+                                    <div>Topics</div>
+
+                                    <div></div>
+                                    <div></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="umk-body-topics" class="hidden-block">
+                            <div class="un-mk-general-header-main">
+                                <div>Topics</div>
+                                <div>
+                                    <div class="un-mk-c-grey-light"></div>
+                                    <div class="un-mk-c-grey-light"></div>
+                                </div>
+                            </div>
+                            <div class="un-mk-general-body-main">
+                                <div>
+                                    <div class="un-mk-card-topic">
+
+                                        <div onclick="handleChangeScreen('singleTopic',1)">#
+                                            <script type="text/javascript">
+                                                document.write(mockupData.topics[0].name)
+
+                                            </script>
+                                        </div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+                                        <div></div>
+                                    </div>
+                                    <div class="un-mk-card-topic">
+
+                                        <div onclick="handleChangeScreen('singleTopic',2)">#
+                                            <script type="text/javascript">
+                                                document.write(mockupData.topics[1].name)
+
+                                            </script>
+                                        </div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+                                        <div></div>
+                                    </div>
+                                    <div class="un-mk-card-topic">
+
+                                        <div onclick="handleChangeScreen('singleTopic',3)">#
+                                            <script type="text/javascript">
+                                                document.write(mockupData.topics[2].name)
+
+                                            </script>
+                                        </div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+                                        <div></div>
+                                    </div>
+                                    <div class="un-mk-card-topic">
+
+                                        <div onclick="handleChangeScreen('singleTopic',4)">#
+                                            <script type="text/javascript">
+                                                document.write(mockupData.topics[3].name)
+
+                                            </script>
+                                        </div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="umk-body-singleTopic" class="hidden-block">
+
+                            <div id="singleTopicBkg" class="un-mk-single-page-bkg" style="background-image: url('https://unaty-media.s3.amazonaws.com/users/undefined/public/1527883453683')"></div>
+
+                            <div class="un-mk-grey-bkg un-mk-split-two-alt-rev">
+                                <div>
+
+                                    <div class="un-mk-card-topic">
+
+                                        <div>#<span id="singleTopicName">Fishing</span></div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+                                        <div></div>
+                                    </div>
+
+                                    <div class="un-mk-wd-events un-mk-card un-mk-padded-card">
+
+                                        <div class="un-mk-cl-white">Events</div>
+
+                                        <div>
+
+                                            <div>
+                                                <div class="un-mk-c-grey-light"></div>
+                                                <div class="un-mk-c-white"></div>
+                                            </div>
+
+                                            <div>
+                                                <div class="un-mk-c-grey-light"></div>
+                                                <div class="un-mk-c-white"></div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="un-mk-wd-resources un-mk-card un-mk-padded-card">
+
+                                        <div class="un-mk-cl-white">Resources</div>
+
+                                        <div>
+
+                                            <div>
+                                                <div class="un-mk-c-grey-light"></div>
+                                                <div class="un-mk-c-white"></div>
+                                            </div>
+
+                                            <div>
+                                                <div class="un-mk-c-grey-light"></div>
+                                                <div class="un-mk-c-white"></div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="un-mk-wd-members un-mk-card un-mk-padded-card">
+
+                                        <div class="un-mk-cl-white">Subscribers</div>
+
+                                        <div>
+
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-dark-grey"></div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div>
+
+                                    <div class="un-mk-nf-create un-mk-card">
+                                        <div>
+
+                                            <div class="un-mk-c-dark-grey"></div>
+
+                                            <div class="un-mk-c-light-grey"></div>
+
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <div class="un-mk-c-light-grey"></div>
+                                                <div class="un-mk-c-light-grey"></div>
+                                                <div class="un-mk-c-light-grey"></div>
+                                                <div class="un-mk-c-light-grey"></div>
+                                            </div>
+                                            <div>
+                                                <div class="un-mk-c-blue"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="un-mk-nf-item un-mk-card">
+
+                                        <div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-light-grey"></div>
+                                            <div class="un-mk-c-light-grey"></div>
+                                        </div>
+
+                                        <div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-light-grey"></div>
+                                        </div>
+
+                                        <div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="umk-body-members" class="hidden-block">
+                            <div class="un-mk-general-header-main">
+                                <div>Members</div>
+                                <div>
+                                    <div class="un-mk-c-grey-light"></div>
+                                    <div class="un-mk-c-grey-light"></div>
+                                </div>
+                            </div>
+                            <div class="un-mk-general-body-main un-mk-list-view">
+                                <div>
+                                    <div class="un-mk-list-member" onclick="handleChangeScreen('singleMember', 0)">
+
+                                        <div class="un-mk-c-dark-grey"></div>
+                                        <div>
+                                            <script type="text/javascript">
+                                                document.write(mockupData.members[0].name)
+
+                                            </script>
+                                        </div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+                                    </div>
+                                    <div class="un-mk-list-member" onclick="handleChangeScreen('singleMember', 1)">
+
+                                        <div class="un-mk-c-dark-grey"></div>
+                                        <div>
+                                            <script type="text/javascript">
+                                                document.write(mockupData.members[1].name)
+
+                                            </script>
+                                        </div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+                                    </div>
+                                    <div class="un-mk-list-member" onclick="handleChangeScreen('singleMember', 2)">
+
+                                        <div class="un-mk-c-dark-grey"></div>
+                                        <div>
+                                            <script type="text/javascript">
+                                                document.write(mockupData.members[2].name)
+
+                                            </script>
+                                        </div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+                                    </div>
+                                    <div class="un-mk-list-member" onclick="handleChangeScreen('singleMember', 3)">
+
+                                        <div class="un-mk-c-dark-grey"></div>
+                                        <div>
+                                            <script type="text/javascript">
+                                                document.write(mockupData.members[3].name)
+
+                                            </script>
+                                        </div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+                                    </div>
+                                    <div class="un-mk-list-member" onclick="handleChangeScreen('singleMember', 4)">
+
+                                        <div class="un-mk-c-dark-grey"></div>
+                                        <div>
+                                            <script type="text/javascript">
+                                                document.write(mockupData.members[4].name)
+
+                                            </script>
+                                        </div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="umk-body-singleMember" class="hidden-block">
+                            <div class="un-ms-frontend">
+                                Find all your events, files, folders, teams and more - all on the first community platform made with members in mind.
+                            </div>
+                        </div>
+
+                        <div id="umk-body-teams" class="hidden-block">
+                            <div class="un-ms-frontend">
+                                Find all your events, files, folders, teams and more - all on the first community platform made with members in mind.
+                            </div>
+                        </div>
+
+                        <div id="umk-body-singleTeam" class="hidden-block">
+                            <div class="un-ms-frontend">
+                                Find all your events, files, folders, teams and more - all on the first community platform made with members in mind.
+                            </div>
+                        </div>
+
+                        <div id="umk-body-docs" class="hidden-block">
+                            <div class="un-ms-frontend">
+                                Find all your events, files, folders, teams and more - all on the first community platform made with members in mind.
+                            </div>
+                        </div>
+
+                        <div id="umk-body-singleEvent" class="hidden-block">
+                            <div class="un-ms-frontend">
+                                Find all your events, files, folders, teams and more - all on the first community platform made with members in mind.
+                            </div>
+                        </div>
+
+                        <div id="umk-body-events" class="hidden-block">
+                            <div class="un-ms-frontend">
+                                Find all your events, files, folders, teams and more - all on the first community platform made with members in mind.
+                            </div>
+                        </div>
+
+                        <div id="umk-body-singleGroup" class="hidden-block">
+                            <script type="text/javascript">
+                                document.write('<div class="un-mk-single-page-bkg" style="background-image: url(' + mockupData.group.bkg + ')"></div>')
+
+                            </script>
+
+
+                            <div class="un-mk-grey-bkg un-mk-split-two-alt-rev">
+                                <div>
+
+                                    <div class="un-mk-card-topic">
+
+                                        <div>
+                                            <script type="text/javascript">
+                                                document.write(mockupData.group.name)
+
+                                            </script>
+                                        </div>
+                                        <div class="un-mk-c-grey-light"></div>
+                                        <div class="un-mk-c-grey-light"></div>
+
+
+                                    </div>
+
+                                    <div class="un-mk-wd-events un-mk-card un-mk-padded-card">
+
+                                        <div class="un-mk-cl-white">Events</div>
+
+                                        <div>
+
+                                            <div>
+                                                <div class="un-mk-c-grey-light"></div>
+                                                <div class="un-mk-c-white"></div>
+                                            </div>
+
+                                            <div>
+                                                <div class="un-mk-c-grey-light"></div>
+                                                <div class="un-mk-c-white"></div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="un-mk-wd-resources un-mk-card un-mk-padded-card">
+
+                                        <div class="un-mk-cl-white">Resources</div>
+
+                                        <div>
+
+                                            <div>
+                                                <div class="un-mk-c-grey-light"></div>
+                                                <div class="un-mk-c-white"></div>
+                                            </div>
+
+                                            <div>
+                                                <div class="un-mk-c-grey-light"></div>
+                                                <div class="un-mk-c-white"></div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="un-mk-wd-members un-mk-card un-mk-padded-card">
+
+                                        <div class="un-mk-cl-white">Members</div>
+
+                                        <div>
+
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-dark-grey"></div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div>
+
+                                    <div class="un-mk-nf-create un-mk-card">
+                                        <div>
+
+                                            <div class="un-mk-c-dark-grey"></div>
+
+                                            <div class="un-mk-c-light-grey"></div>
+
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <div class="un-mk-c-light-grey"></div>
+                                                <div class="un-mk-c-light-grey"></div>
+                                                <div class="un-mk-c-light-grey"></div>
+                                                <div class="un-mk-c-light-grey"></div>
+                                            </div>
+                                            <div>
+                                                <div class="un-mk-c-blue"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="un-mk-nf-item un-mk-card">
+
+                                        <div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-light-grey"></div>
+                                            <div class="un-mk-c-light-grey"></div>
+                                        </div>
+
+                                        <div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-light-grey"></div>
+                                        </div>
+
+                                        <div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                            <div class="un-mk-c-dark-grey"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="umk-body-admin" class="hidden-block">
+                            <div class="un-ms-admin">
+                                Customize and manage all aspects of your Communaty in the Administrator Area.
+                                <div onclick="handleChangeScreen('feed')" class="un-ms-admin-box"><i class="ui icon left arrow"></i> Member Area</div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <img id="mainImg" src="https://unaty-media.s3.amazonaws.com/users/undefined/public/1528044706026" alt="Professional Associations Community Administrators">
+            </div>
+
+            <div class="un-slide-item-three">
+
+                <div class="un-sign-up-section">
+
+                    <div>
+                        Book a free 15 min demo with our team
+                    </div>
+
+                    <form id="mainForm" class="ui form">
+
+                        <div id="emailInputBox" class="ui input">
+                            <input id="emailInput" placeholder="john.smith@gmail.com" />
+                        </div>
+
+                        <button id="submitBtn" class="ui button blue compact orange large">Request Demo</button>
+                      
+                    </form>
+                    
+                     <div id="mainSectionTwo" class="hidden-block">
+                    <div>
+                        <i class="ui icon check green large"></i>
+                    </div>
+                    <div>
+                        We've received your information and will follow up shortly.
+                    </div>
+                </div>
+
+                    <div>
+
+                        <a href="https://www.youtube.com/watch?v=noabdyzBGkU" target="_blank">
+                            <i class="ui icon play"></i> Watch 1 min explainer
+                        </a>
+                        <span>•</span>
+                        <a href="https://www.unaty.de/en-us/policies/gdpr.html">
+                            
+                                GDPR Compliant
+                            </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="un-full-slide un-slide-two" id="slideTwo">
+
+        <div class="un-slide-container-normal">
+
+            <div class="un-slide-section">
+
+                <div class="un-slide-item-one un-header-large-alt">Unaty brings your community together</div>
+                <div class="un-slide-item-two un-subheader-large-alt">Create a private Communaty for your members and guests. Unaty keeps your data and content safe and helps you save time on community administration.
+                </div>
+
+                <div class="un-slide-item-three"><a class="un-new-link">The Unaty Platform<i class="ui icon angle right"></i></a></div>
+
+                <div class="un-slide-item-four">
+
+                    <i class="ui icon up cogs"></i> Save 70% of time spent on member management
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="un-slide-container-normal">
+
+                <div id="imgFour" class="hidden-block">
+
+                    <div class="">
+
+                        <div class="un-card-large-profile un-card">
+
+                            <div>
+                                <img src="https://randomuser.me/api/portraits/men/57.jpg">
+
+                            </div>
+
+                            <div>
+                                <h2><a class="un-alt-link">Jimmy Caldwell</a></h2>
+                                <div><a>President</a>, <a>Treasurer</a></div>
+
+                                <div class="un-card-profile-buttons">
+
+                                    <div class="ui button un-button-alt compact">
+                                        <i class="ui icon vcard"></i> Add to Contacts
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="un-card-white margin-bottom-16 un-medium-shadow un-card">
+
+                            <div>
+                                <div class="un-card-colored-title margin-bottom-16">
+                                    Basic Information
+                                </div>
+                                <div>
+                                </div>
+                            </div>
+
+                            <div class="un-card-info-fields">
+
+                                <div>
+                                    <div>Full Name</div>
+                                    <div>Dr. Jimmy S. Caldwell</div>
+                                </div>
+
+                                <div>
+                                    <div>Email</div>
+                                    <div><a class="un-link">caldwell@usfba.com</a></div>
+                                </div>
+
+                                <div>
+                                    <div>Mobile</div>
+                                    <div><a class="un-link">+49 123 4567890</a></div>
+                                </div>
+
+                                <div>
+                                    <div>Home Phone</div>
+                                    <div><a class="un-link">+49 5923 432512</a></div>
+                                </div>
+
+                                <div>
+                                    <div>Address</div>
+                                    <div><a class="un-link">C/o Caldwell<br>1234 Main Street<br>10023, Jamestown<br>Maryland, United States</a></div>
+                                </div>
+
+                                <div>
+                                    <div>Birthday</div>
+                                    <div>Nov. 3, 1987</div>
+                                </div>
+
+                                <div>
+                                    <div>Gender</div>
+                                    <div>Male</div>
+                                </div>
+
+                                <div>
+                                    <div>Member Type</div>
+                                    <div>Coach</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="un-card-blue margin-bottom-16 un-medium-shadow">
+
+                            <div class="un-card-topics-member-single">
+
+                                <div><i class="ui icon hashtag"></i></div>
+
+                                <div>Jimmy subscribes to <a>#Fishing</a>, <a>#Tennis</a>, and <a>#Golf</a>.</div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+                <div id="imgFive" class="hidden-block">
+
+                    <div class="un-table">
+
+                        <div class="un-table-header">
+                            <div>
+                                <div class="un-table-title">
+                                    Members
+                                </div>
+                                <div class="un-table-subtitle">
+                                    The members of your communaty can login and take part in conversations
+                                </div>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+
+                        <table class="ui table compact un-table-main">
+
+                            <thead class="un-table-main-header">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Verification</th>
+                                    <th>Sponsor</th>
+                                    <th>Email</th>
+
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                            <tbody class="un-card-main-body">
+                                <tr>
+                                    <td>
+                                        <a class="un-table-link-blue">Jesse Clark</a>
+                                    </td>
+                                    <td>
+                                        <span class="un-table-icon"><i class="ui icon check circle green"></i> Verified</span>
+                                    </td>
+                                    <td>
+                                        <a class="un-table-user"><img src="https://randomuser.me/api/portraits/men/24.jpg"> Thomas Calhoun</a>
+                                    </td>
+
+                                    <td>
+                                        clark@usfba.com
+                                    </td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <a class="un-table-link-blue">Chloe Carr</a>
+                                    </td>
+                                    <td>
+                                        <span class="un-table-icon"><i class="ui icon check circle green"></i> Verified</span>
+                                    </td>
+                                    <td>
+                                        <a class="un-table-user"><img src="https://randomuser.me/api/portraits/men/4.jpg"> Pete Cranston</a>
+                                    </td>
+
+                                    <td>
+                                        carr@usfba.com
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="un-table-link-blue">Tom Cruz</a>
+                                    </td>
+                                    <td>
+                                        <span class="un-table-icon"><i class="ui icon info circle yellow"></i> Unverified</span>
+                                    </td>
+                                    <td>
+                                        <a class="un-table-user"><img src="https://randomuser.me/api/portraits/women/56.jpg"> Carla Cranston</a>
+                                    </td>
+
+                                    <td>
+                                        cruz@usfba.com
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="un-table-link-blue">Eric Rangle</a>
+                                    </td>
+                                    <td>
+                                        <span class="un-table-icon"><i class="ui icon check circle green"></i> Verified</span>
+                                    </td>
+                                    <td>
+                                        <a class="un-table-user"><img src="https://randomuser.me/api/portraits/men/57.jpg"> Jimmy Caldwell</a>
+                                    </td>
+
+                                    <td>
+                                        rangle@usfba.com
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+
+                            <tfoot class="un-card-main-footer">
+                                <tr>
+                                    <td colspan="1">
+                                        4 Results
+                                    </td>
+                                    <td colspan="4" style="text-align: right;">
+                                        <button class="ui button small compact un-button-alt" role="button" tabindex="-1">
+                                            Previous
+                                        </button>
+                                        <button class="ui button small compact un-button-alt" role="button" tabindex="-1">
+                                            Weiter
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tfoot>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="un-full-slide un-slide-three" id="slideThree">
+
+        <div class="un-slide-container-normal">
+
+            <div class="un-slide-section">
+
+                <div class="un-slide-item-one un-header-large-alt">Reach your members with relevant content</div>
+                <div class="un-slide-item-two un-subheader-large-alt">
+                    Members can choose how they want to be reach and what interests them - making them more likely to react and get involved.
+                </div>
+
+                <div class="un-slide-item-three"><a class="un-new-link">Learn more<i class="ui icon angle right"></i></a></div>
+                <div class="un-slide-item-four">
+
+                    <i class="ui icon up comment"></i> Reach 40% more of your members
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="un-slide-container-normal">
+
+                <div id="imgOne" class="hidden-block">
+
+                    <div class="un-card-top-header">
+                        <div class="un-card-colored-title">
+                            Contact Methods
+                        </div>
+                        <div class="un-card-colored-action">
+                            <i class="ui icon plus"></i> Add
+                        </div>
+                    </div>
+
+                    <div class="un-card-top-body">
+
+                        <a class="un-card-colored-item">
+                            <span><i class="ui icon mail"></i> jimmy.caldwell@usfba.com</span> <span><i class="ui icon check"></i></span>
+                        </a>
+
+                        <a class="un-card-colored-item">
+                            <span><i class="ui icon comment"></i> +49 123 4567890</span> <span></span>
+                        </a>
+
+                        <a class="un-card-colored-item">
+                            <span><i class="ui icon mail"></i> jimmy-caldwell@gmail.com</span> <span><i class="ui icon check"></i></span>
+                        </a>
+
+                        <a class="un-card-colored-item">
+                            <span><i class="ui icon mail"></i> jcaldwell@unaty.de</span> <span><i class="ui icon check"></i></span>
+                        </a>
+
+                        <a class="un-card-colored-item">
+                            <span><i class="ui icon comment"></i> +1 (262) 1032523</span> <span></span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div id="imgTwo" class="hidden-block">
+
+                    <div class="un-card-topic-top">
+                        <h3><a class="un-alt-link">#Tennis</a></h3>
+                    </div>
+
+                    <div class="un-card-topic-mid">
+                        Calling all Tennis enthusiasts and aficionados, subscribe to get updates when/where/who will be playing!
+                    </div>
+
+                    <div class="un-card-topic-bot">
+                        <a class="ui green large label un-label">
+    Subscribed<div class="detail">89</div>
+  </a>
+                    </div>
+
+                </div>
+
+                <div id="imgThree" class="hidden-block">
+
+                    <div>
+
+                        <div>
+                            Send to
+                        </div>
+
+                        <div>
+                            <div>
+                                #Tennis
+                                <i class="ui icon dropdown"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div>
+                            Subject
+                        </div>
+
+                        <div>
+                            Summer Tournament is here! 🎾
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <div>
+
+                            Hi *|FIRST_NAME|*,<br/><br/> We'll be meeting this saturday for our annual summer tournament, hope you're all ready!<br/><br/> Best of luck,<br/> Jimmy
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <a class="ui button un-button compact blue">Send to 89 members</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="un-full-slide un-slide-four" id="slideFour">
+
+        <div class="un-slide-container">
+
+            <div id="slideFourSec">
+                <div class="un-slide-item-one">
+
+                    <div class="un-header-large">
+                        Get your members talking
+                    </div>
+
+                    <div class="un-subheader-large">
+                        Start a community conversation and watch organic engagement grow.
+                    </div>
+                </div>
+
+                <div class="un-slide-item-four">
+
+                    <i class="ui icon up external square"></i> 30% higher member engagment
+                </div>
+
+                <div class="un-slide-item-two">
+
+                    <div>
+                        <div id="fourOne" class="hidden-block">
+                            <div class="un-large-event-card-header">
+                                <div>
+                                    <span>
+                                    
+                                    <span>17.</span>
+                                    <span>JUL</span>
+
+                                    </span>
+                                </div>
+                                <div>
+                                    <h2><a class="un-alt-link">Summer BBQ Party</a></h2>
+                                    <div>Hosted by:
+                                        <a><img src="https://randomuser.me/api/portraits/men/57.jpg"> Jimmy Caldwell</a>
+                                    </div>
+
+                                    <div>
+                                        Join us next sunday for our yearly jambooree, see you there!
+                                    </div>
+
+                                    <div>
+                                        <a class="un-link">#Tennis</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="un-large-event-card-details">
+                                <div>
+                                    <div>
+                                        <i class="ui icon clock"></i>
+                                    </div>
+                                    <div>
+                                        <strong>17:15</strong>
+                                    </div>
+                                    <div>
+                                        <a class="un-link-icon">Add to Calendar <i class="ui icon right angle"></i></a>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <div>
+                                        <i class="ui icon marker"></i>
+                                    </div>
+                                    <div>
+                                        <strong>Grady Park</strong>,<br> Maple St. 19<br> 30422, Youngstown
+                                    </div>
+                                    <div>
+                                        <a class="un-link-icon">Maps <i class="ui icon right angle"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="un-large-event-card-actions">
+                                <a id="e4-btn" class="ui label large un-button blue"><span id="e4-btnText">Attend</span><span id="e4-totalOne" class="detail">48</span></a>
+                            </div>
+                        </div>
+
+                        <div id="fourTwo" class="hidden-block" style="text-align: left;">
+                            <div style="display: flex;margin-bottom: 12px;">
+                                <div class="un-card-colored-title" style="flex-grow: 1;">
+                                    Going <span id="e4-total">(48)</span>
+                                </div>
+                                <div class="un-normal-card-action">
+                                    <i class="ui icon plus"></i> Invite
+                                </div>
+                            </div>
+
+                            <div class="un-card-attending-imgs">
+
+                                <div class="un-card-photos">
+                                    <img src="https://randomuser.me/api/portraits/men/34.jpg">
+                                    <img src="https://randomuser.me/api/portraits/men/45.jpg">
+                                    <img src="https://randomuser.me/api/portraits/men/49.jpg">
+                                    <img src="https://randomuser.me/api/portraits/men/53.jpg">
+                                    <img src="https://randomuser.me/api/portraits/men/12.jpg">
+                                    <img src="https://randomuser.me/api/portraits/men/24.jpg">
+                                    <img src="https://randomuser.me/api/portraits/men/54.jpg">
+                                    <img src="https://randomuser.me/api/portraits/men/52.jpg">
+                                    <img src="https://randomuser.me/api/portraits/men/23.jpg">
+                                    <img src="https://randomuser.me/api/portraits/men/84.jpg">
+                                    <img src="https://randomuser.me/api/portraits/men/64.jpg">
+                                    <span id="e4-tenless">+36</span></div>
+
+                                <div>
+                                    <span id="e4-you"></span><a class="un-link">Chloe Carr</a>, <a class="un-link">Tom Cruz</a>, and 46 others are going
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+
+                        <div id="fourThree" class="hidden-block">
+                            <div class="un-nf-top">
+                                <div>
+                                    <img src="https://randomuser.me/api/portraits/women/56.jpg">
+                                </div>
+                                <div>
+                                    <strong>Chloe Carr</strong> added a <strong>Gallery</strong>
+                                </div>
+                                <div>
+                                    30s
+                                </div>
+                            </div>
+                            <div class="un-nf-body">
+                                <div class="un-nf-gallery">
+                                    <div style="background-image: url('https://unaty-media.s3.amazonaws.com/organizations/KBNPSXfisgzP2qerA/public/main/1534084186673')">
+                                    </div>
+                                    <div>
+                                        <i class="ui icon left chevron"></i>
+                                    </div>
+                                    <div>
+                                        <i class="ui icon right chevron"></i>
+                                    </div>
+                                    <div>
+                                       Summer BBQ Party '18
+                                    </div>
+                                    <a>
+                                View Gallery <i class="ui icon right arrow"></i>
+                            </a>
+                                </div>
+                            </div>
+                            <div class="un-nf-actions">
+                                <div onclick="handleLike()">
+                                    <i id="e4-like-heart" class="ui icon heart outline"></i>
+                                </div>
+                                <div>
+                                    <i class="ui icon comment outline"></i>
+                                </div>
+                                <div>
+                                    <i class="ui icon ellipsis horizontal"></i>
+                                </div>
+                            </div>
+                            <div class="un-nf-details">
+                                <i class="ui icon heart blue"></i> <strong id="e4-like-num">73 Likes</strong>
+                            </div>
+                            <div class="un-nf-comments">
+                                <div></div>
+                                <div>
+                                    <div id="e4-comment-one" class="hidden-block">
+                                        <strong>Jimmy Caldwell</strong> Great picture, had a great time - thanks everyone for coming!!
+                                    </div>
+                                    <div id="e4-comment-two" class="hidden-block">
+                                        <strong>Pete Cranston</strong> Loved those ribs.. any left over?
+                                    </div>
+                                    <div id="e4-comment-three" class="hidden-block">
+                                        <strong>Chloe Carr</strong> I'll ask and let you know!
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="un-full-slide un-slide-five" id="slideFive">
+
+        <div class="un-slide-container-normal">
+
+            <div class="un-slide-section">
+
+                <div class="un-slide-item-one un-header-large-alt">Keep your data secure and GDPR compliant</div>
+                <div class="un-slide-item-two un-subheader-large-alt">
+                    We're proud to exceed the industry standard when it comes to protecting your data. Unaty also helps your organization get ready for the GDPR.
+                </div>
+
+                <div class="un-slide-item-three"><a href="https://www.unaty.de/en-us/use-cases/gdpr-compliant.html" class="un-new-link">Learn more<i class="ui icon angle right"></i></a></div>
+
+                <div class="un-slide-item-four">
+
+                    <i class="ui icon up shield"></i> Full community GDPR compliance
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <div class="un-slide-container-normal">
+
+
+                <div class="hidden-block" id="secChecklist">
+
+                    <div>Security & Compliance</div>
+
+                    <div>
+
+                        <span>Your Communaty data is encrypted. Our own staff can't even access it.</span>
+
+                        <i class="ui icon check green"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>All data and servers are located in Germany, and is regularly backed up.</span>
+
+                        <i class="ui icon check green"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>Unaty has the ability to establish tiered-levels of access within a Communaty.</span>
+
+                        <i class="ui icon check green"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>All employees sign a Privacy Safeguard Agreement outlining their responsibility in protecting customer data.</span>
+
+                        <i class="ui icon check green"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="un-full-slide un-slide-six" id="slideSix">
+
+        <div class="un-slide-container">
+
+            <div id="slideSixSec">
+                <div class="un-slide-item-one">
+
+                    <div class="un-header-large">
+                        Let's get started
+                    </div>
+
+                    <div class="un-subheader-large">
+                        Book a 15 min product demo with our team to see how you can reach more members and grow community engagement.
+                    </div>
+                </div>
+
+                <div class="un-slide-item-two">
+
+                    <div class="un-sign-up-section">
+
+                        <div></div>
+
+                        <form id="mainFormTwo" class="ui form">
+
+                        <div id="emailInputBoxTwo" class="ui input">
+                            <input id="emailInputTwo" placeholder="john.smith@gmail.com" />
+                        </div>
+
+                        <button id="submitBtnTwo" class="ui button orange compact large">Request Demo</button>
+                      
+                    </form>
+                        
+                        <div id="mainSectionTwoTwo" class="hidden-block">
+                    <div>
+                        <i class="ui icon check green large"></i>
+                    </div>
+                    <div>
+                        We've received your information and will follow up shortly.
+                    </div>
+                </div>
+
+                        <div>
+
+                            <a href="https://www.youtube.com/watch?v=noabdyzBGkU" target="_blank">
+                                <i class="ui icon play"></i> Watch 1 min explainer
+                            </a>
+                            <span>•</span>
+                            <a href="https://www.unaty.de/en-us/policies/gdpr.html">
+                            
+                                GDPR Compliant
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="un-slide-footer">
+            <div class="ui container">
+
+                <div class="ui grid stackable">
+
+                    <div class="row">
+                        <div class="three wide computer sixteen wide mobile three wide tablet column">
+                            <div class="ui header grey topMargin18 uiGreyHeader"><span>Products</span> </div>
+                            <div role="list" class="ui large link list relaxed"> <a role="listitem" class="item" href="https://www.unaty.de/en-us/products/build.html"><span>Build</span></a> <a role="listitem" class="item" href="https://www.unaty.de/en-us/products/grow.html"><span>Grow</span></a> <a role="listitem" class="item" href="https://www.unaty.de/en-us/products/engage.html"><span>Engage</span></a> </div>
+                            <div class="ui divider"> </div>
+                            <div role="list" class="ui large link list relaxed"> <a role="listitem" class="item" href="https://www.unaty.de/en-us/unaty-platform.html"><span>Unaty Platform</span></a> </div>
+                        </div>
+                        <div class="six wide computer sixteen wide mobile seven wide tablet column">
+                            <div class="ui header grey topMargin18 uiGreyHeader"><span>Use Cases</span> </div>
+                            <div role="list" class="ui large link list relaxed"> <a role="listitem" class="item " href="https://www.unaty.de/en-us/use-cases/easy-administration.html"><span>Reduce administration and reach more members</span></a> <a role="listitem" class="item " href="https://www.unaty.de/en-us/use-cases/activate-members.html"><span>Activate your community and inspire action</span></a> <a role="listitem" class="item " href="https://www.unaty.de/en-us/use-cases/recruit-members.html"><span>Raise awareness and recruit new members</span></a><a role="listitem" class="item " href="https://www.unaty.de/en-us/use-cases/gdpr-compliant.html"><span>Get your organization GDPR ready</span></a> </div>
+                        </div>
+                        <div class="four wide computer sixteen wide mobile three wide tablet column">
+                            <div class="ui header grey topMargin18 uiGreyHeader"><span>Resources</span> </div>
+                            <div role="list" class="ui large link list relaxed"> <a role="listitem" class="item" href="https://www.unaty.de/en-us/webinars.html"><span>Webinars</span></a> <a role="listitem" class="item" href="https://www.unaty.de/en-us/company/security.html"><span>Security</span></a> <a role="listitem" class="item" href="http://help.unaty.de/" target="_blank"><span>Help Center</span></a> <a role="listitem" class="item" target="_blank" href="https://app.unaty.de/compass/explore"><span>Compass</span></a> <a role="listitem" class="item" href="https://www.unaty.de/en-us/policies.html"><span>Privacy &amp; Terms</span></a> </div>
+                        </div>
+                        <div class="three wide computer sixteen wide mobile three wide tablet column">
+                            <div class="ui header grey topMargin18 uiGreyHeader"><span>Company</span> </div>
+                            <div role="list" class="ui large link list relaxed"> <a role="listitem" class="item" href="https://www.unaty.de/en-us/company/about.html"><span>About</span></a> <a role="listitem" class="item" href="https://www.unaty.de/en-us/company/contact-us.html"><span>Contact</span></a> <a role="listitem" class="item" href="https://www.unaty.de/en-us/company/careers.html"><span>Careers</span></a> <a role="listitem" class="item" href="https://www.unaty.de/en-us/company/imprint.html"><span>Imprint</span></a> </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="un-sidebar-menu animated fadeIn">
+        <div>
+
+            <i id="prevIcon" onclick="prevSlide()" class="hidden-block"></i>
+
+            <span onclick="goTo(1)" id="circleOne" class="un-circle un-filled"></span>
+
+            <span onclick="goTo(2)" id="circleTwo" class="un-circle"></span>
+
+            <span onclick="goTo(3)" id="circleThree" class="un-circle"></span>
+
+            <span onclick="goTo(4)" id="circleFour" class="un-circle"></span>
+
+            <span onclick="goTo(5)" id="circleFive" class="un-circle"></span>
+
+            <span onclick="goTo(6)" id="circleSix" class="un-circle"></span>
+
+            <i id="nextIcon" onclick="nextSlide()" class="ui icon angle down"></i>
+
+        </div>
+    </div>
+
+
+    <div id="mobileMenu" class="hidden-block">
+
+        <div>
+
+            <div class="ui small header"><a href="https://www.unaty.de/en-us/why-unaty.html" class="un-link-icon">Why Unaty <i class="ui icon right angle"></i></a></div>
+
+            <div class="ui divider hidden"></div>
+
+            <div class="ui sub header">Use Cases</div>
+
+            <div class="ui list relaxed">
+                <a href="https://www.unaty.de/en-us/use-cases/easy-administration.html" class="item un-link-alt">Reduce administration and reach more members</a>
+                <a href="https://www.unaty.de/en-us/use-cases/activate-members.html" class="item un-link-alt">Activate your community and inspire action</a>
+                <a href="https://www.unaty.de/en-us/use-cases/recruit-members.html" class="item un-link-alt">Raise awareness and recruit new members</a>
+                <a href="https://www.unaty.de/en-us/use-cases/gdpr-compliant.html" class="item un-link-alt">Get your organization GDPR ready</a>
+            </div>
+
+            <div class="ui divider hidden"></div>
+            <div class="ui sub header">Products</div>
+
+            <div class="ui list relaxed">
+                <a href="https://www.unaty.de/en-us/products/build.html" class="item un-link-alt">Build</a>
+                <a href="https://www.unaty.de/en-us/products/engage.html" class="item un-link-alt">Engage</a>
+                <a href="https://www.unaty.de/en-us/products/grow.html" class="item un-link-alt">Grow</a>
+                <a href="https://www.unaty.de/en-us/why-unaty.html" class="item un-link-alt">Unaty Platform</a>
+            </div>
+            <div class="ui divider hidden"></div>
+            <div class="ui small header"><a href="https://www.unaty.de/en-us/pricing.html" class="un-link-icon">Pricing <i class="ui icon right angle"></i></a></div>
+
+        </div>
+
+        <i onclick="closeMenu()" class="ui icon x un-close-x"></i>
+
+    </div>
+</body>
+
+</html>

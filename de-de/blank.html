@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>INSERT TITLE | Unaty</title>
+    <script src="en-setup.js"></script>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unaty: Where Leaders Inspire Action">
+    <meta name="keywords" content="association management software, membership management, membership website, create a membership website, build a membership website, best membership sites, knowledge management system, church membership software">
+    
+    <script type="text/javascript">
+        document.write(headData)
+
+    </script>
+    
+</head>
+
+<body class="dropdowns--hover">
+    <a id="start"></a>
+    <!--end bar-->
+    <script type="text/javascript">
+        document.write(menu)
+
+    </script>
+    <div class="main-container">
+        ADD SECTIONS
+        
+        <script type="text/javascript">
+        document.write(footer)
+
+    </script>
+        
+    </div>
+    <!--<div class="loader"></div>-->
+    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <i class="stack-interface stack-up-open-big"></i>
+    </a>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/flickity.min.js"></script>
+    <script src="../js/easypiechart.min.js"></script>
+    <script src="../js/parallax.js"></script>
+    <script src="../js/typed.min.js"></script>
+    <script src="../js/datepicker.js"></script>
+    <script src="../js/isotope.min.js"></script>
+    <script src="../js/ytplayer.min.js"></script>
+    <script src="../js/lightbox.min.js"></script>
+    <script src="../js/granim.min.js"></script>
+    <script src="../js/jquery.steps.min.js"></script>
+    <script src="../js/countdown.min.js"></script>
+    <script src="../js/twitterfetcher.min.js"></script>
+    <script src="../js/spectragram.min.js"></script>
+    <script src="../js/smooth-scroll.min.js"></script>
+    <script src="../js/scripts.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Listen to submit event on the <form> itself!
+            $('#mainForm').submit(function(e) {
+
+                e.preventDefault();
+
+
+                $("#submitBtn").addClass('loading')
+
+                var email = $("#emailInput").val();
+
+                checkFields(email)
+
+            });
+
+
+            function stopLoading() {
+                document.getElementById("submitBtn").className = "btn btn--primary type--uppercase"
+            }
+
+            function checkFields(email) {
+
+                let emailSubmit = email.trim()
+              
+                let error = false
+
+                // email check
+
+                // name check
+
+                submitForm(emailSubmit)
+            }
+
+            function submitForm(email) {
+            
+                window.open('https://app.unaty.de/sign-up?_src=mainCTA&email='+email);
+
+            }
+
+            function showSuccess() {
+             
+        
+            }
+
+            function showFailure() {
+                resetErrors()
+                stopLoading()
+                alert('Submission failed')
+            }
+
+        });
+
+
+    </script>
+</body>
+
+</html>
