@@ -11697,6 +11697,14 @@ footer.footer-7 {
     color: rgb(50, 54, 72);
 
 }
+.hero-smaller-text {
+    font-family: 'unaty-cheltenham' !important;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 60px;
+    color: rgb(50, 54, 72);
+
+}
 
 .hero-secondary-text {
     font-family: 'unaty-cheltenham' !important;
@@ -11875,11 +11883,18 @@ a.special-link-home:hover {
     .hero-main-text {
         font-size: 64px !important;
     }
+    .hero-smaller-text {
+        font-size: 48px !important;
+    }
 }
 
 @media (max-width: 480px) {
     .hero-main-text {
         font-size: 48px;
+    }
+
+    .hero-smaller-text {
+        font-size: 36px !important;
     }
 
     .lead.hero-main-text-sub {
@@ -13007,4 +13022,11 @@ a.special-link-home:hover {
 }
 .enterprise-pricing-box h3 {
     margin-bottom: 0;
+}
+.title-section-normal {
+    font-family: 'unaty-cheltenham' !important;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 36px;
+    color: rgb(83, 89, 111);
 }
