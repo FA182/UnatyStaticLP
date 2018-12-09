@@ -13030,3 +13030,77 @@ a.special-link-home:hover {
     font-size: 36px;
     color: rgb(83, 89, 111);
 }
+.unty-brandg-img-frame {
+margin-bottom: 32px;
+}
+.unty-brandg-img-frame > div:nth-child(1) {
+    border: 2px solid #e4e4e4;
+    border-radius: 8px;
+    padding: 14px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+.unty-brandg-img-frame > div:nth-child(1) > img {
+    max-height: 144px;
+    max-width: 80%;
+    transition: 0.2s all ease;
+}
+.unty-brandg-img-frame > div:nth-child(1) span {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgb(121,121,121);
+    font-size: 13px;
+}
+.unty-brandg-img-frame > div:nth-child(2) {
+    display: flex;
+    margin-top: 4px;
+    padding: 0 8px;
+}
+.unty-brandg-img-frame > div:nth-child(2) > div:nth-child(1) {
+flex-grow: 1;
+}
+.unty-brandg-img-frame > div:nth-child(2) > div:nth-child(2) {
+
+}
+.unty-brandg-img-frame > div:nth-child(2) > div:nth-child(2) a {
+    margin-right: 8px;
+}
+.unty-brandg-invertedbkg {
+    background-color: #2d333a !important;
+}
+.unty-brandg-invertedbkg span {
+    color: #fafafa !important;
+}
+.unty-link {
+    color: #3297d3;
+    cursor: pointer;
+}
+.unty-link:hover {
+    color: #484848;
+}
+.unty-details-header {
+    color: rgb(96,96,96);
+    font-size: 14px;
+    margin-left: 12px;
+}
+.unty-brandg-img-frame > div.unty-banner-img:nth-child(1) > img {
+    max-height: 360px;
+    max-width: 100%;
+}
+.unty-brandg-img-frame img:hover {
+    transform: scale(1.025);
+}
+.unty-brandg-img-frame > div.unty-instagram-img:nth-child(1) > img {
+    max-height: 300px;
+    max-width: 100%;
+}
+.unty-p-textblock {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-right: 24px;
+    margin-top: 16px;
+}
