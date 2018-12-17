@@ -217,14 +217,30 @@
     .g-activeitem {
         display: block;
         background-color: #609de6;
-        height: 14px;
-        width: 14px;
+        height: 10px;
+        width: 10px;
         position: absolute;
-        left: -8px;
-        bottom: -8px;
+        left: -6px;
+        bottom: -6px;
         z-index: 99;
         border-radius: 50%;
 
+    }
+    .g-activeitem span {
+        position: absolute;
+        top: 10px;
+        left: 9px;
+        white-space: nowrap;
+        font-size: 11px;
+        font-weight: 900;
+        color: rgb(32,32,32);
+        letter-spacing: 0.4px;
+        background-color: #fff;
+        height: 17px;
+        line-height: 16px;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 4px;
     }
 
     .fdc-yaxis {
@@ -381,22 +397,27 @@
         }
     }
 
-    function removeFeature(name, finalScore) {
+    function removeFeature(event) {
         var allFeatures = getFeatures();
+
+        var idArr = event.toElement.id.split('--')
 
         var arr = [];
         for(var i=0;i<allFeatures.length;i++) {
             var featureItem = allFeatures[i];
 
-            if(featureItem.finalScore===finalScore&&featureItem.name===name) {
+            if(featureItem.finalScore.toString()===idArr[2]&&featureItem.name===idArr[1]) {
 
             } else {
                 arr.push(featureItem)
             }
         }
 
+
+
         localStorage.setItem('featureScores', JSON.stringify(arr));
-        location.reload();
+
+        renderTable()
     }
 
     function clearTable() {
@@ -417,12 +438,16 @@
 
         for(var i=0;i<sortedFeatures.length;i++) {
             var feature = sortedFeatures[i];
+            const featureName = feature.name
+            const featureScore = feature.finalScore
+
+
             html += '<tr>'
             html += '<td>'+feature.name+'</td>'
             html += '<td>'+feature.finalScore+'</td>'
             html += '<td>'+feature.fitScore+'</td>'
             html += '<td>'+feature.costScore+'</td>'
-            html += '<td><a class="fdc-remove-action" onclick="removeFeature(feature.name, feature.finalScore)">Delete</a></td>'
+            html += '<td><a class="fdc-remove-action" id="remove--'+featureName+'--'+featureScore+'" onclick="removeFeature(event)">Delete</a></td>'
             html += '</tr>'
         }
 
@@ -1161,11 +1186,15 @@
             }
 
 
+            /* Hide to stop removing items
             if (state.currentId !== '') {
                 $(state.currentId).html("")
             }
+            */
 
-            $(pinStr).html("<span class='g-activeitem'></span>")
+            var featureName = document.getElementById('featureTitle').value
+
+            $(pinStr).html("<span alt='"+featureName+"' class='g-activeitem'><span>"+featureName+"</span></span>")
             state.currentId = pinStr
 
         }
