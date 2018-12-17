@@ -304,19 +304,19 @@
 
     }
 
-    .fdc-features-table > tbody > tr:nth-child(1) {
+    .fdc-features-table > thead > tr:nth-child(1) {
         border-bottom: 2px solid #efefef;
     }
 
-    .fdc-features-table > tbody > tr:nth-child(1) > th {
+    .fdc-features-table > thead > tr:nth-child(1) > th {
         padding: 4px !important;
     }
 
-    .fdc-features-table > tbody > tr:not(:nth-child(1)) {
+    .fdc-features-table > tbody > tr {
 
     }
 
-    .fdc-features-table > tbody > tr:not(:nth-child(1)) > td {
+    .fdc-features-table > tbody > tr > td {
         padding: 4px;
     }
 
@@ -402,6 +402,32 @@
     function clearTable() {
         localStorage.clear();
         location.reload();
+    }
+
+    function renderTable() {
+        var html = '';
+
+        var allFeatures = getFeatures()
+
+        var sortedFeatures = allFeatures.sort(function(a, b) {
+            return a.finalScore - b.finalScore;
+        });
+
+       sortedFeatures.reverse()
+
+        for(var i=0;i<sortedFeatures.length;i++) {
+            var feature = sortedFeatures[i];
+            html += '<tr>'
+            html += '<td>'+feature.name+'</td>'
+            html += '<td>'+feature.finalScore+'</td>'
+            html += '<td>'+feature.fitScore+'</td>'
+            html += '<td>'+feature.costScore+'</td>'
+            html += '<td><a class="fdc-remove-action" onclick="removeFeature(feature.name, feature.finalScore)">Delete</a></td>'
+            html += '</tr>'
+        }
+
+        $("#table-body").html(html)
+
     }
 
 </script>
@@ -700,6 +726,7 @@
                     <h3 class="fdc-features-title">Features</h3>
 
                     <table class="fdc-features-table">
+                        <thead>
                         <tr>
                             <th>Name</th>
                             <th>Score</th>
@@ -707,26 +734,11 @@
                             <th>Effort</th>
                             <th>Actions</th>
                         </tr>
-                        <script>
-                            var allFeatures = getFeatures()
+                        </thead>
 
-                            var sortedFeatures = allFeatures.sort(function(a, b) {
-                                return a.finalScore - b.finalScore;
-                            });
+                        <tbody id="table-body">
 
-                            sortedFeatures.reverse()
-
-                            for(var i=0;i<sortedFeatures.length;i++) {
-                                var feature = sortedFeatures[i];
-                                document.write('<tr>')
-                                document.write('<td>'+feature.name+'</td>')
-                                document.write('<td>'+feature.finalScore+'</td>')
-                                document.write('<td>'+feature.fitScore+'</td>')
-                                document.write('<td>'+feature.costScore+'</td>')
-                                document.write('<td><a class="fdc-remove-action" onclick="removeFeature(feature.name, feature.finalScore)">Delete</a></td>')
-                                document.write('</tr>')
-                            }
-                        </script>
+                        </tbody>
 
                     </table>
                     <a class="fdc-remove-action" onclick="clearTable()">Remove all features</a>
@@ -750,6 +762,8 @@
             state.title = e.target.value;
             checkState()
         }
+
+        renderTable()
 
         $source.addEventListener('input', typeHandler) // register for oninput
     </script>
@@ -1041,6 +1055,8 @@
                 })
             }
             localStorage.setItem('featureScores', JSON.stringify(arr));
+
+            renderTable()
         }
 
         function setMessages(finalScore, fitScore, costScore) {
