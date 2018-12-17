@@ -1,0 +1,1939 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Feature Development Calculator</title>
+    <script src="en-setup.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+          href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">
+
+    <meta name="description" content="To build or not to build, that is the question this tool will answer.">
+    <meta name="keywords"
+          content="association management software, membership management, membership website, create a membership website, build a membership website, best membership sites, knowledge management system, church membership software">
+    <meta content="https://www.unaty.de/" property="og:url">
+    <meta name="twitter:title" content="Features | Unaty">
+    <meta name="twitter:description" content="The community hub for leaders to engage members and inspire action.">
+
+    <meta property="og:image"
+          content="https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1545053269027">
+    <meta name="twitter:image"
+          content="https://unaty-media.s3.amazonaws.com/organizations/FSwpFdDC8t42syZka/public/main/1545053269027">
+    <meta name="twitter:url" content="https://www.unaty.de/">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        document.write(headData)
+
+    </script>
+
+</head>
+
+<body class="dropdowns--hover">
+<a id="start"></a>
+<!--end bar-->
+
+<script type="text/javascript">
+    document.write(menu)
+
+</script>
+
+<style type="text/css">
+    .fdc-nameheader {
+        position: relative;
+    }
+
+    .fdc-nameheader:hover input {
+        background-color: #fafafa;
+        border-bottom: 2px solid #cecece;
+    }
+
+    .fdc-nameheader input {
+        padding: 0 12px;
+        border: none;
+        border-bottom: 2px solid #dedede;
+        font-size: 20px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        outline: none;
+        height: 44px;
+    }
+
+    .fdc-nameheader span {
+        position: absolute;
+        top: 0;
+        left: -40px;
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(144, 144, 144);
+        line-height: 46px;
+    }
+
+    .fdc-questionsection {
+
+    }
+
+    .fdc-questionsection h4 {
+        margin-bottom: 4px !important;
+        margin-top: 24px !important;
+    }
+
+    .fdc-questionsection ul {
+        display: flex;
+        font-size: 15px;
+        margin-left: 16px;
+    }
+
+    .fdc-questionlist {
+
+    }
+
+    .fdc-questionlist li {
+        padding: 2px 8px;
+        line-height: 24px;
+        border-radius: 4px;
+        margin-right: 8px;
+    }
+
+    .fdc-questionlist li:hover {
+        background-color: #fafafa;
+        cursor: pointer;
+    }
+
+    .fdc-questionlist fdc-item {
+
+    }
+
+    .fdc-questionlist .fdc-item.fdc-active {
+        background-color: #4a90e2 !important;
+        color: #ffffff !important;
+        font-weight: 900;
+    }
+
+    .fdc-button-section {
+        margin-top: 32px;
+    }
+
+    .fdc-button {
+        letter-spacing: .5px;
+        padding: 4px 16px;
+        border-color: #4a90e2;
+        box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.04) !important;
+        border-radius: 4px;
+        outline: none;
+        border-width: 1px;
+        font-size: inherit;
+        line-height: 1.85714286em;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        margin-right: 12px;
+    }
+
+    .fdc-button:hover {
+        cursor: pointer;
+    }
+
+    .fdc-button:not(.success):hover {
+        background-color: #efefef;
+    }
+
+    .fdc-button.success {
+        background-color: #21ba45 !important;
+        color: #fff !important;
+        font-weight: 900 !important;
+    }
+
+    .fdc-button.success:hover {
+        background-color: #149a34 !important;
+    }
+
+    .fdc-button.disabled {
+        cursor: no-drop;
+        background-color: #efefef;
+        opacity: 0.7;
+    }
+
+    .fdc-button.loading {
+
+    }
+
+    .fdc-graph-header {
+        text-align: center;
+        display: block;
+        margin-bottom: 4px;
+        font-size: 14px;
+        color: rgb(72, 72, 72);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-top: 48px;
+    }
+
+    .fdc-graph-frame {
+        width: 350px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        border-left: 2px solid #b5b5b5;
+        border-bottom: 2px solid #b5b5b5;
+        display: grid;
+        position: relative;
+        grid-template-columns: 50% 50%;
+    }
+
+    .fdc-graph-frame.fdc-scored > div:nth-child(1) {
+        background-color: #ceecce;
+    }
+
+    .fdc-graph-frame.fdc-scored > div:nth-child(2) {
+        background-color: aliceblue;
+    }
+
+    .fdc-graph-frame.fdc-scored > div:nth-child(3) {
+        background-color: #fdfddb;
+    }
+
+    .fdc-graph-frame.fdc-scored > div:nth-child(4) {
+        background-color: #ffdfdf;
+    }
+
+    .fdc-graph-frame > div {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+
+    .fdc-graph-frame > div > div {
+        border: 1px solid #efefef;
+        position: relative;
+    }
+
+    .g-activeitem {
+        display: block;
+        background-color: #609de6;
+        height: 14px;
+        width: 14px;
+        position: absolute;
+        left: -8px;
+        bottom: -8px;
+        z-index: 99;
+        border-radius: 50%;
+
+    }
+
+    .fdc-yaxis {
+        left: -32px;
+        width: 24px;
+        text-align: center;
+        height: 350px;
+        display: flex !important;
+        flex-flow: column;
+        position: absolute;
+    }
+
+    .fdc-yaxis > div {
+        line-height: 35px;
+        color: rgb(144, 144, 144);
+        border: none !important;
+    }
+
+    .fdc-xaxis {
+        bottom: -32px;
+        height: 24px;
+        text-align: center;
+        width: 350px;
+        display: flex !important;
+        flex-flow: row-reverse;
+        position: absolute;
+    }
+
+    .fdc-xaxis > div {
+        flex-grow: 1;
+        color: rgb(144, 144, 144);
+        border: none !important;
+    }
+
+    .fdc-featureScore {
+
+    }
+
+    .fdc-green {
+        color: #51d22a;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+
+    .fdc-red {
+        color: #d22a2a;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+
+    .fdc-yellow {
+        color: #d2c82a;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+
+    .fdc-feature-score-details {
+
+        margin-top: 48px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .fdc-feature-score-details h4 {
+        margin-bottom: 4px !important;
+    }
+
+    .fdc-feature-score-details p {
+
+    }
+
+    .fdc-features-title {
+
+    }
+
+    .fdc-features-table {
+
+    }
+
+    .fdc-features-table > tbody > tr:nth-child(1) {
+        border-bottom: 2px solid #efefef;
+    }
+
+    .fdc-features-table > tbody > tr:nth-child(1) > th {
+        padding: 4px !important;
+    }
+
+    .fdc-features-table > tbody > tr:not(:nth-child(1)) {
+
+    }
+
+    .fdc-features-table > tbody > tr:not(:nth-child(1)) > td {
+        padding: 4px;
+    }
+
+    .fdc-pronosis {
+        font-size: 16px;
+        line-height: 1.4;
+        color: rgb(72, 72, 72);
+    }
+
+    #fdc-gifcont {
+        margin-top: 12px;
+    }
+
+    .fdc-blue-message {
+        border: 3px solid #4a90e2;
+        border-radius: 4px;
+        padding: 12px 12px;
+        margin-bottom: 16px;
+        background-color: #f0f7ff;
+        color: rgb(32,32,32);
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .fdc-remove-action {
+        cursor: pointer;
+
+    }
+    .fdc-remove-action:hover {
+        color: red !important;
+    }
+</style>
+
+<script type="text/javascript">
+
+    var state = {
+        title: '',
+        questionOne: 0,
+        questionTwo: 0,
+        questionThree: 0,
+        questionFour: 0,
+        questionFive: 0,
+        questionSix: 0,
+
+        featureScore: '--',
+        featureEffort: '--',
+        featureCost: '--',
+        calculating: false,
+
+        currentId: ''
+    }
+
+
+
+    function getFeatures() {
+        var scores = JSON.parse(localStorage.getItem('featureScores'));
+
+        if(scores) {
+            return scores
+        } else {
+            return []
+        }
+    }
+
+    function removeFeature(name, finalScore) {
+        var allFeatures = getFeatures();
+
+        var arr = [];
+        for(var i=0;i<allFeatures.length;i++) {
+            var featureItem = allFeatures[i];
+
+            if(featureItem.finalScore===finalScore&&featureItem.name===name) {
+
+            } else {
+                arr.push(featureItem)
+            }
+        }
+
+        localStorage.setItem('featureScores', JSON.stringify(arr));
+        location.reload();
+    }
+
+    function clearTable() {
+        localStorage.clear();
+        location.reload();
+    }
+
+</script>
+
+<div class="main-container">
+
+    <section class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8">
+                    <h1 class="hero-tertiary-text">Feature Development Calculator</h1>
+                    <p class="lead">
+                        To build or not to build, that is the question this tool will answer.
+                    </p>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-7">
+                    <div>
+                        <!-- Title of Feature -->
+                        <h3 class="fdc-nameheader">
+                            <input onblur="checkState()" placeholder="Give your feature a name!" autofocus
+                                   id="featureTitle"/>
+
+                            <span>Title</span>
+                        </h3>
+                    </div>
+                    <div class="fdc-questionsection">
+                        <!-- Question: XX -->
+
+                        <h4>1. How many active users does your product have monthly?</h4>
+                        <ul class="fdc-questionlist">
+                            <li onclick="handleItemClick(1,1)" id="11" class="fdc-item">0-99</li>
+                            <li onclick="handleItemClick(1,2)" id="12" class="fdc-item">100-499</li>
+                            <li onclick="handleItemClick(1,3)" id="13" class="fdc-item">500-4999</li>
+                            <li onclick="handleItemClick(1,4)" id="14" class="fdc-item">5000+</li>
+                        </ul>
+                    </div>
+                    <div class="fdc-questionsection">
+                        <!-- Question: XX -->
+                        <h4>2. What percent really want this feature?</h4>
+                        <ul class="fdc-questionlist">
+                            <li onclick="handleItemClick(2,1)" class="fdc-item" id="21">~5%</li>
+                            <li onclick="handleItemClick(2,2)" class="fdc-item" id="22">~20%</li>
+                            <li onclick="handleItemClick(2,3)" class="fdc-item" id="23">~50%</li>
+                            <li onclick="handleItemClick(2,4)" class="fdc-item" id="24">80%+</li>
+                        </ul>
+                    </div>
+                    <div class="fdc-questionsection">
+                        <!-- Question: XX -->
+                        <h4>3. What percent would use this on a monthly basis?</h4>
+                        <ul class="fdc-questionlist">
+                            <li onclick="handleItemClick(3,1)" class="fdc-item" id="31">10%</li>
+                            <li onclick="handleItemClick(3,2)" class="fdc-item" id="32">25%</li>
+                            <li onclick="handleItemClick(3,3)" class="fdc-item" id="33">50%</li>
+                            <li onclick="handleItemClick(3,4)" class="fdc-item" id="34">75%+</li>
+                        </ul>
+                    </div>
+                    <div class="fdc-questionsection">
+                        <!-- Question: XX -->
+                        <h4>4. How complex is this feature to develop?</h4>
+                        <ul class="fdc-questionlist">
+                            <li onclick="handleItemClick(4,1)" class="fdc-item" id="41">3</li>
+                            <li onclick="handleItemClick(4,2)" class="fdc-item" id="42">5</li>
+                            <li onclick="handleItemClick(4,3)" class="fdc-item" id="43">8</li>
+                            <li onclick="handleItemClick(4,4)" class="fdc-item" id="44">13</li>
+                            <li onclick="handleItemClick(4,5)" class="fdc-item" id="45">21</li>
+                            <li onclick="handleItemClick(4,6)" class="fdc-item" id="46">34</li>
+                            <li onclick="handleItemClick(4,7)" class="fdc-item" id="47">55</li>
+                            <li onclick="handleItemClick(4,8)" class="fdc-item" id="48">89</li>
+                            <li onclick="handleItemClick(4,9)" class="fdc-item" id="49">144</li>
+                        </ul>
+                    </div>
+                    <div class="fdc-questionsection">
+                        <!-- Question: XX -->
+                        <h4>5. How important is this feature to the company vision?</h4>
+                        <ul class="fdc-questionlist">
+                            <li onclick="handleItemClick(5,1)" class="fdc-item" id="51">1</li>
+                            <li onclick="handleItemClick(5,2)" class="fdc-item" id="52">2</li>
+                            <li onclick="handleItemClick(5,3)" class="fdc-item" id="53">3</li>
+                            <li onclick="handleItemClick(5,4)" class="fdc-item" id="54">4</li>
+                        </ul>
+                    </div>
+                    <div class="fdc-questionsection">
+                        <!-- Question: XX -->
+                        <h4>6. Does the feature open your product up to new users/customers?</h4>
+                        <ul class="fdc-questionlist">
+                            <li onclick="handleItemClick(6,1)" class="fdc-item" id="61">1</li>
+                            <li onclick="handleItemClick(6,2)" class="fdc-item" id="62">2</li>
+                            <li onclick="handleItemClick(6,3)" class="fdc-item" id="63">3</li>
+                            <li onclick="handleItemClick(6,4)" class="fdc-item" id="64">4</li>
+                        </ul>
+                    </div>
+                    <div class="fdc-button-section">
+                        <!-- Buttons -->
+                        <a onclick="resetState()" id="resetBtn" class="fdc-button">Reset</a>
+                        <a onclick="calculate(event)" id="calcBtn" class="fdc-button disabled">Calculate</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-5">
+                    <div>
+                        <!-- Graph -->
+                        <span class="fdc-graph-header">Feature Fit/Cost</span>
+
+                        <div class="fdc-graph-frame" id="addScoredClass">
+                            <div>
+                                <div id="g-111"></div>
+                                <div id="g-112"></div>
+                                <div id="g-113"></div>
+                                <div id="g-114"></div>
+                                <div id="g-115"></div>
+
+                                <div id="g-121"></div>
+                                <div id="g-122"></div>
+                                <div id="g-123"></div>
+                                <div id="g-124"></div>
+                                <div id="g-125"></div>
+
+                                <div id="g-131"></div>
+                                <div id="g-132"></div>
+                                <div id="g-133"></div>
+                                <div id="g-134"></div>
+                                <div id="g-135"></div>
+
+                                <div id="g-141"></div>
+                                <div id="g-142"></div>
+                                <div id="g-143"></div>
+                                <div id="g-144"></div>
+                                <div id="g-145"></div>
+
+                                <div id="g-151"></div>
+                                <div id="g-152"></div>
+                                <div id="g-153"></div>
+                                <div id="g-154"></div>
+                                <div id="g-155"></div>
+                            </div>
+                            <div>
+                                <div id="g-211"></div>
+                                <div id="g-212"></div>
+                                <div id="g-213"></div>
+                                <div id="g-214"></div>
+                                <div id="g-215"></div>
+
+                                <div id="g-221"></div>
+                                <div id="g-222"></div>
+                                <div id="g-223"></div>
+                                <div id="g-224"></div>
+                                <div id="g-225"></div>
+
+                                <div id="g-231"></div>
+                                <div id="g-232"></div>
+                                <div id="g-233"></div>
+                                <div id="g-234"></div>
+                                <div id="g-235"></div>
+
+                                <div id="g-241"></div>
+                                <div id="g-242"></div>
+                                <div id="g-243"></div>
+                                <div id="g-244"></div>
+                                <div id="g-245"></div>
+
+                                <div id="g-251"></div>
+                                <div id="g-252"></div>
+                                <div id="g-253"></div>
+                                <div id="g-254"></div>
+                                <div id="g-255"></div>
+                            </div>
+                            <div>
+                                <div id="g-311"></div>
+                                <div id="g-312"></div>
+                                <div id="g-313"></div>
+                                <div id="g-314"></div>
+                                <div id="g-315"></div>
+
+                                <div id="g-321"></div>
+                                <div id="g-322"></div>
+                                <div id="g-323"></div>
+                                <div id="g-324"></div>
+                                <div id="g-325"></div>
+
+                                <div id="g-331"></div>
+                                <div id="g-332"></div>
+                                <div id="g-333"></div>
+                                <div id="g-334"></div>
+                                <div id="g-335"></div>
+
+                                <div id="g-341"></div>
+                                <div id="g-342"></div>
+                                <div id="g-343"></div>
+                                <div id="g-344"></div>
+                                <div id="g-345"></div>
+
+                                <div id="g-351"></div>
+                                <div id="g-352"></div>
+                                <div id="g-353"></div>
+                                <div id="g-354"></div>
+                                <div id="g-355"></div>
+                            </div>
+                            <div>
+                                <div id="g-411"></div>
+                                <div id="g-412"></div>
+                                <div id="g-413"></div>
+                                <div id="g-414"></div>
+                                <div id="g-415"></div>
+
+                                <div id="g-421"></div>
+                                <div id="g-422"></div>
+                                <div id="g-423"></div>
+                                <div id="g-424"></div>
+                                <div id="g-425"></div>
+
+                                <div id="g-431"></div>
+                                <div id="g-432"></div>
+                                <div id="g-433"></div>
+                                <div id="g-434"></div>
+                                <div id="g-435"></div>
+
+                                <div id="g-441"></div>
+                                <div id="g-442"></div>
+                                <div id="g-443"></div>
+                                <div id="g-444"></div>
+                                <div id="g-445"></div>
+
+                                <div id="g-451"></div>
+                                <div id="g-452"></div>
+                                <div id="g-453"></div>
+                                <div id="g-454"></div>
+                                <div id="g-455"></div>
+                            </div>
+
+                            <div class="fdc-yaxis">
+                                <div>10</div>
+                                <div>9</div>
+                                <div>8</div>
+                                <div>7</div>
+                                <div>6</div>
+                                <div>5</div>
+                                <div>4</div>
+                                <div>3</div>
+                                <div>2</div>
+                                <div>1</div>
+                            </div>
+
+                            <div class="fdc-xaxis">
+                                <div>10</div>
+                                <div>9</div>
+                                <div>8</div>
+                                <div>7</div>
+                                <div>6</div>
+                                <div>5</div>
+                                <div>4</div>
+                                <div>3</div>
+                                <div>2</div>
+                                <div>1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fdc-feature-score-details">
+                        <!-- Scoring -->
+                        <h4>Composite Feature Score: <span class="fdc-featureScore" id="fdc-featurescore">--</span></h4>
+
+                        <p>
+                            Relative Fit/Importance: <span id="fdc-fitscore">--</span><br/>
+                            Relative Effort/Cost: <span id="fdc-costscore">--</span>
+
+                        </p>
+                        <div id="messageDevCont">
+                        </div>
+                        <div id="fdc-pronosis" class="fdc-pronosis">
+
+                        </div>
+                        <div id="fdc-gifcont">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="bg--secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <h3 class="fdc-features-title">Features</h3>
+
+                    <table class="fdc-features-table">
+                        <tr>
+                            <th>Name</th>
+                            <th>Score</th>
+                            <th>Fit</th>
+                            <th>Effort</th>
+                            <th>Actions</th>
+                        </tr>
+                        <script>
+                            var allFeatures = getFeatures()
+
+                            var sortedFeatures = allFeatures.sort(function(a, b) {
+                                return a.finalScore - b.finalScore;
+                            });
+
+                            sortedFeatures.reverse()
+
+                            for(var i=0;i<sortedFeatures.length;i++) {
+                                var feature = sortedFeatures[i];
+                                document.write('<tr>')
+                                document.write('<td>'+feature.name+'</td>')
+                                document.write('<td>'+feature.finalScore+'</td>')
+                                document.write('<td>'+feature.fitScore+'</td>')
+                                document.write('<td>'+feature.costScore+'</td>')
+                                document.write('<td><a class="fdc-remove-action" onclick="removeFeature(feature.name, feature.finalScore)">Delete</a></td>')
+                                document.write('</tr>')
+                            }
+                        </script>
+
+                    </table>
+                    <a class="fdc-remove-action" onclick="clearTable()">Remove all features</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script type="text/javascript">
+        document.write(footer)
+
+    </script>
+
+    <script>
+        const $source = document.querySelector('#featureTitle');
+
+        const typeHandler = function (e) {
+            state.title = e.target.value;
+            checkState()
+        }
+
+        $source.addEventListener('input', typeHandler) // register for oninput
+    </script>
+
+    <script>
+        function calculate(e) {
+
+            e.preventDefault()
+
+            if (state.calculating || state.questionOne === 0 || state.questionTwo === 0 || state.questionThree === 0 || state.questionFour === 0 || state.questionFive === 0 || state.questionSix === 0) {
+                // disabled
+            } else {
+                state.calculating = true
+                var size = state.questionOne;
+                var desire = state.questionTwo;
+                var frequency = state.questionThree;
+                var complexity = state.questionFour;
+                var vision = state.questionFive;
+                var expansion = state.questionSix;
+
+                var weightOne, weightTwo, weightThree, weightFour, weightFive;
+
+                switch (size) {
+                    case(1) : {
+                        // it's really small, <99
+                        weightOne = 0.24;
+                        weightTwo = 0.07;
+
+                        weightFour = 0.25;
+                        weightFive = 0.17;
+
+                     }
+                    case(2) : {
+// it's a decent size - some very active users, <499
+                        weightOne = 0.33;
+                        weightTwo = 0.18;
+
+                        weightFour = 0.26;
+                        weightFive = 0.23;
+                       }
+                    case(3) : {
+                        // good size
+                        weightOne = 0.23;
+                        weightTwo = 0.27;
+
+                        weightFour = 0.22;
+                        weightFive = 0.32;
+
+                    }
+                    case(4) : {
+// it's getting importent, >5000
+                        weightOne = 0.37;
+                        weightTwo = 0.20;
+
+                        weightFour = 0.21;
+                        weightFive = 0.21;
+
+                    }
+
+                }
+                applyWeights(size, desire, frequency, complexity, vision, expansion, weightOne, weightTwo, weightThree, weightFour, weightFive)
+            }
+
+        }
+
+        function applyWeights(size, desire, frequency, complexity, vision, expansion, weightOne, weightTwo, weightThree, weightFour, weightFive) {
+            var finalScore, costScore, fitScore;
+
+            var factorOne, factorTwo, factorThree, factorFour, factorFive;
+
+            var costEdition, fitEdition, calcComplexity;
+
+            switch (desire) {
+                case(1) : {
+                    factorOne = 10;
+                    break;
+                }
+                case(2) : {
+                    factorOne = 30;
+                    break;
+                }
+                case(3) : {
+                    factorOne = 60;
+                    break;
+                }
+                case(4) : {
+                    factorOne = 100;
+                    break;
+                }
+            }
+
+            switch (frequency) {
+                case(1) : {
+                    factorTwo = 40;
+                    break;
+                }
+                case(2) : {
+                    factorTwo = 60;
+                    break;
+                }
+                case(3) : {
+                    factorTwo = 90;
+                    break;
+                }
+                case(4) : {
+                    factorTwo = 100;
+                    break;
+                }
+            }
+
+
+            switch (complexity) {
+                case(1) : {
+                    calcComplexity = 3
+                    break;
+                }
+                case(2) : {
+                    calcComplexity = 5
+                    break;
+                }
+                case(3) : {
+                    calcComplexity = 8
+                    break;
+                }
+                case(4) : {
+                    calcComplexity = 13
+                    break;
+                }
+                case(5) : {
+                    calcComplexity = 21
+                    break;
+                }
+                case(6) : {
+                    calcComplexity = 34
+                    break;
+                }
+                case(7) : {
+                    calcComplexity = 55
+                    break;
+                }
+                case(8) : {
+                    calcComplexity = 89
+                    break;
+                }
+                case(9) : {
+                    calcComplexity = 144
+                    break;
+                }
+            }
+
+            if (calcComplexity > 45) {
+                if (calcComplexity > 70) {
+                    factorThree = 80
+                } else {
+                    factorThree = 70
+                }
+            } else {
+                factorThree = calcComplexity * 2
+            }
+
+
+            switch (vision) {
+                case(1) : {
+                    factorFour = 5;
+                    break;
+                }
+                case(2) : {
+                    factorFour = 50;
+                    break;
+                }
+                case(3) : {
+                    factorFour = 90;
+                    break;
+                }
+                case(4) : {
+                    factorFour = 100;
+                    break;
+                }
+            }
+
+            switch (expansion) {
+                case(1) : {
+                    factorFive = 40;
+                    break;
+                }
+                case(2) : {
+                    factorFive = 85;
+                    break;
+                }
+                case(3) : {
+                    factorFive = 95;
+                    break;
+                }
+                case(4) : {
+                    factorFive = 100;
+                    break;
+                }
+            }
+
+            // now we have what we need
+            finalScore = (factorOne * weightOne) + (factorTwo * weightTwo) + (factorFour * weightFour) + (factorFive * weightFive)
+            // is now a value out of 100
+
+            fitScore = (factorOne + factorTwo + factorFour + factorFive) / 4;
+
+            costScore = factorThree;
+
+            if (size === 1) {
+                // small base, fit
+                if (costScore < 60) {
+                    costScore = costScore * 1.6
+
+                    // complexity isn't as important here
+
+                }
+                finalScore = finalScore - (0.08 * costScore)
+            } else if (size === 2) {
+                if (costScore < 90) {
+                    costScore = costScore * 1.1
+
+
+                }
+                finalScore = finalScore - (0.12 * costScore)
+            } else if (size === 3) {
+                costScore = costScore * 0.7
+
+                finalScore = finalScore - (0.17 * costScore)
+            } else {
+                if (costScore < 30) {
+                    costScore = costScore * 2.2
+
+
+                }
+                finalScore = finalScore - (0.25 * costScore)
+            }
+
+
+            setupResults(finalScore, fitScore, costScore, factorThree)
+
+        }
+
+        function setupResults(finalScore, fitScore, costScore, factorThree) {
+
+            if (finalScore > 67) {
+                $("#fdc-featurescore").html("<span class='fdc-green'>" + Math.round(finalScore) + "</span>")
+
+            } else if (finalScore > 40) {
+                $("#fdc-featurescore").html("<span class='fdc-yellow'>" + Math.round(finalScore) + "</span>")
+            } else {
+                $("#fdc-featurescore").html("<span class='fdc-red'>" + Math.round(finalScore) + "</span>")
+            }
+
+            if ($("#addScoredClass").hasClass("fdc-scored")) {
+
+            } else {
+                $("#addScoredClass").addClass("fdc-scored");
+            }
+
+
+            $("#fdc-fitscore").html("<span>" + Math.round(fitScore) + "</span>")
+            $("#fdc-costscore").html("<span>" + Math.round(costScore) + "</span>")
+            setPin(fitScore, costScore)
+            saveFeature(Math.round(finalScore), Math.round(fitScore), Math.round(costScore))
+            setMessages(finalScore, fitScore, costScore)
+
+            state.calculating = false;
+        }
+
+
+
+        function saveFeature(finalScore, fitScore, costScore) {
+            var scores = JSON.parse(localStorage.getItem('featureScores'));
+            var arr = [];
+            var name = document.getElementById('featureTitle').value
+            if(scores) {
+                arr = scores;
+                arr.push({
+                    finalScore,
+                    fitScore,
+                    costScore,
+                    name
+                })
+            } else {
+                arr.push({
+                    finalScore,
+                    fitScore,
+                    costScore,
+                    name
+                })
+            }
+            localStorage.setItem('featureScores', JSON.stringify(arr));
+        }
+
+        function setMessages(finalScore, fitScore, costScore) {
+            var messageFeature = ''
+            var messageGIF = ''
+            var messageDev = ''
+            if (fitScore > 50 && costScore < 50) {
+                // Q1
+                messageFeature = 'Seems like a quick win, just do it!'
+                messageGIF = '<img src="https://media.giphy.com/media/Cj3Ce7e8h2EKY/giphy.gif" />'
+
+            } else if (fitScore > 50 && costScore > 50) {
+                // Q2
+                messageFeature = 'Investing effort here looks like a good strategic decision, put it on the roadmap!'
+                messageGIF = '<img src="https://media.giphy.com/media/yWh7b6fWA5rJm/giphy.gif" />'
+            } else if (fitScore < 50 && costScore < 50) {
+                // Q3
+                messageFeature = 'Proceed with caution, there should be more lucrative features out there..'
+                messageGIF = '<img src="https://media.giphy.com/media/QhCAwDXZ0BltK/giphy.gif" />'
+            } else {
+                // Q4
+                messageFeature = 'Going to take a wild guess and say you have better things to do..'
+                messageGIF = '<img src="https://media.giphy.com/media/VqPpOjb1rOBBS/giphy.gif" />'
+            }
+
+            if (finalScore > 67) {
+                messageDev = '<div class="fdc-blue-message">Your taste in features is exquisite, we are looking to hire people who think like you. <a href="mailto:wirtz@unaty.de?subject=Building a Better World&body=Hi Tobi, I would interested in working at Unaty to transform communities and empower leaders, here is my GitHub profile: LINK. Attached you will also find my CV. Thanks!">Send us</a> your GitHub profile and CV.</div>'
+                $("#messageDevCont").html(messageDev)
+            }
+
+
+            $("#fdc-pronosis").html(messageFeature)
+            $("#fdc-gifcont").html(messageGIF)
+        }
+
+        function setPin(fitScore, costScore) {
+            var pinStr = "#g-";
+            var rowScore, colScore;
+            if (fitScore > 50 && costScore < 50) {
+                // Q1
+                pinStr = pinStr + "1"
+
+                rowScore = (fitScore - 50) / 10
+                // now do the column
+
+                colScore = costScore / 10
+
+
+            } else if (fitScore > 50 && costScore > 50) {
+                // Q2
+                pinStr = pinStr + "2"
+
+                rowScore = (fitScore - 50) / 10
+                // now do the column
+
+                colScore = (costScore - 50) / 10
+            } else if (fitScore < 50 && costScore < 50) {
+                // Q3
+                pinStr = pinStr + "3"
+
+                rowScore = fitScore / 10
+                // now do the column
+
+                colScore = costScore / 10
+            } else {
+                // Q4
+                pinStr = pinStr + "4"
+
+                rowScore = fitScore / 10
+                // now do the column
+
+                colScore = (costScore - 50) / 10
+            }
+
+
+            if (rowScore < 1) {
+                // lowest
+                pinStr = pinStr + "5"
+            } else if (rowScore < 2) {
+                pinStr = pinStr + "4"
+            } else if (rowScore < 3) {
+                pinStr = pinStr + "3"
+            } else if (rowScore < 4) {
+                pinStr = pinStr + "2"
+            } else {
+                // highest
+                pinStr = pinStr + "1"
+            }
+
+            if (colScore < 1) {
+                // lowest
+                pinStr = pinStr + "1"
+            } else if (colScore < 2) {
+                pinStr = pinStr + "2"
+            } else if (colScore < 3) {
+                pinStr = pinStr + "3"
+            } else if (colScore < 4) {
+                pinStr = pinStr + "4"
+            } else {
+                // highest
+                pinStr = pinStr + "5"
+            }
+
+
+            if (state.currentId !== '') {
+                $(state.currentId).html("")
+            }
+
+            $(pinStr).html("<span class='g-activeitem'></span>")
+            state.currentId = pinStr
+
+        }
+
+        function checkState() {
+            if (state.title === '' || state.questionOne === 0 || state.questionTwo === 0 || state.questionThree === 0 || state.questionFour === 0 || state.questionFive === 0 || state.questionSix === 0) {
+                // something is still empty
+                $("#calcBtn").removeClass("success");
+                if ($("#calcBtn").hasClass("success")) {
+                    $("#calcBtn").addClass("disabled");
+
+                } else {
+                    if ($("#calcBtn").hasClass("disabled")) {
+
+                    } else {
+                        $("#calcBtn").addClass("disabled");
+                    }
+
+                }
+            } else {
+                if ($("#calcBtn").hasClass("success")) {
+
+                } else {
+                    $("#calcBtn").addClass("success");
+                }
+
+                $("#calcBtn").removeClass("disabled");
+            }
+        }
+
+        function resetState() {
+            state = {
+                title: '',
+                questionOne: '',
+                questionTwo: '',
+                questionThree: '',
+                questionFour: '',
+                questionFive: '',
+                questionSix: '',
+            }
+
+            $("#11").removeClass("fdc-active");
+            $("#12").removeClass("fdc-active");
+            $("#13").removeClass("fdc-active");
+            $("#14").removeClass("fdc-active");
+
+            $("#21").removeClass("fdc-active");
+            $("#22").removeClass("fdc-active");
+            $("#23").removeClass("fdc-active");
+            $("#24").removeClass("fdc-active");
+
+            $("#31").removeClass("fdc-active");
+            $("#32").removeClass("fdc-active");
+            $("#33").removeClass("fdc-active");
+            $("#34").removeClass("fdc-active");
+
+            $("#41").removeClass("fdc-active");
+            $("#42").removeClass("fdc-active");
+            $("#43").removeClass("fdc-active");
+            $("#44").removeClass("fdc-active");
+            $("#45").removeClass("fdc-active");
+            $("#46").removeClass("fdc-active");
+            $("#47").removeClass("fdc-active");
+            $("#48").removeClass("fdc-active");
+            $("#49").removeClass("fdc-active");
+
+            $("#51").removeClass("fdc-active");
+            $("#52").removeClass("fdc-active");
+            $("#53").removeClass("fdc-active");
+            $("#54").removeClass("fdc-active");
+
+            $("#61").removeClass("fdc-active");
+            $("#62").removeClass("fdc-active");
+            $("#63").removeClass("fdc-active");
+            $("#64").removeClass("fdc-active");
+
+            $("#calcBtn").removeClass("success");
+            if ($("#calcBtn").hasClass("success")) {
+                $("#calcBtn").addClass("disabled");
+
+            } else {
+                if ($("#calcBtn").hasClass("disabled")) {
+
+                } else {
+                    $("#calcBtn").addClass("disabled");
+                }
+
+            }
+
+            $("#fdc-pronosis").html('')
+            $("#fdc-gifcont").html('')
+            $("#fdc-fitscore").html('')
+            $("#fdc-costscore").html('')
+            $("#fdc-costscore").html('')
+            $("#featureTitle").val('')
+            $("#fdc-featurescore").html('')
+            $(state.currentId).html("")
+
+
+            if ($("#addScoredClass").hasClass("fdc-scored")) {
+                $("#addScoredClass").removeClass("fdc-scored");
+            } else {
+
+            }
+        }
+
+        function handleItemClick(question, answer) {
+
+            switch (question) {
+                case(1): {
+                    switch (answer) {
+                        case(1): {
+                            state.questionOne = 1
+                            // enable active on one
+
+                            if ($("#11").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#11").addClass("fdc-active");
+
+                            }
+
+
+                            $("#12").removeClass("fdc-active");
+
+
+                            $("#13").removeClass("fdc-active");
+
+                            $("#14").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(2): {
+                            state.questionOne = 2
+                            if ($("#12").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#12").addClass("fdc-active");
+
+                            }
+
+
+                            $("#11").removeClass("fdc-active");
+
+                            $("#13").removeClass("fdc-active");
+                            $("#14").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(3): {
+                            state.questionOne = 3
+                            if ($("#13").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#13").addClass("fdc-active");
+                            }
+
+                            $("#12").removeClass("fdc-active");
+                            $("#11").removeClass("fdc-active");
+                            $("#14").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(4): {
+                            state.questionOne = 4
+                            if ($("#14").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#14").addClass("fdc-active");
+                            }
+
+                            $("#12").removeClass("fdc-active");
+                            $("#13").removeClass("fdc-active");
+                            $("#11").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                    }
+                }
+                case(2): {
+                    switch (answer) {
+                        case(1): {
+                            state.questionTwo = 1
+                            // enable active on one
+
+                            if ($("#21").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#21").addClass("fdc-active");
+
+                            }
+
+
+                            $("#22").removeClass("fdc-active");
+
+
+                            $("#23").removeClass("fdc-active");
+
+                            $("#24").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(2): {
+                            state.questionTwo = 2
+                            if ($("#22").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#22").addClass("fdc-active");
+
+                            }
+
+
+                            $("#21").removeClass("fdc-active");
+
+                            $("#23").removeClass("fdc-active");
+                            $("#24").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(3): {
+                            state.questionTwo = 3
+                            if ($("#23").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#23").addClass("fdc-active");
+                            }
+
+                            $("#22").removeClass("fdc-active");
+                            $("#21").removeClass("fdc-active");
+                            $("#24").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(4): {
+                            state.questionTwo = 4
+                            if ($("#24").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#24").addClass("fdc-active");
+                            }
+
+                            $("#22").removeClass("fdc-active");
+                            $("#23").removeClass("fdc-active");
+                            $("#21").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                    }
+                }
+
+                case(3): {
+                    switch (answer) {
+                        case(1): {
+                            state.questionThree = 1
+                            // enable active on one
+
+                            if ($("#31").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#31").addClass("fdc-active");
+
+                            }
+
+
+                            $("#32").removeClass("fdc-active");
+
+
+                            $("#33").removeClass("fdc-active");
+
+                            $("#34").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(2): {
+                            state.questionThree = 2
+                            if ($("#32").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#32").addClass("fdc-active");
+
+                            }
+
+
+                            $("#31").removeClass("fdc-active");
+
+                            $("#33").removeClass("fdc-active");
+                            $("#34").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(3): {
+                            state.questionThree = 3
+                            if ($("#33").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#33").addClass("fdc-active");
+                            }
+
+                            $("#32").removeClass("fdc-active");
+                            $("#31").removeClass("fdc-active");
+                            $("#34").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(4): {
+                            state.questionThree = 4
+                            if ($("#34").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#34").addClass("fdc-active");
+                            }
+
+                            $("#32").removeClass("fdc-active");
+                            $("#33").removeClass("fdc-active");
+                            $("#31").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                    }
+                }
+                case(4): {
+                    switch (answer) {
+                        case(1): {
+                            state.questionFour = 1
+                            // enable active on one
+
+                            if ($("#41").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#41").addClass("fdc-active");
+
+                            }
+
+
+                            $("#42").removeClass("fdc-active");
+
+
+                            $("#43").removeClass("fdc-active");
+                            $("#44").removeClass("fdc-active");
+                            $("#45").removeClass("fdc-active");
+                            $("#46").removeClass("fdc-active");
+                            $("#47").removeClass("fdc-active");
+                            $("#48").removeClass("fdc-active");
+                            $("#49").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(2): {
+                            state.questionFour = 2
+                            if ($("#42").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#42").addClass("fdc-active");
+
+                            }
+
+
+                            $("#41").removeClass("fdc-active");
+
+                            $("#43").removeClass("fdc-active");
+                            $("#44").removeClass("fdc-active");
+                            $("#45").removeClass("fdc-active");
+                            $("#46").removeClass("fdc-active");
+                            $("#47").removeClass("fdc-active");
+                            $("#48").removeClass("fdc-active");
+                            $("#49").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(3): {
+                            state.questionFour = 3
+                            if ($("#43").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#43").addClass("fdc-active");
+                            }
+
+                            $("#42").removeClass("fdc-active");
+                            $("#41").removeClass("fdc-active");
+                            $("#44").removeClass("fdc-active");
+                            $("#45").removeClass("fdc-active");
+                            $("#46").removeClass("fdc-active");
+                            $("#47").removeClass("fdc-active");
+                            $("#48").removeClass("fdc-active");
+                            $("#49").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(4): {
+                            state.questionFour = 4
+                            if ($("#44").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#44").addClass("fdc-active");
+                            }
+
+                            $("#42").removeClass("fdc-active");
+                            $("#43").removeClass("fdc-active");
+                            $("#41").removeClass("fdc-active");
+                            $("#45").removeClass("fdc-active");
+                            $("#46").removeClass("fdc-active");
+                            $("#47").removeClass("fdc-active");
+                            $("#48").removeClass("fdc-active");
+                            $("#49").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(5): {
+                            state.questionFour = 4
+                            if ($("#45").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#45").addClass("fdc-active");
+                            }
+
+                            $("#42").removeClass("fdc-active");
+                            $("#43").removeClass("fdc-active");
+                            $("#41").removeClass("fdc-active");
+                            $("#44").removeClass("fdc-active");
+                            $("#46").removeClass("fdc-active");
+                            $("#47").removeClass("fdc-active");
+                            $("#48").removeClass("fdc-active");
+                            $("#49").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(6): {
+                            state.questionFour = 6
+                            if ($("#46").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#46").addClass("fdc-active");
+                            }
+
+                            $("#42").removeClass("fdc-active");
+                            $("#43").removeClass("fdc-active");
+                            $("#41").removeClass("fdc-active");
+                            $("#45").removeClass("fdc-active");
+                            $("#44").removeClass("fdc-active");
+                            $("#47").removeClass("fdc-active");
+                            $("#48").removeClass("fdc-active");
+                            $("#49").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(7): {
+                            state.questionFour = 7;
+                            if ($("#47").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#47").addClass("fdc-active");
+                            }
+
+                            $("#42").removeClass("fdc-active");
+                            $("#43").removeClass("fdc-active");
+                            $("#41").removeClass("fdc-active");
+                            $("#45").removeClass("fdc-active");
+                            $("#46").removeClass("fdc-active");
+                            $("#44").removeClass("fdc-active");
+                            $("#48").removeClass("fdc-active");
+                            $("#49").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(8): {
+                            state.questionFour = 8
+                            if ($("#48").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#48").addClass("fdc-active");
+                            }
+
+                            $("#42").removeClass("fdc-active");
+                            $("#43").removeClass("fdc-active");
+                            $("#41").removeClass("fdc-active");
+                            $("#45").removeClass("fdc-active");
+                            $("#46").removeClass("fdc-active");
+                            $("#47").removeClass("fdc-active");
+                            $("#44").removeClass("fdc-active");
+                            $("#49").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(9): {
+                            state.questionFour = 9
+                            if ($("#9").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#49").addClass("fdc-active");
+                            }
+
+                            $("#42").removeClass("fdc-active");
+                            $("#43").removeClass("fdc-active");
+                            $("#41").removeClass("fdc-active");
+                            $("#45").removeClass("fdc-active");
+                            $("#46").removeClass("fdc-active");
+                            $("#47").removeClass("fdc-active");
+                            $("#48").removeClass("fdc-active");
+                            $("#44").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                    }
+                }
+                case(5): {
+                    switch (answer) {
+                        case(1): {
+                            state.questionFive = 1
+                            // enable active on one
+
+                            if ($("#51").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#51").addClass("fdc-active");
+
+                            }
+
+
+                            $("#52").removeClass("fdc-active");
+
+
+                            $("#53").removeClass("fdc-active");
+
+                            $("#54").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(2): {
+                            state.questionFive = 2
+                            if ($("#52").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#52").addClass("fdc-active");
+
+                            }
+
+
+                            $("#51").removeClass("fdc-active");
+
+                            $("#53").removeClass("fdc-active");
+                            $("#54").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(3): {
+                            state.questionFive = 3
+                            if ($("#53").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#53").addClass("fdc-active");
+                            }
+
+                            $("#52").removeClass("fdc-active");
+                            $("#51").removeClass("fdc-active");
+                            $("#54").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(4): {
+                            state.questionFive = 4
+                            if ($("#54").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#54").addClass("fdc-active");
+                            }
+
+                            $("#52").removeClass("fdc-active");
+                            $("#53").removeClass("fdc-active");
+                            $("#51").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                    }
+                }
+                case(6): {
+                    switch (answer) {
+                        case(1): {
+                            state.questionSix = 1
+                            // enable active on one
+
+                            if ($("#61").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#61").addClass("fdc-active");
+
+                            }
+
+
+                            $("#62").removeClass("fdc-active");
+
+
+                            $("#63").removeClass("fdc-active");
+
+                            $("#64").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(2): {
+                            state.questionSix = 2
+                            if ($("#62").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#62").addClass("fdc-active");
+
+                            }
+
+
+                            $("#61").removeClass("fdc-active");
+
+                            $("#63").removeClass("fdc-active");
+                            $("#64").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(3): {
+                            state.questionSix = 3
+                            if ($("#63").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#63").addClass("fdc-active");
+                            }
+
+                            $("#62").removeClass("fdc-active");
+                            $("#61").removeClass("fdc-active");
+                            $("#64").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                        case(4): {
+                            state.questionSix = 4
+                            if ($("#64").hasClass("fdc-active")) {
+
+                            } else {
+
+                                $("#64").addClass("fdc-active");
+                            }
+
+                            $("#62").removeClass("fdc-active");
+                            $("#63").removeClass("fdc-active");
+                            $("#61").removeClass("fdc-active");
+
+                            checkState()
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+
+</div>
+<!--<div class="loader"></div>-->
+<a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+</a>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/flickity.min.js"></script>
+<script src="../js/easypiechart.min.js"></script>
+<script src="../js/parallax.js"></script>
+<script src="../js/typed.min.js"></script>
+<script src="../js/datepicker.js"></script>
+<script src="../js/isotope.min.js"></script>
+<script src="../js/ytplayer.min.js"></script>
+<script src="../js/lightbox.min.js"></script>
+<script src="../js/granim.min.js"></script>
+<script src="../js/jquery.steps.min.js"></script>
+<script src="../js/countdown.min.js"></script>
+<script src="../js/twitterfetcher.min.js"></script>
+<script src="../js/spectragram.min.js"></script>
+<script src="../js/smooth-scroll.min.js"></script>
+<script src="../js/scripts.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Listen to submit event on the <form> itself!
+        $('#mainForm').submit(function (e) {
+
+            e.preventDefault();
+
+
+            $("#submitBtn").addClass('loading')
+
+            var email = $("#emailInput").val();
+
+            checkFields(email)
+
+        });
+
+
+        function stopLoading() {
+            document.getElementById("submitBtn").className = "btn btn--primary type--uppercase"
+        }
+
+        function checkFields(email) {
+
+            let emailSubmit = email.trim()
+
+            let error = false
+
+            // email check
+
+            // name check
+
+            submitForm(emailSubmit)
+        }
+
+        function submitForm(email) {
+
+            window.open('https://app.unaty.de/sign-up?_src=mainCTA&email=' + email);
+
+        }
+
+        function showSuccess() {
+
+
+        }
+
+        function showFailure() {
+            resetErrors()
+            stopLoading()
+            alert('Submission failed')
+        }
+
+    });
+
+
+</script>
+</body>
+
+</html>
