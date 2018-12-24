@@ -1,132 +1,331 @@
-<!doctype html>
-<html lang="de">
+<!DOCTYPE html>
 
+<html lang="de">
 <head>
+
+
+    <title>Verwaltung reduzieren und Mitglieder erreichen | Unaty</title>
     <meta charset="utf-8">
-    <title>Reduce administration and reach more members | Unaty</title>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "type": "opt-in",
+                "content": {
+                    "message": "\nCookies sind für die korrekte Funktionsweise von Unaty wichtig. Wir nutzen Cookies zum bequemen Bereitstellen Ihrer Anmeldedaten, um eine sichere Anmeldung zu garantieren, und um anonyme statistische Daten zur Optimierung der Website zu erheben. Klicken Sie auf 'Stimme zu und weiter', um Cookies zu akzeptieren oder klicken Sie auf 'Nicht Jetzt', um Cookies vorerst abzustellen.",
+                    "dismiss": "Nicht Jetzt",
+                    "allow": "Stimme zu und weiter",
+                    "href": "https://www.unaty.de/de-de/company/privacy.html"
+                },
+                onInitialise: function (status) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onStatusChange: function(status, chosenBefore) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onRevokeChoice: function() {
+                    var type = this.options.type;
+                    if (type == 'opt-in') {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                    if (type == 'opt-out') {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                }
+            })});
+    </script>
+    <!-- Twitter Card data -->
+    <script>         window.intercomSettings = {
+        app_id: "auma9g4d",
+        custom_launcher_selector: '#intercom_chat_link'
+    };      </script>
+    <script>(function () {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === "function") {
+            ic('reattach_activator');
+            ic('update', intercomSettings);
+        } else {
+            var d = document;
+            var i = function () {
+                i.c(arguments)
+            };
+            i.q = [];
+            i.c = function (args) {
+                i.q.push(args)
+            };
+            w.Intercom = i;
+            function l() {
+                var s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://widget.intercom.io/widget/auma9g4d';
+                var x = d.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })()</script>
     <script src="../de-setup.js"></script>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Unaty: Where Leaders Inspire Action">
-    <meta name="keywords" content="association management software, membership management, membership website, create a membership website, build a membership website, best membership sites, knowledge management system, church membership software">
-    
     <script type="text/javascript">
         document.write(headDataDepthOne)
 
     </script>
-    
-</head>
+    <link target="_blank" href="../../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+    <script src="../../semantic/dist/jquery-3.1.1.min.js"></script>
+    <script src="../../semantic/dist/semantic.min.js"></script>
 
-<body class="dropdowns--hover">
-    <a id="start"></a>
-    <!--end bar-->
-    <script type="text/javascript">
-        document.write(menu)
+    <link rel="stylesheet" type="text/css" target="_blank" href="../../css/landingStyles.css">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92484757-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-92484757-1');
     </script>
-    <div class="main-container">
-        <section class="switchable feature-large unpad--bottom padding-top-6em">
-                                <div class="container">
-                                    <div class="row justify-content-around">
-                                        <div class="col-md-7">
-                                            <div class="switchable__text">
-                                                <div class="normal-poweredby-statement">Powered by <a style="color:#00b5ad;" href="#"><i class="normal-fa-icon fa-magic"></i> Build</a> and <a href="#" style="color: #db2828;"><i class="normal-fa-icon fa-bolt"></i> Engage</a></div>
-                                                <h2 class="hero-secondary-text">Like having your own administrative assistant.</h2>
-                                                <p class="lead">
-                                                 Simply send an email to update members or create content. <br/>Personalize messages to your members and get their attention.
-                                                </p>
-                                               <form id="mainForm" class="row">
-                            <div class="col-md-6">
-                                <div class=""> <input type="email" id="emailInput" name="email" placeholder="Email Address" /></div>
+    <!-- Hotjar Tracking Code for www.unaty.de -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:867076,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 
-                            </div>
-                            <div class="col-md-4">
-                                <button id="submitBtn" type="submit" class="btn btn--primary type--uppercase"><span class="btn__text">Get Started</span></button>
-                            </div>
-                        </form>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-12 text-center">
-                                            <img alt="Image" style="max-height: 50vh" src="https://unaty-media.s3.amazonaws.com/organizations/9yjFg3ZdNGTbaMHj7/public/main/1540408425268" />
-                                        </div>
-                                    </div>
-                                    <!--end of row-->
-                                </div>
-                                <!--end of container-->
-                            </section>
-        
-        <section class="text-center padding-bottom-48 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-lg-8">
-                        <h2 class="margin-bottom-8 normalSerifHeader" style="font-size: 28px">Reduce administration and reach more members in four steps:</h2>
-                        
-                    </div>
-                </div>
-                <!--end of row-->
+        window.addEventListener('scroll', function () {
+
+            if (window.scrollY > 150||document.body.scrollTop > 150) {
+                // > 100px from top - show div 
+
+                if ($("#addShowClass").hasClass('showFlexNow') === true) {
+                    // it's been clicked and is already active  
+                } else {
+                    $("#addShowClass").addClass("showFlexNow")
+                }
+            } else {
+
+                // <= 100px from top - hide div 
+                $("#addShowClass").removeClass("showFlexNow")
+            }
+
+
+        }, true)
+    </script>
+
+
+</head>
+<body class="dropdowns--hover">
+<a id="start"></a>
+<!--end bar-->
+<script type="text/javascript">
+    document.write(menu)
+
+</script>
+
+<div class="useCaseMenuTop" id="addShowClass">
+
+    <div>
+        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525608510560"/>
+    </div>
+
+    <div>
+        Verwaltung reduzieren und Mitglieder erreichen
+    </div>
+
+    <div>
+        <a class="ui button blue basic large compact" href="https://www.unaty.de/de-de/pricing.html">Preise</a>
+    </div>
+
+    <div>
+        <a class="ui button blue large compact" href="https://app.unaty.de/get-started">Jetzt loslegen</a>
+    </div>
+
+</div>
+
+<div class="final-use-case-page-header">
+
+    <div class="ui fluid container">
+
+        <div class="ui container">
+
+            <div class="final-use-case-header-top">
+                <div><strong>Verwaltung reduzieren und Mitglieder erreichen</strong> Powered by: <a href="https://www.unaty.de/de-de/products/build.html?source=use_case_1" class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</a>
+                    + <a href="https://www.unaty.de/de-de/products/engage.html?source=use_case_1" class="final-powered-by-icon"><i
+                            class="ui icon red lightning"></i> Engage</a></div>
+
             </div>
-            <!--end of container-->
-        </section>
 
-        <section class="" style="padding-bottom: 0;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
+            <div class="final-use-case-header-body">
 
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444808203" />
-                            <h4 class="sansSerifMediumHeader">Collaborate</h4>
-                            <p class="sansSerifMediumText">
-                               Leave excel sheets and legacy software behind and start working better together with members.
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444819099" />
-                            <h4 class="sansSerifMediumHeader">Automate</h4>
-                            <p class="sansSerifMediumText">
-                               Save time on community administration and automatically update members and create events.
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444829680" />
-                            <h4 class="sansSerifMediumHeader">Target</h4>
-                            <p class="sansSerifMediumText">
-                               Easily create lists and contact members based on their profile and behavior information.
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444837161" />
-                            <h4 class="sansSerifMediumHeader">Inform</h4>
-                            <p class="sansSerifMediumText">
-                               Engage your members with personalized messages and increase your response rate.
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
-                    </div>
-                    
+                <div>
+                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525072785883" />
                 </div>
-                <!--end of row-->
-                
+
+                <div>
+
+                    <div class="final-use-case-name">
+
+                        Ihr persönlicher Assistent: Digital, automatisch.
+                    </div>
+
+                    <div class="final-use-case-title">
+                        Sende einfach eine E-Mail an Unaty, um Daten zu pflegen. Personalisiere Inhalte und spreche jedes Mitglied individuell an - ganz automatisch.
+                    </div>
+
+                    <div class="flp-sign-up-box noBottomPadding">
+                        <div>
+                            <div class="ui action input input250 final-sign-up-button">
+                                <input id="emailInput" autofocus type="text" placeholder="Enter your Email.."/>
+                                <button id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt loslegen
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <script type="text/javascript">document.write(unatyData.global.promises)</script>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525072797647" />
+                </div>
+
             </div>
-            <!--end of container-->
-        </section>
-        
-        <section>
-        
-            <div class="final-general-section" id="collaborate">
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="final-general-section">
+
+    <div class="ui fluid container">
+
+        <div class="ui container">
+
+            <div class="ui header large new-header-section makeTextNormal text-align-left">
+                <strong>Verwaltung reduzieren und Mitglieder erreichen</strong> in vier Schritten:
+            </div>
+
+            <div class="ui stackable grid very relaxed">
+
+                <div class="four column row">
+
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444808203" />
+                            <div>Kollaboriere</div>
+                            <div>
+                                Lasse Exceltabellen und alte Software zurück und arbeite gemeinsam mit Mitgliedern in einer modernen Cloud.
+                            </div>
+                            <a href="#collaborate">
+                                Mehr erfahren →
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444819099" />
+                            <div>Automatisiere</div>
+                            <div>
+                               Spare Zeit bei der Gemeinschaftsverwaltung und automatisiere Daten- und Kalenderpflege.
+                            </div>
+                            <a href="#automate">
+                                Mehr erfahren →
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444829680" />
+                            <div>Organisiere</div>
+                            <div>
+                                Erstelle ganz einfach Segmente aus Mitgliedsdaten und -verhalten, die sich selbst aktualisieren.
+                            </div>
+                            <a href="#target">
+                                Mehr erfahren →
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525444837161" />
+                            <div>Informiere</div>
+                            <div>
+                                Engagiere Mitglieder mit personalisierten Informationen, die Engagement und Interesse wecken.
+                            </div>
+                            <a href="#inform">
+                                Mehr erfahren →
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="final-general-section" id="collaborate">
 
     <div class="ui fluid container">
 
@@ -137,56 +336,54 @@
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#collaborate" class="active blueActiveItem item">Collaborate</a>
-                        <a href="#automate" class=" item">Automate</a>
-                        <a href="#target" class=" item">Target</a>
-                        <a href="#inform" class=" item">Inform</a>
+                        <a href="#collaborate" class="active blueActiveItem item">Kollaboriere</a>
+                        <a href="#automate" class=" item">Automatisiere</a>
+                        <a href="#target" class=" item">Organisiere</a>
+                        <a href="#inform" class=" item">Informiere</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Collaborate with members</strong> to get information you can rely on
+                        <strong>Kollaboriere mit Mitglieder</strong> um Daten aktuell zu halten
                     </div>
 
                     <div class="newUseCaseDesc">
-                        All members have a profile in your Communaty and can login anytime and edit their profile.
-                        Administrators can see and edit all member information, as well as when it was changed and by
-                        who.
+                        Alle Mitglieder haben ein Profil in deiner Community, sie können Sich jederzeit einloggen und ihre Daten bearbeiten. Administratoren können alle Mitgliedsdaten einsehen, bearbeiten, und den Änderungsverlauf verfolgen.
                     </div>
 
                 </div>
 
                 <div>
                     <div>
-                        <div><span>Members can edit their own profile</span></div>
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525878274787"/>
+                        <div><span>Mitglieder können ihre Daten bearbeiten</span></div>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526458338696"/>
                     </div>
 
                     <div>
-                        <div><span>Admins see profile updates immediately</span></div>
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525878265420"/>
+                        <div><span>Admins sehen direkt alle Änderungen</span></div>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526458925198"/>
                     </div>
                 </div>
 
-                <div class="container newUseCaseGrid2">
+                <div class="ui grid very relaxed stackable newUseCaseGrid2">
 
-                    <div class="row">
+                    <div class="three column row">
 
-                        <div class="col-md-4">
+                        <div class="column">
                             <div class="newUseCaseFeature">
-                                <i class="normal-fa-icon fa-cogs"></i>
-                                <div>Secure cloud storage for member data</div>
+                                <i class="ui icon blue cloud"></i>
+                                <div>Sicherer Cloud-Speicherplatz für Mitgliedsdaten</div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="column">
                             <div class="newUseCaseFeature">
                                 <i class="ui icon blue configure"></i>
-                                <div>Administrators can edit all member profiles</div>
+                                <div>Administratoren können Mitgliederprofile bearbeiten</div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="column">
                             <div class="newUseCaseFeature">
                                 <i class="ui icon blue browser"></i>
-                                <div>Administrators can see who made which changes</div>
+                                <div>Administratoren können Änderungen verfolgen</div>
                             </div>
                         </div>
 
@@ -201,6 +398,7 @@
 
 </div>
 
+
 <div class="final-general-section" id="automate">
 
     <div class="ui fluid container">
@@ -212,55 +410,53 @@
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#collaborate" class=" item">Collaborate</a>
-                        <a href="#automate" class="active redActiveItem item">Automate</a>
-                        <a href="#target" class=" item">Target</a>
-                        <a href="#inform" class=" item">Inform</a>
+                        <a href="#collaborate" class=" item">Kollaboriere</a>
+                        <a href="#automate" class="active redActiveItem item">Automatisiere</a>
+                        <a href="#target" class=" item">Organisiere</a>
+                        <a href="#inform" class=" item">Informiere</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Automate administration</strong>: save time by forwarding email action requests
+                        <strong>Automatisiere Administratives</strong>: Spare Zeit indem Du Änderungsanforderungen einfach weiterleitest
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Subscribers to Build receive a personalized email for members to send or forward action requests
-                        to. These requests can be in any format and the changes will be made automatically in your
-                        system.
+                        Abonnenten von Build erhalten eine persönliche Unaty E-Mail-ADresse an die Sie einfach Änderungen weiterleiten. Diese Änderungen können beliebig formatiert sein, Unatys Algorithmus übernimmt die Änderungen ins System.
                     </div>
 
-                    <div class="container newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
-                        <div class=" row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon red book"></i>
-                                    <div>Update member profiles</div>
+                                    <div>Aktualisiere Mitgliederprofile</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon red add to calendar"></i>
-                                    <div>Create and update events</div>
+                                    <div>Erstelle und ändere Events</div>
                                 </div>
                             </div>
 
 
                         </div>
 
-                        <div class=" row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon red pie chart"></i>
-                                    <div>Export member segments</div>
+                                    <div>Exportiere Segmente</div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon red plus circle"></i>
-                                    <div>More coming soon!</div>
+                                    <div>Bald noch mehr Funktionen!</div>
                                 </div>
                             </div>
 
@@ -275,51 +471,51 @@
 
                     <div class="useCaseDiagAction">
                         <div>
-                            Check if a members profile is up to date
+
+                            Überprüfe, ob ein Mitgliedsprofil aktuell ist
                         </div>
                     </div>
 
                     <div class="useCaseImage">
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525878588841"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526459976841"/>
                     </div>
 
                     <div class="useCaseDiagIcon">
 
                         <div>
                             <div><i class="ui icon mail forward"></i></div>
-                            <div>Easily send a profile update mail</div>
+                            <div>Verschicke einfach eine Profil Update Email</div>
 
                         </div>
 
                     </div>
 
                     <div class="useCaseDiagMail2">
-                        <div><strong>From</strong>: Thomas Jefferson | United States</div>
-                        <div><strong>To</strong>: George Washington [washington@unaty.de]</div>
-                        <div><strong>Subject</strong>: Update your Profile</div>
+                        <div><strong>Von</strong>: Thomas Jefferson | United States</div>
+                        <div><strong>An</strong>: George Washington [washington@unaty.de]</div>
+                        <div><strong>Betreff</strong>: Profilaktualisierung</div>
                         <div>
                             <div>
-                                Dear George,<br/><br/>
-                                Your Profile has not yet been verified, please check your information
-                                below and let us know if your profile information is up to date.<br/>
+                                Lieber George,<br/><br/>
+                                Dein Profil ist noch nicht verifiziert, bitte prüfe deine Angaben unten und sag bescheid ob deine Profildaten aktuell sind.<br/>
                                 <br/>
-                                <a href="https://www.unaty.de/de-de/valid-data.html?communatyName=your community" target="_blank" class="ui button compact tiny green">Verify Profile</a>
+                                <a href="https://www.unaty.de/de-de/valid-data.html?communatyName=your community" target="_blank" class="ui button compact tiny green">Profil verifizieren</a>
                                 <br/>
                                 <br/>
                                 <strong>Your Profile Information</strong><br/>
-                                First Name: <strong>George</strong><br/>
-                                Last Name: <strong>Washington</strong><br/>
+                                Vorame: <strong>George</strong><br/>
+                                Nachname: <strong>Washington</strong><br/>
                                 Email: <strong>washington@unaty.de</strong><br/>
                                 Phone: <strong>--</strong><br/>
-                                Birthday: <strong>Feb. 22nd, 1732</strong><br/><br/>
-                                <strong>Address</strong><br/>
-                                Street: <strong>3200 Mount Vernon Hwy</strong><br/>
-                                City: <strong>Mt Vernon</strong><br/>
-                                ZIP Code: <strong>22121</strong><br/>
-                                State: <strong>VA</strong><br/>
-                                Country: <strong>USA</strong><br/>
+                                Geburtstag: <strong>22. Februar 1732</strong><br/><br/>
+                                <strong>Addresse</strong><br/>
+                                Straße: <strong>3200 Mount Vernon Hwy</strong><br/>
+                                Stadt: <strong>Mt Vernon</strong><br/>
+                                PLZ: <strong>22121</strong><br/>
+                                Staat: <strong>VA</strong><br/>
+                                Land: <strong>USA</strong><br/>
                                 <br/>
-                                <a href="https://www.unaty.de/de-de/valid-data.html?communatyName=your community" target="_blank" class="ui button compact tiny fontWeight900">Update Profile</a>
+                                <a href="https://www.unaty.de/de-de/valid-data.html?communatyName=your community" target="_blank" class="ui button compact tiny fontWeight900">Profil aktualisieren</a>
                             </div>
                         </div>
                     </div>
@@ -328,7 +524,7 @@
 
                         <div>
                             <div><i class="ui icon check"></i></div>
-                            <div>Profile is updated and verified</div>
+                            <div>Profil ist aktuell und verifiziert</div>
                         </div>
 
                     </div>
@@ -353,49 +549,47 @@
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#collaborate" class=" item">Collaborate</a>
-                        <a href="#automate" class=" item">Automate</a>
-                        <a href="#target" class="active yellowActiveItem item">Target</a>
-                        <a href="#inform" class=" item">Inform</a>
+                        <a href="#collaborate" class=" item">Kollaboriere</a>
+                        <a href="#automate" class=" item">Automatisiere</a>
+                        <a href="#target" class="active yellowActiveItem item">Organisiere</a>
+                        <a href="#inform" class=" item">Informiere</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Target members</strong> to reach the right members with the right content
+                        <strong>Organisiere Mitglieder</strong> um die richtigen Mitglieder mit dem richtigen Inhalt zu erreichen.
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Easily filter members based on profile and behavior data and save them for later use. Then
-                        create member lists by combining member segments, groups, topic subscribers, roles, member types
-                        and members themselves.
+                        Filtere Mitglieder einfach nach Profilfeldern und Nutzungsverhalten und speichere daraus Segmente. Kombiniere Segmente, Gruppen, Follower von bestimmten Themen, Rollen und Mitgliedstypen zu Listen, die sich selbst nach Datenänderungen aktualisieren.
                     </div>
 
-                    <div class="container newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
-                        <div class="row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon yellow columns"></i>
-                                    <div>Create member lists with easy to use filters</div>
+                                    <div>Erstelle Mitgliederlisten</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon yellow bookmark"></i>
-                                    <div>Member lists are auto-updating</div>
+                                    <div>Listen aktualisieren sich automatisch</div>
                                 </div>
                             </div>
 
 
                         </div>
 
-                        <div class=" row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon yellow list layout"></i>
                                     <div>
-                                        Simple powerful tools to build your audience
+                                        Einfache aber starke Tools um Zielgruppen aufzubauen
                                     </div>
                                 </div>
                             </div>
@@ -411,22 +605,21 @@
 
                     <div class="useCaseDiagAction">
                         <div>
-                            Create and save member segments
+                            Erstelle und Speichere Segmente nach Filterkriterien
                         </div>
                     </div>
 
                     <div class="useCaseDiagContextBox">
-                        <div><i class="ui icon blue pie chart"></i>Create Segment: <strong>New York Elders</strong>
-                        </div>
-                        <div>Member that <strong>live in</strong> <strong>New York State</strong></div>
-                        <div>and are <strong>over the age of 40</strong></div>
+                        <div><i class="ui icon blue pie chart"></i>Erstelle Segment: <strong>New Yorker Senioren</strong></div>
+                        <div>Mitglieder, mit <strong>Wohnort</strong> <strong>New York State</strong></div>
+                        <div>und <strong>älter als 50</strong></div>
                     </div>
 
                     <div class="useCaseDiagIcon">
 
                         <div>
                             <div><i class="ui icon star"></i></div>
-                            <div>Save and reuse segment</div>
+                            <div>Speichere Segmente und verwende sie wieder</div>
 
                         </div>
 
@@ -434,9 +627,9 @@
 
                     <div class="useCaseImage">
 
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525088261208"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526460942776" />
 
-                        <div class="positionUC1">Target any combination of members</div>
+                        <div class="positionUC1">Erreiche Mitgliederkombinationen</div>
 
                     </div>
 
@@ -461,56 +654,54 @@
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#collaborate" class=" item">Collaborate</a>
-                        <a href="#automate" class=" item">Automate</a>
-                        <a href="#target" class=" item">Target</a>
-                        <a href="#inform" class="active greenActiveItem item">Inform</a>
+                        <a href="#collaborate" class=" item">Kollaboriere</a>
+                        <a href="#automate" class=" item">Automatisiere</a>
+                        <a href="#target" class=" item">Organisiere</a>
+                        <a href="#inform" class="active greenActiveItem item">Informiere</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Inform members</strong> with personalized messages and boost engagement
+                        <strong>Erreiche Mitglieder</strong> mit personalisierten Nachrichten und Engagement anzuregen
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Use the engage messenger to contact your members and apply merge tags to personalize any part of
-                        your message with single member data, like a members first name. The Messenger helps you reach
-                        members on multiple channels (like email and sms), without having to send each seperately.
+                        Benutze den Engage-Messenger, um Mitglieder zu kontaktieren und verwende *|Merge Tags|* damit Unaty persönliche Informationen in die Nachricht einbaut, zum Beispiel den Vornamen des Mitglieds. Der Messenger lässt Dich Mitglieder auf unterschiedlichen Kanälen erreichen (E-Mail, SMS, Soon: Whatsapp), ohne seperate Nachrichten verschicken zu müssen.
                     </div>
 
-                    <div class="container newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
-                        <div class=" row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon green code"></i>
-                                    <div>Use merge tags to personalize messages</div>
+                                    <div>Personalisiere Nachrichten mit Merge Tags</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon green attach"></i>
-                                    <div>Save files to Unaty and attach them to messages</div>
+                                    <div>Sende Dateianhänge über den Engage-Messenger</div>
                                 </div>
                             </div>
 
 
                         </div>
 
-                        <div class=" row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon green refresh"></i>
-                                    <div>Save and reuse message templates</div>
+                                    <div>Speichere Vorlagen und benutze sie wieder</div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon green share alternate"></i>
                                     <div>
-                                        Simultaneously send SMS and Emails
+                                        Sende gleichzeitig E-Mails und SMS
                                     </div>
                                 </div>
                             </div>
@@ -526,11 +717,11 @@
 
                     <div class="useCaseImage">
 
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525088261208"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526460942776" />
 
-                        <div class="positionUC2">Personalize your Message with Merge Tags</div>
+                        <div class="positionUC2">Personalisiere mit Merge Tags</div>
 
-                        <div class="positionUC3">Save and send attachments</div>
+                        <div class="positionUC3">Speichere und versende Anhänge</div>
 
                     </div>
 
@@ -538,24 +729,24 @@
 
                         <div>
                             <div><i class="ui icon mail send"></i></div>
-                            <div>Build member audience and send</div>
+                            <div>Sende an Zielgruppen</div>
 
                         </div>
 
                     </div>
 
-                    <div class="useCaseDiagAction">
+                    <div  class="useCaseDiagAction">
                         <div>
-                            Unaty adds signature and personalizes message
+                            Unaty fügt eine Signatur hinzu
                         </div>
                     </div>
 
                     <div class="useCaseDiagContextBox">
-                        <div><strong>To</strong>: George Washington</div>
-                        <div><strong>From</strong>: Thomas Jefferson | United States</div>
-                        <div><br/>Dear George,
+                        <div><strong>Betreff</strong>: Unabhängigkeitserklärung</div>
+                        <div><strong>Von</strong>: Thomas Jefferson | United States</div>
+                        <div><br/>Lieber George,
                             <br/><br/>
-                            See attached the latest draft of the declaration, feedback welcome!
+                            Im Anhang findest du den aktuellsten Entwurf der Erklärung. Ich hoffe auf Feedback
                             <br/>
                             <br/>
                             Thomas Jefferson<br/>
@@ -568,7 +759,7 @@
 
                         <div>
                             <div><i class="ui icon check"></i></div>
-                            <div>Personalized message sent</div>
+                            <div>Personalisierte Nachricht versendet</div>
                         </div>
 
                     </div>
@@ -581,105 +772,24 @@
     </div>
 
 </div>
-        
-        </section>
-        
-        <section class="bg--primary unpad cta cta-2 text-center">
-                <a href="https://app.unaty.de/sign-up?_src=cta">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2>Try Unaty with your community for free</h2>
-                            </div>
-                        </div>
-                        <!--end of row-->
-                    </div>
-                    <!--end of container-->
-                </a>
-            </section>
-        
-        <script type="text/javascript">
-        document.write(footer)
 
-    </script>
-        
-    </div>
-    <!--<div class="loader"></div>-->
-    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-        <i class="stack-interface stack-up-open-big"></i>
+<section class="bg--primary unpad cta cta-2 text-center">
+    <a href="https://app.unaty.de/sign-up?_src=cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Unaty kostenlos ausprobieren</h2>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
     </a>
-    <script src="../../js/jquery-3.1.1.min.js"></script>
-    <script src="../../js/flickity.min.js"></script>
-    <script src="../../js/easypiechart.min.js"></script>
-    <script src="../../js/parallax.js"></script>
-    <script src="../../js/typed.min.js"></script>
-    <script src="../../js/datepicker.js"></script>
-    <script src="../../js/isotope.min.js"></script>
-    <script src="../../js/ytplayer.min.js"></script>
-    <script src="../../js/lightbox.min.js"></script>
-    <script src="../../js/granim.min.js"></script>
-    <script src="../../js/jquery.steps.min.js"></script>
-    <script src="../../js/countdown.min.js"></script>
-    <script src="../../js/twitterfetcher.min.js"></script>
-    <script src="../../js/spectragram.min.js"></script>
-    <script src="../../js/smooth-scroll.min.js"></script>
-    <script src="../../js/scripts.js"></script>
-    
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // Listen to submit event on the <form> itself!
-            $('#mainForm').submit(function(e) {
+</section>
 
-                e.preventDefault();
+<script type="text/javascript">
+    document.write(footer)
 
-
-                $("#submitBtn").addClass('loading')
-
-                var email = $("#emailInput").val();
-
-                checkFields(email)
-
-            });
-
-
-            function stopLoading() {
-                document.getElementById("submitBtn").className = "btn btn--primary type--uppercase"
-            }
-
-            function checkFields(email) {
-
-                let emailSubmit = email.trim()
-              
-                let error = false
-
-                // email check
-
-                // name check
-
-                submitForm(emailSubmit)
-            }
-
-            function submitForm(email) {
-            
-                window.open('https://app.unaty.de/sign-up?_src=mainCTA&email='+email);
-
-            }
-
-            function showSuccess() {
-             
-        
-            }
-
-            function showFailure() {
-                resetErrors()
-                stopLoading()
-                alert('Submission failed')
-            }
-
-        });
-
-
-    </script>
+</script>
 </body>
-
 </html>

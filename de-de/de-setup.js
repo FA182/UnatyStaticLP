@@ -8,7 +8,7 @@ var unatyData = {
         enabled: false
     },
     global: {
-      promises: 'Free Unaty Platform ● Simple Setup ● GDPR compliant'
+      promises: 'Kostenloser Start ● Einfache Einrichtung ● DSGVO konform'
     },
     indexPage: {
         heroTitle: 'Reach, activate and inspire more members',

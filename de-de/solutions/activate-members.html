@@ -1,183 +1,389 @@
-<!doctype html>
-<html lang="de">
+<!DOCTYPE html>
 
+<html lang="de">
 <head>
+
+
+    <title>Aktiviere und inspiriere Deine Gemeinschaft | Unaty</title>
+
     <meta charset="utf-8">
-    <title>Activate your community and inspire action | Unaty</title>
+
+
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "type": "opt-in",
+                "content": {
+                    "message": "\nCookies sind für die korrekte Funktionsweise von Unaty wichtig. Wir nutzen Cookies zum bequemen Bereitstellen Ihrer Anmeldedaten, um eine sichere Anmeldung zu garantieren, und um anonyme statistische Daten zur Optimierung der Website zu erheben. Klicken Sie auf 'Stimme zu und weiter', um Cookies zu akzeptieren oder klicken Sie auf 'Nicht Jetzt', um Cookies vorerst abzustellen.",
+                    "dismiss": "Nicht Jetzt",
+                    "allow": "Stimme zu und weiter",
+                    "href": "https://www.unaty.de/de-de/company/privacy.html"
+                },
+                onInitialise: function (status) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onStatusChange: function (status, chosenBefore) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onRevokeChoice: function () {
+                    var type = this.options.type;
+                    if (type == 'opt-in') {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                    if (type == 'opt-out') {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                }
+            })
+        });
+    </script>
+    <!-- Twitter Card data -->
+
+    <link target="_blank" href="../../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+    <script src="../../semantic/dist/jquery-3.1.1.min.js"></script>
+    <script src="../../semantic/dist/semantic.min.js"></script>
     <script src="../de-setup.js"></script>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Unaty: Where Leaders Inspire Action">
-    <meta name="keywords" content="association management software, membership management, membership website, create a membership website, build a membership website, best membership sites, knowledge management system, church membership software">
-    
+    <link rel="stylesheet" type="text/css" target="_blank" href="../../css/landingStyles.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92484757-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-92484757-1');
+    </script>
+    <script>         window.intercomSettings = {
+        app_id: "auma9g4d",
+        custom_launcher_selector: '#intercom_chat_link'
+    };      </script>
+    <script>(function () {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === "function") {
+            ic('reattach_activator');
+            ic('update', intercomSettings);
+        } else {
+            var d = document;
+            var i = function () {
+                i.c(arguments)
+            };
+            i.q = [];
+            i.c = function (args) {
+                i.q.push(args)
+            };
+            w.Intercom = i;
+            function l() {
+                var s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://widget.intercom.io/widget/auma9g4d';
+                var x = d.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })()</script>
+    <!-- Hotjar Tracking Code for www.unaty.de -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+            h._hjSettings = {hjid: 867076, hjsv: 6};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+
+        window.addEventListener('scroll', function () {
+
+            if (window.scrollY > 150 || document.body.scrollTop > 150) {
+                // > 100px from top - show div 
+
+                if ($("#addShowClass").hasClass('showFlexNow') === true) {
+                    // it's been clicked and is already active  
+                } else {
+                    $("#addShowClass").addClass("showFlexNow")
+                }
+            } else {
+
+                // <= 100px from top - hide div 
+                $("#addShowClass").removeClass("showFlexNow")
+            }
+
+
+        }, true)
+    </script>
     <script type="text/javascript">
         document.write(headDataDepthOne)
 
     </script>
-    
 </head>
-
 <body class="dropdowns--hover">
-    <a id="start"></a>
-    <!--end bar-->
-    <script type="text/javascript">
-        document.write(menu)
+<a id="start"></a>
+<!--end bar-->
+<script type="text/javascript">
+    document.write(menu)
 
-    </script>
-    <div class="main-container">
-        <section class="switchable feature-large unpad--bottom padding-top-6em">
-                                <div class="container">
-                                    <div class="row justify-content-around">
-                                        <div class="col-md-7">
-                                            <div class="switchable__text">
-                                                <div class="normal-poweredby-statement">Powered by <a href="#" style="color: #db2828;"><i class="normal-fa-icon fa-bolt"></i> Engage</a></div>
-                                                <h2 class="hero-secondary-text">Get your team together.</h2>
-                                                <p class="lead">
-                                                 Start community conversations and achieve more together by building deeper relationships with members and supporters.
-                                                </p>
-                                               <form id="mainForm" class="row">
-                            <div class="col-md-6">
-                                <div class=""> <input type="email" id="emailInput" name="email" placeholder="Email Address" /></div>
+</script>
+<div class="useCaseMenuTop" id="addShowClass">
 
-                            </div>
-                            <div class="col-md-4">
-                                <button id="submitBtn" type="submit" class="btn btn--primary type--uppercase"><span class="btn__text">Get Started</span></button>
-                            </div>
-                        </form>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-12 text-center">
-                                            <img alt="Image" style="max-height: 50vh" src="https://unaty-media.s3.amazonaws.com/organizations/9yjFg3ZdNGTbaMHj7/public/main/1540408425208" />
-                                        </div>
-                                    </div>
-                                    <!--end of row-->
-                                </div>
-                                <!--end of container-->
-                            </section>
-        
-        <section class="text-center padding-bottom-48 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-lg-8">
-                        <h2 class="margin-bottom-8 normalSerifHeader" style="font-size: 28px">Activate your community and inspire action in four steps:</h2>
-                        
-                    </div>
-                </div>
-                <!--end of row-->
-            </div>
-            <!--end of container-->
-        </section>
+    <div>
+        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525608510560"/>
+    </div>
 
-        <section class="" style="padding-bottom: 0;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
+    <div>
+        Aktiviere und inspiriere Deine Gemeinschaft
+    </div>
 
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525448737001" />
-                            <h4 class="sansSerifMediumHeader">Reach</h4>
-                            <p class="sansSerifMediumText">
-                              Be confident in contacting any member and knowing they'll get the message.
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525448746884" />
-                            <h4 class="sansSerifMediumHeader">Capture</h4>
-                            <p class="sansSerifMediumText">
-                              Make it easy for members to engage and receive updates that matters to them.
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525448784489" />
-                            <h4 class="sansSerifMediumHeader">Activate</h4>
-                            <p class="sansSerifMediumText">
-                             Engage and impress members by making it easy and fun to get involved.
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525448789519" />
-                            <h4 class="sansSerifMediumHeader">Inspire</h4>
-                            <p class="sansSerifMediumText">
-                               Empower members with the tools they need to become community leaders.
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
-                    </div>
-                    
-                </div>
-                <!--end of row-->
-                
-            </div>
-            <!--end of container-->
-        </section>
-        
-        <section>
-        
-            <div class="final-general-section">
+    <div>
+        <a class="ui button blue basic large compact" href="https://www.unaty.de/de-de/pricing.html">Preise</a>
+    </div>
+
+    <div>
+        <a class="ui button blue large compact" href="https://app.unaty.de/get-started">Jetzt loslegen</a>
+    </div>
+
+</div>
+
+<div class="final-use-case-page-header">
 
     <div class="ui fluid container">
 
         <div class="ui container">
 
-            <div class="newUseCaseMainItem" id="reach">
+            <div class="final-use-case-header-top">
+                <div><strong>Aktiviere und inspiriere Deine Gemeinschaft</strong> Powered by: <a
+                        href="https://www.unaty.de/de-de/products/engage.html?source=use_case_1"
+                        class="final-powered-by-icon"><i
+                        class="ui icon red lightning"></i> Engage</a></div>
+
+
+            </div>
+
+            <div class="final-use-case-header-body">
+
+                <div>
+                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525095402148"/>
+                </div>
+
+                <div>
+
+                    <div class="final-use-case-name">
+
+                        Passive Mitglieder in eine aktive Gemeinschaft verwandeln.
+                    </div>
+
+                    <div class="final-use-case-title">
+                        Inspiriere Interaktion in Deiner Gemeinschaft und erreiche aktiviere Mitglieder und Unterstützer.
+                    </div>
+
+                    <div class="flp-sign-up-box noBottomPadding">
+                        <div>
+                            <div class="ui action input input250 final-sign-up-button">
+                                <input id="emailInput" autofocus type="text" placeholder="E-Mail-Adresse..."/>
+                                <button id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt loslegen
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <script type="text/javascript">document.write(unatyData.global.promises)</script>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525095353360"/>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="final-general-section">
+
+    <div class="ui fluid container">
+
+        <div class="ui container">
+
+            <div class="ui header large new-header-section makeTextNormal text-align-left">
+                <strong>Aktiviere und inspiriere Deine Gemeinschaft</strong> in vier Schritten:
+            </div>
+
+            <div class="ui stackable grid very relaxed">
+
+                <div class="four column row">
+
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525448737001"/>
+                            <div>Erreiche</div>
+                            <div>
+                                Stelle sicher, dass jede Kommunikation auch richtig bei den Mitgliedern ankommt.
+                            </div>
+                            <a href="#reach">
+                                Mehr erfahren →
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525448746884"/>
+                            <div>Engagiere</div>
+                            <div>
+                                Mach es für Mitglieder einfach, sich zu engagieren und Neuigkeiten zu erhalten.
+                            </div>
+                            <a href="#capture">
+                                Mehr erfahren →
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525448784489"/>
+                            <div>Aktiviere</div>
+                            <div>
+                                Fördere Mitgliederinvolvierung, indem Du Beteiligung unterhaltsam und relevant machst.
+                            </div>
+                            <a href="#activate">
+                                Mehr erfahren →
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525448789519"/>
+                            <div>Inspiriere</div>
+                            <div>
+                                Gib Deinen Mitgliedern die nötigen Werkzeuge, um Dich aktiv mit ihrem Engagement zu unterstützen.
+                            </div>
+                            <a href="#inspire">
+                                Mehr erfahren →
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="final-general-section" id="reach">
+
+    <div class="ui fluid container">
+
+        <div class="ui container">
+
+            <div class="newUseCaseMainItem" >
 
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#reach" class="active purpleActiveItem item">Reach</a>
-                        <a href="#capture" class=" item">Capture</a>
-                        <a href="#activate" class=" item">Activate</a>
-                        <a href="#inspire" class=" item">Inspire</a>
+                        <a href="#reach" class="active purpleActiveItem item">Erreiche</a>
+                        <a href="#capture" class=" item">Engagiere</a>
+                        <a href="#activate" class=" item">Aktiviere</a>
+                        <a href="#inspire" class=" item">Inspiriere</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Reach all your members</strong>, and be sure your message gets across
+                        <strong>Erreiche alle Mitglieder</strong> und verlass Dich darauf, dass Deine Botschaft ankommt
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Each member can add unlimited contact methods, and choose when they want their organization to
-                        reach them through that method. Members now have the ultimate flexibility to decide when and over which channel they want to be contacted.
+                        Jedes Mitglied kann beliebig viele Kontaktwege angeben, auf denen sie für die Organisation erreichbar sein sollen.
+                        Mitglieder haben nun die ultimative Flexibilität, um zu entscheiden, über welchen Weg und mit welchen Nachrichten sie kontaktiert werden wollen.
                     </div>
 
-                    <div class="container newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
-                        <div class="row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon purple vcard"></i>
-                                    <div>Contact methods for custom member reachability</div>
+                                    <div>Kontaktmethoden zur individuellen Erreichbarkeit</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon purple text telephone"></i>
-                                    <div>Easily contact members through email and sms</div>
+                                    <div>Einfacher Kontakt zu Mitgliedern über E-Mail und SMS (Whatsapp coming soon)</div>
                                 </div>
                             </div>
 
 
                         </div>
 
-                        <div class="row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon purple check circle"></i>
-                                    <div>Automatic email and sms validation</div>
+                                    <div>Automatische Validierung von E-Mail-Adressen und SMS-Nummern</div>
                                 </div>
                             </div>
 
@@ -191,12 +397,12 @@
                 <div class="useCaseDiagramCont">
                     <div class="useCaseDiagAction">
                         <div>
-                            Members can choose how they want to be contacted
+                            Mitglieder entscheiden, wie sie kontaktiert werden.
                         </div>
                     </div>
                     <div class="useCaseImage">
 
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525550776235"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526294225403"/>
 
                     </div>
 
@@ -205,7 +411,7 @@
                         <div>
                             <div><i class="ui icon star"></i></div>
                             <div>
-                                Reach members through Email and SMS
+                                Erreiche Mitglieder mit E-Mail und SMS
                             </div>
 
                         </div>
@@ -214,13 +420,13 @@
 
                     <div class="useCaseDiagAction">
                         <div>
-                            Simply select the context when sending a message
+                            Einfach den Kontext beim Versenden auswählen
                         </div>
                     </div>
 
                     <div class="useCaseImage">
 
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525550769729"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526293846815"/>
 
                     </div>
 
@@ -228,7 +434,7 @@
 
                         <div>
                             <div><i class="ui icon check"></i></div>
-                            <div>Easily send to members on multiple channels</div>
+                            <div>Mitglieder einfach auf unterschiedlichen Kanälen erreichen</div>
                         </div>
 
                     </div>
@@ -242,164 +448,82 @@
 
 </div>
 
-<div class="final-general-section">
+<div class="final-general-section" id="capture">
 
     <div class="ui fluid container">
 
         <div class="ui container">
 
-            <div class="newUseCaseMainItem2" id="capture">
+            <div class="newUseCaseMainItem flexRowTypeOne" >
 
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#reach" class=" item">Reach</a>
-                        <a href="#capture" class="active blueActiveItem item">Capture</a>
-                        <a href="#activate" class=" item">Activate</a>
-                        <a href="#inspire" class=" item">Inspire</a>
+                        <a href="#reach" class=" item">Erreiche</a>
+                        <a href="#capture" class="active blueActiveItem item">Engagiere</a>
+                        <a href="#activate" class=" item">Aktiviere</a>
+                        <a href="#inspire" class=" item">Inspiriere</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Capture members attention</strong> with personalized targeted messages
+                        <strong>Gewinne die Aufmerksamkeit der Mitglieder</strong> mit personalisierten, gezielten Nachrichten.
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Unaty makes it easy to reach and engage your members and gives you the tools to increase member participation. Personalized messages sent to members based on their interests are proven to grow member engagement.
+                        Unaty macht es einfach Mitglieder zu erreichen und die Partizipation zu erhöhen. Personalisierte Nachrichten, die den Mitgliedern basierend auf ihren Interessen zugesandt werden, erhöhen nachgewiesen Mitgliederengagement.
                     </div>
 
-                </div>
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
-                <div>
-                    <div>
-                        <div><span>Members can create and subscribe to topics</span></div>
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525937110660"/>
-                        <div><span>Admins can see which topics members subscribe to</span></div>
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525550759645"/>
-                    </div>
+                        <div class="two column row">
 
-                    <div>
-                        <div><span>Admins can easily contact members using topics</span></div>
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525550753592"/>
-                    </div>
-                </div>
-
-                <div class="container newUseCaseGrid2">
-
-                    <div class="three col-md-6 row">
-
-                        <div class="col-md-6">
-                            <div class="newUseCaseFeature">
-                                <i class="ui icon blue tasks"></i>
-                                <div>See how members can best be reached</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="newUseCaseFeature">
-                                <i class="ui icon blue tags"></i>
-                                <div>See what your members are interested in</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="newUseCaseFeature">
-                                <i class="ui icon blue paint brush"></i>
-                                <div>Easily send personalized messages to interest groups</div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<div class="final-general-section">
-
-    <div class="ui fluid container">
-
-        <div class="ui container">
-
-            <div class="newUseCaseMainItem" id="activate">
-
-                <div>
-
-                    <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#reach" class=" item">Reach</a>
-                        <a href="#capture" class=" item">Capture</a>
-                        <a href="#activate" class="active greenActiveItem item">Activate</a>
-                        <a href="#inspire" class=" item">Inspire</a>
-                    </div>
-
-                    <div class="newUseCaseTitle">
-                        <strong>Activate more members</strong> and get more people coming to your events
-                    </div>
-
-                    <div class="newUseCaseDesc">
-                        Sending more relevant, personalized invitations to events and making it easy for members to stay informed and RSVP to events will lead to more members coming to events.
-                    </div>
-
-                    <div class="container newUseCaseGrid">
-
-                        <div class="row">
-
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
-                                    <i class="ui icon green add to calendar"></i>
-                                    <div>Send members personalized event invitations</div>
+                                    <i class="ui icon blue tasks"></i>
+                                    <div>Erfahre wie Mitglieder erreicht werden wollen</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
-                                    <i class="ui icon green ticket"></i>
-                                    <div>Members can RSVP right in the email or sms</div>
+                                    <i class="ui icon blue tags"></i>
+                                    <div>Erfahre an was Mitglieder interessiert sind</div>
                                 </div>
                             </div>
 
 
                         </div>
 
-                        <div class="row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
-                                    <i class="ui icon green book"></i>
-                                    <div>
-                                       Manage RSVPs and invite guests to your events
-                                    </div>
+                                    <i class="ui icon blue paint brush"></i>
+                                    <div>Sende einfach personalisierte Nachrichten an Zielgruppen</div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
+
+                            <div class="column">
                                 <div class="newUseCaseFeature">
-                                    <i class="ui icon green file excel outline"></i>
-                                    <div>
-                                        Export RSVPs as an excel to make attendance a breeze
-                                    </div>
+                                    <i class="ui icon blue calendar check"></i>
+                                    <div>Mitglieder abonnieren einen Community-Kalender und erhalten Änderungen automatisch</div>
                                 </div>
                             </div>
-
                         </div>
 
                     </div>
-
 
                 </div>
 
                 <div class="useCaseDiagramCont">
                     <div class="useCaseDiagAction">
                         <div>
-                            Easily send personalized member messages
+                           Administratoren managen Themen und Erreichbarkeiten im Handumdrehen
                         </div>
                     </div>
                     <div class="useCaseImage">
 
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525550748512"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292247336"/>
 
                     </div>
 
@@ -407,7 +531,9 @@
 
                         <div>
                             <div><i class="ui icon star"></i></div>
-                            <div>Messages are sent out as emails and sms</div>
+                            <div>
+                                Mitglieder können direkt über Themen angesprochen werden
+                            </div>
 
                         </div>
 
@@ -415,23 +541,146 @@
 
                     <div class="useCaseDiagAction">
                         <div>
-                            Members receive pretty interactive messages
+                           Benutze *|Tags|* um Mitglieder zum Kalenderabonnement zu bewegen
+                        </div>
+                    </div>
+
+                    <div class="useCaseImage">
+
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526292608229"/>
+
+                    </div>
+
+                    <div class="useCaseDiagIconSuccess">
+
+                        <div>
+                            <div><i class="ui icon check"></i></div>
+                            <div>Mitglieder erhalten automatisch Updates zu jedem Event</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="final-general-section" id="activate">
+
+    <div class="ui fluid container">
+
+        <div class="ui container">
+
+            <div class="newUseCaseMainItem" >
+
+                <div>
+
+                    <div class="ui list horizontal relaxed large link newUseCaseList">
+                        <a href="#reach" class=" item">Erreiche</a>
+                        <a href="#capture" class=" item">Engagiere</a>
+                        <a href="#activate" class="active greenActiveItem item">Aktiviere</a>
+                        <a href="#inspire" class=" item">Inspiriere</a>
+                    </div>
+
+                    <div class="newUseCaseTitle">
+                        <strong>Aktiviere mehr Mitglieder</strong> und empfange mehr Gäste auf Deinen Veranstaltungen
+                    </div>
+
+                    <div class="newUseCaseDesc">
+                        Sende relevantere, persönlichere Einladungen zu Veranstaltungen und erinnere Mitglieder regelmäßig an die Zusage über die E-Mail. Diese persönlichen, sanften Erinnerungen führen zu mehr Aufmerksamkeit und schließlich mehr Teilnehmern bei Veranstaltungen.
+                    </div>
+
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
+
+                        <div class="two column row">
+
+                            <div class="column">
+                                <div class="newUseCaseFeature">
+                                    <i class="ui icon green add to calendar"></i>
+                                    <div>Automatisch persönliche Einladungen vesenden</div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="newUseCaseFeature">
+                                    <i class="ui icon green ticket"></i>
+                                    <div>Mitglieder können direkt über die Mail zu- oder absagen</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="two column row">
+
+                            <div class="column">
+                                <div class="newUseCaseFeature">
+                                    <i class="ui icon green book"></i>
+                                    <div>
+                                       Verwalte Zusagen und Gäste einer Veranstaltung
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="column">
+                                <div class="newUseCaseFeature">
+                                    <i class="ui icon green file excel outline"></i>
+                                    <div>
+                                        Exportiere Zusagen und erstelle so Gästelisten
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="useCaseDiagramCont">
+                    <div class="useCaseDiagAction">
+                        <div>
+                            Einfach persönliche Nachrichten verschicken
+                        </div>
+                    </div>
+                    <div class="useCaseImage">
+
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526293698816"/>
+
+                    </div>
+
+                    <div class="useCaseDiagIcon">
+
+                        <div>
+                            <div><i class="ui icon star"></i></div>
+                            <div>Nachrichten als E-Mail und SMS verschicken</div>
+
+                        </div>
+                    </div>
+
+                    <div class="useCaseDiagAction">
+                        <div>
+                            Mitglieder erhalten schön formatierte Einladungen
                         </div>
                     </div>
 
                     <div class="useCaseDiagContextBox">
-                        <div><strong>From</strong>: Thomas Jefferson | United States</div>
-                        <div><strong>Subject</strong>: Invite to Independance Day</div>
-                        <div><br/>Dear George,
+                        <div><strong>Von</strong>: Thomas Jefferson | United States</div>
+                        <div><strong>Betreff</strong>: Einladung zum Unabhängigkeitstag</div>
+                        <div><br/>Hallo George,
                             <br/><br/>
-                            Looking forward to seeing you at the party!
+                            Ich freue mich schon auf die Party!
                             <br/>
                             <br/>
-                            <strong>Independance Day</strong><br/>
-                            July 4th, 1787<br/>
+                            <strong>Unabhängigkeitstag</strong><br/>
+                            4. Juli, 1787<br/>
                             Independance Hall<br/><br/>
-                            RSVP<br/>
-                            <a>I'll be there</a> or <a>I can't make it</a>
+                            Antwort:<br/>
+                            <a>Ich nehme teil</a> oder <a>Ich sage ab</a>
                             <br/>
                             <br/>
                             Thomas Jefferson<br/>
@@ -444,7 +693,7 @@
 
                         <div>
                             <div><i class="ui icon check"></i></div>
-                            <div>Making it easy to attend increases participation</div>
+                            <div>Mache Veranstaltungen einfach und erhöhe die Beteiligung der Mitglieder</div>
                         </div>
 
                     </div>
@@ -459,58 +708,58 @@
 
 </div>
 
-<div class="final-general-section">
+<div class="final-general-section" id="inspire">
 
     <div class="ui fluid container">
 
         <div class="ui container">
 
-            <div class="newUseCaseMainItem flexRowTypeOne" id="inspire">
+            <div class="newUseCaseMainItem flexRowTypeOne" >
 
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#reach" class=" item">Reach</a>
-                        <a href="#capture" class=" item">Capture</a>
-                        <a href="#activate" class=" item">Activate</a>
-                        <a href="#inspire" class="active orangeActiveItem item">Inspire</a>
+                        <a href="#reach" class=" item">Erreiche</a>
+                        <a href="#capture" class=" item">Engagiere</a>
+                        <a href="#activate" class=" item">Aktiviere</a>
+                        <a href="#inspire" class="active orangeActiveItem item">Inspiriere</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Inspire members to become leaders</strong> and give them the tools they need to succeed
+                        <strong>Inspiriere Mitglieder selbst aktiv zu werden</strong> und gib ihnen die Werkzeuge, die sie dazu brauchen.
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Unaty is the first community platform made with members in mind, which is why it's easy for members to follow their passions and plan their own events. Unaty helps your community achieve and be more together.
+                        Unaty ist die erste Community Plattform, auf der Administratoren <strong>mit Mitgliedern zusammen</strong> die Gemeischaft verwalten. Es ist einfach für Mitgliedern, selbt die Initiative zu ergreifen und ihre eigenen Veranstaltungen zu planen oder sich untereinander zu organisieren.
                     </div>
 
-                    <div class="container newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
-                        <div class="row">
+                        <div class="two column row">
 
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon orange rss"></i>
-                                    <div>Members can find others with similar interests</div>
+                                    <div>Mitglieder finden Mitglieder mit ähnlichen Interessen</div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon orange trophy"></i>
-                                    <div>Members can simply add and manage their own events</div>
+                                    <div>Mitglieder können einfach ihre eigenen Veranstaltungen planen</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon orange student"></i>
                                     <div>
-                                        Give members more control by making them admins
+                                        Gib Mitgliedern weitere Rechte, indem Du sie zu Administratoren machst
                                     </div>
                                 </div>
                             </div>
@@ -519,18 +768,17 @@
 
                     </div>
 
-
                 </div>
 
                 <div class="useCaseDiagramCont">
                     <div class="useCaseDiagAction">
                         <div>
-                            Members can create topics to share interests
+                            Mitglieder können Themen erstellen und so Interessen mit anderen teilen
                         </div>
                     </div>
                     <div class="useCaseImage">
 
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525550742445"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526293383487"/>
 
                     </div>
 
@@ -539,7 +787,7 @@
                         <div>
                             <div><i class="ui icon star"></i></div>
                             <div>
-                                All members can see and subscribe to topics
+                                Mitglieder können alle Themen sehen und ihnen folgen
                             </div>
 
                         </div>
@@ -548,13 +796,13 @@
 
                     <div class="useCaseDiagAction">
                         <div>
-                            Empower members by making them admins
+                            Mache einfache Mitglieder zu hilfreichen Administratoren
                         </div>
                     </div>
 
                     <div class="useCaseImage">
 
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525550735817"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526293179271"/>
 
                     </div>
 
@@ -562,7 +810,7 @@
 
                         <div>
                             <div><i class="ui icon check"></i></div>
-                            <div>Make normal members into leaders</div>
+                            <div>Verwandle passive Mitglieder in aktive Gestalter</div>
                         </div>
 
                     </div>
@@ -576,105 +824,24 @@
     </div>
 
 </div>
-        
-        </section>
-        
-        <section class="bg--primary unpad cta cta-2 text-center">
-                <a href="https://app.unaty.de/sign-up?_src=cta">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2>Try Unaty with your community for free</h2>
-                            </div>
-                        </div>
-                        <!--end of row-->
-                    </div>
-                    <!--end of container-->
-                </a>
-            </section>
-        
-        <script type="text/javascript">
-        document.write(footer)
-
-    </script>
-        
-    </div>
-    <!--<div class="loader"></div>-->
-    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-        <i class="stack-interface stack-up-open-big"></i>
+<section class="bg--primary unpad cta cta-2 text-center">
+    <a href="https://app.unaty.de/sign-up?_src=cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Unaty kostenlos ausprobieren</h2>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
     </a>
-    <script src="../../js/jquery-3.1.1.min.js"></script>
-    <script src="../../js/flickity.min.js"></script>
-    <script src="../../js/easypiechart.min.js"></script>
-    <script src="../../js/parallax.js"></script>
-    <script src="../../js/typed.min.js"></script>
-    <script src="../../js/datepicker.js"></script>
-    <script src="../../js/isotope.min.js"></script>
-    <script src="../../js/ytplayer.min.js"></script>
-    <script src="../../js/lightbox.min.js"></script>
-    <script src="../../js/granim.min.js"></script>
-    <script src="../../js/jquery.steps.min.js"></script>
-    <script src="../../js/countdown.min.js"></script>
-    <script src="../../js/twitterfetcher.min.js"></script>
-    <script src="../../js/spectragram.min.js"></script>
-    <script src="../../js/smooth-scroll.min.js"></script>
-    <script src="../../js/scripts.js"></script>
-    
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // Listen to submit event on the <form> itself!
-            $('#mainForm').submit(function(e) {
+</section>
 
-                e.preventDefault();
+<script type="text/javascript">
+    document.write(footer)
 
+</script>
 
-                $("#submitBtn").addClass('loading')
-
-                var email = $("#emailInput").val();
-
-                checkFields(email)
-
-            });
-
-
-            function stopLoading() {
-                document.getElementById("submitBtn").className = "btn btn--primary type--uppercase"
-            }
-
-            function checkFields(email) {
-
-                let emailSubmit = email.trim()
-              
-                let error = false
-
-                // email check
-
-                // name check
-
-                submitForm(emailSubmit)
-            }
-
-            function submitForm(email) {
-            
-                window.open('https://app.unaty.de/sign-up?_src=mainCTA&email='+email);
-
-            }
-
-            function showSuccess() {
-             
-        
-            }
-
-            function showFailure() {
-                resetErrors()
-                stopLoading()
-                alert('Submission failed')
-            }
-
-        });
-
-
-    </script>
 </body>
-
 </html>
