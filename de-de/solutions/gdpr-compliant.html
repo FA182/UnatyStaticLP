@@ -1,135 +1,422 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
 
+<html lang="de">
 <head>
+
+
+    <title>Mache Deine Organisation EU-DSGVO konform | Unaty</title>
     <meta charset="utf-8">
-    <title>Get your organization GDPR ready | Unaty</title>
-    <script src="../en-setup.js"></script>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Unaty: Where Leaders Inspire Action">
-    <meta name="keywords" content="association management software, membership management, membership website, create a membership website, build a membership website, best membership sites, knowledge management system, church membership software">
-    
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#edeff5",
+                        "text": "#838391"
+                    },
+                    "button": {
+                        "background": "#4b81e8"
+                    }
+                },
+                "theme": "edgeless",
+                "position": "bottom-left",
+                "type": "opt-in",
+                "content": {
+                    "message": "\nCookies sind für die korrekte Funktionsweise von Unaty wichtig. Wir nutzen Cookies zum bequemen Bereitstellen Ihrer Anmeldedaten, um eine sichere Anmeldung zu garantieren, und um anonyme statistische Daten zur Optimierung der Website zu erheben. Klicken Sie auf 'Stimme zu und weiter', um Cookies zu akzeptieren oder klicken Sie auf 'Nicht Jetzt', um Cookies vorerst abzustellen.",
+                    "dismiss": "Nicht Jetzt",
+                    "allow": "Stimme zu und weiter",
+                    "href": "https://www.unaty.de/de-de/company/privacy.html"
+                },
+                onInitialise: function (status) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onStatusChange: function (status, chosenBefore) {
+                    var type = this.options.type;
+                    var didConsent = this.hasConsented();
+                    if (type == 'opt-in' && didConsent) {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                    if (type == 'opt-out' && !didConsent) {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                },
+
+                onRevokeChoice: function () {
+                    var type = this.options.type;
+                    if (type == 'opt-in') {
+                        // disable cookies
+                        navigator.cookieEnabled = false
+                    }
+                    if (type == 'opt-out') {
+                        // enable cookies
+                        navigator.cookieEnabled = true
+                    }
+                }
+            })
+        });
+    </script>
+    <!-- Twitter Card data -->
+
+    <script>         window.intercomSettings = {
+        app_id: "auma9g4d",
+        custom_launcher_selector: '#intercom_chat_link'
+    };      </script>
+    <script>(function () {
+        var w = window;
+        var ic = w.Intercom;
+        if (typeof ic === "function") {
+            ic('reattach_activator');
+            ic('update', intercomSettings);
+        } else {
+            var d = document;
+            var i = function () {
+                i.c(arguments)
+            };
+            i.q = [];
+            i.c = function (args) {
+                i.q.push(args)
+            };
+            w.Intercom = i;
+            function l() {
+                var s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://widget.intercom.io/widget/auma9g4d';
+                var x = d.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })()</script>
+
+    <script src="../de-setup.js"></script>
     <script type="text/javascript">
         document.write(headDataDepthOne)
 
     </script>
-    <script type="text/javascript">window.location.replace("https://www.unaty.de/en-us/index.html")</script>
-</head>
+    <link target="_blank" href="../../semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+    <script src="../../semantic/dist/jquery-3.1.1.min.js"></script>
+    <script src="../../semantic/dist/semantic.min.js"></script>
 
-<body class="dropdowns--hover">
-    <a id="start"></a>
-    <!--end bar-->
-    <script type="text/javascript">
-        document.write(menu)
+    <meta name="keywords" content="EU DSGVO Vereine GDPR, EU DSGVO e.V.">
 
+    <link rel="stylesheet" type="text/css" verify="_blank" href="../../css/landingStyles.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92484757-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-92484757-1');
     </script>
-    <div class="main-container">
-        <section class="switchable feature-large unpad--bottom padding-top-6em">
-                                <div class="container">
-                                    <div class="row justify-content-around">
-                                        <div class="col-md-7">
-                                            <div class="switchable__text">
-                                                <div class="normal-poweredby-statement">Powered by <a style="color:#00b5ad;" href="#"><i class="normal-fa-icon fa-magic"></i> Build</a></div>
-                                                <h2 class="hero-secondary-text">Professional GDPR Data Security made easy.</h2>
-                                                <p class="lead">
-                                                Unaty helps your organization easily achieve GDPR readiness. Unaty helps you do it yourself or we can get you set up*.
-                                                </p>
-                                               <form id="mainForm" class="row">
-                            <div class="col-md-6">
-                                <div class=""> <input type="email" id="emailInput" name="email" placeholder="Email Address" /></div>
+    <!-- Hotjar Tracking Code for www.unaty.de -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {hjid: 867076, hjsv: 6};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 
+        window.addEventListener('scroll', function () {
+
+            if (window.scrollY > 150 || document.body.scrollTop > 150) {
+                // > 100px from top - show div 
+
+                if ($("#addShowClass").hasClass('showFlexNow') === true) {
+                    // it's been clicked and is already active  
+                } else {
+                    $("#addShowClass").addClass("showFlexNow")
+                }
+            } else {
+
+                // <= 100px from top - hide div 
+                $("#addShowClass").removeClass("showFlexNow")
+            }
+
+
+        }, true)
+    </script>
+
+
+</head>
+<body class="dropdowns--hover">
+<a id="start"></a>
+<!--end bar-->
+<script type="text/javascript">
+    document.write(menu)
+
+</script>
+
+<div class="useCaseMenuTop" id="addShowClass">
+
+    <div>
+        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1525608510560"/>
+    </div>
+
+    <div>
+        Deine Organisation EU-DSGVO bereit machen
+    </div>
+
+    <div>
+        <a class="ui button blue basic large compact" href="https://www.unaty.de/de-de/pricing.html">Preise</a>
+    </div>
+
+    <div>
+        <a class="ui button blue large compact" href="https://app.unaty.de/get-started">Jetzt loslegen</a>
+    </div>
+
+</div>
+
+<div class="final-use-case-page-header">
+
+    <div class="ui fluid container">
+
+        <div class="ui container">
+
+            <div class="final-use-case-header-top">
+                <div><strong>Deine Organisation EU-DSGVO bereit machen</strong> Produkte: <a
+                        href="https://www.unaty.de/de-de/products/build.html?source=use_case_1"
+                        class="final-powered-by-icon"><i class="ui icon teal magic"></i> Build</a>
+                </div>
+
+            </div>
+
+            <div class="final-use-case-header-body">
+
+                <div>
+                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526145543453"/>
+                </div>
+
+                <div>
+
+                    <div class="final-use-case-name">
+
+                        Professioneller DSGVO Datenschutz leicht gemacht.
+                    </div>
+
+                    <div class="final-use-case-title">
+                        Unaty hilft Organisationen, die neue EU-DSGVO umzusetzen. Unaty's Plattform macht es möglich,<a
+                            href="#steps"> selbst anzupacken</a> oder <a href="#gdprPricing">wir helfen Dir direkt</a>.*
+                    </div>
+
+                    <div class="flp-sign-up-box noBottomPadding">
+                        <div>
+                            <div class="ui action input input250 final-sign-up-button">
+                                <input id="emailInput" autofocus type="text" placeholder="E-Mail-Adresse..."/>
+                                <button id="getStartedBtn" class="ui button blue large compact" role="button">Jetzt
+                                    loslegen
+                                </button>
                             </div>
-                            <div class="col-md-4">
-                                <button id="submitBtn" type="submit" class="btn btn--primary type--uppercase"><span class="btn__text">Get Started</span></button>
-                            </div>
-                        </form>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-4 col-12 text-center">
-                                            <img alt="Image" style="max-height: 50vh" src="https://unaty-media.s3.amazonaws.com/organizations/9yjFg3ZdNGTbaMHj7/public/main/1540408425264" />
-                                        </div>
-                                    </div>
-                                    <!--end of row-->
-                                </div>
-                                <!--end of container-->
-                            </section>
-        
-        <section class="text-center padding-bottom-48 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-lg-8">
-                        <h2 class="margin-bottom-8 normalSerifHeader" style="font-size: 28px">Get your organization GDPR ready in four steps:</h2>
-                        
+                        </div>
+                        <div>
+                            <script type="text/javascript">document.write(unatyData.global.promises)</script>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526149852519"/>
+                </div>
+
+            </div>
+            <div class="new-subheader-section unatySubtitleSectionNew"> *Achtung, keine Rechtsberatung. Unaty's Plattform hilft Dir Konflikte mit oder
+                Verstöße gegen die EU-DSGVO zu vermeiden, ersetzt aber keine professionelle Rechtsberatung
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="final-general-section" id="gdprPricing">
+
+    <div class="ui fluid container">
+
+        <div class="ui container">
+
+            <div class="gdprSalesSection">
+                <div>
+                    <div><strong>DSGVO konforme Mitgliederdaten</strong> <br/>nur €199 all-inclusive.</div>
+                    <div>
+                        Du kannst kostenlos den folgenden Schritten folgen, um die für die DSGVO nötigen Maßnahmen zu ergreifen
+                        oder du überlässt uns die Arbeit - nur 199€.
+                    </div>
+                    <div>
+                        <a id="intercom_chat_link" href="mailto:auma9g4d@intercom-mail.com"
+                           class="ui button compact large orange">Kontakt zu unserem Vertrieb</a>
+                        <span class="setupSpan">
+                        €199 + MWSt ● Einrichtung in 3 Werktagen
+                    </span>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div>Deine Organisation erhält:</div>
+                    <div role="list" class="ui large relaxed list">
+                        <div role="listitem" class="item">
+                            <i aria-hidden="true" class="check blue icon"></i>
+                            <div class="content">EU-DSGVO Checkliste</div>
+                        </div>
+                        <div role="listitem" class="item">
+                            <i aria-hidden="true" class="check blue icon"></i>
+                            <div class="content">Sicherer Cloud-Speicherplatz für Mitgliedsdaten</div>
+                        </div>
+
+                        <div role="listitem" class="item">
+                            <i aria-hidden="true" class="check blue icon"></i>
+                            <div class="content">Angepasste Datenschutzerklärung für Mitglieder</div>
+                        </div>
+
+                        <div role="listitem" class="item">
+                            <i aria-hidden="true" class="check blue icon"></i>
+                            <div class="content">Mitgliedsdaten Quality Management Tool</div>
+                        </div>
+
+                        <div role="listitem" class="item">
+                            <i aria-hidden="true" class="check blue icon"></i>
+                            <div class="content">Website Cookie Opt-in Implementation und Datenschutzerklärung</div>
+                        </div>
+
+                        <div role="listitem" class="item">
+                            <i aria-hidden="true" class="check blue icon"></i>
+                            <div class="content">ABV Vertrag für die Datenverarbeitung durch Dritte</div>
+                        </div>
+
                     </div>
                 </div>
-                <!--end of row-->
+
             </div>
-            <!--end of container-->
-        </section>
 
-        <section class="" style="padding-bottom: 0;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
+        </div>
 
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526126737728" />
-                            <h4 class="sansSerifMediumHeader">Centralize</h4>
-                            <p class="sansSerifMediumText">
-                           Securely store your members data in the cloud and enable members to manage their data.
+    </div>
 
-                            </p>
-                            
+</div>
+
+<div>
+    <div class="ui fluid container">
+
+        <div class="ui container textAlignCenter unatyProofText">
+            Unaty hat bereits <strong>31</strong> Organisationen geholfen, sich auf die EU-DSGVO vorzubereiten
+        </div>
+
+    </div>
+</div>
+
+<div class="final-general-section" id="steps">
+
+    <div class="ui fluid container">
+
+        <div class="ui container">
+
+            <div class="ui header large new-header-section makeTextNormal text-align-left">
+                Do it yourself: Setze die <strong>EU-DSGVO in Deiner Organisation</strong> in vier Schritten um:
+            </div>
+
+            <div class="ui stackable grid very relaxed">
+
+                <div class="four column row">
+
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526126737728"/>
+                            <div>Zentralisiere</div>
+                            <div>
+                                Unaty bietet die von der DSGVO geforderten technischen und ermöglicht die organisatorischen Maßnahmen, um Daten sicher zu verarbeiten und gibt Mitgliedern Kontrolle über ihre Daten.
+                            </div>
+                            <a href="#centralize">
+                                Mehr erfahren →
+                            </a>
                         </div>
-                        <!--end feature-->
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526126742388" />
-                            <h4 class="sansSerifMediumHeader">Design</h4>
-                            <p class="sansSerifMediumText">
-                            Easily set data access rights to select members for your personalized ISMS.
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526132930571" />
-                            <h4 class="sansSerifMediumHeader">Verify</h4>
-                            <p class="sansSerifMediumText">
-                             Easily get consent from all members to use their data and contact them.
 
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature feature-6 margin-bottom-0">
-                            <img class="small-img" src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526127029400" />
-                            <h4 class="sansSerifMediumHeader">Secure</h4>
-                            <p class="sansSerifMediumText">
-                            Make sure your organization website is fully GDPR ready with opt-in cookie management.
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526126742388"/>
+                            <div>Strukturiere</div>
+                            <div>
+                                Setze Zugriffsrechte und wähle Verantwortliche für Dein personalisiertes Informationssicherheits-Management. Kontrolliere so genau Zugriffsrechte und Verantwortlichkeiten.
+                            </div>
+                            <a href="#design">
+                                Mehr erfahren →
+                            </a>
+                        </div>
 
-                            </p>
-                            
-                        </div>
-                        <!--end feature-->
                     </div>
-                    
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526132930571"/>
+                            <div>Verifiziere</div>
+                            <div>
+                                Der einfachste Weg die vorgeschriebene Zustimmung der Mitglieder zur zweckgebundenen Datenverarbeitung zu erhalten.
+                            </div>
+                            <a href="#verify">
+                                Mehr erfahren →
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="column">
+                        <div class="useCaseStep">
+                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526127029400"/>
+                            <div>Sichere ab</div>
+                            <div>
+                                Stelle sicher, dass die Website Deiner Organisation die Anforderungen der EU-DSGVO erfüllt.
+                            </div>
+                            <a href="#secure">
+                                Mehr erfahren →
+                            </a>
+                        </div>
+
+                    </div>
+
                 </div>
-                <!--end of row-->
-                
+
             </div>
-            <!--end of container-->
-        </section>
-        
-        <section>
-        
-           <div class="final-general-section" id="centralize">
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="final-general-section" id="centralize">
 
     <div class="ui fluid container">
 
@@ -140,37 +427,36 @@
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#centralize" class="active purpleActiveItem item">Centralize</a>
-                        <a href="#design" class=" item">Design</a>
-                        <a href="#verify" class=" item">Verify</a>
-                        <a href="#secure" class=" item">Secure</a>
+                        <a href="#centralize" class="active purpleActiveItem item">Zentralisiere</a>
+                        <a href="#design" class=" item">Strukturiere</a>
+                        <a href="#verify" class=" item">Verifiziere</a>
+                        <a href="#secure" class=" item">Sichere ab</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Centralize member management</strong> on your secure cloud community platform
+                        <strong>Zentralisiere die Mitgliedsverwaltung</strong> auf einer cloud-basierten Community-Plattform
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Import your members and invite them to join your new online community where they can manage
-                        their information and verify their data. Also collaborate with other administrators to keep
-                        information up to date.
+                        Importiere Deine Mitgliedsdaten und lade Sie zu Deiner neuen Online-Community ein. Manage Ihre Informationen und verifiziere Ihre Daten hier.
+                        Arbeite mit Administratoren zusammen, um Dir die Arbeit zu teilen und Mtigliedsdaten aktuell zu halten.
                     </div>
 
-                    <div class="container newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
-                        <div class="row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon purple database"></i>
-                                    <div>Establish a golden source for member administration</div>
+                                    <div>Richte eine goldene Quelle für Mitgliedsdaten ein</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon purple lock"></i>
                                     <div>
-                                        All member data is securely encrypted and stored
+                                        Alle Mitgliedsdaten sind verschlüsselt und sicher aufbewahrt
                                     </div>
                                 </div>
                             </div>
@@ -178,20 +464,20 @@
 
                         </div>
 
-                        <div class="row">
-                            <div class="col-md-6">
+                        <div class="two column row">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon purple unhide"></i>
                                     <div>
-                                        Members can edit and update their own data
+                                        Mitglieder verwalten Ihre Daten selbst
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon purple id badge"></i>
                                     <div>
-                                        Members can verify their profiles
+                                        Mitglieder verifizieren ihre Profile
                                     </div>
                                 </div>
                             </div>
@@ -205,7 +491,7 @@
 
                     <div class="useCaseDiagAction">
                         <div>
-                            Members can update and verify their profile
+                            Mitglieder verwalten und verifizieren ihre Daten
                         </div>
                     </div>
 
@@ -217,7 +503,7 @@
 
                         <div>
                             <div><i class="ui icon refresh"></i></div>
-                            <div>Data is always up to date</div>
+                            <div>Daten sind immer aktuell</div>
 
                         </div>
 
@@ -225,12 +511,12 @@
 
                     <div class="useCaseDiagAction">
                         <div>
-                            Admins can edit members profiles
+                            Administratoren können Daten bearbeiten
                         </div>
                     </div>
 
                     <div class="useCaseImage">
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290441142"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526290259986"/>
                     </div>
 
                 </div>
@@ -254,49 +540,48 @@
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#centralize" class=" item">Centralize</a>
-                        <a href="#design" class="active yellowActiveItem item">Design</a>
-                        <a href="#verify" class=" item">Verify</a>
-                        <a href="#secure" class=" item">Secure</a>
+                        <a href="#centralize" class=" item">Zentralisiere</a>
+                        <a href="#design" class="active yellowActiveItem item">Strukturiere</a>
+                        <a href="#verify" class=" item">Verifiziere</a>
+                        <a href="#secure" class=" item">Sichere ab</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Design access rights</strong> to protect your data and increase community transparency
+                        <strong>Strukturiere Zugriffsrechte</strong> um Daten zu schützen und Transparenz zu wahren
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Unaty was built from the beginning on the principle 'Privacy by Design'. We take data accuracy
-                        and privacy very seriously and make it easy for organizations to make data storage as
-                        transparent as possible.
+                        Unaty folgt dem Prinzip "Privatssphäre durch Struktur". Wir nehmen Privatsphäre und den Schutz der uns
+                        anvertrauten Daten sehr ernst. Du kannst davon profitieren, indem Du Deinen Mitglieder über Unaty Transparenz und Kontrolle über ihre Daten gewährst.
                     </div>
 
-                    <div class="container newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
-                        <div class="row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon yellow options"></i>
-                                    <div>Adjust member permissions for data access and editing</div>
+                                    <div>Passe Rechte von Mitgliedern zu Dateneinsicht und Berarbeitung an</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon yellow server"></i>
-                                    <div>Member types and roles give you ultimate flexibility</div>
+                                    <div>Mitgliedstypen und Rollen geben Dir die ultimative Flexibilität</div>
                                 </div>
                             </div>
 
 
                         </div>
 
-                        <div class="row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon yellow star"></i>
                                     <div>
-                                        Add many members as admins for shared control
+                                        Füge Administratoren hinzu, um die Verantwortung zu teilen
                                     </div>
                                 </div>
                             </div>
@@ -313,12 +598,12 @@
 
                     <div class="useCaseDiagAction">
                         <div>
-                            Adjust members permissions based on their type
+                            Passe Rechte auf der Basis von Mitgliedstypen an
                         </div>
                     </div>
 
                     <div class="useCaseImage">
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526134612251"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526289050200"/>
                     </div>
 
 
@@ -342,47 +627,40 @@
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#centralize" class=" item">Centralize</a>
-                        <a href="#design" class=" item">Design</a>
-                        <a href="#verify" class="active greenActiveItem item">Verify</a>
-                        <a href="#secure" class=" item">Secure</a>
+                        <a href="#centralize" class=" item">Zentralisiere</a>
+                        <a href="#design" class=" item">Strukturiere</a>
+                        <a href="#verify" class="active greenActiveItem item">Verifiziere</a>
+                        <a href="#secure" class=" item">Sichere ab</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Verify your members profile information</strong> and get permission to use their data
+                        <strong>Verifiziere die Profilinformationen von Mitgliedern</strong> und generiere gleichzeitig DSGVO-konformen Konsens
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Community success and engagement starts with data accuracy - that's why we built powerful tools
-                        right into Unaty for members to manage and verify their data. Members are not only encouraged to
-                        update their data
-                        but also give their consent to your Organization handling thier data - transparent and GDPR
-                        wording compliant.
+                        Der Erfolg einer Gemeinschaft beginnt damit, dass alle Mitglieder erreichbar sind. Unaty ermöglicht Dir
+                        maximale Datenqualität um die Erreichbarkeit Deiner Mitglieder sicher zu stellen. Administratoren starten Mitgliedsdatenabfragen und
+                        erreichen gleichzeitig den von der EU-DSGVO geforderten Konsens der Mitglieder mit der Datenverarbeitung durch Deine Organisation.
+
+
                     </div>
 
                 </div>
 
                 <div>
                     <div>
-                        <div class="useCaseDiagAction">
-                            <div>Get a data quality overview</div>
-                        </div>
-                        <div class="useCaseImage">
-                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526133626389"/>
-                        </div>
+                        <div class="useCaseDiagAction"><div>Übersicht über Datenqualität und Konsens</div></div>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526133626389"/>
 
-                        <div class="useCaseDiagAction">
-                            <div>Generate live data quality reports</div>
-                        </div>
-                        <div class="useCaseImage">
-                            <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526133603938"/>
-                        </div>
+                        <div class="useCaseDiagAction"><div>Erzeuge Live-Informationen zur Datenqualität</div></div>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526289781951"/>
+
                     </div>
 
                     <div>
                         <div class="useCaseDiagAction">
                             <div>
-                                Check if a members profile is up to date
+                                Prüfe, ob Mitgliedsdaten aktuell sind
                             </div>
                         </div>
 
@@ -394,28 +672,28 @@
 
                             <div>
                                 <div><i class="ui icon envelope"></i></div>
-                                <div>Easily send a profile update mail</div>
+                                <div>Fordere Mitglieder einfach zur Aktualisierung auf</div>
 
                             </div>
 
                         </div>
 
                         <div class="useCaseDiagMail2 mailmargins">
-                            <div><strong>From</strong>: Thomas Jefferson | United States</div>
-                            <div><strong>To</strong>: George Washington [washington@unaty.de]</div>
-                            <div><strong>Subject</strong>: Update your Profile</div>
+                            <div><strong>Von</strong>: Thomas Jefferson | United States</div>
+                            <div><strong>An</strong>: George Washington [washington@unaty.de]</div>
+                            <div><strong>Betreff</strong>: Aktualisiere Dein Profil</div>
                             <div>
                                 <div>
-                                    Dear George,<br/><br/>
-                                    Your Profile has not yet been verified, please check your information
-                                    below and let us know if your profile information is up to date. With verifying or
-                                    updating my data, I consent [...]<br/>
+                                    Hallo George,<br/><br/>
+                                    Dein Profil muss noch verifiziert werden. Bitte überprüfe die Informationen unten und bestätige oder aktualisiere sie.
+                                    Mit dem Bestätigen oder Aktualisieren meiner
+                                    Daten stimme [...] zu<br/>
                                     <br/>
                                     <a href="https://www.unaty.de/de-de/valid-data.html?communatyName=your community"
-                                       target="_blank" class="ui button compact tiny green">Verify Profile</a>
+                                       target="_blank" class="ui button compact tiny green">Verifiziere Profil</a>
                                     <br/>
                                     <br/>
-                                    <strong>Your Profile Information</strong><br/>
+                                    <strong>Deine Profil Informationen</strong><br/>
                                     First Name: <strong>George</strong><br/>
                                     Last Name: <strong>Washington</strong><br/>
                                     Email: <strong>washington@unaty.de</strong><br/>
@@ -429,7 +707,7 @@
                                     Country: <strong>USA</strong><br/>
                                     <br/>
                                     <a href="https://www.unaty.de/de-de/valid-data.html?communatyName=your community"
-                                       target="_blank" class="ui button compact tiny fontWeight900">Update Profile</a>
+                                       target="_blank" class="ui button compact tiny fontWeight900">Profil aktualisieren</a>
                                 </div>
                             </div>
                         </div>
@@ -438,39 +716,39 @@
 
                             <div>
                                 <div><i class="ui icon check"></i></div>
-                                <div>Profile is updated and verified</div>
+                                <div>Profil ist aktuell, DSGVO Anforderungen sind erfüllt!</div>
                             </div>
 
                         </div>
                     </div>
                 </div>
 
-                <div class="container newUseCaseGrid2">
+                <div class="ui grid very relaxed stackable newUseCaseGrid2">
 
-                    <div class="three col-md-6 row">
+                    <div class="three column row">
 
-                        <div class="col-md-6">
+                        <div class="column">
                             <div class="newUseCaseFeature">
                                 <i class="ui icon green magic"></i>
                                 <div>
-                                    Comprehensive data quality management tool
+                                    Übersichtilches Data Quality Management Tool
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="column">
                             <div class="newUseCaseFeature">
                                 <i class="ui icon green envelope"></i>
                                 <div>
-                                    Send members emails for profile verification
+                                    Volle EU-DSGVO Konformität für Nutzung von Mitgliedsdaten
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="column">
                             <div class="newUseCaseFeature">
                                 <i class="ui icon green pencil square"></i>
                                 <div>
-                                    Generate detailed data quality reports
+                                    Berichte zur Aktualität der Mitgliedsdaten insgesamt
                                 </div>
                             </div>
                         </div>
@@ -498,36 +776,36 @@
                 <div>
 
                     <div class="ui list horizontal relaxed large link newUseCaseList">
-                        <a href="#centralize" class=" item">Centralize</a>
-                        <a href="#design" class=" item">Design</a>
-                        <a href="#verify" class=" item">Verify</a>
-                        <a href="#secure" class="active blueActiveItem item">Secure</a>
+                        <a href="#centralize" class=" item">Zentralisiere</a>
+                        <a href="#design" class=" item">Strukturiere</a>
+                        <a href="#verify" class=" item">Verifiziere</a>
+                        <a href="#secure" class="active blueActiveItem item">Sichere ab</a>
                     </div>
 
                     <div class="newUseCaseTitle">
-                        <strong>Secure your website</strong> with an opt-in message for GDPR readiness
+                        <strong>Sichere Deine Website ab</strong> mit DSGVO konformen Cookie-Opt-in
                     </div>
 
                     <div class="newUseCaseDesc">
-                        Unaty will implement a opt-in service to your website that disables cookies and other tracking
-                        data until users give there consent, for only €59 - already included in Full GDPR Readiness
-                        Setup for €99.
+                        Unaty kann auf Deinen Wunsch einen DSGVO konformes Cookie-Menu auf Deiner Website installieren um Cookies auszuschalten
+                         bis der Besucher diesen zugestimmt hat. Dieser Service kostet Dich nur 59€ - schon enthalten im vollen DSGVO Konformitätspaket
+                         für 199€.
                     </div>
 
-                    <div class="container newUseCaseGrid">
+                    <div class="ui grid very relaxed stackable newUseCaseGrid">
 
-                        <div class="row">
+                        <div class="two column row">
 
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon blue sign in"></i>
-                                    <div>Website opt-in message implementation</div>
+                                    <div>Website Cookie Opt-In Implementation</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="column">
                                 <div class="newUseCaseFeature">
                                     <i class="ui icon blue broken chain"></i>
-                                    <div>Disable cookies until opt-in is confirmed</div>
+                                    <div>Verhindert Cookies bis zur Zustimmung durch Besucher</div>
                                 </div>
                             </div>
 
@@ -542,13 +820,13 @@
 
                     <div class="useCaseDiagAction">
                         <div>
-                            Unaty can help make your external website GDPR compliant
+                            Mit Unaty zur EU-DSGVO Konformität
                         </div>
                     </div>
 
                     <div class="useCaseImage">
 
-                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526287484177"/>
+                        <img src="https://unaty-media.s3.amazonaws.com/organizations/PDkydbno2wA2Wwfzk/public/main/1526286877606"/>
 
                     </div>
 
@@ -561,105 +839,24 @@
     </div>
 
 </div>
-        
-        </section>
-        
-        <section class="bg--primary unpad cta cta-2 text-center">
-                <a href="https://app.unaty.de/sign-up?_src=cta">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2>Try Unaty with your community for free</h2>
-                            </div>
-                        </div>
-                        <!--end of row-->
-                    </div>
-                    <!--end of container-->
-                </a>
-            </section>
-        
-        <script type="text/javascript">
-        document.write(footer)
 
-    </script>
-        
-    </div>
-    <!--<div class="loader"></div>-->
-    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-        <i class="stack-interface stack-up-open-big"></i>
+<section class="bg--primary unpad cta cta-2 text-center">
+    <a href="https://app.unaty.de/sign-up?_src=cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Unaty kostenlos ausprobieren</h2>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
     </a>
-    <script src="../../js/jquery-3.1.1.min.js"></script>
-    <script src="../../js/flickity.min.js"></script>
-    <script src="../../js/easypiechart.min.js"></script>
-    <script src="../../js/parallax.js"></script>
-    <script src="../../js/typed.min.js"></script>
-    <script src="../../js/datepicker.js"></script>
-    <script src="../../js/isotope.min.js"></script>
-    <script src="../../js/ytplayer.min.js"></script>
-    <script src="../../js/lightbox.min.js"></script>
-    <script src="../../js/granim.min.js"></script>
-    <script src="../../js/jquery.steps.min.js"></script>
-    <script src="../../js/countdown.min.js"></script>
-    <script src="../../js/twitterfetcher.min.js"></script>
-    <script src="../../js/spectragram.min.js"></script>
-    <script src="../../js/smooth-scroll.min.js"></script>
-    <script src="../../js/scripts.js"></script>
-    
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // Listen to submit event on the <form> itself!
-            $('#mainForm').submit(function(e) {
+</section>
 
-                e.preventDefault();
+<script type="text/javascript">
+    document.write(footer)
 
-
-                $("#submitBtn").addClass('loading')
-
-                var email = $("#emailInput").val();
-
-                checkFields(email)
-
-            });
-
-
-            function stopLoading() {
-                document.getElementById("submitBtn").className = "btn btn--primary type--uppercase"
-            }
-
-            function checkFields(email) {
-
-                let emailSubmit = email.trim()
-              
-                let error = false
-
-                // email check
-
-                // name check
-
-                submitForm(emailSubmit)
-            }
-
-            function submitForm(email) {
-            
-                window.open('https://app.unaty.de/sign-up?_src=mainCTA&email='+email);
-
-            }
-
-            function showSuccess() {
-             
-        
-            }
-
-            function showFailure() {
-                resetErrors()
-                stopLoading()
-                alert('Submission failed')
-            }
-
-        });
-
-
-    </script>
+</script>
 </body>
-
 </html>

@@ -21,7 +21,7 @@ var unatyData = {
     webinars: [
 
         {
-            name: 'Eine lebhafte online community aufbauen',
+            name: 'Eine lebhafte Online-Community aufbauen',
             date: '21. Juni @ 17 Uhr CET',
             desc: 'Best practices wie man eine aktive digitale Gemeinschaft aufbaut',
             slug: '06-21-18',
