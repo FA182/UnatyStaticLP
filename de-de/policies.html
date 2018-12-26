@@ -138,13 +138,12 @@
     </script>
 
 </head>
-<body>
-<script type="text/javascript">
-    document.write(accouncement)
-</script>
-
+<body class="dropdowns--hover">
+<a id="start"></a>
+<!--end bar-->
 <script type="text/javascript">
     document.write(menu)
+
 </script>
 <div class="animated fadeIn animationSpeedUpHalf">
     <div class="ui container NLP-bigTextContainer">
@@ -254,203 +253,23 @@
     </div>
 </div>
 <div class="ui divider section hidden"></div>
+
+<section class="bg--primary unpad cta cta-2 text-center">
+    <a href="https://app.unaty.de/sign-up?_src=cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Unaty kostenlos ausprobieren</h2>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </a>
+</section>
+
 <script type="text/javascript">
     document.write(footer)
-</script>
-<script type="text/javascript">
-
-    $("#menuProducts").hover(
-        function () {
-            // add visible class to menu products
-            $("#menuProductsContainer").addClass("visible")
-
-            $("#menuPricingContainer").removeClass("visible")
-            $("#menuCompanyContainer").removeClass("visible")
-            $("#menuForumContainer").removeClass("visible")
-        }, function () {
-
-            // check if entered products container on this leave, maybe just close all others
-        }
-    );
-
-    $("#menuProductsContainer").hover(
-        function () {
-
-        }, function () {
-            // remove visible class to menu products
-            $("#menuProductsContainer").removeClass("visible")
-        }
-    );
-
-
-    $("#item1").click(
-        function () {
-            // add visible class to menu Company
-            if ($("#item1").hasClass('final-active') === true) {
-                // it's been clicked and is already active
-
-            } else {
-                $("#item2").removeClass("final-active")
-                $("#item3").removeClass("final-active")
-                $("#item1").toggleClass("final-active")
-
-                $("#item20").removeClass("show-block")
-                $("#item30").removeClass("show-block")
-                $("#item10").toggleClass("show-block")
-
-            }
-        }
-    );
-
-    $("#item2").click(
-        function () {
-            // add visible class to menu Company
-            if ($("#item2").hasClass('final-active') === true) {
-                // it's been clicked and is already active
-
-            } else {
-                $("#item1").removeClass("final-active")
-                $("#item3").removeClass("final-active")
-                $("#item2").toggleClass("final-active")
-
-                $("#item10").removeClass("show-block")
-                $("#item30").removeClass("show-block")
-                $("#item20").toggleClass("show-block")
-
-            }
-        }
-    );
-
-    $("#item3").click(
-        function () {
-            // add visible class to menu Company
-            if ($("#item3").hasClass('final-active') === true) {
-                // it's been clicked and is already active
-
-            } else {
-                $("#item2").removeClass("final-active")
-                $("#item1").removeClass("final-active")
-                $("#item3").toggleClass("final-active")
-
-                $("#item20").removeClass("show-block")
-                $("#item10").removeClass("show-block")
-                $("#item30").toggleClass("show-block")
-
-            }
-        }
-    );
-
-    $("#menuCompany").hover(
-        function () {
-            // add visible class to menu Company
-            $("#menuCompanyContainer").addClass("visible")
-
-            $("#menuProductsContainer").removeClass("visible")
-            $("#menuPricingContainer").removeClass("visible")
-            $("#menuForumContainer").removeClass("visible")
-        }, function () {
-
-        }
-    );
-
-    $("#menuCompanyContainer").hover(
-        function () {
-
-        }, function () {
-            // remove visible class to menu Company
-            $("#menuCompanyContainer").removeClass("visible")
-        }
-    );
-
-    $("#menuForum").hover(
-        function () {
-            // add visible class to menu Forum
-            $("#menuForumContainer").addClass("visible")
-
-            $("#menuProductsContainer").removeClass("visible")
-            $("#menuCompanyContainer").removeClass("visible")
-            $("#menuPricingContainer").removeClass("visible")
-        }, function () {
-
-        }
-    );
-
-    $("#menuForumContainer").hover(
-        function () {
-
-        }, function () {
-            // remove visible class to menu Forum
-            $("#menuForumContainer").removeClass("visible")
-        }
-    );
-
-    $("#bodyContainer").hover(
-        function () {
-            $("#menuForumContainer").removeClass("visible")
-
-            $("#menuProductsContainer").removeClass("visible")
-            $("#menuCompanyContainer").removeClass("visible")
-            $("#menuPricingContainer").removeClass("visible")
-        }, function () {
-
-        }
-    )
-
-    $("#landingHamburger").click(
-        function () {
-            $("#mobileMenu").removeClass("hidden-block")
-            $("#mobileMenu").addClass("landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp")
-        }
-    )
-
-    $("#closeMobileMenu").click(
-        function () {
-            $("#mobileMenu").removeClass("landingMobileMenuFull menu-outer-padding animated fadeIn animationSpeedUp")
-            $("#mobileMenu").addClass("hidden-block")
-
-        }
-    )
-
-    $("#switchLanguagesDropdown").click(
-        function () {
-
-            if ($("#showMenu").hasClass('visible') === true) {
-                $("#switchLanguagesDropdown").removeClass("active visible")
-                $("#showMenu").removeClass("visible")
-            } else {
-                $("#menuForumContainer").removeClass("visible")
-
-                $("#menuProductsContainer").removeClass("visible")
-                $("#menuCompanyContainer").removeClass("visible")
-                $("#menuPricingContainer").removeClass("visible")
-
-                $("#switchLanguagesDropdown").addClass("active visible")
-                $("#showMenu").addClass("visible")
-            }
-
-        }
-    )
-
-    $("#getStartedBtn").click(
-        function () {
-
-            var email = document.getElementById("emailInput").value
-
-            window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
-
-        }
-    )
-
-    $("#getStartedBtn1").click(
-        function () {
-
-            var email = document.getElementById("emailInput1").value
-
-            window.location.replace('https://app.unaty.de/sign-up/' + email + '?_source=landingPageMainInput')
-
-        }
-    )
-
 
 </script>
 </body>
