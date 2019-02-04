@@ -3,17 +3,21 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Simple & Fair Pricing | Unaty</title>
+    <title>Simple Pricing | Unaty</title>
     <script src="en-setup.js"></script>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+          href="https://unaty-media.s3.amazonaws.com/organizations/pGqEDhGidq4GBKqdc/public/main/1512577221910">
 
-    <meta name="description" content="We believe getting your whole community together is a good thing. So is taking care of your members - which is why we will never tax you for either.">
+    <meta name="description"
+          content="We believe getting your whole community together is a good thing. So is taking care of your members - which is why we will never tax you for either.">
     <meta name="keywords"
           content="association management software, membership management, membership website, create a membership website, build a membership website, best membership sites, knowledge management system, church membership software">
     <meta content="https://www.unaty.de/" property="og:url">
     <meta name="twitter:title" content="Unaty: Simple, fair pricing">
-    <meta name="twitter:description" content="We believe getting your whole community together is a good thing. So is taking care of your members - which is why we will never tax you for either.">
+    <meta name="twitter:description"
+          content="We believe getting your whole community together is a good thing. So is taking care of your members - which is why we will never tax you for either.">
 
     <meta property="og:image"
           content="https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1540316484664">
@@ -24,1161 +28,688 @@
     <script type="text/javascript">
         document.write(headData)
 
+        var pricingRows = [
+            {
+                isHeader: true,
+                name: 'Usage',
+                icon: ''
+            },
+            {
+                isHeader: false,
+                text: 'Member Messages with Email/SMS',
+                popup: '',
+                free: "1k/month",
+                standard: "Unlimited",
+                plus: "Unlimited",
+                enterprise: "Unlimited"
+            },
+            {
+                isHeader: false,
+                text: 'Communaty Administrators',
+                popup: '',
+                free: "3",
+                standard: "10",
+                plus: "Unlimited",
+                enterprise: "Unlimited"
+            },
+            {
+                isHeader: false,
+                text: 'File Storage',
+                popup: '',
+                free: "10GB",
+                standard: "250GB",
+                plus: "Unlimited",
+                enterprise: "Unlimited"
+            },
+            {
+                isHeader: false,
+                text: 'Support Level',
+                popup: '',
+                free: "Standard",
+                standard: "Priority",
+                plus: "24/7 - under 4 hours",
+                enterprise: "24/7 - under 4 hours"
+            },
+            {
+                isHeader: false,
+                text: 'Free Communaty Migration',
+                popup: '',
+                free: false,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Automated Data Backups',
+                popup: '',
+                free: false,
+                standard: "1 day",
+                plus: "30 days",
+                enterprise: "6 months"
+            },
+            {
+                isHeader: false,
+                text: 'Service Level Agreement',
+                popup: '',
+                free: false,
+                standard: false,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Uptime Guarantee',
+                popup: '',
+                free: false,
+                standard: false,
+                plus: false,
+                enterprise: "99.9%"
+            },
+            {
+                isHeader: true,
+                name: 'Essentials',
+                icon: ''
+            },
+            {
+                isHeader: false,
+                text: 'Member and guest management tools: custom fields, display names, import, export, segments, archiving, user reachability',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'News feed with posts, articles, videos (upload your own or YouTube), polling, files, photos, mentions, and topics',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Event management with invitations for members and guests, event filtering, printable lists, and subscribeable calendars',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Shared file/folder system with granular access controls',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Private and hidden groups, contextual pinboards, upcoming birthdays, easter eggs, and so much more',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: true,
+                name: 'Build',
+                icon: 'fa-magic upt-teal'
+            },
+            {
+                isHeader: false,
+                text: 'Teams',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Roles and traits',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Event Locations',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Communaty Virtues',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: true,
+                name: 'Engage',
+                icon: 'fa-bolt upt-red'
+            },
+            {
+                isHeader: false,
+                text: 'Message Template',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Newsletters',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Smart Contact Lists',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Mail Merge suite with personalized letters, labels, member directories, and team lists in A4/A6/US Letter',
+                popup: '',
+                free: false,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: true,
+                name: 'Grow (Beta)',
+                icon: 'fa-external-link-square upt-green'
+            },
+            {
+                isHeader: false,
+                text: 'Communaty Action Page with sign ups',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Campaigns',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Page A/B Testing',
+                popup: '',
+                free: false,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Google Ads Integration',
+                popup: '',
+                free: false,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: true,
+                name: 'Academy (Fall 2019)',
+                icon: 'fa-graduation-cap upt-blue'
+            },
+            {
+                isHeader: false,
+                text: 'Integrated Wiki with collections, sections, and entries',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Questions and answers',
+                popup: '',
+                free: true,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: true,
+                name: 'Taskmaster (Winter 2019)',
+                icon: 'fa-list-ol upt-orange'
+            },
+            {
+                isHeader: false,
+                text: 'Workflows',
+                popup: '',
+                free: false,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: true,
+                name: 'Networks (Summer 2020)',
+                icon: 'fa-microchip upt-pink'
+            },
+            {
+                isHeader: false,
+                text: 'Parent Organizations',
+                popup: '',
+                free: false,
+                standard: true,
+                plus: true,
+                enterprise: true
+            },
+            {
+                isHeader: false,
+                text: 'Child Organizations',
+                popup: '',
+                free: false,
+                standard: true,
+                plus: true,
+                enterprise: true
+            }
+        ]
     </script>
-    
+
 </head>
 
 <body class="dropdowns--hover">
-    <a id="start"></a>
-    <!--end bar-->
-    <script type="text/javascript">
-        document.write(menu)
+<a id="start"></a>
+<!--end bar-->
+<script type="text/javascript">
+    document.write(menu)
 
-    </script>
-    <div class="main-container">
-       <section class="text-center padding-top-6em">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-10 col-lg-8">
-                                            <h1 class="hero-tertiary-text">Simple, fair pricing</h1>
-                                            <p class="lead">
-                                                We believe getting your whole community together is a good thing. So is taking care of your members - which is why we will never tax you for either.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!--end of row-->
-                                </div>
-                                <!--end of container-->
-                            </section>
-        
-        <section class="">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="pricing pricing-1 boxed boxed--md boxed--border">
-                                                <h3>Free</h3>
-                                                <span class="h2">
-                                                    <strong>$0</strong>
-                                                </span>
-                                                <span class="type--fine-print" style="height: 56px; display: block"></span>
-                                                <span class="content-context-split"></span>
-                                                <span>
-                                                    For communities wanting to try out Unaty for an unlimited period of time.
-                                                </span><br/>
-                                                <a class="btn btn--primary btn--compact margin-top-16" href="https://app.unaty.de/sign-up?_src=menu">
-                                                    <span class="btn__text">
-                                                        Get Started
-                                                    </span>
-                                                </a>
-                                                <hr>
+</script>
+<div class="main-container">
+    <section class="padding-top-5em">
+        <div class="container">
 
-                                                <span class="content-capheader">Social Network</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Members & Guests</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Contextual News Feed</span>
-                                                    </li>
+            <div id="pricing_container" class="unty-pricing-table">
 
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Customized Login Page</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Private and Hidden Groups</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Create <strong>Unlimited</strong> Galleries</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Write <strong>Unlimited</strong> Articles</span>
-                                                    </li>
+                <div class="upt-title-row">
 
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Member Birthdays List</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Customizable Sidebar</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Deep Communaty Search</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Add YouTube Videos</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Upload your own Videos</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Administration</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Custom Member and Guest Types</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Custom Profile Fields</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Filter Members and Save Segments</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Easy Import from Excel</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Member and Guest Archiving</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Customize Display Name</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Communaty Privacy Policy</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Integrated PDF Viewer</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Documents</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Mass User Editing</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Create <strong>Unlimited</strong> Folders</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle gray-icon-dark pricing-icon"></i>
-                                                        <span><strong>3</strong> Administrators</span>
-                                                    </li>
-
-
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Email Administration Automation</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Organizational Design</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Topics</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Team Tools and Contact Profile</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle gray-icon-dark pricing-icon"></i>
-                                                        <span><strong>6</strong> Roles</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle gray-icon-dark pricing-icon"></i>
-                                                        <span><strong>6</strong> Teams</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle gray-icon-dark pricing-icon"></i>
-                                                        <span><strong>6</strong> Locations for Events</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Role Traits - Coming Soon</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Communaty Virtues - Coming Soon</span>
-                                                    </li>
-
-
-                                                </ul>
-
-                                                <span class="content-capheader">Internal Communications</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Announcements</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Email and SMS Integration</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Member Reachability</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Private Contact Methods</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Smart Contact Lists</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Engage Messenger<span style="display: none;">Cross-channel Contextual Communications</span></span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Advanced Audience Builder</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Message Attachments</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Automated Sender Signature</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle gray-icon-dark pricing-icon"></i>
-                                                        <span><strong>1k</strong> messages/month</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Mail Merge and PDF Export<span style="display: none;">Personalized Letters, Directories, and more</span></span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Message Templates</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Member Engagement</span>
-                                                <ul class="pricing-list margin-bottom-24">
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Events</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Send Event Invitations</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Communaty Calendar</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Personlized Member Messages</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Send Newsletters</span>
-                                                    </li>
-                                                </ul>
-
-                                                <span class="content-capheader">Knowledge Sharing</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Contextual Content Pinboard</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Integrated Wiki - Coming Soon</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Community Outreach</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Action Page</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Sign ups</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Google Ad Integration</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Ad Campaigns</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">General</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>10GB</strong> File Storage</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle gray-icon-dark pricing-icon"></i>
-                                                        <span>Standard Support</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Free Community Migration</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Service Level Agreement</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Uptime Guaranteed</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Communaty Success Manager</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <a class="btn btn--primary" href="https://app.unaty.de/sign-up?_src=menu">
-                                                    <span class="btn__text">
-                                                        Get Started
-                                                    </span>
-                                                </a>
-                                            </div>
-                                            <!--end of pricing-->
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="pricing pricing-1 boxed boxed--md boxed--border">
-                                                <h3>Standard</h3>
-                                                <span class="h2">
-                                                    <strong>$49</strong>
-                                                </span>
-                                                <span class="type--fine-print" style="height: 56px; display: block">per Communaty, billed monthly<br/>€40/month billed annually</span>
-
-                                                <span class="content-context-split"></span>
-                                                <span>
-                                                   For communities ready to make Unaty the hub for their members, content, and communications.
-                                                </span><br/>
-                                                <a class="btn btn--primary btn--compact margin-top-16" href="https://app.unaty.de/sign-up?_src=menu">
-                                                    <span class="btn__text">
-                                                        Get Started
-                                                    </span>
-                                                </a>
-                                                <hr>
-                                                <span class="content-capheader">Social Network</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Members & Guests</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Contextual News Feed</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Customized Login Page</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Private and Hidden Groups</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Create <strong>Unlimited</strong> Galleries</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Write <strong>Unlimited</strong> Articles</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Member Birthdays List</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Customizable Sidebar</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Deep Communaty Search</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Add YouTube Videos</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Upload your own Videos</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Administration</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Custom Member and Guest Types</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Custom Profile Fields</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Filter Members and Save Segments</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Easy Import from Excel</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Member and Guest Archiving</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Customize Display Name</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Communaty Privacy Policy</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Integrated PDF Viewer</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Documents</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Mass User Editing</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Create <strong>Unlimited</strong> Folders</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle gray-icon-dark pricing-icon"></i>
-                                                        <span><strong>10</strong> Administrators</span>
-                                                    </li>
-
-
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Email Administration Automation</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Organizational Design</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Topics</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Team Tools and Contact Profile</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>Unlimited</strong> Roles</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>Unlimited</strong> Teams</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>Unlimited</strong> Locations for Events</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Role Traits - Coming Soon</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Communaty Virtues - Coming Soon</span>
-                                                    </li>
-
-
-                                                </ul>
-
-                                                <span class="content-capheader">Internal Communications</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Announcements</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Email and SMS Integration</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Member Reachability</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Private Contact Methods</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Smart Contact Lists</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Engage Messenger<span style="display: none;">Cross-channel Contextual Communications</span></span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Advanced Audience Builder</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Message Attachments</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Automated Sender Signature</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>Unlimited</strong> messages/month</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Mail Merge and PDF Export<span style="display: none;">Personalized Letters, Directories, and more</span></span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Message Templates</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Member Engagement</span>
-                                                <ul class="pricing-list margin-bottom-24">
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Events</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Send Event Invitations</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Communaty Calendar</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Personlized Member Messages</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Send Newsletters</span>
-                                                    </li>
-                                                </ul>
-
-                                                <span class="content-capheader">Knowledge Sharing</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Contextual Content Pinboard</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Integrated Wiki - Coming Soon</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Community Outreach</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Action Page</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Sign ups</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Google Ad Integration</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Ad Campaigns</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">General</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>250GB</strong> File Storage</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Priority Support</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Free Community Migration</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Service Level Agreement</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Uptime Guaranteed</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-times-circle gray-icon pricing-icon"></i>
-                                                        <span>Communaty Success Manager</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <a class="btn btn--primary" href="https://app.unaty.de/sign-up?_src=menu">
-                                                    <span class="btn__text">
-                                                        Get Started
-                                                    </span>
-                                                </a>
-                                            </div>
-                                            <!--end of pricing-->
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="pricing pricing-1 boxed boxed--md boxed--border">
-                                                <h3>Plus</h3>
-                                                <span class="h2">
-                                                    <strong>$449</strong>
-                                                </span>
-                                                <span class="type--fine-print" style="height: 56px; display: block">per Communaty, billed monthly<br/>€360/month billed annually</span>
-                                                <span class="content-context-split"></span>
-                                                <span>
-                                                    For larger communities that need unlimited administrators, automation, and guaranteed uptime.
-                                                </span><br/>
-                                                <a class="btn btn--primary btn--compact margin-top-16" href="mailto:mccall@unaty.de">
-                                                    <span class="btn__text">
-                                                        Contact Us
-                                                    </span>
-                                                </a>
-                                                <hr>
-                                                <span class="content-capheader">Social Network</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Members & Guests</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Contextual News Feed</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Customized Login Page</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Private and Hidden Groups</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Create <strong>Unlimited</strong> Galleries</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Write <strong>Unlimited</strong> Articles</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Member Birthdays List</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Customizable Sidebar</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Deep Communaty Search</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Add YouTube Videos</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Upload your own Videos</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Administration</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Custom Member and Guest Types</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Custom Profile Fields</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Filter Members and Save Segments</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Easy Import from Excel</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Member and Guest Archiving</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Customize Display Name</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Communaty Privacy Policy</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Integrated PDF Viewer</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Documents</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Mass User Editing</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Create <strong>Unlimited</strong> Folders</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>Unlimited</strong> Administrators</span>
-                                                    </li>
-
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Email Administration Automation</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Organizational Design</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Topics</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Team Tools and Contact Profile</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>Unlimited</strong> Roles</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>Unlimited</strong> Teams</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>Unlimited</strong> Locations for Events</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Role Traits - Coming Soon</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Communaty Virtues - Coming Soon</span>
-                                                    </li>
-
-
-                                                </ul>
-
-                                                <span class="content-capheader">Internal Communications</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Announcements</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Email and SMS Integration</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Member Reachability</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Private Contact Methods</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Smart Contact Lists</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Engage Messenger<span style="display: none;">Cross-channel Contextual Communications</span></span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Advanced Audience Builder</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Message Attachments</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Automated Sender Signature</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>Unlimited</strong> messages/month</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Mail Merge and PDF Export<span style="display: none;">Personalized Letters, Directories, and more</span></span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Message Templates</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Member Engagement</span>
-                                                <ul class="pricing-list margin-bottom-24">
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Unlimited Events</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Send Event Invitations</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Communaty Calendar</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Personlized Member Messages</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Send Newsletters</span>
-                                                    </li>
-                                                </ul>
-
-                                                <span class="content-capheader">Knowledge Sharing</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Contextual Content Pinboard</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Integrated Wiki - Coming Soon</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">Community Outreach</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Action Page</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Sign ups</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Google Ad Integration</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Ad Campaigns</span>
-                                                    </li>
-
-                                                </ul>
-
-                                                <span class="content-capheader">General</span>
-                                                <ul class="pricing-list margin-bottom-24">
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span><strong>Unlimited</strong> File Storage</span>
-                                                    </li>
-
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>24/7 Support - 4 hour response time</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Free Community Migration</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Service Level Agreement</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>99.99% Guaranteed Uptime</span>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fas fa-check-circle green-icon pricing-icon"></i>
-                                                        <span>Communaty Success Manager</span>
-                                                    </li>
-
-                                                </ul>
-                                                <a class="btn btn--primary" href="mailto:mccall@unaty.de">
-                                                    <span class="btn__text">
-                                                        Contact Us
-                                                    </span>
-                                                </a>
-                                            </div>
-                                            <!--end of pricing-->
-                                        </div>
-                                    </div>
-                                    <!--end of row-->
-                                </div>
-                                <!--end of container-->
-                            </section>
-
-        <section>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-
-                        <div class="bg--dark enterprise-pricing-box">
-                            <h3>Enterprise</h3>
-                            <span class="h2">
-                                                    <strong>Contact Us</strong>
-                                                </span>
-                            <p style="font-size: 16px;">
-                                For large organizations looking to for a robust solution and personalized support and implementation.
-                            </p>
-                            <div>
-                                <a class="btn btn--inverted btn--compact margin-top-16" href="mailto:mccall@unaty.de">
-                                                    <span class="btn__text">
-                                                        Get in Touch
-                                                    </span>
-                                </a>
-                            </div>
-                        </div>
-
+                    <div class="upt-title-item">
+                        Simple pricing
                     </div>
 
+                    <div class="upt-plan-title">
+                        <div>Free</div>
+                        <div>
+                            Try for an unlimited period of time with your Organization
+                        </div>
+                    </div>
+
+                    <div class="upt-plan-title">
+                        <div>Standard</div>
+                        <div>
+                            The hub for all your members, content, and communications
+                        </div>
+                    </div>
+
+                    <div class="upt-plan-title">
+                        <div>Plus</div>
+                        <div>
+                            For organizations that need uptime guarantees and SLA
+                        </div>
+                    </div>
+
+                    <div class="upt-plan-title">
+                        <div>Enterprise</div>
+                        <div>
+                            For larger organizations with thousands of members
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="upt-price-row">
+                    <div>
+
+
+                    </div>
+                    <div class="upt-price-item">
+                        <div>
+                            <span class="upt-hideAnnual">$0</span>
+                            <span class="upt-hideNotAnnual">$0</span>
+                        </div>
+                        <div>Communaty / month<br/>billed <span class="upt-hideAnnual">monthly</span><span class="upt-hideNotAnnual">annually</span></div>
+                    </div>
+                    <div class="upt-price-item upt-orange-bkg">
+                        <div>
+                            <span class="upt-hideAnnual">$49</span>
+                            <span class="upt-hideNotAnnual">$40</span>
+                            </div>
+                        <div>Communaty / month<br/>billed <span class="upt-hideAnnual">monthly</span><span class="upt-hideNotAnnual">annually</span></div>
+                    </div>
+                    <div class="upt-price-item upt-blue-bkg">
+                        <div>
+                            <span class="upt-hideAnnual">$449</span>
+                            <span class="upt-hideNotAnnual">$400</span>
+                        </div>
+                        <div>Communaty / month<br/>billed <span class="upt-hideAnnual">monthly</span><span class="upt-hideNotAnnual">annually</span></div>
+                    </div>
+                    <div class="upt-price-item upt-dark-bkg upt-enterprise-price">
+                        <i class="normal-fa-icon fa-paper-plane"></i>
+                    </div>
+                </div>
+
+                <div class="upt-top-action-row">
+                    <div>
+                        <div id="toggle_pricing" class="upt-pricing-schedule">
+                            <span>Pay monthly</span>
+                            <span><span class="upt-hideAnnual"><i class="normal-fa-icon fa-toggle-off"></i></span><span class="upt-hideNotAnnual"><i class="normal-fa-icon fa-toggle-on"></i></span></span>
+                            <span>Pay annually</span>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="upt-action-link-blue" href="https://app.unaty.de/sign-up?_src=pricing">Get Started</a>
+                    </div>
+                    <div>
+                        <a class="upt-action-link-blue" href="https://app.unaty.de/sign-up?_src=pricing">Get Started</a>
+                    </div>
+                    <div>
+                        <a class="upt-action-link-blue" href="https://app.unaty.de/sign-up?_src=pricing">Get Started</a>
+                    </div>
+                    <div>
+                        <a class="upt-action-link-light" href="mailto:mccall@unaty.de">Contact Us</a>
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+
+                    for(var i=0;i<pricingRows.length;i++) {
+                        var item = pricingRows[i];
+
+                        if(item.isHeader) {
+                            document.write('<div class="upt-category-header"><div>')
+                            if(item.icon!=='') {
+                                document.write('<i class="normal-fa-icon ' + item.icon + '"></i>')
+                            }
+                            document.write(item.name+'</div><div></div><div></div><div></div><div></div></div>')
+                        } else {
+                            document.write('<div class="upt-category-item">')
+                            document.write('<div>')
+                            document.write('<div class="upt-cat-item-title">')
+                            document.write(item.text)
+                            document.write('</div>')
+                            document.write('</div>')
+                            document.write('<div>')
+
+                            document.write('<div>')
+
+                            document.write('<div>')
+
+                            if (typeof item.free === "boolean"){
+                                if(item.free) {
+                                    document.write('<i class="normal-fa-icon fa-check"></i>')
+                                }
+                            } else {
+                                document.write('<span class="upt-pricing-text-item">'+item.free+'</span>')
+                            }
+
+                            document.write('</div>')
+
+                            document.write('</div>')
+
+                            document.write('</div>')
+                            document.write('<div>')
+
+                            document.write('<div>')
+
+                            document.write('<div>')
+
+                            if (typeof item.standard === "boolean"){
+                                if(item.standard) {
+                                    document.write('<i class="normal-fa-icon fa-check"></i>')
+                                }
+                            } else {
+                                document.write('<span class="upt-pricing-text-item">'+item.standard+'</span>')
+                            }
+
+                            document.write('</div>')
+
+                            document.write('</div>')
+
+                            document.write('</div>')
+                            document.write('<div>')
+
+                            document.write('<div>')
+
+                            document.write('<div>')
+                            if (typeof item.plus === "boolean"){
+                                if(item.plus) {
+                                    document.write('<i class="normal-fa-icon fa-check"></i>')
+                                }
+                            } else {
+                                document.write('<span class="upt-pricing-text-item">'+item.plus+'</span>')
+                            }
+
+                            document.write('</div>')
+
+                            document.write('</div>')
+
+                            document.write('</div>')
+                            document.write('<div>')
+
+                            document.write('<div>')
+
+                            document.write('<div>')
+
+                            if (typeof item.enterprise === "boolean"){
+                                if(item.enterprise) {
+                                    document.write('<i class="normal-fa-icon fa-check"></i>')
+                                }
+                            } else {
+                                document.write('<span class="upt-pricing-text-item">'+item.enterprise+'</span>')
+                            }
+                            document.write('</div>')
+
+                            document.write('</div>')
+
+                            document.write('</div>')
+                            document.write('<div class="upt-cat-hover-bar"></div>')
+                            document.write('</div>')
+                        }
+
+                    }
+
+                </script>
+
+                <div class="upt-bottom-action-row">
+                    <div>
+
+                    </div>
+                    <div>
+                        <a class="upt-action-link-blue" href="https://app.unaty.de/sign-up?_src=pricing">Get Started</a>
+                    </div>
+                    <div>
+                        <a class="upt-action-link-blue" href="https://app.unaty.de/sign-up?_src=pricing">Get Started</a>
+                    </div>
+                    <div>
+                        <a class="upt-action-link-blue" href="https://app.unaty.de/sign-up?_src=pricing">Get Started</a>
+                    </div>
+                    <div>
+                        <a class="upt-action-link-light" href="mailto:mccall@unaty.de">Contact Us</a>
+                    </div>
                 </div>
 
             </div>
 
-        </section>
-        
-        <section class="bg--secondary">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="text-block">
-                                <h4>Frequently Asked Questions</h4>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="text-block">
-                                <h5>My Communaty wants to cancel its subscription?</h5>
-                                <div>
-                                    Communaty Administrators can change the organization's subscription level at any time, your billing plan will change in the next effective billing period.
-                                   
-                                </div>
-                            </div>
-                            <div class="text-block">
-                                <h5>How do refunds work?</h5>
-                                <p>
-                                   <a href="mailto:mccall@unaty.de">Contact us</a> and let us know what happened and if your claim meets our refund policy standards, we'll issue a refund immediately!
-                                </p>
-                            </div>
-                            <div class="text-block">
-                                <h5>What are my payment options - credit card and/or invoicing?</h5>
-                                <p>
-                                    You can use your credit card to pay for any plan. If you sign up for an Annual subscription we can send you a yearly invoice. <a href="mailto:mccall@unaty.de">Contact Us</a> for more information.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="text-block">
-                                <h5>Is there a minimum contract term?</h5>
-                                <p>
-                                    No! You can start a subscription and cancel anytime.
-                                </p>
-                            </div>
-                            <div class="text-block">
-                                <h5>We're adding new members - will I be charged?</h5>
-                                <p>
-                                    No! Add as many members and guests as you like to your Communaty without paying anything extra.
-                                </p>
-                            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+
+    <section class="bg--secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-block">
+                        <h4>Frequently Asked Questions</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-block">
+                        <h5>My Communaty wants to cancel its subscription?</h5>
+                        <div>
+                            Communaty Administrators can change the organization's subscription level at any time, your
+                            billing plan will change in the next effective billing period.
+
                         </div>
                     </div>
-                    <!--end of row-->
+                    <div class="text-block">
+                        <h5>How do refunds work?</h5>
+                        <p>
+                            <a href="mailto:mccall@unaty.de">Contact us</a> and let us know what happened and if your
+                            claim meets our refund policy standards, we'll issue a refund immediately!
+                        </p>
+                    </div>
+                    <div class="text-block">
+                        <h5>What are my payment options - credit card and/or invoicing?</h5>
+                        <p>
+                            You can use your credit card to pay for any plan. If you sign up for an Annual subscription
+                            we can send you a yearly invoice. <a href="mailto:mccall@unaty.de">Contact Us</a> for more
+                            information.
+                        </p>
+                    </div>
                 </div>
-                <!--end of container-->
-            </section>
-        
-        <script type="text/javascript">
+                <div class="col-lg-4">
+                    <div class="text-block">
+                        <h5>Is there a minimum contract term?</h5>
+                        <p>
+                            No! You can start a subscription and cancel anytime.
+                        </p>
+                    </div>
+                    <div class="text-block">
+                        <h5>We're adding new members - will I be charged?</h5>
+                        <p>
+                            No! Add as many members and guests as you like to your Communaty without paying anything
+                            extra.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+
+    <script type="text/javascript">
         document.write(footer)
 
     </script>
-        
-    </div>
-    <!--<div class="loader"></div>-->
-    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-        <i class="stack-interface stack-up-open-big"></i>
-    </a>
-    <script src="../js/jquery-3.1.1.min.js"></script>
-    <script src="../js/flickity.min.js"></script>
-    <script src="../js/easypiechart.min.js"></script>
-    <script src="../js/parallax.js"></script>
-    <script src="../js/typed.min.js"></script>
-    <script src="../js/datepicker.js"></script>
-    <script src="../js/isotope.min.js"></script>
-    <script src="../js/ytplayer.min.js"></script>
-    <script src="../js/lightbox.min.js"></script>
-    <script src="../js/granim.min.js"></script>
-    <script src="../js/jquery.steps.min.js"></script>
-    <script src="../js/countdown.min.js"></script>
-    <script src="../js/twitterfetcher.min.js"></script>
-    <script src="../js/spectragram.min.js"></script>
-    <script src="../js/smooth-scroll.min.js"></script>
-    <script src="../js/scripts.js"></script>
-    
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // Listen to submit event on the <form> itself!
-            $('#mainForm').submit(function(e) {
 
-                e.preventDefault();
+</div>
+<!--<div class="loader"></div>-->
+<a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+</a>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/flickity.min.js"></script>
+<script src="../js/easypiechart.min.js"></script>
+<script src="../js/parallax.js"></script>
+<script src="../js/typed.min.js"></script>
+<script src="../js/datepicker.js"></script>
+<script src="../js/isotope.min.js"></script>
+<script src="../js/ytplayer.min.js"></script>
+<script src="../js/lightbox.min.js"></script>
+<script src="../js/granim.min.js"></script>
+<script src="../js/jquery.steps.min.js"></script>
+<script src="../js/countdown.min.js"></script>
+<script src="../js/twitterfetcher.min.js"></script>
+<script src="../js/spectragram.min.js"></script>
+<script src="../js/smooth-scroll.min.js"></script>
+<script src="../js/scripts.js"></script>
 
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Listen to submit event on the <form> itself!
+        $('#mainForm').submit(function (e) {
 
-                $("#submitBtn").addClass('loading')
-
-                var email = $("#emailInput").val();
-
-                checkFields(email)
-
-            });
+            e.preventDefault();
 
 
-            function stopLoading() {
-                document.getElementById("submitBtn").className = "btn btn--primary type--uppercase"
-            }
+            $("#submitBtn").addClass('loading')
 
-            function checkFields(email) {
+            var email = $("#emailInput").val();
 
-                let emailSubmit = email.trim()
-              
-                let error = false
-
-                // email check
-
-                // name check
-
-                submitForm(emailSubmit)
-            }
-
-            function submitForm(email) {
-            
-                window.open('https://app.unaty.de/sign-up?_src=mainCTA&email='+email);
-
-            }
-
-            function showSuccess() {
-             
-        
-            }
-
-            function showFailure() {
-                resetErrors()
-                stopLoading()
-                alert('Submission failed')
-            }
-
+            checkFields(email)
         });
 
+        $('#toggle_pricing').click(function (e) {
+            console.log("HELP")
+            $('#pricing_container').toggleClass('upt-isAnnual')
+        });
 
-    </script>
+        function stopLoading() {
+            document.getElementById("submitBtn").className = "btn btn--primary type--uppercase"
+        }
+
+        function checkFields(email) {
+
+            let emailSubmit = email.trim()
+
+            let error = false
+
+            // email check
+
+            // name check
+
+            submitForm(emailSubmit)
+        }
+
+        function submitForm(email) {
+
+            window.open('https://app.unaty.de/sign-up?_src=mainCTA&email=' + email);
+
+        }
+
+        function showSuccess() {
+
+
+        }
+
+        function showFailure() {
+            resetErrors()
+            stopLoading()
+            alert('Submission failed')
+        }
+
+    });
+
+
+</script>
 </body>
 
 </html>
