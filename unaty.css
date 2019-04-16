@@ -1,0 +1,397 @@
+/*/////   Setup & Fonts     /////*/
+
+@font-face {
+    font-family: CircularBlackItalic;
+    src: url('https://s3.eu-central-1.amazonaws.com/www.unaty.de/fonts/Circular/circular-black-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: CircularBlack;
+    src: url('https://s3.eu-central-1.amazonaws.com/www.unaty.de/fonts/Circular/circular-black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: CircularBoldItalic;
+    src: url('https://s3.eu-central-1.amazonaws.com/www.unaty.de/fonts/Circular/circular-bold-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: CircularMedium;
+    src: url('https://s3.eu-central-1.amazonaws.com/www.unaty.de/fonts/Circular/circular-medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: CircularBold;
+    src: url('https://s3.eu-central-1.amazonaws.com/www.unaty.de/fonts/Circular/circular-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: CircularBookItalic;
+    src: url('https://s3.eu-central-1.amazonaws.com/www.unaty.de/fonts/Circular/circular-book-italic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: CircularBook;
+    src: url('https://s3.eu-central-1.amazonaws.com/www.unaty.de/fonts/Circular/circular-book.otf') format('opentype');
+}
+
+@font-face {
+    font-family: CircularMediumItalic;
+    src: url('https://s3.eu-central-1.amazonaws.com/www.unaty.de/fonts/Circular/circular-medium-italic.otf') format('opentype');
+}
+
+* {
+    font-family: CircularBook;
+}
+
+strong {
+    font-family: CircularBold;
+}
+
+
+/*/////   Main Styles     /////*/
+
+body {
+    margin: 0;
+    padding-top: 44px;
+}
+a {
+    text-decoration: none;
+}
+.unaty-logo-menu-white {
+    background-size: 24px 44px;
+    background-repeat: no-repeat;
+    background-image: url('https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1555220015042');
+    background-position: center center;
+    height: 44px;
+    display: block;
+    width: 44px;
+}
+nav.unaty-menu {
+    background: rgba(45,45,45,0.98);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 44px;
+    z-index:9;
+}
+nav.unaty-menu > div {
+    max-width: 988px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+nav.unaty-menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+nav.unaty-menu ul li {
+    display: inline-block;
+}
+nav.unaty-menu ul li a {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.3s all ease;
+    line-height: 44px;
+    letter-spacing: 0.4px;
+}
+nav.unaty-menu ul li a:hover {
+    opacity: .65;
+}
+.section-spacing {
+    border-bottom: 6px solid #ffffff;
+    border-top: 6px solid #ffffff;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.section-gray {
+    background-color: #fafafa;
+}
+.section-white {
+    background-color: #ffffff;
+}
+.section-two-wide {
+    margin: 6px 12px;
+    margin-bottom: 12px;
+}
+.section-two-wide > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+}
+body > section:first-of-type {
+    border-top: 0 !important;
+}
+.section-anchor {
+position: relative;
+}
+.section-anchor > a {
+position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.unaty-card-title-section {
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+}
+.unaty-icon-navbar {
+    line-height: 46px !important;
+}
+.unaty-icon-navbar > i {
+    font-size: 16px;
+}
+.unaty-card-h2 {
+    font-size: 44px;
+    font-family: CircularMedium;
+}
+
+.unaty-card-label {
+    text-transform: uppercase;
+    font-family: CircularBold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 4px 0;
+    margin-bottom: 4px;
+}
+.unaty-card-label-orange {
+color: #f2711c;
+}
+.unaty-card-label-red {
+    color: #db2828;
+}
+.unaty-card-label-blue {
+    color: #2185d0;
+}
+.unaty-card-description {
+    font-size: 20px;
+    margin-top: 8px;
+    color: rgb(72,72,72);
+    line-height: 1.4;
+}
+.unaty-card-actions {
+    margin-top: 24px;
+}
+.unaty-card-actions > a {
+
+    font-size: 18px;
+    padding: 0 12px;
+}
+.unaty-link {
+    color: #3297d3;
+}
+.unaty-link:hover {
+    color: #123144;
+}
+.unaty-link > i, .unaty-link-inverted > i {
+margin-left: 4px;
+    font-size: 14px;
+}
+.unaty-link-inverted {
+    color: #fff;
+}
+.unaty-link-inverted:hover {
+opacity: 0.7;
+    cursor: pointer;
+}
+.unaty-card-hero-image {
+padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.unaty-card-hero-image img {
+max-width: 820px;
+}
+.unaty-card-hero-image span {
+
+}
+.unaty-card-large-image {
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.unaty-card-large-image img {
+    max-height: 50vh;
+    max-width: 768px;
+}
+.unaty-card-large-image span {
+
+}
+.unaty-card-caption {
+    font-size: 12px;
+    margin-top: 4px;
+    color: rgb(96,96,96);
+}
+.unaty-card-caption strong {
+    color: rgb(45,45,45);
+}
+.unaty-colored-icon-span {
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    background-image: url('https://unaty-media.s3.amazonaws.com/organizations/f2r5MdnDeg3na9P5h/public/main/1555220015040');
+    background-position: center center;
+    height: 44px;
+    display: inline-block;
+    width: 44px;
+    margin-right: 10px;
+    vertical-align: top;
+    margin-top: 6px;
+}
+.section-inner-box {
+padding: 32px 36px;
+}
+.section-inner-box > div {
+    background-color: #fafafa;
+    text-align: center;
+    padding: 32px 24px 48px 24px;
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+}
+.unaty-inner-box-label {
+    font-family: CircularMedium;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 4px;
+    line-height: normal;
+}
+.unaty-card-top-title span {
+    font-family: CircularMedium;
+    vertical-align: sub;
+    padding-left: 6px;
+}
+.unaty-inner-box-title {
+    font-family: CircularBold;
+    font-size: 56px;
+    color: #ffffff;
+    line-height: normal;
+}
+.unaty-inner-box-desc {
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0.9;
+    line-height: 1.4;
+    margin-top: 6px;
+    max-width: 420px;
+    margin: 0 auto;
+}
+.unaty-inner-box-actions {
+margin-top: 24px;
+}
+.unaty-inner-box-actions > a {
+    padding: 0 12px;
+}
+.unaty-card-top-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-family: CircularMedium;
+    color: rgb(64,64,64);
+}
+.unaty-card-h3 {
+    font-size: 32px;
+    font-family: CircularMedium;
+}
+.unaty-inner-box-icon {
+    margin-bottom: 8px;
+}
+.unaty-oi-icon-acropolis {
+    background-repeat: no-repeat;
+    background-image: url('https://unaty-media.s3.amazonaws.com/organizations/T6f9KogbAbefnrSJb/public/main/1555293838380');
+    background-position: center;
+}
+.unaty-oi-icon-acropolis-white {
+    background-repeat: no-repeat;
+    background-image: url('https://unaty-media.s3.amazonaws.com/organizations/T6f9KogbAbefnrSJb/public/main/1555293838379');
+    background-position: center;
+}
+.unaty-coi-icon {
+    background-image: url('https://unaty-media.s3.amazonaws.com/organizations/T6f9KogbAbefnrSJb/public/main/1555295214473');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.unaty-card-block-title {
+    font-size: 28px;
+    font-family: CircularMedium;
+    margin-bottom: 4px;
+}
+.unaty-card-block-description {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: rgb(45,45,45);
+    line-height: 1.4;
+}
+.unaty-card-block-actions {
+
+}
+.unaty-card-block-actions a {
+    padding: 0 10px;
+}
+.unaty-card-block-1fr {
+    min-height: 320px;
+    text-align: center;
+    padding: 32px;
+}
+.unaty-card-block-1fr > div {
+max-width: 400px;
+    margin: 0 auto;
+}
+.unaty-footer {
+    max-width: 988px;
+    padding: 0 24px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.unaty-footer-secondary {
+
+}
+.unaty-products-horizontal-list {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+.unaty-products-horizontal-list .unaty-product-icon, .unaty-products-horizontal-list .unaty-product-coi {
+text-align: center;
+    padding: 12px 24px;
+
+}
+.unaty-product-coi > div:nth-child(1) {
+    height: 30px;
+    width: 30px;
+    background-size: 30px;
+    opacity: 0.75;
+    margin: 0 auto;
+    margin-top: 1px;
+}
+.unaty-product-coi > div:nth-child(2) {
+    font-size: 11px;
+    margin-top: 5px;
+    color: rgb(110,110,110);
+}
+.unaty-product-icon > div:nth-child(1) {
+    font-size: 24px;
+    color: rgb(96,96,96);
+
+}
+.unaty-product-icon > div:nth-child(2) {
+    font-size: 11px;
+    margin-top: 6px;
+    color: rgb(110,110,110);
+}
+.unaty-product-active {
+
+}
+.unaty-products-horizontal-list .unaty-product-coi {
+
+}
